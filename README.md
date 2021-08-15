@@ -11,7 +11,7 @@ Once you have imported the dump and have ~76,541 pages populated on the wiki, go
 
 For example: 
 
-amulets (View | Drilldown) - 133 rows (Declared by Template:Item/cargo/amulets, attached by Template:Item/cargo/attach/amulets)
+> amulets (View | Drilldown) - 133 rows (Declared by Template:Item/cargo/amulets, attached by Template:Item/cargo/attach/amulets)
 
 Copy "Template:Item/cargo/amulets" and add it the the URL on your installation. This takes you to a template page which should have a message saying "This template declares the cargo table 'amulets'. The tables does not exist yet."
 
