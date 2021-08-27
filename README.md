@@ -2,6 +2,8 @@
 
 A community effort to move the contents of the Wiki and update it to the current patch.
 
+### Website: [Project Path of Exile Wiki](https://poewiki.net)
+
 
 ## Make sure you read before-import.md before importing the dump. 
 
