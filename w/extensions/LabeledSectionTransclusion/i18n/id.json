@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"IvanLanin"
+		]
+	},
+	"lst-desc": "Menambahkan fungsi <code>#lst</code> dan <code>#lstx</code> serta tag <code>&lt;section&gt;</code> yang memungkinkan bagian yang ditandai dari suatu teks ditransklusikan"
+}

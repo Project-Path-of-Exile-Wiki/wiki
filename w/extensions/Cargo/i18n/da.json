@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joedalton",
+			"Saederup92"
+		]
+	},
+	"cargo-viewdata-tables": "Tabel(ler):",
+	"cargo-viewdata-fields": "Felt(er):",
+	"cargo-viewdata-where": "Hvor:",
+	"cargo-viewdata-groupby": "Gruppér efter:",
+	"cargo-viewdata-having": "Har:",
+	"cargo-viewdata-orderby": "Sorter efter:",
+	"cargo-viewdata-offset": "Forskydning:",
+	"cargo-viewdata-format": "Format:",
+	"cargo-viewdata-defaultformat": "Standard",
+	"cargo-viewdata-heightparam": "Højde:",
+	"cargo-viewdata-widthparam": "Bredde:",
+	"cargo-viewdata-colorsparam": "Farver:",
+	"cargo-cargotables-header-table": "Tabel",
+	"cargo-cargotables-header-rowcount": "Rækker",
+	"cargo-cargotables-header-templates": "Skabeloner",
+	"cargo-cargotables-action-deletereplacement": "Slet",
+	"cargo-cargotables-action-delete": "Slet",
+	"cargo-cargotables-action-recreate": "Genopret",
+	"cargo-cargotables-listof": "Liste over $1",
+	"cargo-deletetable-success": "Tabellen \"$1\" er blevet slettet.",
+	"cargo-drilldown-allpages": "Alle sider",
+	"cargo-drilldown-allfiles": "Alle filer",
+	"cargo-drilldown-or": "eller",
+	"cargo-drilldown-othervalues": "Andre værdier:",
+	"cargo-drilldown-fulltext": "Fuld tekst",
+	"cargo-drilldown-pagetext": "Sidetekst",
+	"cargo-drilldown-filename": "Filnavn",
+	"cargo-drilldown-filetext": "Filtekst",
+	"cargo-drilldown-mapformat": "Kort",
+	"cargo-drilldown-timelineformat": "Tidslinje",
+	"cargo-drilldown-galleryformat": "Galleri",
+	"cargo-drilldown-calendarformat": "Kalender"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"apihelp-cargoquery-description": "Führt eine Abfrage zu den Cargo-Daten aus.",
+	"apihelp-cargoquery-summary": "Führt eine Abfrage zu den Cargo-Daten aus.",
+	"apihelp-cargoquery-param-tables": "Die Cargo-Datenbanktabelle(n), die durchsucht werden soll(en).",
+	"apihelp-cargoquery-param-fields": "Die abzurufenden Tabellenfelder",
+	"apihelp-cargoquery-param-order_by": "Die Reihenfolge der Ergebnisse, entsprechend einer SQL-ORDER-BY-Klausel",
+	"apihelp-cargoquery-param-limit": "Die maximale Anzahl der zurückgegebenen Ergebnisse",
+	"apihelp-cargoquery-param-offset": "Der Abfrage-Offset",
+	"apihelp-cargorecreatetables-description": "Erstellt eine oder mehrere Cargo-Tabellen neu.",
+	"apihelp-cargorecreatetables-summary": "Erstellt eine oder mehrere Cargo-Tabellen neu.",
+	"apihelp-cargorecreatetables-param-createReplacement": "Ob Daten in eine Ersetzungstabelle eingesetzt werden sollen",
+	"apihelp-cargorecreatedata-description": "Wiederbefüllt die Daten in eine Cargo-Tabelle.",
+	"apihelp-cargorecreatedata-summary": "Befüllt die Daten in einer Cargo-Tabelle neu.",
+	"apihelp-cargorecreatedata-param-template": "Die Vorlage, deren Daten verwendet werden sollen.",
+	"apihelp-cargorecreatedata-param-table": "Die wiederzubefüllende Cargo-Datenbanktabelle",
+	"apihelp-cargorecreatedata-param-replaceOldRows": "Ob alte Zeilen für jede Seite bei der Neubefüllung der Tabelle ersetzt werden sollen",
+	"apihelp-cargoautocomplete-description": "Der von der Erweiterung „Cargo“ verwendete Autovervollständigungs-Aufruf.",
+	"apihelp-cargoautocomplete-summary": "Von der Cargo-Erweiterung verwendeter Autovervollständigungs-Aufruf.",
+	"apihelp-cargoautocomplete-param-limit": "Ein Limit für die Anzahl der zurückgegebenen Ergebnisse",
+	"apihelp-cargoautocomplete-param-substr": "Such-Teilzeichenfolge",
+	"apihelp-cargoautocomplete-param-table": "Cargo-Tabellen, für die die Werte gesucht werden sollen.",
+	"apihelp-cargoautocomplete-param-field": "Cargo-Feld, für das die Werte gesucht werden sollen.",
+	"apihelp-cargoautocomplete-param-field_is_array": "Ob das Feld eine Liste mit Werten enthält",
+	"apihelp-cargoautocomplete-param-where": "Die Klausel „where“ für die Abfrage, basierend auf den anderen angegebenen Filtern."
+}

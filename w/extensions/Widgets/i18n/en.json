@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"widgets-desc": "Allows wiki administrators to add free-form widgets to the wiki by editing pages within the {{ns:widget}} namespace.\nCommunity-contributed widgets can be found on [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Error in [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Widget editors",
+	"group-widgeteditor-member": "{{GENDER:$1|widget editor}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget editors",
+	"action-editwidgets": "create and edit widgets",
+	"right-editwidgets": "Create and edit [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] in the <code>{{ns:widget}}</code> namespace",
+	"group-widgeteditor.css": "/* CSS placed here will affect widget editors only */",
+	"group-widgeteditor.js": "/* JS placed here will affect widget editors only */",
+	"widgets-config-useflaggedrevs": "Set this to true to use FlaggedRevs extension's stable version for widget security",
+	"widgets-config-compiledir": "Set a default directory for storage of compiled templates"
+}

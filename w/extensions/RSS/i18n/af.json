@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naudefj"
+		]
+	},
+	"rss-desc": "Bied 'n RSS-voer vir 'n wikibladsy",
+	"rss-error": "Kon nie die RSS-voer van $1 laai nie, fout: $2",
+	"rss-empty": "Kon nie die RSS-voer van $1 laai nie!",
+	"rss-invalid-url": "Nie 'n geldige URL nie: $1",
+	"rss-parse-error": "Ontleding van die RSS se XML het gefaal",
+	"rss-ns-permission": "RSS word nie in die naamruimte toegelaat nie"
+}

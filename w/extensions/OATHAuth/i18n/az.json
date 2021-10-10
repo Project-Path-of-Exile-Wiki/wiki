@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"NMW03",
+			"Toghrul Rahimli",
+			"Wertuose",
+			"Zpizza"
+		]
+	},
+	"specialpages-group-oath": "İki faktorlu autentifikasiya",
+	"oathauth-account": "Hesab adı:",
+	"oathauth-prefs-label": "İki faktorlu autentifikasiya:",
+	"right-oathauth-enable": "ikifaktorlu autentifikasiyanı tətbiq et",
+	"oathauth-auth-ui": "Lütfən doğrulama cihazınızdan doğrulama kodunu daxil edin.",
+	"oauthauth-ui-no-module": "Qoşulmayıb",
+	"oathauth-ui-manage": "İdarə et"
+}

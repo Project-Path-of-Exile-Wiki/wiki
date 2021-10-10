@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"rss-invalid-url": "ไม่ใช่ URL ที่ถูกต้อง: $1",
+	"rss-ns-permission": "ไม่อนุญาตให้ใช้ RSS ในเนมสเปซนี้"
+}

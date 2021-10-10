@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paucabot",
+			"SMP"
+		]
+	},
+	"right-editwidgets": "Crear i editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ginys] a l'espai de noms <tt>{{ns:widget}}</tt>"
+}

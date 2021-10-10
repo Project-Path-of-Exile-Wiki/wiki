@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joachim Mos",
+			"Servien"
+		]
+	},
+	"mobile-frontend-missing-image": "Bild",
+	"mobile-frontend-view": "Mobile Ansicht",
+	"mobile-frontend-watchlist-a-z": "All",
+	"mobile-frontend-watchlist-filter-all": "All",
+	"mobile-frontend-watchlist-filter-other": "Annere",
+	"mobile-frontend-watchlist-filter-talk": "Diskuschoon"
+}

@@ -1,0 +1,18 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/common",
+		"wikimedia/language/es6"
+	],
+	"env": {
+		"browser": true
+	},
+	"rules": {
+		"one-var": "off",
+		"single-quote": "off",
+		"quotes": "off"
+	},
+	"parserOptions": {
+		"sourceType": "module"
+	}
+}

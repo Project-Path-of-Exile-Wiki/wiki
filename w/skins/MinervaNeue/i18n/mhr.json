@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Сай",
+			"Санюн Вадик"
+		]
+	},
+	"mobile-frontend-editor-edit": "Тӧрлаташ",
+	"mobile-frontend-home-button": "Мӧҥгӧ",
+	"mobile-frontend-language-article-heading": "Вес йылме дене лудаш",
+	"mobile-frontend-main-menu-button-tooltip": "Тӱҥ менюм почаш",
+	"mobile-frontend-main-menu-login": "Пураш",
+	"mobile-frontend-main-menu-nearby": "Воктене",
+	"mobile-frontend-main-menu-settings": "Келыштарымаш",
+	"mobile-frontend-main-menu-watchlist": "Эскерымаш лаштык",
+	"mobile-frontend-pageaction-edit-tooltip": "Лаштыкын тӱҥ ужашыжым тӧрлаташ.",
+	"mobile-frontend-placeholder": "кычалаш",
+	"mobile-frontend-random-button": "Чокым лаштык"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"rss-desc": "틀 문서를 사용하여 표준 또는 사용자 정의 형식의 미디어위키 문서에 RSS 피드를 보여줍니다",
+	"rss-tracking-category": "RSS 피드를 포함한 문서",
+	"rss-tracking-category-desc": "페이지에 RSS 피드가 있습니다.",
+	"rss-error": "$1에서 RSS 피드를 불러오는 데 실패했습니다: $2",
+	"rss-empty": "$1에서 RSS 피드를 불러오는 데 실패했습니다!",
+	"rss-fetch-nourl": "URL 없이 가져오기가 호출되었습니다.",
+	"rss-invalid-url": "올바른 URL이 아닙니다: $1",
+	"rss-parse-error": "RSS에 대한 XML을 분석하는 중 오류",
+	"rss-ns-permission": "RSS는 이 이름공간에서 허용하지 않습니다",
+	"rss-url-is-not-whitelisted": "\"$1\"은(는) 허용한 피드의 화이트리스트에 있지 않습니다. {{PLURAL:$3|$2만이 유일하게 허용한 피드입니다.|허용한 피드는 다음과 같습니다: $2}}",
+	"rss-empty-whitelist": "\"$1\"은(는) 허용한 피드의 화이트리스트에 있지 않습니다. 화이트리스트에 허용한 피드가 없습니다.",
+	"rss-deprecated-wgrssallowedfeeds-found": "사용하지 않는 <var>$wgRSSAllowedFeeds</var> 변수가 감지되었습니다. RSS 버전 2.0부터 이 변수는 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS] 매뉴얼 문서에 설명한 바와 같이 <var>$wgRSSUrlWhitelist</var>로 바꾸어야 합니다.",
+	"rss-feed": "<!--  다음과 같은 두 가지 대체 틀입니다. 첫번째는 피드를 위한 기본적인 기본 틀입니다 -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- 여기에 줄바꿈을 사용하지 마십시오 --><!-- 두 번째는 Extension:ParserFunctions을 필요로 하는 향상된 버전입니다 --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

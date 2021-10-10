@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant",
+			"जनक राज भट्ट",
+			"रमेश सिंह बोहरा"
+		]
+	},
+	"mobile-frontend-editor-edit": "सम्पादन",
+	"mobile-frontend-home-button": "घर",
+	"mobile-frontend-language-article-heading": "और भषाअनमी पणऽ",
+	"mobile-frontend-main-menu-button-tooltip": "पैलो मेनु खोल्या",
+	"mobile-frontend-main-menu-login": "प्रवेश (लगईन)",
+	"mobile-frontend-main-menu-nearby": "नजिकैखाइ",
+	"mobile-frontend-main-menu-settings": "सेटिङ्गहरू",
+	"mobile-frontend-main-menu-watchlist": "मेरो ध्यान सूची",
+	"mobile-frontend-pageaction-edit-tooltip": "ये पानाका मुख्य भागलाई सम्पादन गर |",
+	"mobile-frontend-placeholder": "{{SITENAME}}मी खोज",
+	"mobile-frontend-random-button": "कोइ पन एक"
+}

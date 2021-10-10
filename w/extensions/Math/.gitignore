@@ -1,0 +1,27 @@
+.DS_Store
+/nbproject/private/
+node_modules/
+vendor
+composer.lock
+/tests/selenium/log
+
+# Editors
+*.kate-swp
+*~
+\#*#
+.#*
+.*.swp
+.project
+.buildpath
+.classpath
+.settings
+cscope.files
+cscope.out
+*.orig
+## NetBeans
+nbproject*
+project.index
+## Sublime
+sublime-*
+sftp-config.json
+.eslintcache

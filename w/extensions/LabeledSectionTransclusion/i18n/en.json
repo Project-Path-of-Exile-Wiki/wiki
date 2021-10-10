@@ -1,0 +1,6 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"lst-desc": "Adds <code>#lst</code> and <code>#lstx</code> functions and <code>&lt;section&gt;</code> tag, enables marked sections of text to be transcluded"
+}

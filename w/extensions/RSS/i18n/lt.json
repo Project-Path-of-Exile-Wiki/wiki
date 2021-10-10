@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Perkunas"
+		]
+	},
+	"rss-desc": "Rodo RSS kanalą wiki puslapyje",
+	"rss-error": "Nepavyko įkelti RSS kanalo iš $1: $2",
+	"rss-empty": "Nepavyko įkelti RSS kanalo iš $1!",
+	"rss-fetch-nourl": "Atsiuntimas iškviestas be nuorodos!",
+	"rss-invalid-url": "Nekorektiška nuoroda: $1",
+	"rss-parse-error": "Klaida analizuojant RSS kanalo XML'ą"
+}

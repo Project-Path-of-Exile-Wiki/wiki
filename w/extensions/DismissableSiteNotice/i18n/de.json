@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Kghbln",
+			"Metalhead64",
+			"Raimond Spekking",
+			"Tiin"
+		]
+	},
+	"sitenotice_close": "schließen",
+	"sitenotice_close-brackets": "[$1]",
+	"sitenotice-desc": "Ermöglicht es Benutzern die wikiweiten Nachrichteneinblendungen zu schließen"
+}

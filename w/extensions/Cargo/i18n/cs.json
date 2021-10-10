@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cvanca",
+			"DoubyCz",
+			"Dvorapa",
+			"Ilimanaq29",
+			"Korytaacheck",
+			"Matěj Suchánek",
+			"MrJaroslavik",
+			"Patriccck",
+			"Patrik L."
+		]
+	},
+	"cargo-viewdata-where": "KDE:",
+	"cargo-viewdata-joinon": "PŘIDEJTE SE:",
+	"cargo-viewdata-groupby": "SESKUPIT PODLE:",
+	"cargo-viewdata-orderby": "ŘADIT PODLE:",
+	"cargo-viewdata-limit": "LIMIT:",
+	"cargo-viewdata-offset": "Posun:",
+	"cargo-viewdata-format": "Formát:",
+	"cargo-viewdata-defaultformat": "Výchozí",
+	"cargo-drilldown-othervalues": "Další hodnoty:",
+	"cargo-drilldown-timelineformat": "Časová osa",
+	"cargo-drilldown-calendarformat": "Kalendář",
+	"cargo-dynamictables-searchcolumn": "Hledat $1",
+	"cargo-pageschemas-tablename": "Název tabulky:"
+}

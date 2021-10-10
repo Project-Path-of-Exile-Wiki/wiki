@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"apihelp-cargoquery-description": "Executa unha consulta nos datos de Cargo.",
+	"apihelp-cargoquery-summary": "Executa unha consulta nos datos de Cargo.",
+	"apihelp-cargoquery-param-tables": "A táboa ou táboas da base de datos Cargo na que procurar",
+	"apihelp-cargoquery-param-fields": "Campo(s) da táboa a consultar",
+	"apihelp-cargoquery-param-where": "Condicións para a consulta, correspondentes a unha consulta SQL WHERE",
+	"apihelp-cargoquery-param-join_on": "Condicións para xuntar varias táboas, correspondentes a unha cláusula SQL JOIN ON",
+	"apihelp-cargoquery-param-order_by": "A orde dos resultados, correspondente a unha cláusula SQL ORDER BY",
+	"apihelp-cargoquery-param-group_by": "Campo(s) sobre os que agrupar resultados, correspondente a unha cláusula SQL GROUP BY",
+	"apihelp-cargoquery-param-having": "Condicións para os valores agrupados, correspondente a unha cláusula SQL HAVING",
+	"apihelp-cargoquery-param-limit": "Un límite no número de resultados devoltos",
+	"apihelp-cargorecreatetables-description": "Recrea unha ou máis táboas de Cargo.",
+	"apihelp-cargorecreatetables-summary": "Recrea unha ou máis táboas de Cargo.",
+	"apihelp-cargorecreatetables-param-template": "O modelo que declara a(s) táboa(s) Cargo debe ser recreado",
+	"apihelp-cargorecreatetables-param-createReplacement": "Se os datos deben colocarse nunha táboa de substitución",
+	"apihelp-cargorecreatedata-description": "Reenche os datos nunha táboa Cargo.",
+	"apihelp-cargorecreatedata-summary": "Reenche os datos nunha táboa Cargo.",
+	"apihelp-cargorecreatedata-param-template": "Modelo do que usar os datos",
+	"apihelp-cargorecreatedata-param-table": "Táboa da base de datos de Cargo a reencher",
+	"apihelp-cargorecreatedata-param-offset": "Das páxinas que chaman a este modelo, o número no que comezar a busca",
+	"apihelp-cargorecreatedata-param-replaceOldRows": "Se substituír as filas vellas para cada páxina mentres se reenche a táboa",
+	"apihelp-cargoautocomplete-description": "Chamada de autocompletado utilizada pola extensión Cargo.",
+	"apihelp-cargoautocomplete-summary": "Chamada de autocompletado utilizada pola extensión Cargo.",
+	"apihelp-cargoautocomplete-param-limit": "Límite no número de resultados a devolver",
+	"apihelp-cargoautocomplete-param-substr": "Buscar a subcadea",
+	"apihelp-cargoautocomplete-param-table": "Táboa de Cargo na que buscar os valores",
+	"apihelp-cargoautocomplete-param-field": "Campo de Cargo polo que buscar os valores",
+	"apihelp-cargoautocomplete-param-field_is_array": "Se o campo contén unha lista de valores",
+	"apihelp-cargoautocomplete-param-where": "Cláusula \"where\" para a consulta, baseada nos demais filtros especificados"
+}

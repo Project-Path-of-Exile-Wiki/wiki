@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hzy980512",
+			"Liuxinyu970226",
+			"沈澄心"
+		]
+	},
+	"variables-desc": "允许解析器函数在一个文章范围内使用动态变量",
+	"variables-config-disabledfunctions": "允许定义不应在wiki中可用的函数数组。添加函数时请省略任何井号（#）。\n例如：$egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // 禁用“#var_final”和“#vardefineecho”函数",
+	"variables-config-arevolatile": "将#var和#varexists解析器函数对待为挥发函数，以阻止由于模板缓存造成的意外行为。禁用此项会恢复既有行为。"
+}

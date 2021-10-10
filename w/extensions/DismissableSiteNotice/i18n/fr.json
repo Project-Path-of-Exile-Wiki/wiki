@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"IAlex",
+			"Metroitendo",
+			"Wyz"
+		]
+	},
+	"sitenotice_close": "masquer",
+	"sitenotice_close-brackets": "[$1]",
+	"sitenotice-desc": "Permet aux utilisateurs de masquer le bandeau d’information"
+}

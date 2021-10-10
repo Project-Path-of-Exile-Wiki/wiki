@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakka",
+			"唐吉訶德的侍從"
+		]
+	},
+	"mobile-frontend-editor-edit": "Phiên-siá",
+	"mobile-frontend-home-button": "Thèu-ya̍p",
+	"mobile-frontend-language-article-heading": "Yung khì-thâ ngî-ngièn thu̍k",
+	"mobile-frontend-main-menu-button-tooltip": "Khôi-khí chú sién-tân",
+	"mobile-frontend-main-menu-login": "Tên-ngi̍p",
+	"mobile-frontend-main-menu-nearby": "Fu-khiûn",
+	"mobile-frontend-main-menu-settings": "Sat-thin",
+	"mobile-frontend-main-menu-watchlist": "Kâm-sṳ lie̍t-péu",
+	"mobile-frontend-pageaction-edit-tooltip": "Phiên-siá liá-ya̍p ke thô-ngièn chông-chiet",
+	"mobile-frontend-placeholder": "Sêu-chhìm {{SITENAME}}",
+	"mobile-frontend-random-button": "Sùi-kî"
+}

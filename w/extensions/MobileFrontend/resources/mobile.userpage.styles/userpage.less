@@ -1,0 +1,36 @@
+@import '../../mobile.less/mobile.variables.less';
+@import 'mediawiki.mixins.less';
+
+.cta-holder {
+	background-color: @colorGray14;
+	.box-sizing( border-box );
+	border-radius: @border-radius-base;
+	padding: 30px 20px;
+	text-align: center;
+
+	.userpage-image-placeholder {
+		height: 56px;
+		margin-bottom: 30px;
+		margin-top: 10px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		opacity: 0.2;
+	}
+
+	// be specific in order to override default padding
+	.content & h3 {
+		font-size: 1em;
+		font-family: sans-serif;
+		padding: 0 0 10px;
+	}
+
+	.desc {
+		color: @colorGray7;
+		margin-bottom: 20px;
+	}
+
+	.disabled {
+		visibility: hidden;
+	}
+}

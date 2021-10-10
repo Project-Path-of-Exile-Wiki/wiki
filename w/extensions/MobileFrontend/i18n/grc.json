@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Gts-tg",
+			"JoostBotman",
+			"PastelKos"
+		]
+	},
+	"mobile-frontend-changeslist-nocomment": "οὐ σύνοψις μεταγραφῶν",
+	"mobile-frontend-copyright": "Τό περιεχόμενο ὑπάρχειν διά $1 πλὴν ἐάν ἄλλως κηρύσσειν.",
+	"mobile-frontend-featured-article": "Ἐξαίρετη ἐγγραφή σήμερον",
+	"mobile-frontend-last-modified-date": "ὕστατον μετεβλήθη εν $1, εν $2",
+	"mobile-frontend-news-items": "Νέον τι",
+	"mobile-frontend-privacy-link-text": "Έρημία",
+	"mobile-frontend-terms-text": "Λόγοι χρήσεως",
+	"mobile-frontend-view": "Προβολή κινητού",
+	"mobile-frontend-view-desktop": "Έπιτραπέζιον",
+	"mobile-frontend-watchlist-more": "πλείω",
+	"tag-mobile_edit": "Μεταγράφὴ κινητοῦ",
+	"tag-mobile_web_edit": "Μεταγραφὴ διαδικτυακοῦ κινητοῦ"
+}

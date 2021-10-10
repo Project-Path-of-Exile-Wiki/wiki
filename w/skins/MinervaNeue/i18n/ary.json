@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reda Benkhadra",
+			"SADIQUI"
+		]
+	},
+	"mobile-frontend-home-button": "الصفحة اللّولا",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|مرحبا بيك}}، $1!",
+	"mobile-frontend-main-menu-nearby": "قريب من هنا",
+	"mobile-frontend-placeholder": "قلّب ف {{SITENAME}}",
+	"mobile-frontend-random-button": "عشوائي",
+	"minerva-talk-explained-empty": "ماكاينش نيقاشات فهاد صفحة."
+}

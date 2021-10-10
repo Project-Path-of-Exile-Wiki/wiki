@@ -1,0 +1,9 @@
+BROWSER:
+  - firefox
+
+MEDIAWIKI_ENVIRONMENT:
+  - beta
+  - mediawiki
+
+PLATFORM:
+  - Linux

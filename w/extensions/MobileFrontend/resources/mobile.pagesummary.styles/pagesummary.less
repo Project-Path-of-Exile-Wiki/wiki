@@ -1,0 +1,62 @@
+@import '../../mobile.less/mobile.variables.less';
+@import 'mediawiki.mixins.less';
+
+// Pages
+
+// Page summary
+//
+// Use the page-summary class whenever describing a page but not showing
+// the full content of the page. This might be used in a page list or a diff.
+//
+// Markup:
+// <div class="page-summary">
+//  <h3>San Francisco</h3>
+//  <p>San Francisco is a city in California in the USA</p>
+// </div>
+.page-summary {
+	h2,
+	h3 {
+		font: inherit;
+		font-weight: bold;
+		// FIXME: Use one of the grays defined in variables.less
+		color: @colorGray5;
+
+		a {
+			color: inherit;
+		}
+
+		strong {
+			text-decoration: underline;
+		}
+	}
+}
+
+.list-header {
+	font-weight: bold;
+	font-size: 0.85em;
+	padding-top: 0.5em;
+	padding-bottom: 0.4em;
+	background-color: @grayLightest;
+	color: @grayMedium;
+}
+
+.list-thumb {
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	&.list-thumb-x {
+		background-size: 100% auto;
+	}
+
+	&.list-thumb-y {
+		background-size: auto 100%;
+	}
+
+	// Needs to come last as `.list-thumb-x` would override.
+	&.list-thumb-none {
+		background-color: @grayLightest;
+		// Assumes that icon follows standard canvas of 20 x 20px.
+		background-size: 40px 40px;
+		opacity: 0.51; // Equals to `#7d7d7d` on `background-color: #fff`.
+	}
+}

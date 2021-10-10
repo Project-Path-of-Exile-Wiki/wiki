@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Gwendal"
+		]
+	},
+	"cargo-viewdata-modifyquery": "Kemmañ ar reked",
+	"cargo-viewdata-viewwikitext": "Gwelet ar wikitestenn",
+	"cargo-cargotables-header-table": "Taolenn",
+	"cargo-cargotables-header-rowcount": "Linennoù",
+	"cargo-cargotables-header-templates": "Patromoù",
+	"cargo-cargotables-action-deletereplacement": "Dilemel",
+	"cargo-cargotables-action-switchreplacement": "Mont e",
+	"cargo-cargotables-action-drilldown": "Resisaat",
+	"cargo-cargotables-action-delete": "Dilemel",
+	"cargo-cargotables-action-recreate": "Adkrouiñ",
+	"cargo-cargotables-notdeclared": "Termenet gant patrom ebet",
+	"cargo-cargotables-replacementlink": "Taolenn erlec'hiañ",
+	"cargo-deletetable-replacementconfirm": "Dilemel [$1 an daolenn erlec'hiañ] evit taolenn $2 Cargo ? Ne cheñcho netra evit an daolenn red.",
+	"cargo-drilldown-mapformat": "Kartenn"
+}

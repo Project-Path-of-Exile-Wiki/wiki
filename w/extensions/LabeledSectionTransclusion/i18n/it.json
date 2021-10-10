@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrokenArrow"
+		]
+	},
+	"lst-desc": "Aggiunge le funzioni <code>#lst</code> e <code>#lstx</code> e il tag <code>&lt;section&gt;</code> consentendo l'inclusione delle sezioni di testo così indicate"
+}

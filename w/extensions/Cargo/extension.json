@@ -1,0 +1,382 @@
+{
+	"name": "Cargo",
+	"namemsg": "cargo-extensionname",
+	"version": "2.8",
+	"author": "Yaron Koren",
+	"url": "https://www.mediawiki.org/wiki/Extension:Cargo",
+	"descriptionmsg": "cargo-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.30"
+	},
+	"callback": "CargoHooks::registerExtension",
+	"AvailableRights": [
+		"recreatecargodata",
+		"deletecargodata",
+		"runcargoqueries"
+	],
+	"GroupPermissions": {
+		"*": {
+			"runcargoqueries": true
+		},
+		"sysop": {
+			"recreatecargodata": true,
+			"deletecargodata": true
+		}
+	},
+	"SpecialPages": {
+		"CargoTables": "CargoTables",
+		"CargoTableDiagram": "CargoTableDiagram",
+		"DeleteCargoTable": "SpecialDeleteCargoTable",
+		"SwitchCargoTable": "SpecialSwitchCargoTable",
+		"CargoQuery": "SpecialCargoQuery",
+		"CargoExport": "CargoExport",
+		"PageValues": "CargoPageValues",
+		"Drilldown": "CargoSpecialDrilldown"
+	},
+	"JobClasses": {
+		"cargoPopulateTable": "CargoPopulateTableJob"
+	},
+	"APIModules": {
+		"cargoquery": "CargoQueryAPI",
+		"cargorecreatetables": "CargoRecreateTablesAPI",
+		"cargorecreatedata": "CargoRecreateDataAPI",
+		"cargoautocomplete": "CargoAutocompleteAPI",
+		"cargoqueryautocomplete": "CargoQueryAutocompleteAPI",
+		"cargoformatparams": "CargoFormatParamsAPI"
+	},
+	"LogTypes": [
+		"cargo"
+	],
+	"LogNames": {
+		"cargo": "cargo-logname"
+	},
+	"LogHeaders": {
+		"cargo": "cargo-logdesc"
+	},
+	"LogActions": {
+		"cargo/createtable": "cargo-createtableaction",
+		"cargo/recreatetable": "cargo-recreatetableaction",
+		"cargo/replacetable": "cargo-replacetableaction",
+		"cargo/deletetable": "cargo-deletetableaction"
+	},
+	"MessagesDirs": {
+		"Cargo": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"CargoMagic": "Cargo.i18n.magic.php",
+		"CargoAlias": "Cargo.alias.php"
+	},
+	"AutoloadClasses": {
+		"CargoHooks": "CargoHooks.php",
+		"CargoUtils": "includes/CargoUtils.php",
+		"CargoFieldDescription": "includes/CargoFieldDescription.php",
+		"CargoTableSchema": "includes/CargoTableSchema.php",
+		"CargoHierarchyTree": "includes/CargoHierarchyTree.php",
+		"CargoDeclare": "includes/parserfunctions/CargoDeclare.php",
+		"CargoAttach": "includes/parserfunctions/CargoAttach.php",
+		"CargoStore": "includes/parserfunctions/CargoStore.php",
+		"CargoQuery": "includes/parserfunctions/CargoQuery.php",
+		"CargoCompoundQuery": "includes/parserfunctions/CargoCompoundQuery.php",
+		"CargoSQLQuery": "includes/CargoSQLQuery.php",
+		"CargoQueryDisplayer": "includes/CargoQueryDisplayer.php",
+		"CargoPageData": "includes/CargoPageData.php",
+		"CargoFileData": "includes/CargoFileData.php",
+		"CargoBPMNData": "includes/CargoBPMNData.php",
+		"CargoGanttData": "includes/CargoGanttData.php",
+		"CargoRecurringEvent": "includes/parserfunctions/CargoRecurringEvent.php",
+		"CargoDisplayMap": "includes/parserfunctions/CargoDisplayMap.php",
+		"CargoPopulateTableJob": "includes/CargoPopulateTableJob.php",
+		"CargoRecreateDataAction": "includes/CargoRecreateDataAction.php",
+		"SpecialCargoRecreateData": "includes/specials/SpecialCargoRecreateData.php",
+		"CargoTables": "includes/specials/CargoTables.php",
+		"CargoTableDiagram": "includes/specials/CargoTableDiagram.php",
+		"SpecialDeleteCargoTable": "includes/specials/SpecialDeleteCargoTable.php",
+		"SpecialSwitchCargoTable": "includes/specials/SpecialSwitchCargoTable.php",
+		"SpecialCargoQuery": "includes/specials/SpecialCargoQuery.php",
+		"CargoQueryPage": "includes/CargoQueryPage.php",
+		"CargoExport": "includes/specials/CargoExport.php",
+		"CargoPageValuesAction": "includes/CargoPageValuesAction.php",
+		"CargoPageValues": "includes/specials/CargoPageValues.php",
+		"CargoQueryAPI": "includes/api/CargoQueryAPI.php",
+		"CargoRecreateTablesAPI": "includes/api/CargoRecreateTablesAPI.php",
+		"CargoRecreateDataAPI": "includes/api/CargoRecreateDataAPI.php",
+		"CargoAutocompleteAPI": "includes/api/CargoAutocompleteAPI.php",
+		"CargoQueryAutocompleteAPI": "includes/api/CargoQueryAutocompleteAPI.php",
+		"CargoFormatParamsAPI": "includes/api/CargoFormatParamsAPI.php",
+		"CargoLuaLibrary": "includes/CargoLuaLibrary.php",
+		"CargoDisplayFormat": "includes/formats/CargoDisplayFormat.php",
+		"CargoDeferredFormat": "includes/formats/CargoDeferredFormat.php",
+		"CargoListFormat": "includes/formats/CargoListFormat.php",
+		"CargoULFormat": "includes/formats/CargoULFormat.php",
+		"CargoOLFormat": "includes/formats/CargoOLFormat.php",
+		"CargoTemplateFormat": "includes/formats/CargoTemplateFormat.php",
+		"CargoOutlineFormat": "includes/formats/CargoOutlineFormat.php",
+		"CargoOutlineRow": "includes/formats/CargoOutlineRow.php",
+		"CargoOutlineTree": "includes/formats/CargoOutlineTree.php",
+		"CargoTreeFormat": "includes/formats/CargoTreeFormat.php",
+		"CargoTreeFormatNode": "includes/formats/CargoTreeFormatNode.php",
+		"CargoTreeFormatTree": "includes/formats/CargoTreeFormatTree.php",
+		"CargoEmbeddedFormat": "includes/formats/CargoEmbeddedFormat.php",
+		"CargoCSVFormat": "includes/formats/CargoCSVFormat.php",
+		"CargoExcelFormat": "includes/formats/CargoExcelFormat.php",
+		"CargoJSONFormat": "includes/formats/CargoJSONFormat.php",
+		"CargoTableFormat": "includes/formats/CargoTableFormat.php",
+		"CargoDynamicTableFormat": "includes/formats/CargoDynamicTableFormat.php",
+		"CargoMapsFormat": "includes/formats/CargoMapsFormat.php",
+		"CargoGoogleMapsFormat": "includes/formats/CargoGoogleMapsFormat.php",
+		"CargoLeafletFormat": "includes/formats/CargoLeafletFormat.php",
+		"CargoOpenLayersFormat": "includes/formats/CargoOpenLayersFormat.php",
+		"CargoCalendarFormat": "includes/formats/CargoCalendarFormat.php",
+		"CargoICalendarFormat": "includes/formats/CargoICalendarFormat.php",
+		"CargoTimelineFormat": "includes/formats/CargoTimelineFormat.php",
+		"CargoCategoryFormat": "includes/formats/CargoCategoryFormat.php",
+		"CargoBarChartFormat": "includes/formats/CargoBarChartFormat.php",
+		"CargoPieChartFormat": "includes/formats/CargoPieChartFormat.php",
+		"CargoGalleryFormat": "includes/formats/CargoGalleryFormat.php",
+		"CargoSlideshowFormat": "includes/formats/CargoSlideshowFormat.php",
+		"CargoTagCloudFormat": "includes/formats/CargoTagCloudFormat.php",
+		"CargoExhibitFormat": "includes/formats/CargoExhibitFormat.php",
+		"CargoBibtexFormat": "includes/formats/CargoBibtexFormat.php",
+		"CargoSearchMySQL": "includes/search/CargoSearchMySQL.php",
+		"CargoPageSchemas": "includes/CargoPageSchemas.php",
+		"CargoAppliedFilter": "drilldown/CargoAppliedFilter.php",
+		"CargoFilter": "drilldown/CargoFilter.php",
+		"CargoFilterValue": "drilldown/CargoFilterValue.php",
+		"CargoDrilldownUtils": "drilldown/CargoDrilldownUtils.php",
+		"CargoDrilldownHierarchy": "drilldown/CargoDrilldownHierarchy.php",
+		"CargoSpecialDrilldown": "drilldown/CargoSpecialDrilldown.php",
+		"CargoDrilldownPage": "drilldown/CargoDrilldownPage.php"
+	},
+	"ResourceModules": {
+		"ext.cargo.main": {
+			"scripts": "libs/Cargo.js",
+			"styles": "resources/Cargo.css",
+			"messages": [
+				"show",
+				"hide"
+			]
+		},
+		"ext.cargo.purge": {
+			"scripts": "libs/ext.cargo.purge.js",
+			"messages": "cargo-purgecache-failed"
+		},
+		"ext.cargo.recreatedata": {
+			"scripts": [
+				"libs/ext.cargo.js",
+				"libs/ext.cargo.recreatedata.js"
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"oojs-ui-core"
+			],
+			"messages": [
+				"cargo-recreatedata-tablecreated",
+				"cargo-recreatedata-replacementcreated",
+				"cargo-recreatedata-success",
+				"cargo-cargotables-viewtablelink",
+				"cargo-cargotables-viewreplacementlink"
+			]
+		},
+		"ext.cargo.maps": {
+			"scripts": [
+				"libs/ext.cargo.maps.js",
+				"libs/markerclusterer.js"
+			]
+		},
+		"ext.cargo.calendar": {
+			"styles": [
+				"libs/FullCalendar/fullcalendar.css",
+				"libs/ext.cargo.calendar.css"
+			],
+			"scripts": [
+				"libs/FullCalendar/fullcalendar.js",
+				"libs/FullCalendar/locale-all.js",
+				"libs/ext.cargo.calendar.js"
+			],
+			"dependencies": [
+				"moment"
+			]
+		},
+		"ext.cargo.timelinebase": {
+			"scripts": [
+				"libs/ext.cargo.timeline-init.js",
+				"libs/SimileTimeline/scripts/timeline.js",
+				"libs/SimileTimeline/scripts/util/platform.js",
+				"libs/SimileTimeline/scripts/util/xmlhttp.js",
+				"libs/SimileTimeline/scripts/util/data-structure.js",
+				"libs/SimileTimeline/scripts/units.js",
+				"libs/SimileTimeline/scripts/sources.js"
+			]
+		},
+		"ext.cargo.timeline": {
+			"styles": [
+				"libs/SimileTimeline/styles/timeline.css",
+				"libs/SimileTimeline/styles/ethers.css",
+				"libs/SimileTimeline/styles/events.css"
+			],
+			"scripts": [
+				"libs/ext.cargo.timeline.js",
+				"libs/SimileTimeline/scripts/util/debug.js",
+				"libs/SimileTimeline/scripts/util/dom.js",
+				"libs/SimileTimeline/scripts/util/graphics.js",
+				"libs/SimileTimeline/scripts/util/date-time.js",
+				"libs/SimileTimeline/scripts/themes.js",
+				"libs/SimileTimeline/scripts/ethers.js",
+				"libs/SimileTimeline/scripts/ether-painters.js",
+				"libs/SimileTimeline/scripts/labellers.js",
+				"libs/SimileTimeline/scripts/layouts.js",
+				"libs/SimileTimeline/scripts/painters.js",
+				"libs/SimileTimeline/scripts/decorators.js"
+			],
+			"dependencies": [
+				"ext.cargo.timelinebase"
+			]
+		},
+		"ext.cargo.datatables": {
+			"styles": [
+				"libs/DataTables/css/jquery.dataTables.css",
+				"libs/ext.cargo.datatables.css"
+			],
+			"scripts": [
+				"libs/DataTables/js/jquery.dataTables.js",
+				"libs/ext.cargo.datatables.js"
+			]
+		},
+		"ext.cargo.nvd3": {
+			"scripts": [
+				"libs/d3.js",
+				"libs/nv.d3.js",
+				"libs/ext.cargo.nvd3.js"
+			]
+		},
+		"ext.cargo.exhibit": {
+			"scripts": [
+				"libs/ext.cargo.exhibit.js"
+			]
+		},
+		"ext.cargo.slick": {
+			"styles": [
+				"libs/slick/slick.css",
+				"libs/slick/slick-theme.css",
+				"libs/ext.cargo.slick.css"
+			],
+			"scripts": [
+				"libs/slick/slick.js"
+			]
+		},
+		"ext.cargo.diagram": {
+			"styles": [
+				"resources/ext.cargo.dagre.css"
+			],
+			"scripts": [
+				"libs/d3.js",
+				"libs/dagre-d3.js",
+				"libs/ext.cargo.dagre.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Cargo"
+	},
+	"Actions": {
+		"recreatedata": "CargoRecreateDataAction",
+		"pagevalues": "CargoPageValuesAction"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "CargoHooks::registerParserFunctions",
+		"MakeGlobalVariablesScript": "CargoHooks::setGlobalJSVariables",
+		"ApprovedRevsRevisionApproved": "CargoHooks::onARRevisionApproved",
+		"ApprovedRevsRevisionUnapproved": "CargoHooks::onARRevisionUnapproved",
+		"TitleMoveComplete": "CargoHooks::onTitleMoveComplete",
+		"ArticleDeleteComplete": "CargoHooks::onArticleDeleteComplete",
+		"UploadComplete": "CargoHooks::onUploadComplete",
+		"CategoryAfterPageAdded": "CargoHooks::addCategoryToPageData",
+		"CategoryAfterPageRemoved": "CargoHooks::removeCategoryFromPageData",
+		"LoadExtensionSchemaUpdates": [
+			"CargoHooks::describeDBSchema",
+			"CargoHooks::cargoSchemaUpdates"
+		],
+		"SkinTemplateNavigation": [
+			"CargoRecreateDataAction::displayTab",
+			"CargoHooks::addPurgeCacheTab"
+		],
+		"PageForms::TemplateFieldStart": "CargoHooks::addTemplateFieldStart",
+		"PageForms::TemplateFieldEnd": "CargoHooks::addTemplateFieldEnd",
+		"AdminLinks": "CargoHooks::addToAdminLinks",
+		"PageSchemasRegisterHandlers": "CargoPageSchemas::registerClass",
+		"ResourceLoaderRegisterModules": "CargoHooks::registerModules",
+		"ResourceLoaderGetConfigVars": "CargoHooks::onResourceLoaderGetConfigVars",
+		"ScribuntoExternalLibraries": "CargoHooks::addLuaLibrary"
+	},
+	"config": {
+		"CargoDecimalMark": ".",
+		"CargoDigitGroupingCharacter": ",",
+		"CargoRecurringEventMaxInstances": 100,
+		"CargoDBtype": null,
+		"CargoDBserver": null,
+		"CargoDBname": null,
+		"CargoDBuser": null,
+		"CargoDBpassword": null,
+		"CargoDBprefix": null,
+		"CargoDBRowFormat": null,
+		"CargoDefaultStringBytes": 300,
+		"CargoDefaultQueryLimit": 100,
+		"CargoMaxQueryLimit": 5000,
+		"Cargo24HourTime": false,
+		"CargoDefaultMapService": "OpenLayers",
+		"CargoGoogleMapsKey": null,
+		"CargoMapClusteringMinimum": 80,
+		"CargoDrilldownUseTabs": true,
+		"CargoDrilldownSmallestFontSize": -1,
+		"CargoDrilldownLargestFontSize": -1,
+		"CargoDrilldownMinValuesForComboBox": 40,
+		"CargoDrilldownNumRangesForNumbers": 5,
+		"CargoMaxVisibleHierarchyDrilldownValues": 30,
+		"CargoTablesPrioritizeReplacements": false,
+		"CargoPageDataColumns": [],
+		"CargoFileDataColumns": [],
+		"CargoHideNamespaceName": [
+			6
+		],
+		"CargoAllowedSQLFunctions": [
+			"AVG",
+			"CEIL",
+			"CONCAT",
+			"COUNT",
+			"DATE",
+			"DATE_ADD",
+			"DATE_FORMAT",
+			"DATE_SUB",
+			"DATEDIFF",
+			"DAYOFMONTH",
+			"FLOOR",
+			"FORMAT",
+			"GROUP_CONCAT",
+			"IF",
+			"LCASE",
+			"LN",
+			"LOG",
+			"LOWER",
+			"MAX",
+			"MIN",
+			"MONTH",
+			"NEAR",
+			"NOW",
+			"POWER",
+			"ROUND",
+			"SUBSTRING",
+			"SUM",
+			"TRIM",
+			"UCASE",
+			"UPPER",
+			"YEAR"
+		]
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"rss-desc": "Tampilaké lebon saran RSS standar nèng kaca MédiaWiki utawa format kekarepané naraguna mawa kaca cithakan",
+	"rss-error": "Gagal ngemot lebon saran RSS saka $1: $2",
+	"rss-empty": "Gagal ngemot lebon saran RSS saka $1!",
+	"rss-fetch-nourl": "Panjupukan dilakokaké tanpa URL!",
+	"rss-invalid-url": "Dudu URL sing sah: $1",
+	"rss-parse-error": "Kasalahan nguraèkaké XML kanggo RSS",
+	"rss-ns-permission": "RSS ora kena ing mandhala aran iki"
+}

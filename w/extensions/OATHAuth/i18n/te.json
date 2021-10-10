@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arjunaraoc",
+			"Jedimaster26"
+		]
+	},
+	"oathauth-prefs-label": "రెండు-విధాల (Two-factor) ధృవీకరణ:",
+	"action-oathauth-api-all": "OATH స్థితి గమనించండి",
+	"oauthauth-ui-no-module": "ఏవీ చేతనంగా లేవు",
+	"oathauth-ui-manage": "నిర్వహించు"
+}

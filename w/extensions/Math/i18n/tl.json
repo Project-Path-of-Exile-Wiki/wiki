@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"Leeheonjin"
+		]
+	},
+	"math-desc": "Iharap ang mga pormulang pangmatematika sa pagitan ng mga tatak na <code>&lt;math&gt;</code> ... <code>&lt;/math&gt;</code>",
+	"math-visualeditor-mwlatexdialog-card-formula": "Pormula",
+	"math-visualeditor-symbol-group-math-arrows": "Tala-palasuan (arrows)",
+	"math-visualeditor-symbol-group-math-derivatives": "Deribatibo",
+	"math-visualeditor-symbol-group-math-geometry": "Heometriya",
+	"math-visualeditor-symbol-group-math-greek": "Alpabetong Griyego",
+	"math-visualeditor-symbol-group-math-hebrew": "Alpabetong Ebreo",
+	"math-visualeditor-symbol-group-math-logic": "Lohika",
+	"math-visualeditor-symbol-group-math-modular": "Modular",
+	"math-visualeditor-symbol-group-math-operators": "Mga tagapagpaandar:",
+	"math-visualeditor-symbol-group-math-relations": "Mga kaugnayan",
+	"math-visualeditor-symbol-group-math-root": "Pinag-uugatan",
+	"math-visualeditor-symbol-group-math-special": "Natatangi (special)",
+	"math-visualeditor-symbol-group-math-unsorted": "Hindi naisaayos (unsorted)",
+	"math_failure": "Nabigo sa pagbanghay",
+	"math_syntax_error": "kamalian sa palaugnayan",
+	"math_unknown_error": "hindi nalalamang kamalian",
+	"math_unknown_function": "hindi nalalamang tungkulin",
+	"mw_math_mathml": "MathML kung maaari (sinusubok pa)",
+	"mw_math_png": "Palaging ilarawan sa anyong PNG",
+	"mw_math_source": "Iwanan bilang TeX (para sa mga panghanap na pangteksto o ''text browser'')",
+	"prefs-math": "Matematika"
+}

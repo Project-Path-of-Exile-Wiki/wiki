@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yusuke1109"
+		]
+	},
+	"apihelp-cargoquery-param-fields": "取得するテーブルフィールド",
+	"apihelp-cargorecreatedata-param-template": "データを使用するテンプレート",
+	"apihelp-cargorecreatedata-param-offset": "このテンプレートを呼び出すページのうち、クエリを開始するときの番号",
+	"apihelp-cargorecreatedata-param-replaceOldRows": "テーブルの再作成中に各ページの古い行を置換するかどうか",
+	"apihelp-cargoautocomplete-param-field_is_array": "フィールドに値のリストが保持されているかどうか"
+}

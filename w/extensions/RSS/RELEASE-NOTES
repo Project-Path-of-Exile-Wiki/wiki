@@ -1,0 +1,176 @@
+RELEASE NOTES of the MediaWiki extension RSS
+
+Version 2.25 2014-03-28
+
+Manual https://www.mediawiki.org/wiki/Extension:RSS
+
+Browser view
+https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/extensions/RSS.git;a=tree
+
+git clone https://gerrit.wikimedia.org/r/p/mediawiki/extensions/RSS.git
+
+=== TO DO ===
+
+- set an upper default limit for HttpRequest request size when fetching feeds
+  doing a HEAD request first to ask for the size but that value may not be
+  available. Check how much data is returned as its coming back
+  in which case you'd override the content fetch callback and count data as it
+  comes in or check the header, again, if it's provided, at the start of data
+  coming in. Then you could abort cleanly once it's gotten too much
+  (otherwise using the defaults - PHP will abort the entire program when your
+  memory usage gets too high)
+
+- This is currently an open issue:
+  Suggestion: add a new parameter to limit the number of characters when
+  rendering the channel item <description>.
+  https://bugzilla.wikimedia.org/show_bug.cgi?id=30377#c5
+  The length limitation must be HTML tag-safe, but it is not at the moment.
+  Length limitation is disabled by default.
+
+=== Version 2.25 2014-03-28 ===
+* Migrated I18n to use json-files
+* Provide backwards compatible shim up to version MW 1.17+ and higher
+* Drops compatibility with MW 1.16+ and lower
+
+=== Version 2.24 2013-10-17 ==
+* fix for Bug 55763 Undefined variable: txt in RSSParser.php on line 376
+
+=== Version 2.23 2013-09-03 ===
+* Fix parsing from CLI:
+  removed references to $wgTitle, $wgUser, and $wgLang.
+
+=== Version 2.22 2013-06-09 ==
+* removing white spaces aroung urls in feed item <link> or <id> tags
+
+=== Version 2.21 2013-04-15 ==
+* (bug 47251) fix of an XXE problem
+
+=== Version 2.20 2013-03-03 ===
+* follow-up change (renaming) of Class HttpRequest in core to MWHttpRequest
+
+=== Version 2.19 2013-02-26 ===
+* (bug 45387) $wgAllowImageTag variable name changed to $wgRSSAllowImageTag
+* problem that $wgRSSAllowImageTag was ignored (fixed)
+* (bug 45388) definition of all variables in RSS.php (fixed)
+
+=== Version 2.18 2013-02-20 ===
+* release version
+
+  Version 2.18 submits the unported and reverted changes from the former SVN
+  repository version. In the transition phase from SVN to Git/Gerrit,
+  formerly unreviewed changes stayed in the Gerrit limbus from April 2012 to
+  February 2013 and were reviewed there and further improved.
+
+  With version 2.18, all these pending changes were reviewed and become now
+  available in the Git repository.
+
+=== Version 2.17 2012-12-30 ===
+* code cosmetics
+
+=== Version 2.12 2012-03-07 ===
+* bug fix 34763 "RSS feed items (HTML) are not rendered as HTML but htmlescaped"
+* regression bug 30377 "Add a new parameter to limit the number of characters
+  when rendering the channel item <description>". Feed item string length
+  limitation is difficult when we allow HTML <a> or <img> tags, because a mere
+  content-unaware limitation breaks (can break) tags which results in disastrous
+  rendering results.
+
+=== Version 2.11 2012-02-29 ===
+* function name typo correction
+
+=== Version 2.10 2012-02-27 ===
+* final solution of bug 30028 "Error parsing XML for RSS" - improve and harden
+  Extension:RSS when parsing differently flavoured RSS feeds and ATOM feeds
+* new parameter $wgRSSUrlNumberOfAllowedRedirects (default = 0)
+  Some feed urls redirect. The new RSS version can deal with redirects,
+  but it must be expressly enabled. For example, you can set
+  $wgRSSUrlNumberOfAllowedRedirects = 1;
+
+=== Version 2.01 2012-02-24 ===
+* "summary" element of ATOM feed items are shown
+  which is handled like "description" element of RSS
+* handling of basic HTML layout tags <p> <br> <b> <i> <u> <s> in item description
+
+=== Version 2.00 2012-02-24 ===
+* first version which can parse RSS and at least some ATOM feeds
+  partial solution of bug 30028 "Error parsing XML for RSS" - improve and harden
+  Extension:RSS when parsing differently flavoured RSS feeds and ATOM feeds
+
+=== Version 1.94 2012-02-23 ===
+* changed white list definition and behavior:
+
+  1. changed the name from $wgRSSAllowedFeeds to $wgRSSUrlWhitelist
+  2. behavior has been changed
+
+  the new behavior is:
+  $wgRSSUrlWhitelist is empty by default. Since version 1.94 it must be
+  expressly set to an array( list-of-comma-separated-allowed-RSS-urls-strings )
+  or set to array( "*" ) if you want to allow any url
+
+  the old behavior was:
+  $wgRSSAllowedFeeds was empty by default and empty meant that every Url
+  was allowed by default. This has been changed, see new behavior.
+
+=== Version 1.92 2012-02-13 ===
+* added optional date= attribute and $wgRSSDateDefaultFormat parameter
+* added optional item-max-length= attribute and $wgRSSItemMaxLength parameter
+  fixes bug 30377 add a new parameter to limit the number of characters when
+  rendering the channel item <description>
+  (update: this fix is reverted, the bug 30377 re-opened with version 2.17)
+
+=== Version 1.90 2011-08-15 ===
+* removed parsing of each single channel subelement (item)
+* only the finally constructed feed is sent to the recursive parser:
+  in pre-1.9 versions, each channel subelement (item) was sent to the parser
+* [[MediaWiki:Rss-item]] default has channel subelement <description> added
+* Rss template default name has been changed:
+
+  until 1.8:  [[Template:RSSPost]]
+        1.9:  [[MediaWiki:Rss-feed]], an existing [[Template:RSSPost]]
+	      takes precedence to be compatible to pre-1.9 versions
+* introducing [[MediaWiki:Rss-feed]] with a meaningful default.
+  The channel subelements which make the feed are rendered in this
+  new standard layout:
+  * <title>
+  : <description>
+  : <author> <date>
+* There are several ways to customize the final layout of feed items:
+  1. Admins can change the [[MediaWiki:Rss-feed]] default page
+  2. Users can use the optional template= parameter to tell the extension
+     to render the feed with a different layout
+     <rss template=Pagename>...</rss> use layout as in [[Template:Pagename]]
+  3. <rss template=Namespace:Pagename>...</rss> use [[Namespace:Pagename]]
+
+=== Version 1.8 2010-10-19 ===
+* removed dependencies on Snoopy in favor of MediaWiki's internal HttpRequest
+* removed MagpieRSS (perhaps to be replaced later with SimplePie)
+  because of concerns about MagpieRSS's security problems and
+  lack of maintenance.
+* Added ability to do more with the layout of RSS feeds.
+
+=== Version 1.7 2010-07-23 ===
+* cleaned up, included MagpieRSS library
+* put into the WMF subversion repository by Jeroen De Dauw
+  https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw
+* i18n file added by TranslateWiki.net people
+
+== Change Log of pre-1.7 versions 2010 and before ==
+* [[User:K001|K001]] 15:15, 26 January 2010 (UTC)
+  version 1.6, added support for date formats
+* Peter Newman: 03:15, 7 October 2009 (UTC)
+  Added htmlspecialchars escaping to the displayed strings
+* [User:Cmreigrut|Cmreigrut]] 19:05, 19 November 2008 (UTC)
+  added date (if specified) to short output
+* [[User:Wikinaut|Wikinaut]] 11:17, 7 May 2008 (UTC)
+  changed method to disable chaching; Extension is now compatible to MW 1.12
+* Svanslyck 02.2008, replacing all « and » with "
+  [[User:Duesentrieb]].
+  [User:CryptoQuick|CryptoQuick]] 14:26, 24 January 2007 (UTC)
+  ([[User talk:Alxndr|t]]) 02:02, 16 June 2007 (UTC)
+* Alxndr 09.2006
+* Dzag 07.2006
+* Niffler 28.02.2006
+* Mafs  10.07.2005, 24.07.2005
+* Rdb78 07.07.2005
+* Duesentrieb 30.04.2005
+* Original by mutante 25.03.2005

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Elias Ahmmad",
+			"Rasal Lia",
+			"Sohom Datta",
+			"Tahmid",
+			"Tahmid02016",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"cargo-viewdata-colorsparam": "রং:",
+	"cargo-cargotables-header-table": "ছক",
+	"cargo-cargotables-header-rowcount": "সারি",
+	"cargo-cargotables-header-templates": "টেমপ্লেট",
+	"cargo-cargotables-action-deletereplacement": "অপসারণ",
+	"cargo-cargotables-action-delete": "অপসারণ",
+	"cargo-cargotables-action-recreate": "পুনরায় তৈরি করুন",
+	"cargo-cargotables-tablestructure": "ছকের গঠন:",
+	"cargo-cargotables-listof": "$1-এর তালিকা",
+	"cargo-recreatedata-createreplacement": "পুন:স্থাপন ছকে পুনরায় তথ্যাদি দিন, পুরাতনটি অনুসন্ধানের স্বার্থে রাখুন।",
+	"cargo-recreatedata-replacementexists": "\"$1\" ছকটি এই মুহুর্তে পুনরায় তৈরি করা যাচ্ছে না, পুন:স্থাপন ছক \"$2\" এখনো বিদ্যমান আছে।",
+	"cargo-cargotables-replacementtable": "এই ছকটি $1 ছক প্রতিস্থাপন করার উদ্দেশ্যে করা হয়েছে। এটা এখনো অনুসন্ধানের কাজেও ব্যবহার হয়নি।",
+	"cargo-cargotables-deletereplacement": "অথবা, আপনি যদি এই পুন:স্থাপন টেবিল কখনো ব্যবহার করতে না চান তাহলে [$1 এটি অপসারণ করতে পারেন]।",
+	"cargo-cargotables-hasreplacement": "এটির জন্য একটি পুনঃস্থাপন ছক তৈরি না হওয়া পর্যন্ত, এই ছকটি বর্তমানে শুধু পাঠযোগ্য।",
+	"cargo-deletetable-success": "\"$1\" ছকটি অপসারণ করা হয়েছে।",
+	"cargo-switchtables-switch": "পরিবর্তন করুন",
+	"cargo-drilldown-allpages": "সব পাতা",
+	"cargo-drilldown-allfiles": "সব ফাইল",
+	"cargo-drilldown-hierarchy-only": "\"$1\" শুধুমাত্র",
+	"cargo-drilldown-fulltext": "সম্পূর্ণ লেখা",
+	"cargo-drilldown-pagetext": "পাতার লেখা",
+	"cargo-drilldown-filename": "ফাইলের নাম",
+	"cargo-drilldown-filetext": "ফাইলের লেখা",
+	"cargo-drilldown-mapformat": "মানচিত্র",
+	"cargo-drilldown-timelineformat": "সময়ক্রম",
+	"cargo-drilldown-galleryformat": "চিত্রশালা",
+	"cargo-drilldown-calendarformat": "পঞ্জিকা",
+	"cargo-dynamictables-searchcolumn": "$1 অনুসন্ধান করুন"
+}

@@ -1,0 +1,124 @@
+{
+	"name": "SyntaxHighlight",
+	"version": "2.0",
+	"author": [
+		"Brion Vibber",
+		"Tim Starling",
+		"Rob Church",
+		"Niklas Laxström",
+		"Ori Livneh",
+		"Ed Sanders"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SyntaxHighlight",
+	"descriptionmsg": "syntaxhighlight-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.34",
+		"platform": {
+			"ability-shell": true
+		}
+	},
+	"MessagesDirs": {
+		"SyntaxHighlight_GeSHi": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SyntaxHighlight": "includes/SyntaxHighlight.php",
+		"SyntaxHighlightAce": "includes/SyntaxHighlightAce.php",
+		"SyntaxHighlightGeSHiCompat": "includes/SyntaxHighlightGeSHiCompat.php",
+		"ResourceLoaderSyntaxHighlightVisualEditorModule": "includes/ResourceLoaderSyntaxHighlightVisualEditorModule.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "SyntaxHighlight_GeSHi/modules"
+	},
+	"ResourceModules": {
+		"ext.pygments": {
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": [
+				"pygments.generated.css",
+				"pygments.wrapper.less"
+			]
+		},
+		"ext.pygments.linenumbers": {
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"scripts": [
+				"pygments.linenumbers.js"
+			]
+		},
+		"ext.geshi.visualEditor": {
+			"class": "ResourceLoaderSyntaxHighlightVisualEditorModule",
+			"scripts": [
+				"ve-syntaxhighlight/ve.dm.MWSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.dm.MWBlockSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.dm.MWInlineSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ce.MWSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ce.MWBlockSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ce.MWInlineSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightWindow.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightDialog.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightDialogTool.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightInspector.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightInspectorTool.js"
+			],
+			"styles": [
+				"ve-syntaxhighlight/ve.ce.MWSyntaxHighlightNode.css",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightDialog.css",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightInspector.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore",
+				"oojs-ui.styles.icons-editing-advanced"
+			],
+			"messages": [
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title"
+			],
+			"targets": [ "desktop", "mobile" ]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"SyntaxHighlight::onParserFirstCallInit"
+		],
+		"ContentGetParserOutput": [
+			"SyntaxHighlight::onContentGetParserOutput"
+		],
+		"ApiFormatHighlight": [
+			"SyntaxHighlight::onApiFormatHighlight"
+		]
+	},
+	"attributes": {
+		"SyntaxHighlight": {
+			"Models": {}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.geshi.visualEditor"
+			]
+		}
+	},
+	"config": {
+		"PygmentizePath": {
+			"value": false
+		}
+	},
+	"TrackingCategories": [
+		"syntaxhighlight-error-category",
+		"syntaxhighlight-enclose-category",
+		"syntaxhighlight-source-category"
+	],
+	"manifest_version": 2
+}

@@ -1,0 +1,184 @@
+@import '../../../mobile.less/mobile.variables.less';
+@import 'mediawiki.mixins.animation.less';
+@import 'SearchResultsView.less';
+
+@thumbGap: 15px;
+@thumbWidth: 70px;
+@colorSpinnerOverlayBackground: #fff;
+@clearIconRightGutterWidth: 0.5em;
+
+.overlay.search-overlay {
+	background: #fff;
+
+	.spinner-container {
+		background-color: @colorSpinnerOverlayBackground;
+		bottom: 0;
+		display: none;
+		left: 0;
+		opacity: 0.7;
+		right: 0;
+		z-index: @z-indexOverOverlay;
+
+		.spinner {
+			display: block;
+			left: 50%;
+			margin-left: -( @iconSize + @iconGutterWidth * 2 ) / 2;
+			position: absolute;
+			top: 10%;
+		}
+	}
+
+	.search-box {
+		display: block;
+	}
+
+	.results,
+	.search-feedback {
+		// don't use background to preserve .loading properties
+		background-color: #fff;
+	}
+
+	.overlay-header {
+		background-color: transparent;
+	}
+
+	// The search overlay header is a little special so make some tweaks to the CSS
+	// while using the same HTML.
+	.header-cancel {
+		display: none;
+	}
+
+	.header-action {
+		width: auto;
+	}
+
+	.overlay-title {
+		// because the clear icon is absolutely positioned
+		position: relative;
+		padding-left: 15px;
+	}
+
+	.header input {
+		// save space for the clear icon
+		padding-right: ( @iconSize + @iconGutterWidth + @clearIconRightGutterWidth );
+
+		// See https://msdn.microsoft.com/en-us/library/windows/apps/hh465740.aspx (T102325)
+		&::-ms-clear {
+			display: none;
+		}
+	}
+
+	.overlay-content {
+		position: relative;
+		// used to close the overlay in firefox
+		height: 100%;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.search-content {
+		border-bottom: 1px solid @grayLight;
+		cursor: pointer;
+
+		.caption {
+			padding: 1em 0;
+		}
+	}
+
+	.results {
+		box-shadow: 0 3px 3px 0 rgba( 117, 117, 117, 0.3 );
+
+		li:last-child {
+			border-bottom: 0;
+		}
+
+		h2 {
+			font: inherit;
+		}
+	}
+
+	li.page-summary {
+		display: table;
+		height: @thumbWidth;
+		width: 100%;
+
+		.title {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		h3 {
+			margin: 0;
+			font-weight: normal;
+
+			strong {
+				text-decoration: none;
+			}
+		}
+
+		.wikidata-description {
+			font-size: 13px;
+			margin-top: 9px;
+		}
+	}
+
+	.search-feedback {
+		box-shadow: 0 3px 3px 0 rgba( 117, 117, 117, 0.3 );
+		border-top: 1px solid @colorGray12;
+		font-size: 0.8em;
+		padding: 0.5em 1em;
+	}
+
+	&.no-results .search-feedback {
+		border-top: 0;
+	}
+
+	&.visible {
+		.animation( fadeIn 0.5s );
+	}
+
+	// see T156509
+	&.overlay-ios {
+		.animation( none );
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}

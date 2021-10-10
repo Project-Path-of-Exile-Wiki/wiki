@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Arturyatsko",
+			"Base",
+			"Dim Grits",
+			"Movses",
+			"Ата"
+		]
+	},
+	"rss-desc": "Відображає канал RSS на сторінці вікі",
+	"rss-tracking-category": "Сторінки із RSS-стрічками",
+	"rss-tracking-category-desc": "Ця сторінка має RSS-стрічку.",
+	"rss-error": "Не вдалося завантажити RSS-канал від $1: $2",
+	"rss-empty": "Не вдалося завантажити RSS-канал від $1!",
+	"rss-fetch-nourl": "Вибірка викликана без URL!",
+	"rss-invalid-url": "Неприпустима адреса URL: $1",
+	"rss-parse-error": "Помилка розбору XML для RSS",
+	"rss-ns-permission": "RSS не дозволено в цьому просторі назв.",
+	"rss-url-is-not-whitelisted": "„$1“ не входить до білого списку дозволених каналів. {{PLURAL:$3|1=Тільки канал $2 є дозволеним|Доступними є наступні канали: $2}}.",
+	"rss-empty-whitelist": "„$1 не входить до білого списку дозволених каналів. У білому списку немає жодного дозволеного каналу.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Виявлено застарілу змінну <var>$wgRSSAllowedFeeds</var>. Починаючи з RSS версії 2.0 ця змінна має бути замінена на <var>$wgRSSUrlWhitelist</var>, як описано на сторінці посібника [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  нижче наведено два можливих шаблони. Перший - це основний шаблон для стрічки -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- не використовуйте тут перехід на новий рядок --><!-- Другий - покращена версія, що потребує розширення Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

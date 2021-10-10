@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aelske",
+			"Matthias"
+		]
+	},
+	"lst-desc": "Voog de functies <code>#lst</code> en <code>#lstx</code> en de tag <code>&lt;section&gt;</code> toe  voor het markere van teksdele die getranscludeerd motte waere"
+}

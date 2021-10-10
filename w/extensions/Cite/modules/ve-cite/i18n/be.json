@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Artificial123",
+			"Goshaproject",
+			"Mikalai Udodau",
+			"Дзяніс Тутэйшы",
+			"Чаховіч Уладзіслаў"
+		]
+	},
+	"visualeditor-cite-tool-name-news": "Навіны",
+	"cite-ve-dialog-reference-options-group-label": "Выкарыстоўваць гэтую групу",
+	"cite-ve-dialog-reference-options-group-placeholder": "Агульныя спасылкі",
+	"cite-ve-dialog-reference-options-name-label": "Паўторна выкарыстоўваць гэта імя",
+	"cite-ve-dialog-reference-options-section": "Параметры",
+	"cite-ve-dialog-reference-title": "Зноскі",
+	"cite-ve-dialog-reference-useexisting-tool": "Паўторна выкарыстоўваць",
+	"cite-ve-dialog-referenceslist-contextitem-description-general": "Спіс агульных спасылак",
+	"cite-ve-dialog-referenceslist-contextitem-description-named": "Спіс спасылак для групы \"$1\"",
+	"cite-ve-dialog-referenceslist-title": "Спіс спасылак"
+}

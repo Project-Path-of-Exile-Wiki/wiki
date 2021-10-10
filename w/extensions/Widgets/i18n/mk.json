@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"widgets-desc": "Им овозможува на администраторите да додаваат посреднички елементи со уредување на страници во именскиот простор {{ns:widget}}.\nЕлементи изработени од учесници од заедницата можете да најдете на  [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Грешка во [[{{ns:widget}}:$1|посредничкиот елемент $1]]",
+	"group-widgeteditor": "Уредници на посреднички елементи",
+	"group-widgeteditor-member": "{{GENDER:$1|уредник на посреднички елементи}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Уредници на посреднички елементи",
+	"action-editwidgets": "создавање и измена на посреднички елементи",
+	"right-editwidgets": "Создавање и уредување на [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets направи] во именскиот простор <tt>{{ns:widget}}</tt>",
+	"group-widgeteditor.css": "/* Тука поставениот CSS ќе се применува само врз уредниците на посреднички елементи (помагала) */",
+	"group-widgeteditor.js": "/* Тука поставениот JS ќе се применува само врз уредниците на посреднички елементи (помагала) */",
+	"widgets-config-useflaggedrevs": "Задајте true (точно) устојчивата верзија за безбедност на посредничките елементи на додатокот „Означени преработки“",
+	"widgets-config-compiledir": "Задајте стандардна категорија за складирање на присобрани предлошки"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dnshitobu"
+		]
+	},
+	"mobile-frontend-language-article-heading": "Balli",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Amaraba}}, $1!",
+	"mobile-frontend-placeholder": "Vihima {{SITENAME}}"
+}

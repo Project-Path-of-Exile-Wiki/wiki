@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vlad5250"
+		]
+	},
+	"apihelp-cargoquery-description": "Изпълняване на заявка за данни от „Карго“.",
+	"apihelp-cargoquery-summary": "Изпълняване на заявка за данни от „Карго“.",
+	"apihelp-cargoquery-param-tables": "Таблиците от базата данни на „Карго“, в които ще се търси",
+	"apihelp-cargoquery-param-fields": "Полетата на таблицата за извличане",
+	"apihelp-cargoquery-param-where": "Условия за заявката, съответстващи на WHERE клаузата в SQL",
+	"apihelp-cargoquery-param-join_on": "Условия за обединяване на множество таблици, съответстващи на JOIN ON клаузата в SQL",
+	"apihelp-cargoquery-param-order_by": "Подредеността на резултата, съответстващ на ORDER BY клаузата в SQL",
+	"apihelp-cargoquery-param-group_by": "По кои полета да се групират резултатите, съответстващо на GROUP BY клаузата в SQL",
+	"apihelp-cargoquery-param-having": "Условия за групираните стойности, съответстващо на клаузата HAVING в SQL",
+	"apihelp-cargoquery-param-limit": "Ограничение на броя върнати резултати",
+	"apihelp-cargoquery-param-offset": "Отместване в заявката",
+	"apihelp-cargorecreatetables-description": "Пресъздава една или повече таблици за „Карго“",
+	"apihelp-cargorecreatetables-summary": "Пресъздава една или повече таблици за „Карго“",
+	"apihelp-cargorecreatetables-param-template": "Шаблонът, чиито декларирани таблици в „Карго“ трябва да бъдат пресъздадени",
+	"apihelp-cargorecreatedata-description": "Препопълва данните в таблица на „Карго“.",
+	"apihelp-cargorecreatedata-summary": "Препопълва данните в таблица на „Карго“.",
+	"apihelp-cargorecreatedata-param-template": "Шаблонът, чиито данни ще се използват",
+	"apihelp-cargorecreatedata-param-table": "Таблица в базата данни на „Карго“, която да бъде повторно попълнена.",
+	"apihelp-cargoautocomplete-param-limit": "Ограничение на броя върнати резултати",
+	"apihelp-cargoautocomplete-param-substr": "Търсене на подниз",
+	"apihelp-cargoautocomplete-param-table": "Карго-таблица, за която ще се търсят стойности",
+	"apihelp-cargoautocomplete-param-field": "Карго-поле, за което ще се търсят стойности",
+	"apihelp-cargoautocomplete-param-field_is_array": "Дали полето съдържа списък със стойности",
+	"apihelp-cargoautocomplete-param-where": "Клаузата „where“ на заявката, заедно с другите указани филтри"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"widgets-desc": "Stelt wikibeheerders in staat naar eigen inzicht widgets aan de wiki toe te voegen door het bewerken van pagina's in de naamruimte {{ns:widget}}.\nDoor de gemeenschap ontwikkelde widgets zijn te vinden op [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Fout in [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Widgetbewerkers",
+	"group-widgeteditor-member": "{{GENDER:$1|widgetbewerker}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widgetbewerkers",
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] aanmaken en bewerken in de naamruimte <tt>{{ns:widget}}</tt>"
+}

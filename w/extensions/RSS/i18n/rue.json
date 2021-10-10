@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"rss-desc": "Зобразує на вікісторінцї RSS канал",
+	"rss-error": "Не подарило ся начітати RSS канал з $1: $2",
+	"rss-empty": "Не подарило ся начітати RSS канал з $1!",
+	"rss-fetch-nourl": "Не быв становленый URL, котрый ся мать начітати!",
+	"rss-invalid-url": "Неправилне URL: $1",
+	"rss-parse-error": "Хыба парсованя XML про RSS",
+	"rss-ns-permission": "У тім просторї назв не є доволене RSS",
+	"rss-feed": "<!--  ниже суть дві можны шаблоны. Перша - основна шаблона про каналы -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- не хоснуйте ту переход на новый рядок --><!-- Другый - вылїпшена верзія, котра потребує росшырїня Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

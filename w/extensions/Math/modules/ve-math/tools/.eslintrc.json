@@ -1,0 +1,9 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/server"
+	],
+	"rules": {
+		"max-len": "off"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mdupont"
+		]
+	},
+	"widgets-desc": "Wiki jep mundësin administratorëve të shtoni pa-formë Widgets në wiki nga faqet redaktimi brenda {{ns:widget}} hapësira. Zhvilluar Fillimisht për [http://www.ardorado.com Ardorado.com]",
+	"widgets-error": "Gabim në [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "redaktorët widget",
+	"group-widgeteditor-member": "editor widget",
+	"grouppage-widgeteditor": "Projekti: redaktorët widget",
+	"right-editwidgets": "Krijo dhe ndrysho https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets [Widgets] në <tt>{{ns:widget}}</tt> namespace"
+}

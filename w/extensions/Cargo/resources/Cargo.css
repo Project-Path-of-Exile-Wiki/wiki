@@ -1,0 +1,165 @@
+span.cargoFieldName {
+	color: #777;
+}
+
+table.cargoTable {
+	border-collapse: collapse;
+}
+
+/**
+ * Handling of "zebra striping" in tables is different based on
+ * whether or not the "merge similar cells" parameter was set.
+ */
+table.cargoTable.noMerge tr:nth-child( odd ) {
+	background: #fff;
+}
+
+table.cargoTable.noMerge tr:nth-child( even ) {
+	background: #eee;
+}
+
+table.cargoTable.mergeSimilarCells td.odd {
+	background: #fff;
+}
+
+table.cargoTable.mergeSimilarCells td.even {
+	background: #eee;
+}
+
+table.cargoTable td {
+	vertical-align: top;
+	padding: 5px;
+	border: #ccc 1px solid;
+}
+
+span.searchresult {
+	font-size: 95%;
+}
+
+span.searchmatch {
+	font-weight: bold;
+}
+
+div.cargoReplacementTableInfo {
+	background: #ddd;
+	border: 1px solid #bbb;
+	padding: 6px;
+	margin-bottom: 10px;
+}
+
+table.cargoViewDataTable td {
+	padding-bottom: 7px;
+}
+
+table.cargoViewDataTable input {
+	padding: 0.4em;
+}
+
+.cargoQueryTooltipIcon {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	background-image: linear-gradient( transparent, transparent ), url( "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E%3Ctitle%3Einfo%3C/title%3E%3Cpath d=%22M9.5 16A6.61 6.61 0 0 1 3 9.5 6.61 6.61 0 0 1 9.5 3 6.61 6.61 0 0 1 16 9.5 6.63 6.63 0 0 1 9.5 16zm0-14A7.5 7.5 0 1 0 17 9.5 7.5 7.5 0 0 0 9.5 2zm.5 6v4.08h1V13H8.07v-.92H9V9H8V8zM9 6h1v1H9z%22/%3E%3C/svg%3E" );
+	border: none;
+	margin-right: 5px;
+}
+
+.addButton {
+	padding: 10px;
+	background-color: transparent;
+	background-image: url( images/add.png );
+	background-color: #f8f9fa;
+	border: 1px #a2a9b1 solid;
+	vertical-align: top;
+}
+
+.deleteButton {
+	padding: 10px;
+	background-color: transparent;
+	background-image: url( images/subtract.png );
+	background-color: #f8f9fa;
+	border: 1px #a2a9b1 solid;
+	vertical-align: top;
+}
+
+a.specialCargoQuery-extraPane-toggle {
+	margin-top: 7px;
+	width: 100%;
+	text-align: left !important;
+}
+
+div.specialCargoQuery-extraPane {
+	background: linear-gradient( rgba( 0, 0, 0, 0.1 ), #f8f9fa 0.5em );
+	border: solid 1px #a2a9b1;
+	border-top: 0;
+	padding: 10px;
+}
+
+/**
+ * Overwrite the styles inherited from jQuery UI's "Autocomplete"
+ * widget, to make the autocompletion dropdown look like that of
+ * standard MediaWiki.
+ */
+.ui-state-focus {
+	border: none !important;
+	background: #2a4b8d !important;
+	color: #fff !important;
+	margin: 0px !important;
+}
+
+.ui-menu .ui-menu-item a {
+	color: #000;
+	font-size: 13px;
+	padding: 0.01em 0.25em;
+	font-family: sans-serif;
+}
+
+.ui-corner-all {
+	border-radius: 0px;
+	padding: 0px;
+}
+
+/**
+ * @HACK - it would be better to get this accomplished using
+ * OOUI's CSS.
+ */
+input.cargo-drilldown-search {
+	height: auto;
+	width: 631px;
+	padding: 6px 28px 6px 37px;
+}
+
+/* Special:CargoTables */
+
+table.wikitable.cargo-tablelist th {
+	text-align: center;
+}
+
+table.cargo-tablelist.mw-datatable tr.cargo-tablelist-replacement-row:hover td,
+.cargo-tablelist-replacement-row > td {
+	background-color: rgba( 128, 128, 128, 0.5 );
+}
+
+.cargo-tablelist-template-declaring {
+	font-weight: bold;
+}
+
+.cargo-tablelist-numrows {
+	text-align: right;
+}
+
+.cargo-tablelist-actionbutton {
+	font-size: 80%;
+	text-align: center;
+}
+
+.cargo-tablelist .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+	border-color: black;
+}
+
+.cargo-tablelist-replacement-row .cargo-tablelist-tablename {
+	padding-left: 2em;
+}
+
+/* End Special:CargoTables */

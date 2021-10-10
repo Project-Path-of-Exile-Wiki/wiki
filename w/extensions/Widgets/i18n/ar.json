@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			";Hiba;1",
+			"DRIHEM",
+			"Meno25",
+			"MuratTheTurkish",
+			"OsamaK",
+			"ديفيد",
+			"زكريا"
+		]
+	},
+	"widgets-desc": "يتيح لإداريي الويكي إضافة ودجات حرة الشكل إلى الويكي عن طريق تعديل صفحات نطاق {{ns:widget}}.\nالودجات التي يساهم بها المجتمع توجد في [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "خطأ في [[{{ns:widget}}:$1|الودجة $1]]",
+	"group-widgeteditor": "محررو الودجات",
+	"group-widgeteditor-member": "{{GENDER:$1|محرر ودجات}}",
+	"grouppage-widgeteditor": "{{ns:project}}:محررو الودجات",
+	"action-editwidgets": "إنشاء وتحرير الودجات",
+	"right-editwidgets": "إنشاء وتحرير [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] في الــ <code>{{ns:widget}}</code> مكان الاسم",
+	"group-widgeteditor.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على محرري الودجات فقط */",
+	"group-widgeteditor.js": "/* الجافا سكريبت المعروضة هنا ستؤثر على محرري الودجات فقط */",
+	"widgets-config-useflaggedrevs": "اضبط هذا كtrue لاستخدام نسخة امتداد المراجعات المعلمة المستقرة لتأمين ودجت",
+	"widgets-config-compiledir": "ضبط مجلدا افتراضيا لتخزين القوالب الجاهزة"
+}

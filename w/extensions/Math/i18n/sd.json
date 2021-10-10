@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aursani",
+			"Indus Asia"
+		]
+	},
+	"math-visualeditor-mwchemdialog-title": "ڪيميائي فارمولو",
+	"math-visualeditor-mwcheminspector-title": "ڪيميائي فارمولو",
+	"math-visualeditor-mwmathdialog-title": "حسابن جو فارمولو",
+	"math-visualeditor-symbol-group-chem-aggregation": "گڏ ٿيڻ جا درجا",
+	"math-visualeditor-symbol-group-chem-arrows": "رد عمل ڏيکاريندڙ تيرَ",
+	"math-visualeditor-symbol-group-chem-brackets": "آڏيون ليڪون، ڏنگيون ۽ ڏنگين جا جوڙا",
+	"math-visualeditor-symbol-group-chem-equations": "ڪيميائي مساواتون",
+	"math-visualeditor-symbol-group-chem-formulae": "ڪيميائي فارمولا",
+	"math-visualeditor-symbol-group-chem-greek": "يوناني اکرَ",
+	"math-visualeditor-symbol-group-chem-isotopes": "ھم صورتون (آئسوٽوپس)",
+	"math-visualeditor-symbol-group-chem-oxidation": "عمل تڪسيد (آڪسيڊيشن) جون حالتون",
+	"math-visualeditor-symbol-group-chem-precipitate": "آلاڻ ۽ گئس"
+}

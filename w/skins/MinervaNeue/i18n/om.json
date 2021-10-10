@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hagos",
+			"Maammee"
+		]
+	},
+	"mobile-frontend-language-article-heading": "Afaan",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Anaa dhufu}}, $1!",
+	"mobile-frontend-placeholder": "{{SITENAME}} barbaadi"
+}

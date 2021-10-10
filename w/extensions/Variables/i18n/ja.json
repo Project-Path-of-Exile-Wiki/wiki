@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach"
+		]
+	},
+	"variables-desc": "記事をスコープとするコンテキストで動的変数を利用可能にするパーサー関数"
+}

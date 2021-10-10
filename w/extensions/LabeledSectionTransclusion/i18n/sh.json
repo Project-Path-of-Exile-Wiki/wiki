@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"lst-desc": "Dodaje <code>#lst</code> i <code>#lstx</code> funkcije i <code>&lt;section&gt;</code> oznake, što omogućava transkluziju označenog odlomka u tekstu"
+}

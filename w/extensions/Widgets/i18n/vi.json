@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Prenn"
+		]
+	},
+	"widgets-desc": "Cho phép các bảo quản viên wiki thêm tiện ích vào wiki bằng cách sửa đổi trang trong không gian tên {{ns:widget}}.\nCó thể lấy thêm tiện ích do cộng đồng đóng góp tại [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].",
+	"widgets-error": "Lỗi [[{{ns:widget}}:$1|tiện ích $1]]",
+	"group-widgeteditor": "Người sửa công cụ đa năng",
+	"group-widgeteditor-member": "người sửa công cụ đa năng",
+	"grouppage-widgeteditor": "{{ns:project}}:Người sửa công cụ đa năng",
+	"right-editwidgets": "Tạo và sửa [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets?uselang=vi tiện ích] trong không gian tên <tt>{{ns:widget}}</tt>",
+	"group-widgeteditor.css": "/* Mã CSS tại đây sẽ chỉ ảnh hưởng đến những người sửa công cụ đa năng */",
+	"group-widgeteditor.js": "/* Mã JS tại đây sẽ chỉ ảnh hưởng đến những người sửa công cụ đa năng */"
+}

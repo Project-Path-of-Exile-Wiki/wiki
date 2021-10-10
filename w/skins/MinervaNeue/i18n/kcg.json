@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kambai Akau"
+		]
+	},
+	"mobile-frontend-language-article-heading": "A̱lyem",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Foo ma̱ng bai hu}}, $1!",
+	"mobile-frontend-placeholder": "Zop {{SITENAME}}"
+}

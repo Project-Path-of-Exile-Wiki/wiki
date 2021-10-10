@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cimon Avaro",
+			"Crt",
+			"Nike",
+			"Pyscowicz"
+		]
+	},
+	"widgets-desc": "Mahdollistaa wikin ylläpitäjille vapaamuotoisten pienoisohjelmien lisäämisen sivua nimiavaruudessa {{ns:widget}} muokkaamalla.\nYhteisön tekemiä pienoisohjelmia löytyy osoitteesta [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].",
+	"widgets-error": "Virhe [[{{ns:widget}}:$1|pienoisohjelmassa $1]]",
+	"group-widgeteditor": "pienoisohjelmien muokkaajat",
+	"group-widgeteditor-member": "{{GENDER:$1|pienoisohjelman muokkaaja}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Pienoisohjelmien muokkaajat",
+	"action-editwidgets": "luoda ja muokata pienoisohjelmia",
+	"right-editwidgets": "Luoda ja muokata [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets pienoisohjelmia] nimiavaruudessa <tt>{{ns:widget}}</tt>"
+}

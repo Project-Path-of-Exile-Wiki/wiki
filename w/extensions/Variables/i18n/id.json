@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"variables-desc": "Fungsi parser yang memungkinkan memakai variabel dinamis di dalam konteks berskala artikel",
+	"variables-config-disabledfunctions": "Memungkinkan untuk mendefinisikan selarik fungsi yang seharusnya tidak tersedia di dalam wiki. Buang tanda # ketika menambahkan fungsi.\nSebagai contoh: $egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // untuk mematikan fungsi '#var_final' dan '#vardefineecho'",
+	"variables-config-arevolatile": "Memperlakukan fungsi parser #var dan #varexists sebagai volatil untuk menghindari perilaku tidak terduga yang disebabkan tembolok templat. Mematikan ini menyalakan kembali perilaku warisan."
+}

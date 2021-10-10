@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"GinawaSaHapon",
+			"Sky Harbor"
+		]
+	},
+	"skinname-vector": "Vector",
+	"vector.css": "/* Ang inilagay na CSS dito ay makakaapekto sa mga tagagamit ng pabalat na Vector */",
+	"vector.js": "/* Ang anumang JavaScript dito ay ikakarga para sa mga tagagamit na gumagamit ng pabalat na Vector */",
+	"vector-action-addsection": "Magdagdag ng paksa",
+	"vector-action-delete": "Burahin",
+	"vector-action-move": "Ilipat",
+	"vector-action-protect": "Protektahan",
+	"vector-action-undelete": "Alisin ang pagbubura",
+	"vector-action-unprotect": "Baguhin ang pagsasanggalang",
+	"vector-view-create": "Gawin",
+	"vector-view-edit": "I-edit",
+	"vector-view-history": "Tingnan ang kasaysayan",
+	"vector-view-view": "Basahin",
+	"vector-view-viewsource": "Tingnan ang pinagmulan",
+	"vector-more-actions": "Higit pa"
+}

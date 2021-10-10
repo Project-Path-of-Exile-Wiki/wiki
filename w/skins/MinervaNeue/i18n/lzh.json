@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Itsmine",
+			"LNDDYL",
+			"LaMagiaaa",
+			"Rowingbohe",
+			"SolidBlock",
+			"StephDC",
+			"Suchichi02",
+			"逆襲的天邪鬼"
+		]
+	},
+	"mobile-frontend-editor-edit": "纂",
+	"mobile-frontend-history": "編輯紀錄",
+	"mobile-frontend-home-button": "卷首",
+	"mobile-frontend-language-article-heading": "外文",
+	"mobile-frontend-logged-in-homepage-notification": "$1，歡迎蒞臨！",
+	"mobile-frontend-main-menu-button-tooltip": "啟主列",
+	"mobile-frontend-main-menu-login": "登簿",
+	"mobile-frontend-main-menu-logout": "出籍",
+	"mobile-frontend-main-menu-nearby": "近郊",
+	"mobile-frontend-main-menu-settings": "簿註",
+	"mobile-frontend-main-menu-watchlist": "哨站",
+	"mobile-frontend-pageaction-edit-tooltip": "纂頁首段",
+	"mobile-frontend-placeholder": "尋 {{SITENAME}}",
+	"mobile-frontend-random-button": "清風翻書",
+	"mobile-frontend-talk-back-to-page": "返「$1」。",
+	"mobile-frontend-user-page-talk": "議",
+	"minerva-page-actions-overflow": "餘",
+	"minerva-page-actions-history": "誌"
+}

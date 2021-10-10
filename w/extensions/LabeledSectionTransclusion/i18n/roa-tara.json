@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"lst-desc": "Aggiunge le funzione <code>#lst</code> e <code>#lstx</code> e 'u tag <code>&lt;section&gt;</code>, ca abilitesce le sezione marchete de teste pe essere escluse"
+}

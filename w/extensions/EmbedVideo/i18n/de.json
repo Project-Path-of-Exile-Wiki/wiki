@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lorem Ipsum",
+			"Messerjokke79"
+		]
+	},
+	"embedvideo-description": "Fügt eine Parserfunktion hinzu, mittels derer Videos populärer Dienste eingebettet werden können.",
+	"embedvideo-consent-text": "Klicken um Inhalt zu laden",
+	"embedvideo-error-missingparams": "EmbedVideo fehlt ein anzugebender Parameter.",
+	"embedvideo-error-service": "EmbedVideo erkennt den Videodienst „$1“ nicht.",
+	"embedvideo-error-id": "EmbedVideo erhielt die unbrauchbare ID „$2“ für „$1“.",
+	"embedvideo-error-width": "EmbedVideo erhielt den unbrauchbaren width-Parameter „$1“.",
+	"embedvideo-error-height": "EmbedVideo erhielt den unbrauchbaren height-Parameter „$1“.",
+	"embedvideo-error-alignment": "EmbedVideo erhielt den unbrauchbaren alignment-Parameter „$1“; <span style=\"color: DarkRed\">gültig sind „left“, „center“ und „right“</span>.",
+	"embedvideo-error-valignment": "EmbedVideo erhielt den unbrauchbaren valignment-Parameter „$1“; <span style=\"color: DarkRed\">gültig sind „top“, „middle“, „bottom“ und „baseline“</span>.",
+	"embedvideo-error-urlargs": "EmbedVideo erhielt eine Liste von URL-Argumenten, die unbrauchbare Daten oder leere Argumente aufwiesen.",
+	"embedvideo-error-unknown": "EmbedVideo stieß auf einen Fehler während das Video eingebettet werden sollte. ($1)",
+	"embedvideo-error-evp_deprecated": "Die Parserfunktion „#evp“ wurde in EmbedVideo 2.0 verworfen; alle Parserfunktionen-Tags sind in „#ev“ zu ändern.",
+	"embedvideo-error-container": "Der Wert für „container“ ist ungültig.",
+	"apihelp-embedvideo-param-description": "Beschreibung des Videos"
+}

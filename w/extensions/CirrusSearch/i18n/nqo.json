@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lancine.kounfantoh.fofana"
+		]
+	},
+	"cirrussearch-pref-label": "ߢߌߣߌ߲ߠߌ߲߫ ߞߎߘߊ",
+	"cirrussearch-give-feedback": "ߡߙߌߣߊ߲ ߘߏ߫ ߟߊߣߊ߬ ߊ߲ ߡߊ߬",
+	"cirrussearch-feature-not-available": "ߢߌߣߌ߲ߠߌ߲ ߞߎߡߊߘߋ߲߫ ߡߊߕߍ߰ߣߍ߲ '$1' ߡߊ߫ ߓߌ߬ߟߊ߬ ߥߞߌ ߣߌ߲߬ ߠߊ߫ ߡߎߣߎ߲߬.",
+	"cirrussearch-feature-deepcat-invalid-title": "ߦߌߟߡߊ߫ ߡߊߛߐߣߍ߲ ߓߍ߲߬ߣߍ߲߫ ߕߍ߫",
+	"cirrussearch-feature-pageid-invalid-id": "ߞߐߜߍ {{PLURAL:|ID $2|IDs}} ߓߍ߲߬ߓߊߟߌ ߟߎ߬: $1",
+	"cirrussearch-incategory-feature-no-valid-categories": "ߦߌߟߡߊ߫ ߓߍ߲߬ߣߍ߲ ߝߋ߲߫ ߡߊ߫ ߡߊߛߐ߫ '$1' ߘߐ߫.",
+	"cirrussearch-mlt-feature-no-valid-titles": "ߞߎ߲߬ߕߐ߮ ߓߍ߲߬ߣߍ߲ ߝߋ߲߫ ߡߊ߫ ߡߊߛߐ߫ '$1' ߘߐ߫.",
+	"cirrussearch-explore-similar-related": "ߜߋ߲߬ߞߘߎ߬ߢߐ߲߮",
+	"cirrussearch-explore-similar-categories": "ߞߎߡߘߊ ߟߎ߬",
+	"cirrussearch-explore-similar-languages": "ߞߊ߲ ߠߎ߬",
+	"cirrussearch-explore-similar-related-none": "ߞߐߜߍ߫ ߜߋ߲߬ߞߘߎ߬ߢߐ߲߰ߡߊ߬ ߕߍ߫ ߦߋ߲߬",
+	"cirrussearch-explore-similar-categories-none": "ߞߎߡߘߊ ߝߋ߲߫ ߕߍ߫ ߦߋ߲߬",
+	"cirrussearch-explore-similar-languages-none": "ߊ߬ ߕߍ߫ ߞߊ߲߫ ߜߘߍ ߟߎ߬ ߘߐ߫",
+	"cirrussearch-article-words": "ߞߎߡߊߘߋ߲ ߡߍ߲ ߦߋ߫ ߞߣߐߘߐ߫ ߞߐߜߍ ߟߎ߬ ߓߍ߯ ߘߐ߫"
+}

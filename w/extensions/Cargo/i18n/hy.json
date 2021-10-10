@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"cargo-cargotables-header-table": "Աղյուսակ",
+	"cargo-cargotables-header-templates": "Կաղապարներ",
+	"cargo-cargotables-action-deletereplacement": "Ջնջել",
+	"cargo-cargotables-action-delete": "Ջնջել",
+	"cargo-drilldown-allpages": "Բոլոր էջերը",
+	"cargo-drilldown-allfiles": "Բոլոր ֆայլեր",
+	"cargo-drilldown-or": "կամ",
+	"cargo-drilldown-mapformat": "Քարտեզ",
+	"cargo-drilldown-galleryformat": "Պատկերասրահ",
+	"cargo-drilldown-calendarformat": "Օրացույց"
+}

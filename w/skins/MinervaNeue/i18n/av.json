@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazimagomedov",
+			"Аль-Гимравий"
+		]
+	},
+	"mobile-frontend-editor-edit": "Хисизабизе",
+	"mobile-frontend-home-button": "Рукъ",
+	"mobile-frontend-language-article-heading": "Цоги мацӀалда цӀализе",
+	"mobile-frontend-main-menu-button-tooltip": "Аслияб меню рагьизе",
+	"mobile-frontend-main-menu-login": "Жаниве лъугьине",
+	"mobile-frontend-main-menu-nearby": "АскӀоса гӀебеде",
+	"mobile-frontend-main-menu-settings": "Рекъезабиял",
+	"mobile-frontend-main-menu-watchlist": "Халгьабиялъул сияхІ",
+	"mobile-frontend-placeholder": "{{grammar:prepositional|{{SITENAME}}}}-алда хъирщизе",
+	"mobile-frontend-random-button": "Цебе ккараб",
+	"mobile-frontend-user-page-talk": "Гьоркьоб лъей"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Purodha",
+			"Raymond",
+			"Shirayuki",
+			"Umherirrender",
+			"Yekrats"
+		]
+	},
+	"rss-desc": "{{desc|name=RSS|url=https://www.mediawiki.org/wiki/Extension:RSS}}",
+	"rss-tracking-category": "The name of a category for all pages which use the <code><nowiki><rss></nowiki></code> parser extension tag. The category is automatically added unless the feature is disabled.",
+	"rss-tracking-category-desc": "Description on [[Special:TrackingCategories]] for the {{msg-mw|rss-tracking-category}} tracking category.",
+	"rss-error": "Used as error message. Parameters:\n* $1 - URL of RSS feed\n* $2 - result which the RSS parser returned",
+	"rss-empty": "Used as error message. Parameters:\n* $1 - URL of RSS feed",
+	"rss-fetch-nourl": "Used as fatal error message when a URL has not been given.",
+	"rss-invalid-url": "Used as error message. Parameters:\n* $1 - the invalid URL for the RSS feed",
+	"rss-parse-error": "Used as fatal error message.\n\nMaybe followed by any one of the following messages (hard-coded):\n* No XML content\n* Not passed DOMDocument object.\n* No RSS/ATOM items found.",
+	"rss-ns-permission": "Used as error message if this namespace is not allowed (the variable <code>$wgRSSNamespaces</code>).",
+	"rss-url-is-not-whitelisted": "Used as error message. Parameters:\n* $1 - URL of RSS feed\n* $2 - list of allowed servers in the whitelist\n* $3 - number of allowed servers in the whitelist",
+	"rss-empty-whitelist": "Used as error message. Parameters:\n* $1 - URL of RSS feed",
+	"rss-deprecated-wgrssallowedfeeds-found": "{{doc-important|Do not translate <code>$wgRSSAllowedFeeds</code> and <code>$wgRSSUrlWhitelist</code>.}}",
+	"rss-item": "{{notranslate}}\nParameters:\n* $1 - feed template pagename",
+	"rss-feed": "{{optional}}\n; $1\n: ''not to be localised''\n: The RSS extension substitutes this placeholder with the name of a template page. The content of this template page determines the final layout of the RSS feed on the rendered wiki page. The Extension:RSS currently uses 'MediaWiki:Rss-feed' as default for $1. This means that the content of [[MediaWiki:Rss-feed]] determines how RSS feed items are rendered.\n: It allows users to let RSS feeds be rendered differently by using different (optional) 'template=<pagename>' parameters in the rss wiki tags.\n\n; title = {{{title}}} | link = {{{link}}} | ...\n: 'title' (left) is the variable name under which the content of an RSS feed field 'title' (right) is passed to the Template $1 where this is then used in the feed rendering.\n: This ''may'' be localised, but the content of the template $1 page (default [[MediaWiki:Rss-feed]] and potentially other RSS feed template pages on this wiki) needs then to be localised, too.\n: 'title' (right) is a name (property) of RSS feeds and is certainly not to be localised in any way.\n: ''I suggest not to localise anything.''"
+}

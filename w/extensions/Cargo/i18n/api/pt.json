@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-cargoquery-description": "Executa uma consulta nos dados Cargo.",
+	"apihelp-cargoquery-summary": "Executa uma consulta nos dados Cargo.",
+	"apihelp-cargoquery-param-tables": "A base de dados ou a tabela Cargo a consultar",
+	"apihelp-cargoquery-param-fields": "O campo, ou campos, a obter",
+	"apihelp-cargoquery-param-where": "As condições para a consulta, correspondentes a uma cláusula WHERE de SQL",
+	"apihelp-cargoquery-param-join_on": "Condições para fazer o <i>join</i> de várias tabelas, correspondentes a uma cláusula JOIN ON de SQL",
+	"apihelp-cargoquery-param-order_by": "A ordem dos resultados, correspondente a uma cláusula ORDER BY de SQL",
+	"apihelp-cargoquery-param-group_by": "Campo, ou campos, de agrupamento dos resultados, correspondente a uma cláusula GROUP BY de SQL",
+	"apihelp-cargoquery-param-having": "Condições para os valores agrupados, correspondentes a uma cláusula HAVING de SQL",
+	"apihelp-cargoquery-param-limit": "Um limite para o número de resultados devolvidos",
+	"apihelp-cargoquery-param-offset": "A posição dentro da consulta",
+	"apihelp-cargorecreatetables-description": "Recria uma ou mais tabelas Cargo.",
+	"apihelp-cargorecreatetables-summary": "Recria uma ou mais tabelas Cargo.",
+	"apihelp-cargorecreatetables-param-template": "A predefinição cujas tabelas Cargo declaradas devem ser recriadas",
+	"apihelp-cargorecreatetables-param-createReplacement": "Se os dados devem ser colocados numa tabela de substituição",
+	"apihelp-cargorecreatedata-description": "Volta a popular os dados numa tabela Cargo.",
+	"apihelp-cargorecreatedata-summary": "Volta a popular os dados numa tabela Cargo.",
+	"apihelp-cargorecreatedata-param-template": "A predefinição cujos dados serão utilizados",
+	"apihelp-cargorecreatedata-param-table": "A tabela da base de dados Cargo para voltar a ser populada",
+	"apihelp-cargorecreatedata-param-offset": "De entre as páginas que chamam esta predefinição, o número daquela onde começar a consulta",
+	"apihelp-cargorecreatedata-param-replaceOldRows": "Substituir, ou não, as linhas antigas de cada página ao voltar a popular a tabela",
+	"apihelp-cargoautocomplete-description": "Chamada de preenchimento automático usada pela extensão Cargo.",
+	"apihelp-cargoautocomplete-summary": "Chamada de preenchimento automático usada pela extensão Cargo.",
+	"apihelp-cargoautocomplete-param-limit": "Um limite para o número de resultados devolvidos",
+	"apihelp-cargoautocomplete-param-substr": "Pesquisar o subtexto",
+	"apihelp-cargoautocomplete-param-table": "Tabela Cargo para a qual pesquisar valores",
+	"apihelp-cargoautocomplete-param-field": "Tabela Cargo para a qual pesquisar valores",
+	"apihelp-cargoautocomplete-param-field_is_array": "Se o campo contém uma lista de valores",
+	"apihelp-cargoautocomplete-param-where": "A cláusula \"where\" para a consulta, baseada nos outros filtros especificados"
+}

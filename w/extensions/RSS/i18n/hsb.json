@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"rss-desc": "Zwobraznja RSS-kanal na wikistronje",
+	"rss-tracking-category": "Strony z RSS-kanalemi",
+	"rss-tracking-category-desc": "Strona ma RSS-kanal.",
+	"rss-error": "Začitowanje RSS-kanala z $1 je so njeporadźiło: $2",
+	"rss-empty": "Začitowanje RSS-kanala z $1 je so njeporadźiło!",
+	"rss-fetch-nourl": "Wotwołanje bjez URL!",
+	"rss-invalid-url": "Njepłaćiwy URL: $1",
+	"rss-parse-error": "Zmylk při parsowanju XML za RSS",
+	"rss-ns-permission": "RSS njeje dowoleny w tutym mjenowym rumje",
+	"rss-url-is-not-whitelisted": "\"$1\" njeje w lisćinje dowolenych kanalow. {{PLURAL:$3|$2 je jenički dowoleny kanal|Slědowacej kanalej stej móžno: $2|Slědowace kanale su móžno: $2|Slědowace kanale su móžno: $2}}.",
+	"rss-empty-whitelist": "\"$1\" njeje w lisćinje dowolenych kanalow. W lisćinje žane URL dowolenych kanalow njejsu.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Zestarjena wariabla <var>$wgRSSAllowedFeeds</var> je so wotkryła. Wot RSS-wersije 2.0 dyrbi so tuta wariabla přez <var>$wgRSSUrlWhitelist</var> wuměnić, kaž n stronje pomocy [https://www.mediawiki.org/wiki/Extension:RSS Extension:RSS] wopisane."
+}

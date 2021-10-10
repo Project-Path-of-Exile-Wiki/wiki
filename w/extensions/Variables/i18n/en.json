@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Werner",
+			"MGChecker"
+		]
+	},
+	"variables-desc": "Parser functions allowing to work with dynamic variables in an article scoped context",
+	"variables-config-disabledfunctions": "Allows to define an array of functions which should not be available within the wiki. Omit any # while adding functions.\nFor example: $egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // to disable '#var_final' and '#vardefineecho' functions",
+	"variables-config-arevolatile": "Treats the #var and #varexists parser functions as volatile to prevent unexpected behavior due to template caching. Disabling this reinstates the legacy behavior."
+}

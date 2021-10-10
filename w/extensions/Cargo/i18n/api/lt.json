@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"apihelp-cargoquery-param-fields": "Kuri(-uos) lentelės laukelį(-ius) gauti",
+	"apihelp-cargoquery-param-limit": "Gražinamų rezultatų skaičiaus limitas",
+	"apihelp-cargorecreatedata-param-template": "Šablonas, kurio duomenis naudoti"
+}

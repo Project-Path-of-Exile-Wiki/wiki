@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachitrali"
+		]
+	},
+	"mobile-frontend-editor-edit": "ترمیم",
+	"mobile-frontend-home-button": "سرورق",
+	"mobile-frontend-language-article-heading": "خور زبانا مطالعہ کورے",
+	"mobile-frontend-main-menu-button-tooltip": "آولانو صفحو کھولاو کورے",
+	"mobile-frontend-main-menu-login": "داخل بوس",
+	"mobile-frontend-main-menu-nearby": "قریبی",
+	"mobile-frontend-main-menu-settings": "سیٹنگ",
+	"mobile-frontend-main-menu-watchlist": "مہ زیرنظرفہرست",
+	"mobile-frontend-pageaction-edit-tooltip": "ھیہ صفحو قیادی پٹیا ترمیم کورے",
+	"mobile-frontend-placeholder": "تلاش {{SITENAME}}",
+	"mobile-frontend-random-button": "بےترتیب"
+}

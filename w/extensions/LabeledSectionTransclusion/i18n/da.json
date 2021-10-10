@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Peter Alberti"
+		]
+	},
+	"lst-desc": "Tilføjer funktionerne <code>#lst</code> og <code>#lstx</code> og tagget <code>&lt;section&gt;</code>, som gør det muligt at transkludere udvalgte afsnit"
+}

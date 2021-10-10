@@ -1,0 +1,70 @@
+<div id="mw-mf-viewport">
+	<div id="mw-mf-page-center">
+		<a class="mw-mf-page-center__mask" href="#"></a>
+		<header class="header-container header-chrome">
+			<form class="header" action="{{wgScript}}" method="get">
+				<nav class="navigation-drawer toggle-list view-border-box">
+					<input type="checkbox" id="main-menu-input" class="toggle-list__checkbox" role="button" aria-labelledby="mw-mf-main-menu-button">
+					<label for="main-menu-input" id="mw-mf-main-menu-button"
+						class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-menu-base20 mw-ui-icon-flush-left toggle-list__toggle"
+						title="{{main-menu-tooltip}}" data-event-name="ui.mainmenu">{{main-menu-tooltip}}</label>
+					{{#data-main-menu}}{{>menu}}{{/data-main-menu}}
+					<label class="main-menu-mask" for="main-menu-input"></label>
+				</nav>
+				<div class="branding-box">
+					<a href="{{mainPageURL}}">
+						<span>{{>Logo}}</span>
+						{{#isBeta}}<sup>&beta;</sup>{{/isBeta}}
+					</a>
+				</div>
+				<div class="search-box">
+					<input type="hidden" name="title" value="{{searchPageTitle}}"/>
+					<input class="search mw-ui-background-icon-search skin-minerva-search-trigger" type="search" name="search" id="searchInput"
+						autocomplete="off" placeholder="{{placeholder}}" aria-label="{{placeholder}}"
+						value="{{search}}">
+				</div>
+				<nav class="minerva-user-navigation" aria-label="{{userNavigationLabel}}">
+					<div>{{{searchButton}}}</div>
+					{{^isAnon}}
+							<div class="minerva-user-notifications" id="pt-notifications-alert">
+								{{{userNotificationsHTML}}}
+							</div>
+					{{/isAnon}}
+					{{#userMenuHTML}}{{{userMenuHTML}}}{{/userMenuHTML}}
+				</nav>
+			</form>
+		</header>
+		<main id="content" class="mw-body">
+			<div class="banner-container">
+			{{>banners}}
+			</div>
+			{{#hasheadingholder}}
+			{{{prebodyhtml}}}
+			<div class="pre-content heading-holder">
+				<div class="page-heading">
+					{{{headinghtml}}}
+					{{{taglinehtml}}}
+				</div>
+				{{#tabs}}
+					<div class="minerva__tab-container">
+						{{#items}}
+							<a href="{{href}}" rel="{{rel}}" class="minerva__tab {{class}}" data-event-name="tabs.{{context}}">{{text}}</a>
+						{{/items}}
+					</div>
+				{{/tabs}}
+				{{{pageactionshtml}}}
+				{{{postheadinghtml}}}
+				{{{internalBanner}}}
+				<div class="minerva__subtitle">{{{subtitle}}}</div>
+			</div>
+			{{/hasheadingholder}}
+			{{{contenthtml}}}
+			<div class="post-content" id="page-secondary-actions">
+			{{{secondaryactionshtml}}}
+			</div>
+		</main>
+		{{>footer}}
+	</div>
+</div>
+<div class="mw-notification-area" data-mw="interface"></div>
+<!-- v:8.3.1 -->

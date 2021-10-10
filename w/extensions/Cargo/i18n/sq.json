@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjakupi",
+			"Eraldkerciku"
+		]
+	},
+	"cargo-switchtables-success": "Zëvendësimi për tabelën \"$1\" u aktivizua.",
+	"cargo-drilldown-mapformat": "Harta",
+	"cargo-drilldown-timelineformat": "Nje pershkrim i ngjarrjeve ne menyre kronologjike",
+	"cargo-drilldown-galleryformat": "Galeri"
+}

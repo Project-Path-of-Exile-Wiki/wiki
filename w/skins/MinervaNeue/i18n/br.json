@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Pymouss",
+			"Y-M D"
+		]
+	},
+	"mobile-frontend-editor-edit": "Aozañ",
+	"mobile-frontend-home-button": "Degemer",
+	"mobile-frontend-language-article-heading": "Lenn en ur yezh all",
+	"mobile-frontend-logged-in-homepage-notification": "Degemer mat, $1 !",
+	"mobile-frontend-main-menu-button-tooltip": "Digeriñ al lañser pennañ",
+	"mobile-frontend-main-menu-login": "Kevreañ",
+	"mobile-frontend-main-menu-logout": "Digevreañ",
+	"mobile-frontend-main-menu-nearby": "Nepell",
+	"mobile-frontend-main-menu-settings": "Arventennoù",
+	"mobile-frontend-main-menu-watchlist": "Roll evezhiañ",
+	"mobile-frontend-meta-data-issues": "Kudennoù zo gant ar bajenn-mañ",
+	"mobile-frontend-meta-data-issues-header": "Kudennoù",
+	"mobile-frontend-meta-data-issues-header-talk": "Diwar-benn ar bajenn-mañ",
+	"mobile-frontend-meta-data-issues-talk": "Diwar-benn ar bajenn kaozeal-mañ",
+	"mobile-frontend-pageaction-edit-tooltip": "Kemmañ rann dibenn ar bajenn-man.",
+	"mobile-frontend-placeholder": "Klask e {{SITENAME}}",
+	"mobile-frontend-random-button": "Dargouezhek",
+	"mobile-frontend-talk-back-to-page": "Distreiñ d'ar bajenn \"$1\".",
+	"mobile-frontend-user-button-tooltip": "Diskouez ma c'hemennoù",
+	"mobile-frontend-user-newmessages": "Kemennadennoù nevez hoc'h eus war ho pajenn gaozeal"
+}

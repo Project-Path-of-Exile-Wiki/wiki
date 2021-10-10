@@ -1,0 +1,15 @@
+@import '../../minerva.less/minerva.variables.less';
+
+body.navigation-full-screen {
+	background-color: @primaryNavBackgroundColor;
+
+	// stylelint-disable-next-line selector-max-id
+	#mw-mf-page-left {
+		// !important needed to override media query rules set in mainmenu.less
+		width: 100% !important;
+		opacity: 1;
+		right: 0 !important;
+		display: block !important;
+		visibility: visible !important;
+	}
+}

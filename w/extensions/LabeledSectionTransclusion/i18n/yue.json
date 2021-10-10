@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shinjiman"
+		]
+	},
+	"lst-desc": "加 <code>#lst</code> 同埋 <code>#lstx</code> 功能同埋 <code>&lt;section&gt;</code> 標籤，可以用來將已經標示咗嘅小節包含出來"
+}

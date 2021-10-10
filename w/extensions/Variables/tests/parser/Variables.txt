@@ -1,0 +1,175 @@
+!! Version 2
+
+# @todo expand
+!! functionhooks
+var
+!! endfunctionhooks
+
+!! test
+#vardefine, #vardefineecho and #var
+!! wikitext
+{{#vardefine: a | Test }}
+"{{#var: a }}"
+"{{#vardefineecho: a | Test 2 }}, {{#var: a }}"
+!! html
+<p>"Test"
+"Test 2, Test 2"
+</p>
+!! end
+
+!! test
+#varexists
+!! wikitext
+{{#varexists: a }}{{#vardefine: a }}
+"{{#varexists: a }}"
+!! html
+<p>"1"
+</p>
+!! end
+
+!! test
+#var_final
+!! wikitext
+"{{#var_final: a }}"
+{{#vardefine: a | something }}"{{#var: a }}"
+{{#vardefine: a | final }}"{{#var_final: a }}"
+!! html
+<p>"final"
+"something"
+"final"
+</p>
+!! end
+
+!! test
+#varexists incorporating #if functionality
+!! wikitext
+{{#vardefine: a }}"{{#varexists: a | yes | no }}"
+"{{#varexists: b | yes | no }}"
+!! html
+<p>"yes"
+"no"
+</p>
+!! end
+
+!! test
+Variables should not be reset on special page inclusion (old bug, solved in Variables 2.0)
+!! wikitext
+{{#vardefine: a | 1 }}{{#vardefine: | {{Special:AllPages}} }}
+"{{#var: a }}"
+!! html
+<p>"1"
+</p>
+!! end
+
+!! test
+Default values for #var
+!! wikitext
+"{{#var: a | 1 }}"
+{{#vardefine: a | 0 }}"{{#var: a | 1 }}"
+!! html
+<p>"1"
+"0"
+</p>
+!! end
+
+!! test
+The default value of #var should not be expanded if it does not apply.
+!! wikitext
+{{#vardefine: a | 1 }}"{{#var: a | {{#vardefineecho: b | 2 }} }}"
+"{{#var: b | 3 }}"
+!! html
+<p>"1"
+"3"
+</p>
+!! end
+
+!! test
+The else value of #varexists should not be expanded if the if value applies.
+!! wikitext
+{{#vardefine: a | w }}"{{#varexists: a | x | {{#vardefineecho: b | y }} }}"
+"{{#var: b | z }}"
+!! html
+<p>"x"
+"z"
+</p>
+!! end
+
+!! test
+The if value of #varexists should not be expanded if the else value applies.
+!! wikitext
+"{{#varexists: a | {{#vardefineecho: b | x }} | y }}"
+"{{#var: b | z }}"
+!! html
+<p>"y"
+"z"
+</p>
+!! end
+
+!! test
+Empty string is a valid variable name as well.
+!! wikitext
+"{{#var_final: }}"
+{{#vardefine: | 1 }}"{{#var: }}"
+!! html
+<p>"1"
+"1"
+</p>
+!! end
+
+!! test
+Integers are valid variable names, but even though their actually strings,
+they are cast to int when used as array keys.
+!! wikitext
+"{{#var_final: 1 }}"
+{{#vardefine: 1 | x }}"{{#var: 1 }}"
+!! html
+<p>"x"
+"x"
+</p>
+!! end
+
+!! article
+Template:EchoVarA
+!! text
+{{#var: a }}
+!! endarticle
+
+!! article
+Template:IssetA
+!! text
+{{#varexists: a }}
+!! endarticle
+
+!! test
+By default, there shouldn't be any template caching if Variables are used.
+!! config
+egVariablesAreVolatile=true
+!! wikitext
+"{{IssetA}}"
+{{#vardefine: a | x }}"{{EchoVarA}}"
+"{{IssetA}}"
+{{#vardefine: a | y }}"{{EchoVarA}}"
+!! html
+<p>""
+"x"
+"1"
+"y"
+</p>
+!! end
+
+!! test
+However, it's possible to activate the legacy behavior to activate template caching.
+!! config
+egVariablesAreVolatile=false
+!! wikitext
+"{{IssetA}}"
+{{#vardefine: a | x }}"{{EchoVarA}}"
+"{{IssetA}}"
+{{#vardefine: a | y }}"{{EchoVarA}}"
+!! html
+<p>""
+"x"
+""
+"x"
+</p>
+!! end

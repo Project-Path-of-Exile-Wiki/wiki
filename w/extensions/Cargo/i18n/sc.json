@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Placebo2"
+		]
+	},
+	"cargo-cargotables-header-table": "Tabella",
+	"cargo-cargotables-header-rowcount": "Riga",
+	"cargo-cargotables-action-deletereplacement": "Iscantzella",
+	"cargo-cargotables-action-delete": "Iscantzella",
+	"cargo-cargotables-action-recreate": "Torrat a creare",
+	"cargo-cargotables-replacementlink": "Tabella de rimpiatzu"
+}

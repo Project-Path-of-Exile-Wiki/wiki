@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saruman"
+		]
+	},
+	"variables-desc": "Parserfuncties die het mogelijk maken om met dynamische variabelen te werken in een paginacontext"
+}

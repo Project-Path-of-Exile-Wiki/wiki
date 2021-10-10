@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"widgets-desc": "Omogućuje wiki administratorima da dodaju dodatke u slobodnoj formi na wiki putem uređivanja stranica unutar imenskog prostora {{ns:widget}}.\nPrvobitno razvijeni dodaci se mogu naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].",
+	"widgets-error": "Greška u [[{{ns:widget}}:$1|widgetu $1]]",
+	"group-widgeteditor": "Urednici dodataka",
+	"group-widgeteditor-member": "{{GENDER:$1|urednik dodataka|urednica dodataka}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Urednici dodataka",
+	"right-editwidgets": "Pravljenje i uređivanje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgeta] u imenskom prostoru <tt>{{ns:widget}}</tt>"
+}

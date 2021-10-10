@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"variables-desc": "Le funziune analizzatrice permettene de fatià cu le variabbile dinameche jndr'à 'na vôsce jndr'à 'nu condeste",
+	"variables-config-disabledfunctions": "Permette de definì 'na matrice de funziune ca non g'avessa esseere disponibbile jndr'à uicchi. No sce penzanne a le # mendre ca ste mitte le funziune.\nPe esembie: $egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // pe desabbilita' le funziune '#var_final' e '#vardefineecho'",
+	"variables-config-arevolatile": "Tratte le funziune analizzatrice #var e #varexists cumme volatile pe prevenì combortaminde inaspettate pe colpe d'u modelle de cache. Disabilitanne stu fatte, recareche 'u vecchie combortamende."
+}

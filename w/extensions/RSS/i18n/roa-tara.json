@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"rss-desc": "Fà vedè 'nu feed RSS sus a 'na pàgene de uicchi",
+	"rss-tracking-category": "Pàggene cu le feed RSS",
+	"rss-tracking-category-desc": "Sta pàgene tène 'nu feed RSS.",
+	"rss-error": "Carecamende d'u feed RSS fallite da $1: $2",
+	"rss-empty": "Carecamende d'u feed RSS fallite da $1!",
+	"rss-fetch-nourl": "Esecuzione chiamate senza URL!",
+	"rss-invalid-url": "Non g'è 'na URL valide: $1",
+	"rss-parse-error": "Errore analizzanne l'XML pu RSS",
+	"rss-ns-permission": "Le RSS non ge sonde permesse jndr'à stu namespace",
+	"rss-url-is-not-whitelisted": "\"$1\" non ge stè jndr'à l'elenghe de le feed permesse. {{PLURAL:$3|$2 jè l'uneche feed consendite|Le feed consendite sonde le seguende: $2}}.",
+	"rss-empty-whitelist": "\"$1\" non ge stè jndr'à l'elenghe de le feed consendite. Non ge stonne feed consendite jndr'à l'elenghe.",
+	"rss-deprecated-wgrssallowedfeeds-found": "'A variabbile deprecate <var>$wgRSSAllowedFeeds</var> ha state acchiate. Da 'a versione 2.0 de l'RSS sta variabbile ha state sostituite cu <var>$wgRSSUrlWhitelist</var> cumme descritte jndr'à 'a pàgene d'u manuale [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  le seguende sonde doje template alternative. 'U prime jè 'nu template de base pe le feed -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- no scè ausanne 'na linea nove aqquà --><!-- 'U seconde jè 'na versione migliorate ca vole le Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

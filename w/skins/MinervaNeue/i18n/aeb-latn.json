@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csisc"
+		]
+	},
+	"mobile-frontend-editor-edit": "Beddil",
+	"mobile-frontend-home-button": "Il-pāj il-ewelēniye",
+	"mobile-frontend-language-article-heading": "Aqrē fi- lūğa uxrā",
+	"mobile-frontend-main-menu-login": "Udxul",
+	"mobile-frontend-main-menu-nearby": "Taqrīben",
+	"mobile-frontend-main-menu-settings": "Il-paramētir",
+	"mobile-frontend-main-menu-watchlist": "Il-līste mtēģ il-ģesse",
+	"mobile-frontend-pageaction-edit-tooltip": "Beddil fiţ-ţarf mtēģ il-muqeddme mtēģ il-pāj hēđi.",
+	"mobile-frontend-placeholder": "Lawwij fî {{SITENAME}}",
+	"mobile-frontend-random-button": "B- iz-zhar"
+}

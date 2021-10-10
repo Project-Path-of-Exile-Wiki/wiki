@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Peter Alberti"
+		]
+	},
+	"rss-invalid-url": "Ikke en gyldig URL: $1",
+	"rss-ns-permission": "RSS er ikke tilladt i dette navnerum"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Event",
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"rss-desc": "Viser en RSS-mating på en wikiside",
+	"rss-tracking-category": "Sider med RSS-mating",
+	"rss-tracking-category-desc": "Denne siden har en RSS-mating.",
+	"rss-error": "Kunne ikke laste RSS-mating fra $1: $2",
+	"rss-empty": "Kunne ikke laste RSS-mating fra $1.",
+	"rss-fetch-nourl": "Henting kallet uten en URL!",
+	"rss-invalid-url": "Ikke en gyldig URL: $1",
+	"rss-parse-error": "Feil ved XML-tolkning for RSS",
+	"rss-ns-permission": "RSS er ikke tillatt i dette navnerommet.",
+	"rss-url-is-not-whitelisted": "\"$1\" er ikke i hvitelisten for tillatte matinger. {{PLURAL:$3|$2 er eneste tillatte mating|De tillatte matingene er som følger: $2}}.",
+	"rss-empty-whitelist": "\"$1\" er ikke i hvitelisten av tillatte matinger. Det finnes ingen tillatte matings-URL-er i hvitelisten.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Den foreldede variabelen <var>$wgRSSAllowedFeeds</var> har blitt oppdaget. Fra og med RSS versjon 2.0 må denne variabelen erstattes av <var>$wgRSSUrlWhitelist</var> som beskrevet på manualsiden [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  Under finner du to alternative maler. Den første er den grunnleggende standardmalen for matinger -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- ikke bruk linjeskift her --><!-- Den andre er en forbedret versjon som krever Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

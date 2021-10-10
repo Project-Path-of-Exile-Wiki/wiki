@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"widgets-desc": "Dowólujo wikijowym administratoram wikijeju pśez wobźěłowanje w mjenjowem rumje {{ns:widget}} swójske miniprogramy pśidaś.\nMiniprogramy, kótarež su se napórali wót zromaźeństwa, móžoš na  [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] namakaś.",
+	"widgets-error": "Zmólka w [[{{ns:widget}}:$1|miniprogramje $1]]",
+	"group-widgeteditor": "Wobźěłowarje miniprogramow",
+	"group-widgeteditor-member": "{{GENDER:$1|Wobźěłaŕ miniprogramow|Wobźěłarka miniprogramow}}",
+	"grouppage-widgeteditor": "{{ns:project}}: Wobźěłowarje miniprogramow",
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Woknowe elementy] w mjenjowem rumje <tt>{{ns:widget}}</tt> napóraś a wobźěłaś"
+}

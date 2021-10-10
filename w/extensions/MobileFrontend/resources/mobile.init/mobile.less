@@ -1,0 +1,33 @@
+@import 'panel';
+@import 'mediawiki.ui/variables';
+
+.mf-font-size-small {
+	.mw-body p,
+	.content p {
+		font-size: 90%;
+	}
+}
+
+.mf-font-size-large {
+	.mw-body p,
+	.content p {
+		font-size: 120%;
+	}
+}
+
+.mf-font-size-x-large {
+	.content p,
+	.mw-body p {
+		font-size: 140%;
+	}
+}
+
+// Tap to click pattern
+.lazy-image-placeholder--tap:before {
+	content: '@{msg-mobile-frontend-tap-to-display-image}';
+	color: @colorGray7;
+	text-align: center;
+	font-size: 0.75em;
+	display: block;
+	padding-top: 20px;
+}

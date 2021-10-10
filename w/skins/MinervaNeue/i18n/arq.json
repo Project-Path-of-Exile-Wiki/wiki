@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda",
+			"GeekEmad"
+		]
+	},
+	"mobile-frontend-editor-edit": "بدّل",
+	"mobile-frontend-home-button": "اللوله",
+	"mobile-frontend-language-article-heading": "اقرا بلوغه وحدخره",
+	"mobile-frontend-main-menu-button-tooltip": "حل القايمه اللوله",
+	"mobile-frontend-main-menu-login": "كونيكتي",
+	"mobile-frontend-main-menu-nearby": "قريب منهنا",
+	"mobile-frontend-main-menu-settings": "إعدادات",
+	"mobile-frontend-main-menu-watchlist": "ليستة تاع المتابعة",
+	"mobile-frontend-pageaction-edit-tooltip": "اكتب طرف المقدمه في هاد الباجه.",
+	"mobile-frontend-placeholder": "حوس في {{SITENAME}}",
+	"mobile-frontend-random-button": "زهراني"
+}

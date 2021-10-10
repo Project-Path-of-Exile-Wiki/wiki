@@ -1,0 +1,142 @@
+@import '../../mobile.less/mobile.variables.less';
+@import 'mediawiki.mixins.less';
+
+.editor-overlay {
+	.box-sizing( border-box );
+
+	// Main editor and edit summary
+	textarea {
+		padding: 0.5em;
+	}
+
+	.overlay-content {
+		max-width: none;
+	}
+
+	&.switching {
+		.overlay-content {
+			opacity: 0.5;
+		}
+	}
+
+	.overlay-header-container {
+		box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.1 );
+	}
+
+	.overlay-header {
+		// The border will only be visible on screens >1000px due to max-width set elsewhere.
+		outline: 1px solid #c8ccd1;
+
+		.header-cancel {
+			padding: 0;
+		}
+
+		.mw-ui-button,
+		.mw-ui-icon {
+			border: 0;
+			border-radius: 0;
+		}
+
+		.mw-ui-icon {
+			padding: 0.875em;
+		}
+
+		.continue {
+			width: auto;
+		}
+
+		.oo-ui-toolbar-bar,
+		.oo-ui-toolbar-popups {
+			border-collapse: separate;
+		}
+
+		.oo-ui-toolbar-bar {
+			border: 0;
+			box-shadow: none;
+		}
+	}
+
+	.anonwarning {
+		margin-top: 16px;
+
+		.anonmsg {
+			margin-bottom: 19px;
+		}
+
+		.mw-ui-button {
+			margin-bottom: 15px;
+		}
+
+		> p {
+			text-align: center;
+			font-style: italic;
+			font-size: 0.875em;
+		}
+	}
+
+	&-ve .anonwarning {
+		padding-top: 3em;
+	}
+
+	.preview {
+		display: none;
+
+		// Hide section heading indicators as they are non-functional in the preview.
+		&.content .section-heading {
+			width: 100%;
+
+			.indicator {
+				display: none;
+			}
+		}
+	}
+
+	.wikitext-editor {
+		.box-sizing( border-box );
+		font-size: inherit;
+		padding: 0;
+		padding-top: 1em;
+
+		&:focus {
+			outline: 0;
+		}
+	}
+
+	.summary-request {
+		font-size: 1.4em;
+		font-weight: bold;
+		margin: 0.5em 0;
+		color: @grayMediumDark;
+	}
+
+	.buttonBar {
+		.message {
+			color: @color-base--subtle;
+			margin: 0 0 0.7em;
+			padding: 0 0 0.3em;
+			border-bottom: 1px solid @colorGray12;
+
+			p {
+				display: inline-block;
+				text-align: center;
+				padding-top: 0;
+			}
+		}
+	}
+
+	// Adjust OOUI icon size for VE toolbar and WTE editor switcher mini-toolbar
+	.ve-init-mw-mobileArticleTarget-toolbar,
+	.editor-switcher {
+		.oo-ui-iconElement-icon {
+			background-size: 20px 20px;
+		}
+	}
+
+	.editor-switcher {
+		border-left: 1px solid @colorGray12;
+
+		.oo-ui-toolGroup:last-child {
+			border-right: 0;
+		}
+	}
+}

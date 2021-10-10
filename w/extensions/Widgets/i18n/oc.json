@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"widgets-desc": "Permet als administrators del wiki d'apondre de ''widgets'' (gadgets logicials) al wiki en modificant de paginas dins l'espaci de noms {{ns:widget}}. Los ''widgets'' prepausats per la comunautat son disponibles sus [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Error dins lo [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Modificators de widgets",
+	"group-widgeteditor-member": "{{GENDER:$1|Modificator de widget}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Modificators de widgets",
+	"right-editwidgets": "Crear e modificar las [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] dins l'espaci de noms « {{ns:widget}} »"
+}

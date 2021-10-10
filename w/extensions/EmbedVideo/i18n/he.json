@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nimrod Rak"
+		]
+	},
+	"embedvideo-description": "הגרסה ה-forked הזו מוסיפה פונקציית מעבד להטמעת סרטונים ממקורות פופולריים.",
+	"embedvideo-error-missingparams": "ל-EmbedVideo חסר פרמטר חובה.",
+	"embedvideo-error-service": "EmbedVideo לא מזהה את שירות הסרטונים \"$1\".",
+	"embedvideo-error-id": "EmbedVideo קיבל id רע \"$2\" עבור השרות \"$1\".",
+	"embedvideo-error-alignment": "EmbedVideo קיבל ערך לא חוקי עבור הפרמטר alignment \"$1\". הערכים החוקיים הם \"left\", \"center\", \"right\" או \"inline\".",
+	"embedvideo-error-valignment": "EmbedVideo קיבל ערך לא חוקי עבור הפרמטר valignment \"$1\". הערכים החוקיים הם \"top\", \"middle\", \"bottom\" או \"baseline\".",
+	"embedvideo-error-urlargs": "EmbedVideo קיבל רשימה של ארגומנטי URL שהכילו מידע פגום או ארגומנטים ריקים.",
+	"embedvideo-error-unknown": "EmbedVideo נתקל בשגיאה לא ידועה כשניסה לייצר את בלוק הטמעת הסרטון הזה. ($1)",
+	"apihelp-embedvideo-summary": "קבל קוד הטמעת סרטון עבור הפרמטרים שהתקבלו.",
+	"apihelp-embedvideo-param-service": "שם השירות (youtube, twitch וכו')",
+	"apihelp-embedvideo-param-dimensions": "רוחב נומרי (100) או רוחב לפי גובה (100x100)",
+	"apihelp-embedvideo-param-alignment": "יישור סרטון",
+	"apihelp-embedvideo-param-description": "תיאור סרטון",
+	"apihelp-embedvideo-param-urlargs": "ארגומנטים נוספים להעברה בקישור הסרטון (עבור שירותים מסוימים)",
+	"apihelp-embedvideo-param-autoresize": "האם לשנות את גודל הסרטון אוטומטית? (true או false)"
+}

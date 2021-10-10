@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda"
+		]
+	},
+	"widgets-desc": "Viki hizmetlilerin, {{ns:widget}} ad alanındaki sayfaları düzenleyerek vikiye serbest biçimli widget eklemelerine izin verir.\nTopluluğa katkıda bulunan widgetlar [https://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] adresinde bulunabilir.",
+	"widgets-error": "[[{{ns:widget}}:$1|widget $1]] içinde hata",
+	"group-widgeteditor": "Widget editörleri",
+	"group-widgeteditor-member": "{{GENDER:$1|widget editörü}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget editörleri",
+	"action-editwidgets": "widget oluştur ve düzenle",
+	"right-editwidgets": "<code>{{ns:widget}}</code> ad alanında [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgetları] oluşturun ve düzenleyin",
+	"widgets-config-useflaggedrevs": "Widget güvenliği için FlaggedRevs uzantısının kararlı sürümünü kullanmak için bunu true olarak ayarlayın.",
+	"widgets-config-compiledir": "Derlenmiş şablonların saklanması için varsayılan bir dizin ayarla"
+}

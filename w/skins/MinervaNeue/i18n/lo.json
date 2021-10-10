@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"mobile-frontend-editor-edit": "ແກ້ໄຂ",
+	"mobile-frontend-home-button": "ໜ້າທຳອິດ",
+	"mobile-frontend-main-menu-button-tooltip": "ເປີດລາຍການຫຼັກ",
+	"mobile-frontend-main-menu-login": "ເຂົ້າສູ່ລະບົບ",
+	"mobile-frontend-main-menu-nearby": "ຢູ່ໃກ້ຄຽງ",
+	"mobile-frontend-main-menu-settings": "ການຕັ້ງຄ່າ",
+	"mobile-frontend-main-menu-watchlist": "ລາຍການຕິດຕາມ",
+	"mobile-frontend-placeholder": "ຄົ້ນຫາ {{SITENAME}}",
+	"mobile-frontend-random-button": "ສຸ່ມ"
+}

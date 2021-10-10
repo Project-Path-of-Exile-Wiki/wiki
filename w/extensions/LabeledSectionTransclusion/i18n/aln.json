@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mdupont"
+		]
+	},
+	"lst-desc": "Shton <code>#lst</code> dhe <code>#lstx</code> funksionet dhe <code><section></code> tag, mundëson shënuar pjesëve të tekstit që do të transcluded"
+}

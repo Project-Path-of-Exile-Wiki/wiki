@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"زكريا"
+		]
+	},
+	"rss-desc": "اترك تعليقات RSS في صفحة الميدياويكي بصيغة عادية أو محددة الاستخدام باستعمال صفحات القوالب",
+	"rss-tracking-category": "صفحات بتغذيات RSS",
+	"rss-tracking-category-desc": "الصفحة تحتوي على موجز RSS.",
+	"rss-error": "فشل في تحميل تغذية RSS من $1: $2",
+	"rss-empty": "فشل في تحميل تغذية RSS من $1!",
+	"rss-fetch-nourl": "طلب تفحص بدون URL!",
+	"rss-invalid-url": "عنوان URL غير صالح: $1",
+	"rss-parse-error": "خطأ في تحليل XML من أجل RSS",
+	"rss-ns-permission": "RSS غير مسموح به في هذا النطاق",
+	"rss-url-is-not-whitelisted": "\"$1\"  ليس في القائمة البيضاء للخلاصات المسموح بها، {{PLURAL:$3|$2 هي الخلاصة الوحيدة المسموح بها|الخلاصات المسموح بها كما يلي: $2}}.",
+	"rss-empty-whitelist": "\"$1\" ليس في القائمة البيضاء للخلاصات المسموح بها، لا توجد مسارات لخلاصات مسموح بها في القائمة البيضاء.",
+	"rss-deprecated-wgrssallowedfeeds-found": "تم الكشف عن المتغير الموقوف <var>$wgRSSAllowedFeeds</var>، حيث RSS الإصدار 2.0 يجب استبدال هذا المتغير بـ<var>$wgRSSUrlWhitelist</var> كما هو موضح في صفحة دليل المستخدم [https://www.mediawiki.org/wiki/Extension:RSS تمديد:RSS]."
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"variables-desc": "Funzioni parser che permettono di lavorare con variabili dinamiche in una pagina con ambito di contesto"
+}

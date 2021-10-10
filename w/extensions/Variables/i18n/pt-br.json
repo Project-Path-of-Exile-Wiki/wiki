@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad"
+		]
+	},
+	"variables-desc": "Funções sintáticas que permitem trabalhar com variáveis dinâmicas no contexto de um artigo",
+	"variables-config-disabledfunctions": "Permite definir uma série de funções que não devem estar disponíveis dentro do wiki. Omita qualquer # enquanto adiciona funções.\nPor exemplo: $egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // para desabilitar as funções '#var_final' e '#vardefineecho'",
+	"variables-config-arevolatile": "Trata como voláteis as funções do analisador sintático #var e #varexists, para impedir comportamentos inesperados devido ao armazenamento de predefinições na cache. Desativar esta funcionalidade repõe o comportamento antigo."
+}

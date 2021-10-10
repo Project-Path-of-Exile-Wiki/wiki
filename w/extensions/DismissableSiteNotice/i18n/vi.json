@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Trần Nguyễn Minh Huy",
+			"Vinhtantran"
+		]
+	},
+	"sitenotice_close": "tắt",
+	"sitenotice-desc": "Cho phép người dùng đóng thông báo ở đầu các trang"
+}

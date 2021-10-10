@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"GunChleoc"
+		]
+	},
+	"rss-desc": "Cleachdaidh seo duilleagan teamplaid gus inbhirean RSS a shealltainn air duilleagan MediaWiki ann am fòrmat stannardach no gnàthaichte",
+	"rss-tracking-category": "Duilleagan le inbhir RSS",
+	"rss-tracking-category-desc": "Tha inbhir RSS aig an duilleag seo.",
+	"rss-error": "Cha deach leinn inbhir RSS a luchdadh o $1: $2",
+	"rss-empty": "Cha deach leinn inbhir RSS a luchdadh o $1!",
+	"rss-fetch-nourl": "Dh'fheuchadh ri inbhir RSS fhaighinn gun URL!",
+	"rss-invalid-url": "Chan eil seo 'na URL dligheach: $1",
+	"rss-parse-error": "Mearachd a' parsadh XML airson RSS",
+	"rss-ns-permission": "Chan eil RSS ceadaichte sa namespace seo.",
+	"rss-url-is-not-whitelisted": "Chan eil \"$1\" air geal-liosta nan inbhirean ceadaichte. {{PLURAL:$3|Chan eil ach $2 ceadaichte|Seo na h-inbhirean a tha ceadaichte: $2}}.",
+	"rss-empty-whitelist": "Chan eil \"$1\" air geal-liosta nan inbhirean ceadaichte. Chan eil URL sam bith air geal-liosta nan inbhirean ceadaichte.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Mhothaich sinn dhan chaochladair <var>$wgRSSAllowedFeeds</var> nach molar tuilleadh. Feumaidh tu  <var>$wgRSSUrlWhitelist</var> a chur 'na àite o RSS tionndadh 2.0 a-mach mar a mhìnichear san leabhar-mìneachaidh aig [https://www.mediawiki.org/wiki/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!-- Seo dà roghainn de theamplaid dhut. Is an dàrna tè an tè tùsail bunasach airson inbhirean -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- na chleachd newline an-seo --><!-- 'S e tionndadh leasaichte a tha san tè eile 's a tha feumach air Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

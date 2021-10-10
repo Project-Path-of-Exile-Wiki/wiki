@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"embedvideo-description": "This forked version adds a parser function for embedding videos from popular sources.",
+	"embedvideo-consent-text": "Click to load content",
+	"embedvideo-error-missingparams": "EmbedVideo is missing a required parameter.",
+	"embedvideo-error-service": "EmbedVideo does not recognize the video service \"$1\".",
+	"embedvideo-error-id": "EmbedVideo received the bad id \"$2\" for the service \"$1\".",
+	"embedvideo-error-width": "EmbedVideo received the bad width parameter \"$1\".",
+	"embedvideo-error-height": "EmbedVideo received the bad height parameter \"$1\".",
+	"embedvideo-error-alignment": "EmbedVideo was given an illegal value for the alignment parameter \"$1\".  Valid values are \"left\", \"center\", \"right\", or \"inline\".",
+	"embedvideo-error-valignment": "EmbedVideo was given an illegal value for the valignment parameter \"$1\".  Valid values are \"top\", \"middle\", \"bottom\", or \"baseline\".",
+	"embedvideo-error-urlargs": "EmbedVideo received a list of URL arguments that contained malformed data or blank arguments.",
+	"embedvideo-error-unknown": "EmbedVideo encountered an unknown error while trying to generate this video embed block.  ($1)",
+	"embedvideo-error-evp_deprecated": "The #evp parser function was deprecated in EmbedVideo 2.0.  Please convert your parser function tag to #ev.",
+	"embedvideo-error-container": "The parameter provided for 'container' is invalid.",
+	"embedvideo-video-short-desc": "$1, $2x$3",
+	"embedvideo-video-long-desc": "$1, $2 codec, length $3, $4x$5 pixels, $6 overall",
+	"embedvideo-audio-short-desc": "$1",
+	"embedvideo-audio-long-desc": "$1, $2 codec, length $3, $4 overall",
+	"embedvideo-error-cantdecode_evu": "Couldn't parse video from $1",
+	"apihelp-embedvideo-summary": "Get generated video embed code for given parameters.",
+	"apihelp-embedvideo-param-service": "Name of the service (youtube, twitch, ect)",
+	"apihelp-embedvideo-param-id": "The ID of the video for that service",
+	"apihelp-embedvideo-param-dimensions": "Either a numeric width (100) or width by height (100x100)",
+	"apihelp-embedvideo-param-alignment": "Alignment of video",
+	"apihelp-embedvideo-param-description": "Description of video",
+	"apihelp-embedvideo-param-container": "Accepts frame, or leave empty",
+	"apihelp-embedvideo-param-urlargs": "Additional arguments to pass in the video url (for some services)",
+	"apihelp-embedvideo-param-autoresize": "Auto resize video? (true or false)"
+}

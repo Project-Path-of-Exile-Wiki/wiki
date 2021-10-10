@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"sitenotice_close": "sluiten",
+	"sitenotice-desc": "Stelt gebruikers in staat de siteberichten te sluiten"
+}

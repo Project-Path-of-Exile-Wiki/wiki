@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"rss-desc": "Zwobraznjujo RSS-kanal na wikiboku",
+	"rss-tracking-category": "Boki z RSS-kanalami",
+	"rss-error": "RSS-kanal njejo dał se z $1 zacytaś: $2",
+	"rss-empty": "RSS-kanal njejo dał se z $1 zacytaś!",
+	"rss-fetch-nourl": "Wótwołanje bźez URL!",
+	"rss-invalid-url": "Njepłaśiwy URL: $1",
+	"rss-parse-error": "Zmólka pśi parsowanju XML za RSS",
+	"rss-ns-permission": "RSS njejo w toś tom mjenjowem rumje dowólony."
+}

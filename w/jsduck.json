@@ -1,0 +1,36 @@
+{
+	"--title": "MediaWiki core - Documentation",
+	"--categories": "maintenance/jsduck/categories.json",
+	"--eg-iframe": "maintenance/jsduck/eg-iframe.html",
+	"--tags": "maintenance/jsduck/custom_tags.rb",
+	"--warnings": [ "-nodoc(class,public)" ],
+	"--builtin-classes": true,
+	"--processes": "0",
+	"--warnings-exit-nonzero": true,
+	"--external": "Blob,File,FileList,HTMLDocument,HTMLElement,HTMLIFrameElement,HTMLInputElement,HTMLBodyElement,HTMLHtmlElement,KeyboardEvent,MouseEvent,Node,Window,XMLDocument",
+	"--output": "docs/js",
+	"--exclude": [
+		"resources/src/jquery.tablesorter",
+		"resources/src/jquery.tipsy",
+		"resources/src/jquery.color/jquery.color.js",
+		"resources/src/jquery/jquery.highlightText.js",
+		"resources/src/jquery/jquery.mw-jump.js",
+		"resources/src/mediawiki.base/legacy.wikibits.js",
+		"resources/src/mediawiki.legacy",
+		"resources/src/mediawiki.libs.jpegmeta/jpegmeta.js",
+		"resources/src/mediawiki.skinning",
+		"resources/src/startup/startup.js",
+		"resources/src/mediawiki.watchstar.widgets/WatchlistExpiryWidget.js"
+	],
+	"--": [
+		"maintenance/jsduck/external.js",
+		"resources/src",
+		"resources/lib/jquery.client/jquery.client.js",
+		"resources/lib/ooui/oojs-ui-core.js",
+		"resources/lib/ooui/oojs-ui-widgets.js",
+		"resources/lib/ooui/oojs-ui-toolbars.js",
+		"resources/lib/ooui/oojs-ui-windows.js",
+		"resources/lib/ooui/oojs-ui-wikimediaui.js",
+		"resources/lib/ooui/oojs-ui-apex.js"
+	]
+}

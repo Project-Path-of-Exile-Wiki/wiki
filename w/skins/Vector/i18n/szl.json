@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Britscher",
+			"Gaj777",
+			"Krol111",
+			"Przem(1)s",
+			"Przemub",
+			"Uostofchuodnego"
+		]
+	},
+	"vector-action-addsection": "Przidej tymat",
+	"vector-action-delete": "Skasuj",
+	"vector-action-move": "Przeniyś",
+	"vector-action-protect": "Zawrzij",
+	"vector-action-undelete": "Wćep",
+	"vector-action-unprotect": "Uodymkńij",
+	"vector-view-create": "Stwōrz",
+	"vector-view-edit": "Edytuj",
+	"vector-view-history": "Pokŏż historyjõ",
+	"vector-view-view": "Czytej",
+	"vector-view-viewsource": "Zdrzůdłowy tekst",
+	"vector-more-actions": "Wiyncyj"
+}

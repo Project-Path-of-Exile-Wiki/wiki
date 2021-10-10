@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jackiezelaya"
+		]
+	},
+	"embedvideo-description": "Esta versión bifurcada agrega una función de analizador para incrustar videos de fuentes populares.",
+	"embedvideo-consent-text": "Haga clic para cargar contenido",
+	"embedvideo-error-missingparams": "EmbedVideo falta un parámetro obligatorio.",
+	"embedvideo-error-service": "EmbedVideo No reconoce el servicio de vídeo \"$<span translate=\"no\" class=\"notranslate\">1</span>\".",
+	"embedvideo-error-id": "EmbedVideo recibió el identificador incorrecto \"$2\" para el servicio \"$1\".",
+	"embedvideo-error-width": "EmbedVideo recibió el parámetro de ancho incorrecto \"$1\".",
+	"embedvideo-error-height": "EmbedVideo recibió el parámetro de altura incorrecta \"$1\".",
+	"embedvideo-error-alignment": "EmbedVideo Estuvo dado un valor ilegal para el parámetro de alineación \"$<span translate=\"no\" class=\"notranslate\">1</span>\".  Los valores válidos están \"dejados\", \"centro\", \"bien\", o \"inline\".",
+	"embedvideo-error-valignment": "EmbedVideo recibió un valor ilegal para el parámetro valignment \"$1\".  Los valores válidos son \"top\", \"middle\", \"bottom\" o \"baseline\".",
+	"embedvideo-error-urlargs": "EmbedVideo recibió una lista de argumentos de URL que contenían datos con formato incorrecto o argumentos en blanco.",
+	"embedvideo-error-unknown": "EmbedVideo encontró un error desconocido al intentar generar este bloque de inserción de vídeo.  ($1)",
+	"embedvideo-error-evp_deprecated": "La función de analizador #evp quedó en desuso en EmbedVideo 2.0.  Convierta la etiqueta de función del analizador en #ev.",
+	"embedvideo-error-container": "El parámetro proporcionado para 'container' no es válido.",
+	"embedvideo-video-long-desc": "$1, códec de $2 , $3de longitud , $4x$5 píxeles $6 en general",
+	"embedvideo-audio-long-desc": "$1, códec $2 , $3de longitud $4 en general",
+	"embedvideo-error-cantdecode_evu": "No se pudo analizar el vídeo de $1",
+	"apihelp-embedvideo-summary": "Consigue generado vídeo embed código para parámetros dados.",
+	"apihelp-embedvideo-param-service": "Nombre del servicio (youtube, twitch, ect)",
+	"apihelp-embedvideo-param-id": "El identificador del vídeo de ese servicio",
+	"apihelp-embedvideo-param-dimensions": "Un ancho numérico (100) o un ancho por alto (100x100)",
+	"apihelp-embedvideo-param-alignment": "Alineación de vídeo",
+	"apihelp-embedvideo-param-description": "Descripción del uso",
+	"apihelp-embedvideo-param-container": "Acepta marco o deja vacío",
+	"apihelp-embedvideo-param-urlargs": "Argumentos adicionales para pasar la url del video (para algunos servicios)",
+	"apihelp-embedvideo-param-autoresize": "¿Cambiar el tamaño del video automáticamente? (verdadero o falso)"
+}

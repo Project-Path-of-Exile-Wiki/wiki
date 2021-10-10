@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"JtFuruhata",
+			"Shirayuki"
+		]
+	},
+	"lst-desc": "文章を章単位で埋め込み参照できるようにする <code>#lst</code>、<code>#lstx</code> 関数および <code>&lt;section&gt;</code> タグを追加する"
+}

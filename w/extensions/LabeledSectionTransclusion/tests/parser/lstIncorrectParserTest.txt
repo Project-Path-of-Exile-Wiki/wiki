@@ -1,0 +1,116 @@
+!! Version 2
+
+#
+# This parser test file documents known *incorrect* behavior, for which
+# a bug has been opened on bugzilla. The goal of these tests is to prevent
+# any additional regressions.
+#
+# Each test should have a bug id # in the title and a link to bugzilla
+# in a comment. When the bug is resolved, the test in this file should
+# be removed, and a new (correct) parser test should be added to
+# lstParserTest.txt or lsthParserTest.txt.
+
+# Force the test runner to ensure the extension is loaded
+!! hooks
+section
+!! endhooks
+
+!! functionhooks
+lst
+lstx
+lsth
+!! endfunctionhooks
+
+# Standard articles
+!! article
+SectionsDuplicates
+!! text
+1 <section begin=1/>sec 1<section end=1/>
+
+2 <section begin="2"/>sec 2<section end='2'/>
+
+3 <section begin="3" />sec 3<section end="3" />
+
+a <section begin=a/>sec a<section end=a/>
+
+<section begin=a/>...<section end=a/>
+!! endarticle
+
+!! article
+LsthSectionsNotASection
+!! text
+this is the intro
+==1==
+
+sec 1
+
+==2==
+
+sec 2
+
+===3===
+
+sec 3
+
+==a==
+
+sec a
+
+==b==
+
+this is ==not== a section
+
+!! endarticle
+
+
+#####################################################################
+# Parser tests related to bug 42477
+#
+# "lst: transcluding a broken redirect does not show a clear error message"
+# https://bugzilla.wikimedia.org/show_bug.cgi?id=42477
+####################################################################
+
+!! article
+redirected-does-not-exist
+!! text
+#REDIRECT[[no such article]]
+!! endarticle
+
+!! test
+LST: Transclude redirect to nonexistent article (bug 42477)
+!! wikitext
+{{#lst:redirected-does-not-exist|anything}}
+!! html
+!! end
+
+!! article
+double-redirect-1
+!! text
+#REDIRECT[[Sections]]
+!! endarticle
+
+!! article
+double-redirect-2
+!! text
+#REDIRECT[[double-redirect-1]]
+!! endarticle
+
+!! test
+LST: Transclude double redirect (bug 42477)
+!! wikitext
+{{#lst:double-redirect-2|1}}
+!! html
+!! end
+
+!! article
+redirect-loop
+!! text
+#REDIRECT[[redirect-loop]]
+!! endarticle
+
+!! test
+LST: Transclude redirect loop (bug 42477)
+!! wikitext
+{{#lst:redirect-loop|1}}
+!! html
+!! end

@@ -1,0 +1,341 @@
+!! Version 2
+# Force the test runner to ensure the extension is loaded
+!! functionhooks
+time
+!! endfunctionhooks
+
+# fixme: #time seems to be accepting input as local time, which strikes me as wrong
+
+!! article
+ParserFunctions page
+!! text
+A sample page so we can test ifexist.
+
+This used to be a Main Page, but that caused duplicate article
+warnings when running the normal tests at the same time.
+!! endarticle
+
+!! article
+File:Dionysos-Brunnen am Kölner Dom.jpg
+!! text
+blah blah
+!! endarticle
+
+!! article
+File:Redirect_to_Foobar.jpg
+!! text
+#REDIRECT[[File:Foobar.jpg]]
+!! endarticle
+
+!! article
+File:Redirect_to_nowhere.jpg
+!! text
+#REDIRECT[[File:Missing target file.jpg]]
+!! endarticle
+
+!! test
+Input times are UTC, not local time
+!! wikitext
+{{#time:c|15 January 2001}}
+!! html
+<p>2001-01-15T00:00:00+00:00
+</p>
+!! end
+
+!! test
+Time test in traditional range...
+!! wikitext
+{{#time:Y|15 January 2001}}
+!! html
+<p>2001
+</p>
+!! end
+
+!! test
+Time test prior to 1970 Unix creation myth
+!! wikitext
+{{#time:Y|5 April 1967}}
+!! html
+<p>1967
+</p>
+!! end
+
+!! test
+Time test after the 2038 32-bit Apocalype
+!! wikitext
+{{#time:Y|28 July 2061}}
+!! html
+<p>2061
+</p>
+!! end
+
+!! test
+Explicitly specified timezone: UTC
+!! wikitext
+{{#time:Y-m-d H:i| 2011-11-12 23:00 UTC }}
+!! html
+<p>2011-11-12 23:00
+</p>
+!! end
+
+!! test
+Explicitly specified timezone: Europe/Paris (UTC+1)
+!! wikitext
+{{#time:Y-m-d H:i| 2011-11-12 23:00 Europe/Paris }}
+!! html
+<p>2011-11-12 22:00
+</p>
+!! end
+
+!! test
+Explicitly specified timezone: America/New_York (UTC-5)
+!! wikitext
+{{#time:Y-m-d H:i| 2011-11-12 23:00 America/New_York }}
+!! html
+<p>2011-11-13 04:00
+</p>
+!! end
+
+!! test
+Explicitely specified output language (Dutch)
+!! wikitext
+{{#time:d F Y|1988-02-28|nl}}
+!! html
+<p>28 februari 1988
+</p>
+!! end
+
+!! test
+Preserve tags in #switch default value
+!! wikitext
+{{#switch:a|b|<div>c</div>}}
+!! html
+<div>c</div>
+!! end
+
+!! test
+Bug 19093: Default values don't fall through in switch
+!! wikitext
+<{{#switch: foo | bar | #default = DEF }}>
+<{{#switch: foo | #default | bar = DEF }}>
+!! html
+<p>&lt;DEF&gt;
+&lt;DEF&gt;
+</p>
+!! end
+
+!! test
+{{#ifexist}}
+!! wikitext
+{{#ifexist:Media:Foobar.jpg|Found|Not found}}
+{{#ifexist:ParserFunctions page|Found|Not found}}
+{{#ifexist:Missing|Found|Not found}}
+!! html
+<p>Found
+Found
+Not found
+</p>
+!! end
+
+!! test
+{{#ifexist:}} media redirect (bug 32031)
+!! wikitext
+{{#ifexist:Media:Redirect_to_Foobar.jpg|Found|Not found}}
+{{#ifexist:Media:Redirect_to_nowhere.jpg|Found|Not found}}
+{{#ifexist:Media:Missing file.jpg|Found|Not found}}
+{{#ifexist:Media:Dionysos-Brunnen am Kölner Dom.jpg|Found|Not found}}
+!! html
+<p>Found
+Not found
+Not found
+Not found
+</p>
+!!end
+
+!! test
+#if
+!! wikitext
+{{#if: | yes | no}}
+{{#if: string | yes | no}}
+{{#if:      | yes | no}}
+{{#if:
+
+
+| yes | no}}
+{{#if: 1==2 | yes | no}}
+{{#if: foo | yes }}
+{{#if: | yes }}(empty)
+{{#if: foo | | no}}(empty)
+{{#if: {{{1}}} | yes | no}}
+{{#if: {{{1|}}} | yes | no}}
+!! html
+<p>no
+yes
+no
+no
+yes
+yes
+(empty)
+(empty)
+yes
+no
+</p>
+!! end
+
+!! test
+#ifeq
+!! wikitext
+{{#ifeq: 01 | 1 | yes | no}}
+{{#ifeq: 0 | -0 | yes | no}}
+{{#ifeq: foo | bar | yes | no}}
+{{#ifeq: foo | Foo | yes | no}}
+{{#ifeq: "01" | "1" | yes | no}}
+!! html
+<p>yes
+yes
+no
+no
+no
+</p>
+!! end
+
+!! test
+#ifeq entities
+!! wikitext
+{{#ifeq: {{PAGENAME:*foo&bar}} | *foo&bar | yes | no}}
+{{#ifeq: a'b | a&#39;b | yes | no}}
+{{#ifeq: a'b | a&amp;#39;b | yes | no}}
+{{#ifeq: foo | Foo | *yes | *no}}
+!! html
+<p>yes
+yes
+no
+</p>
+<ul><li>no</li></ul>
+!! end
+
+
+!! test
+#iferror
+!! wikitext
+{{#iferror: {{#expr: 1 + 2 }} | error | correct }}
+{{#iferror: {{#expr: 1 + X }} | error | correct }}
+{{#iferror: {{#expr: 1 + 2 }} | error }}
+{{#iferror: {{#expr: 1 + X }} | error }}
+{{#iferror: {{#expr: 1 + 2 }} }}
+{{#iferror: {{#expr: 1 + X }} }}empty
+!! html
+<p>correct
+error
+3
+error
+3
+empty
+</p>
+!! end
+
+
+!! test
+#ifexpr
+!! wikitext
+{{#ifexpr: | yes | no}}
+{{#ifexpr: 1 > 0 | yes }}
+{{#ifexpr: 1 < 0 | yes }}empty
+{{#ifexpr: 1 > 0 | | no}}empty
+{{#ifexpr: 1 < 0 | | no}}
+{{#ifexpr: 1 > 0 }}empty
+!! html
+<p>no
+yes
+empty
+empty
+no
+empty
+</p>
+!! end
+
+!! test
+Bug 22866: #ifexpr should evaluate "-0" as false
+!! wikitext
+{{#ifexpr: (-1)*0 | true | false }}
+!! html
+<p>false
+</p>
+!! end
+
+!! test
+Templates: Parser functions don't strip whitespace from positional parameters
+!! wikitext
+{{#if: {{foo}}
+| no-pre-then
+| no-pre-else
+}}
+!! html
+<p>no-pre-then
+</p>
+!! end
+
+!! test
+#switch
+!! wikitext
+{{#switch:foo&bar|foo&amp;bar=yes|no}}
+{{#switch:foo&bar|fred=1|foo&amp;bar|g=yes|no}}
+{{#switch:foo&bar|fred=1|foo&amp;&#39;bar|g=yes|no}}
+{{#switch:foo|bar|baz=no|*default}}
+{{#switch:none|foo=1|bar=2|#default=no match|baz=3}}
+{{#switch:none|foo=1|bar=2|#default=ignored|baz=3|Second default}}
+{{#switch:|a&amp;#39;b}}
+!! html
+<p>yes
+yes
+no
+</p>
+<ul><li>default</li></ul>
+<p>no match
+Second default
+a&amp;#39;b
+</p>
+!!end
+
+!! test
+#switch #default should match next and not last named parameter
+!! wikitext
+<{{#switch: foo | #default | bar = DEF }}>
+<{{#switch: foo | #default | bar = DEF | baz = GHI }}>
+!! html
+<p>&lt;DEF&gt;
+&lt;DEF&gt;
+</p>
+!! end
+
+!! test
+#switch should not match #default as a prefix
+!! wikitext
+<{{#switch: foo | #defaultWTF? = This is crazy }}>
+<{{#switch: foo | #defaultWTF? | bar = This is crazy }}>
+!! html
+<p>&lt;&gt;
+&lt;&gt;
+</p>
+!! end
+
+!! test
+#switch Test php truthy
+!! wikitext
+{{#switch: 01 | 1 = yes | no}}
+{{#switch: 0 | -0 = yes | no}}
+{{#switch: foo | bar = yes | no}}
+{{#switch: foo | Foo = yes | no}}
+{{#switch: "01" | "1" = yes | no}}
+{{#switch: 1 | 02 | 01 = yes | no}}
+{{#switch: 1 | "01" | "1" = yes | no}}
+!! html
+<p>yes
+yes
+no
+no
+no
+yes
+no
+</p>
+!! end

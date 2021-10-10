@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"cargo-viewdata-defaultformat": "Predvolené",
+	"cargo-switchtables-switch": "Prepnúť",
+	"cargo-drilldown-allpages": "Všetky stránky",
+	"cargo-drilldown-allfiles": "Všetky súbory",
+	"cargo-drilldown-filterbyvalue": "Filtrovať podľa tejto hodnoty",
+	"cargo-drilldown-or": "alebo",
+	"cargo-drilldown-removefilter": "Odstrániť tento filter",
+	"cargo-drilldown-resetfilters": "Resetovať filtre",
+	"cargo-drilldown-addanothervalue": "Ďalšiu hodnotu pridáte kliknutím na šípku",
+	"cargo-drilldown-novalues": "Pre tento filter nie sú žiadne hodnoty",
+	"cargo-drilldown-fulltext": "Úplný text",
+	"cargo-drilldown-filename": "Názov súboru",
+	"cargo-drilldown-filetext": "Text súboru",
+	"cargo-drilldown-mapformat": "Mapa",
+	"cargo-drilldown-timelineformat": "Časová os",
+	"cargo-drilldown-galleryformat": "Galéria",
+	"cargo-drilldown-calendarformat": "Kalendár",
+	"cargo-viewcsv": "Zobraziť CSV",
+	"cargo-viewxls": "Zobraziť XLS",
+	"cargo-viewjson": "Zobraziť JSON",
+	"cargo-viewbibtex": "Zobraziť BibTeX",
+	"cargo-dynamictables-searchcolumn": "Hľadať $1",
+	"cargo-purgecache": "Vyčistiť vyrovnávaciu pamäť"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilja.mos",
+			"Mashoi7"
+		]
+	},
+	"inputbox-tryexact": "Opi tarkah yhtehpädijiä",
+	"inputbox-searchfulltext": "Eči kogo tekstal",
+	"inputbox-createarticle": "Luaji sivu",
+	"inputbox-movearticle": "Siirrä sivu",
+	"inputbox-postcomment": "Uuzi sektsii",
+	"inputbox-postcommenttitle": "Uuzi sektsii",
+	"inputbox-ns-main": "Piänimitila"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Theklan"
+		]
+	},
+	"widgets-error": "Akatsa [[{{ns:widget}}:$1|$1 widgetean]]",
+	"group-widgeteditor": "Widget editoreak",
+	"group-widgeteditor-member": "{{GENDER:$1|widget editorea}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget editoreak",
+	"right-editwidgets": "Sortu eta aldatu [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgetak] <tt>{{ns:widget}}</tt> izen-tartean"
+}

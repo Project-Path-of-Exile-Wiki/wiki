@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hugo.arg"
+		]
+	},
+	"mobile-frontend-editor-edit": "Taisītė",
+	"mobile-frontend-home-button": "Nomā",
+	"mobile-frontend-language-article-heading": "Skaitītė kėtuo kalbuo",
+	"mobile-frontend-main-menu-button-tooltip": "At'darītė pagrėndėni meniū",
+	"mobile-frontend-main-menu-login": "Prėsėjongtė",
+	"mobile-frontend-main-menu-nearby": "Šalep",
+	"mobile-frontend-main-menu-settings": "Nustatīmā",
+	"mobile-frontend-main-menu-watchlist": "Keravuojamu sārašos",
+	"mobile-frontend-pageaction-edit-tooltip": "Taisītė poslapė pradė.",
+	"mobile-frontend-placeholder": "Ėiškuotė {{SITENAME}}",
+	"mobile-frontend-random-button": "Bikuoks"
+}

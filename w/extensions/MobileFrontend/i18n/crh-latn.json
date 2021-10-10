@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"mobile-frontend-copyright": "Başqası bildirilmese, malümat $1 litsenziyasınen berile.",
+	"mobile-frontend-languages-header-page": "$1 — Tiller",
+	"mobile-frontend-languages-text": "$1 saifesi $2 {{PLURAL:$2|tilde}} bar.",
+	"mobile-frontend-privacy-link-text": "Gizlilik",
+	"mobile-frontend-terms-text": "Qullanuv şartları",
+	"mobile-frontend-view": "Mobil körüniş",
+	"mobile-frontend-view-desktop": "Tolu"
+}

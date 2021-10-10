@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Ciencia Al Poder",
+			"Fitoschido"
+		]
+	},
+	"variables-desc": "Funciones de analizador (parser) que permiten trabajar con variables dinámicas en el contexto de un artículo",
+	"variables-config-arevolatile": "Trata las funciones del analizador #var y #varexists como volátiles para evitar comportamientos inesperados debidos al almacenamiento en antememoria de las plantillas. Al desactivar esta opción se restaura el comportamiento heredado."
+}

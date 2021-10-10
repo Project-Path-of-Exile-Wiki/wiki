@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Eduardo Addad de Oliveira",
+			"Eduardo.mps",
+			"Eduardoaddad",
+			"Giro720",
+			"He7d3r",
+			"Helder.wiki"
+		]
+	},
+	"widgets-desc": "Permite que os administradores da wiki adicionem ''widgets free-form'' à wiki, editando páginas no espaço nominal {{ns:widget}}.\nWidgets fornecidos pela comunidade podem ser encontrados na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Erro em [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Editores de widget",
+	"group-widgeteditor-member": "{{GENDER:$1|Editor|Editora}} de widget",
+	"grouppage-widgeteditor": "{{ns:project}}:Editores de widget",
+	"action-editwidgets": "criar e editar widgets",
+	"right-editwidgets": "Criar e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] no espaço nominal <tt>{{ns:widget}}</tt>",
+	"group-widgeteditor.css": "/* CSS colocado aqui afetará apenas editores de widgets */",
+	"group-widgeteditor.js": "/* JS colocado aqui afetará apenas os editores de widgets */",
+	"widgets-config-useflaggedrevs": "Defina isto como verdadeiro (''true'') para usar a versão estável da extensão Revisão de Edições para a segurança de widgets",
+	"widgets-config-compiledir": "Definir um diretório padrão para o armazenamento das predefinições compiladas"
+}

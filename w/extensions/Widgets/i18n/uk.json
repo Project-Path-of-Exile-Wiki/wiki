@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base",
+			"Piramidion",
+			"Prima klasy4na",
+			"Vlad5250",
+			"Тест"
+		]
+	},
+	"widgets-desc": "Дозволяє адміністраторам вікі додавати різноманітні віджети шляхом редагування сторінок простору назв {{ns:widget}}.\nПідтримувані спільнотою віджети можна знайти на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Помилка [[{{ns:widget}}:$1|віджету $1]]",
+	"group-widgeteditor": "Редактори віджетів",
+	"group-widgeteditor-member": "{{GENDER:$1|Редактор віджетів|Редакторка віджетів}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Редактори віджетів",
+	"action-editwidgets": "створення і редагування віджетів",
+	"right-editwidgets": "Створення і редагування [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets віджетів] у просторі назв <tt>{{ns:widget}}</tt>",
+	"widgets-config-useflaggedrevs": "Встановіть це значення як «true», щоб використовувати стабільну версію розширення FlaggedRevs для безпеки віджетів",
+	"widgets-config-compiledir": "Вкажіть стандартну категорію для зберігання скомпільованих шаблонів"
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilimanaq29"
+		]
+	},
+	"variables-config-disabledfunctions": "Je možné definovat řadu funkcí, které nemusí být dostupné na wiki. Vynechejte jakékoliv # během přidávání funkcí."
+}

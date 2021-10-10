@@ -1,0 +1,83 @@
+{
+	"name": "RSS feed",
+	"author": [
+		"Kellan Elliott-McCrea",
+		"mutante",
+		"Daniel Kinzler",
+		"Rdb",
+		"Mafs",
+		"Alxndr",
+		"Thomas Gries",
+		"Chris Reigrut",
+		"K001",
+		"Jack Phoenix",
+		"Jeroen De Dauw",
+		"Mark A. Hershberger"
+	],
+	"version": "2.25.1",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:RSS",
+	"descriptionmsg": "rss-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"RSS": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"RSSHooks": "includes/RSSHooks.php",
+		"RSSParser": "includes/RSSParser.php",
+		"RSSUtils": "includes/RSSUtils.php",
+		"RSSData": "includes/RSSData.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"RSSHooks::onParserFirstCallInit"
+		]
+	},
+	"TrackingCategories": [
+		"rss-tracking-category"
+	],
+	"config": {
+		"RSSCacheAge": {
+			"value": 3600
+		},
+		"RSSCacheCompare": {
+			"value": false
+		},
+		"RSSFetchTimeout": {
+			"value": 15
+		},
+		"RSSNamespaces": {
+			"value": null
+		},
+		"RSSUrlWhitelist": {
+			"value": []
+		},
+		"RSSUrlNumberOfAllowedRedirects": {
+			"value": 0
+		},
+		"RSSUserAgent": {
+			"value": "MediaWikiRSS/2.25.1 (+https://www.mediawiki.org/wiki/Extension:RSS) / MediaWiki RSS extension"
+		},
+		"RSSProxy": {
+			"value": false
+		},
+		"RSSDateDefaultFormat": {
+			"value": "Y-m-d H:i:s"
+		},
+		"RSSItemMaxLength": {
+			"value": false
+		},
+		"RSSAllowLinkTag": {
+			"value": false
+		},
+		"RSSAllowImageTag": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

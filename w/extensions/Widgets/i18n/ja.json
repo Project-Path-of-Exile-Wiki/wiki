@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Iwai.masaharu",
+			"Shirayuki",
+			"Whym",
+			"青子守歌"
+		]
+	},
+	"widgets-desc": "管理者が「{{ns:widget}}」名前空間内のページを編集し、ウィキに自由な形式のウィジェットを追加できるようにする。\nコミュニティが提供しているウィジェットは [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] にある",
+	"widgets-error": "[[{{ns:widget}}:$1|ウィジェット $1]] でのエラー",
+	"group-widgeteditor": "ウィジェット編集者",
+	"group-widgeteditor-member": "{{GENDER:$1|ウィジェット編集者}}",
+	"grouppage-widgeteditor": "{{ns:project}}:ウィジェット編集者",
+	"action-editwidgets": "ウィジェットの作成/編集",
+	"right-editwidgets": "<tt>{{ns:widget}}</tt>名前空間で[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ウィジェット]を作成/編集",
+	"group-widgeteditor.css": "/* ここに記述したCSSはウィジェット編集者のみに影響します */",
+	"group-widgeteditor.js": "/* ここに記述したJSはウィジェット編集者のみに影響します */"
+}

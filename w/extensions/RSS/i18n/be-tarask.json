@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck",
+			"Renessaince",
+			"Wizardist"
+		]
+	},
+	"rss-desc": "Паказвае RSS-стужкі на вікі-старонках",
+	"rss-tracking-category": "Старонкі з RSS-стужкамі",
+	"rss-tracking-category-desc": "Старонка мае RSS-стужку.",
+	"rss-error": "Памылка загрузкі RSS-стужкі з $1: $2",
+	"rss-empty": "Не атрымалася загрузіць RSS-стужку з $1!",
+	"rss-fetch-nourl": "Выбарка выкліканая без URL-адрасу!",
+	"rss-invalid-url": "Няслушны URL-адрас: $1",
+	"rss-parse-error": "Памылка аналізу XML для RSS",
+	"rss-ns-permission": "RSS у гэтай прасторы назваў не дазволены",
+	"rss-url-is-not-whitelisted": "«$1» не ўваходзіць у белы сьпіс дазволеных стужак. {{PLURAL:$3|1=«$2» — адзіная дазволеная стужка|Дазволеныя стужкі: $2}}.",
+	"rss-empty-whitelist": "«$1» ня зьмешчаны ў белым сьпісе дазволеных стужак. Белы сьпіс увогуле не зьмяшчае дазволеныя URL стужак.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Заўважанае выкарыстаньне састарэлай зьменнай <var>$wgRSSAllowedFeeds</var>. Ад вэрсіі RSS 2.0 гэтая зьменная была замененая на <var>$wgRSSUrlWhitelist</var>, пра што гаворыцца ў дапаможніку [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  ніжэй пададзеныя два магчымыя шаблёны. Першы — асноўны перадвызначаны шаблён для стужак -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- не ўжывайце тут новы радок --><!-- Другі — палепшаная вэрсія, якая патрабуе Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

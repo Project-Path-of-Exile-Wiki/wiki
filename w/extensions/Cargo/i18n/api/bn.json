@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elias Ahmmad"
+		]
+	},
+	"apihelp-cargoautocomplete-description": "স্বয়ংসম্পূর্ণ কল Cargo এক্সটেনশন দ্বারা ব্যবহৃত।",
+	"apihelp-cargoautocomplete-param-substr": "সাবস্ট্রিং অনুসন্ধান"
+}

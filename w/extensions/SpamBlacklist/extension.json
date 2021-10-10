@@ -1,0 +1,119 @@
+{
+	"name": "SpamBlacklist",
+	"author": [
+		"Tim Starling",
+		"John Du Hart",
+		"Daniel Kinzler"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SpamBlacklist",
+	"descriptionmsg": "spam-blacklist-desc",
+	"type": "antispam",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"GroupPermissions": {
+		"user": {
+			"spamblacklistlog": true
+		}
+	},
+	"AvailableRights": [
+		"spamblacklistlog"
+	],
+	"LogTypes": [
+		"spamblacklist"
+	],
+	"LogRestrictions": {
+		"spamblacklist": "spamblacklistlog"
+	},
+	"LogActionsHandlers": {
+		"spamblacklist/*": "SpamBlacklistLogFormatter"
+	},
+	"GrantPermissions": {
+		"viewrestrictedlogs": {
+			"spamblacklistlog": true
+		}
+	},
+	"APIModules": {
+		"spamblacklist": "ApiSpamBlacklist"
+	},
+	"MessagesDirs": {
+		"SpamBlackList": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadClasses": {
+		"ApiSpamBlacklist": "includes/ApiSpamBlacklist.php",
+		"BaseBlacklist": "includes/BaseBlacklist.php",
+		"EmailBlacklist": "includes/EmailBlacklist.php",
+		"SpamBlacklistHooks": "includes/SpamBlacklistHooks.php",
+		"SpamBlacklist": "includes/SpamBlacklist.php",
+		"SpamBlacklistLogFormatter": "includes/SpamBlacklistLogFormatter.php",
+		"SpamRegexBatch": "includes/SpamRegexBatch.php",
+		"SpamBlacklistPreAuthenticationProvider": "includes/SpamBlacklistPreAuthenticationProvider.php"
+	},
+	"ResourceModules": {
+		"ext.spamBlacklist.visualEditor": {
+			"scripts": "ve-spamblacklist/ve.init.mw.SpamBlacklistSaveErrorHandler.js",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.spamBlacklist.visualEditor"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "SpamBlacklist/modules"
+	},
+	"Hooks": {
+		"EditFilterMergedContent": [
+			"SpamBlacklistHooks::filterMergedContent"
+		],
+		"EditFilter": [
+			"SpamBlacklistHooks::validate"
+		],
+		"PageSaveComplete": [
+			"SpamBlacklistHooks::pageSaveContent"
+		],
+		"UserCanSendEmail": [
+			"SpamBlacklistHooks::userCanSendEmail"
+		],
+		"ParserOutputStashForEdit": [
+			"SpamBlacklistHooks::onParserOutputStashForEdit"
+		],
+		"UploadVerifyUpload": [
+			"SpamBlacklistHooks::onUploadVerifyUpload"
+		]
+	},
+	"config": {
+		"BlacklistSettings": {
+			"value": {
+				"spam": {
+					"files": [
+						"https://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1"
+					]
+				}
+			},
+			"merge_strategy": "array_plus_2d"
+		},
+		"LogSpamBlacklistHits": {
+			"value": false
+		}
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"SpamBlacklistPreAuthenticationProvider": {
+				"class": "SpamBlacklistPreAuthenticationProvider"
+			}
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Angpradesh",
+			"Samyo"
+		]
+	},
+	"mobile-frontend-editor-edit": "संपादन करऽ",
+	"mobile-frontend-home-button": "मुखपृष्ठ",
+	"mobile-frontend-language-article-heading": "दोसरऽ भाषा मं॑ पढ़ऽ",
+	"mobile-frontend-main-menu-button-tooltip": "मुख्य मेनू खोलऽ",
+	"mobile-frontend-main-menu-login": "लॉग-इन करऽ",
+	"mobile-frontend-main-menu-nearby": "आसपास मं॑",
+	"mobile-frontend-main-menu-settings": "सेटिंग्स",
+	"mobile-frontend-main-menu-watchlist": "ध्यानसूची",
+	"mobile-frontend-pageaction-edit-tooltip": "इ पन्ना केरऽ भूमिका क॑ सम्पादित करऽ",
+	"mobile-frontend-placeholder": "{{SITENAME}} मं॑ खोजऽ",
+	"mobile-frontend-random-button": "बेतरतीब"
+}

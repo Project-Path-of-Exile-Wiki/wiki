@@ -1,0 +1,15 @@
+/**
+ * Extra CSS for the Slick JS library, used by the 'slideshow' format.
+ */
+
+div.cargoSlider {
+        margin: 0 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+        color: #2a4b8d !important;
+}
+
+span.cargoSliderCaption {
+	padding: 5px;
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Veeven"
+		]
+	},
+	"cargo-viewdata-tables": "పట్టిక(లు):",
+	"cargo-viewdata-where": "ఎక్కడ:",
+	"cargo-viewdata-defaultformat": "అప్రమేయం",
+	"cargo-viewdata-heightparam": "ఎత్తు:",
+	"cargo-viewdata-widthparam": "వెడల్పు:",
+	"cargo-viewdata-colorsparam": "రంగులు:",
+	"cargo-cargotables-header-table": "పట్టిక",
+	"cargo-cargotables-header-rowcount": "అడ్డువరుసలు",
+	"cargo-cargotables-header-templates": "మూసలు",
+	"cargo-cargotables-action-deletereplacement": "తొలగించు",
+	"cargo-cargotables-action-delete": "తొలగించు",
+	"pagevalues": "పేజీ విలువలు",
+	"cargo-pagevalues-tablevalues": "\"$1\" విలువలు",
+	"cargo-drilldown-mapformat": "పటం",
+	"cargo-drilldown-timelineformat": "కాలరేఖ"
+}

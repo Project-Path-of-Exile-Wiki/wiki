@@ -1,0 +1,82 @@
+{
+	"name": "Widgets",
+	"version": "1.4.1",
+	"author": [
+		"[https://www.sergeychernyshev.com Sergey Chernyshev]",
+		"Yaron Koren",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Widgets",
+	"descriptionmsg": "widgets-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"config": {
+		"WidgetsUseFlaggedRevs": {
+			"value": false,
+			"path": false,
+			"descriptionmsg": "widgets-config-useflaggedrevs",
+			"public": true
+		},
+		"WidgetsCompileDir": {
+			"value": "compiled_templates/",
+			"path": true,
+			"descriptionmsg": "widgets-config-compiledir",
+			"public": false
+		}
+	},
+	"namespaces": [
+		{
+			"id": 274,
+			"constant": "NS_WIDGET",
+			"name": "Widget",
+			"protection": "editwidgets"
+		},
+		{
+			"id": 275,
+			"constant": "NS_WIDGET_TALK",
+			"name": "Widget_talk",
+			"subpages": true
+		}
+	],
+	"Hooks": {
+		"ParserFirstCallInit": "WidgetInitializer::initParserFunctions",
+		"ParserAfterTidy": "WidgetRenderer::outputCompiledWidget"
+	},
+	"ExtensionFunctions": [
+		"WidgetRenderer::initRandomString"
+	],
+	"AvailableRights": [
+		"editwidgets"
+	],
+	"GroupPermissions": {
+		"*": {
+			"editwidgets": false
+		},
+		"widgeteditor": {
+			"editwidgets": true
+		},
+		"sysop": {
+			"editwidgets": true
+		}
+	},
+	"MessagesDirs": {
+		"Widgets": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WidgetsMagic": "Widgets.i18n.magic.php",
+		"WidgetsNamespaces": "Widgets.i18n.namespaces.php"
+	},
+	"AutoloadClasses": {
+		"WidgetInitializer": "WidgetInitializer.php",
+		"WidgetRenderer": "WidgetRenderer.php",
+		"WidgetSecurity": "WidgetSecurity.php"
+	},
+	"callback": "WidgetInitializer::init",
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

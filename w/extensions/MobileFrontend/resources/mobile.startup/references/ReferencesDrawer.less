@@ -1,0 +1,42 @@
+@import '../../../mobile.less/mobile.variables.less';
+@import 'mediawiki.mixins.less';
+
+@drawerPadding: 20px;
+
+.drawer.references-drawer {
+	background-color: @colorGray1;
+	color: @colorGray12;
+	max-height: 50%; // on tablet this will become capped at 400px
+	overflow-y: auto;
+	padding: @drawerPadding/2 @drawerPadding @drawerPadding @drawerPadding;
+
+	.mw-ui-icon:before {
+		opacity: 0.5;
+	}
+
+	a {
+		color: #69f;
+	}
+
+	.references-drawer__header {
+		.flex-display();
+		align-items: center;
+		padding-bottom: @drawerPadding;
+	}
+
+	.references-drawer__title {
+		color: @colorGray7;
+		cursor: default;
+		letter-spacing: 0.2em;
+		font-size: 0.75em;
+		text-transform: uppercase;
+		margin-left: 1em;
+		flex-grow: 1;
+	}
+}
+
+@media all and ( min-width: @width-breakpoint-tablet ) {
+	.drawer.references-drawer {
+		max-height: 400px;
+	}
+}

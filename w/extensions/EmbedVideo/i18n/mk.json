@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"embedvideo-description": "Оваа наменска верзија дава раслченувачка функција за вметнување на видеа од популарни извори.",
+	"embedvideo-consent-text": "Стиснете за да вчитате содржина",
+	"embedvideo-error-missingparams": "На EmbedVideo му недостасува потребен параметар.",
+	"embedvideo-error-service": "EmbedVideo не ја препознава видеослужбата „$1“.",
+	"embedvideo-error-id": "EmbedVideo доби неисправна назнака „$2“ за службата „$1“.",
+	"embedvideo-error-width": "EmbedVideo го доби неисправниот параметар за ширина „$1“.",
+	"embedvideo-error-height": "EmbedVideo го доби неисправниот параметар за висина „$1“.",
+	"embedvideo-error-alignment": "EmbedVideo доби недозволена вредност за параметарот за хоризонтално порамнување „$1“. Се прифаќаат „left“, „center“, „right“ и „inline“.",
+	"embedvideo-error-valignment": "EmbedVideo доби недозволена вредност за параметарот за вертикално порамнување „$1“. Се прифаќаат „top“, „middle“, „bottom“ и „baseline“.",
+	"embedvideo-error-urlargs": "EmbedVideo доби список на URL-аргументи кои содржеа погрешно срочени податоци или празни аргументи.",
+	"embedvideo-error-unknown": "EmbedVideo наиде на непозната грешка при обидот за вметнување на видео. ($1)",
+	"embedvideo-error-evp_deprecated": "Расчленувачката функција #evp е застарена во EmbedVideo 2.0.  Претворете ја нејзината назнака во #ev.",
+	"embedvideo-error-container": "Параметарот укажан за „container“ е неважечки.",
+	"embedvideo-video-long-desc": "$1, кодек $2, траење $3, $4×$5 пиксели, вкупно $6",
+	"embedvideo-audio-long-desc": "$1, кодек $2, траење $3, вкупно $4",
+	"embedvideo-error-cantdecode_evu": "Не можев да го расчленам видеото од $1",
+	"apihelp-embedvideo-summary": "Дај создаден код за вметнување на видео за дадените параметри.",
+	"apihelp-embedvideo-param-service": "Назив на службата (youtube, twitch итн.)",
+	"apihelp-embedvideo-param-id": "Назнака на видеото за таа служба",
+	"apihelp-embedvideo-param-dimensions": "Или бројчена ширина (100) или ширина на висина (100x100)",
+	"apihelp-embedvideo-param-alignment": "Порамнетост на видеото",
+	"apihelp-embedvideo-param-description": "Опис на видеото",
+	"apihelp-embedvideo-param-container": "Прифаќа рамка, или оставете празно",
+	"apihelp-embedvideo-param-urlargs": "Дополнителни аргументи кои ќе му се дадат на URL-то на видеото (за некои служби)",
+	"apihelp-embedvideo-param-autoresize": "Големинско самоприлагодување на видеото? (точно или неточно)"
+}

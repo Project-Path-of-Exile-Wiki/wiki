@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"rss-desc": "Prikazuje RSS fid na wiki stranici",
+	"rss-error": "Nije uspjelo učitavanje RSS fida iz $1: $2",
+	"rss-empty": "Nije uspjelo učitavanje RSS fida iz $1!",
+	"rss-fetch-nourl": "Akcija pozvana bez URL!",
+	"rss-invalid-url": "Nije valjan URL: $1",
+	"rss-parse-error": "Greška pri parsiranju XML za RSS",
+	"rss-ns-permission": "RSS nije dozvoljen u ovom imenskom prostoru"
+}

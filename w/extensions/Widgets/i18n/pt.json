@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"SandroHc"
+		]
+	},
+	"widgets-desc": "Permite que os administradores da wiki adicionem ''widgets free-form'' à wiki, editando páginas no espaço nominal {{ns:widget}}.\nOs widgets fornecidos pela comunidade podem ser encontrados em [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Erro no [[{{ns:widget}}:$1|''widget'' $1]]",
+	"group-widgeteditor": "Editores de ''widgets''",
+	"group-widgeteditor-member": "{{GENDER:$1|editor|editora}} de ''widgets''",
+	"grouppage-widgeteditor": "{{ns:project}}:Editores de ''widgets''",
+	"action-editwidgets": "criar e editar ''widgets''",
+	"right-editwidgets": "Criar e editar [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ''widgets''] no espaço nominal/domínio <code>{{ns:widget}}</code>",
+	"widgets-config-useflaggedrevs": "Defina isto como verdadeiro (''true'') para usar a versão estável da extensão Revisão de Edições para a segurança de ''widgets''",
+	"widgets-config-compiledir": "Definir um diretório padrão para o armazenamento das predefinições compiladas"
+}

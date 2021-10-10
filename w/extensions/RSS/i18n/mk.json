@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"rss-desc": "Прикажува RSS-тековници на страници на МедијаВики во стаданрден или кориснички определен формат користејќи предложни страници",
+	"rss-tracking-category": "Страници со RSS-тековници",
+	"rss-tracking-category-desc": "Страницата има RSS-тековник.",
+	"rss-error": "Не успеав да го вчитам RSS-тековникот од $1: $2",
+	"rss-empty": "Не успеав да го вчитам RSS-тековникот од $1!",
+	"rss-fetch-nourl": "Повикувањето за добивање нема URL!",
+	"rss-invalid-url": "Не претставува важечка URL: $1",
+	"rss-parse-error": "Грешка при расчленувањето на XML за RSS",
+	"rss-ns-permission": "RSS не е допуштен во овој именски простор",
+	"rss-url-is-not-whitelisted": "„$1“ не е на белиот список на дозволени тековници. {{PLURAL:$3|Единствениот дозволен е $2|Дозволени се следниве: $2}}.",
+	"rss-empty-whitelist": "„$1“ не е на белиот список на дозволени тековници. На списокот нема URL-адреси на допуштени тековници.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Утврдена е застарената променлива <var>$wgRSSAllowedFeeds</var>. Од верзијата RSS 2.0 натаму, оваа променлива мора да се замени со <var>$wgRSSUrlWhitelist</var> според опишаното во прирачникот, на страницата [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Додаток:RSS].",
+	"rss-feed": "<!--  Ова се две алтернативни предлошки. Првиот е основно зададената предлошка за тековници -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- тука не вметнувајте нов ред --><!-- Вториот е подобрена верзија што бара Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

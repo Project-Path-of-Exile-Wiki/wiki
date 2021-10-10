@@ -1,0 +1,117 @@
+!! Version 2
+
+!! functionhooks
+lsth
+!! endfunctionhooks
+
+# This is the standard article assumed to exist.
+!! article
+LsthSections
+!! text
+this is the intro
+==1==
+
+sec 1
+
+==2==
+
+sec 2
+
+===3===
+
+sec 3
+
+==a==
+
+sec a
+
+==b==
+
+this is ==not== a section
+
+!! endarticle
+
+!! test
+transclude a heading
+!! wikitext
+{{#lsth:LsthSections|1}}
+!! html
+<p>sec 1
+</p>
+!! end
+
+!! test
+transclude a heading (case insensitive)
+!! wikitext
+{{#lsth:LsthSections|A}}
+!! html
+<p>sec a
+</p>
+!! end
+
+!! test
+transclude the intro
+!! wikitext
+{{#lsth:LsthSections}}
+!! html
+<p>this is the intro
+</p>
+!! end
+
+
+!! test
+transclude a section with invalid heading
+!! wikitext
+{{#lsth:LsthSections|b}}
+!! html
+<p>this is ==not== a section
+</p>
+!! end
+
+!! test
+transclude a invalid heading
+!! wikitext
+{{#lsth:LsthSections|not}}
+!! html
+!! end
+
+!! test
+transclude offset section -w- subs.
+!! wikitext
+{{#lsth:LsthSections|2}}
+!! html
+<p>sec 2
+</p>
+<h3><span class="mw-headline" id="3">3</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=LsthSections&amp;action=edit&amp;section=T-1" title="Edit section: ">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>sec 3
+</p>
+!! end
+
+!! test
+transclude nonesistent section
+!! wikitext
+{{#lsth:LsthSections|9999}}
+!! html
+!! end
+
+!! article
+LsthNoInclude
+!! text
+This sentence is outside noinclude tags.
+<noinclude>This sentence is within noinclude tags.</noinclude>
+<noinclude>This sentence is
+
+within noinclude tags.</noinclude>
+<noinclude>This sentence is within</noinclude>broken noinclude tags.</noinclude>
+!! endarticle
+
+!! test
+don't transclude content within noinclude tags
+!! wikitext
+{{#lsth:LsthNoInclude}}
+!! html
+<p>This sentence is outside noinclude tags.
+</p><p><br />
+broken noinclude tags.
+</p>
+!! end

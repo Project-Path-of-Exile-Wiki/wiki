@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chase me ladies, I'm the Cavalry"
+		]
+	},
+	"sitenotice_close": "dismiss",
+	"sitenotice-desc": "Allows users to close the sitenotice"
+}

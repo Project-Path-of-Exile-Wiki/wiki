@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"F. Cosoleto",
+			"Gianfranco"
+		]
+	},
+	"rss-desc": "Visualizza un feed RSS in una pagina wiki",
+	"rss-tracking-category": "Pagine con feed RSS",
+	"rss-tracking-category-desc": "La pagina ha un feed RSS.",
+	"rss-error": "Non è stato possibile caricare da $1 il feed RSS: $2",
+	"rss-empty": "Non è stato possibile possibile caricare feed RSS da $1!",
+	"rss-fetch-nourl": "Chiamata sprovvista di un URL!",
+	"rss-invalid-url": "Non è un URL valido: $1",
+	"rss-parse-error": "Errore di parsing XML per RSS",
+	"rss-ns-permission": "RSS non è consentito in questo namespace",
+	"rss-url-is-not-whitelisted": "\"$1\" non si trova nella lista dei feed consentiti. {{PLURAL:$3|$2 è l'unico feed consentito|I feed consentiti sono: $2}}.",
+	"rss-empty-whitelist": "\"$1\" non si trova nella lista dei feed consentiti. Non ci sono feed consentiti.",
+	"rss-deprecated-wgrssallowedfeeds-found": "È stata rilevata la variabile deprecata <var>$wgRSSAllowedFeeds</var>. Dalla versione RSS 2.0 questa variabile deve essere sostituita da <var>$wgRSSUrlWhitelist</var> come descritto nella pagina del manuale [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  Di seguito sono mostrati due modelli alternativi. Il primo è quello basilare predefinito per i feed -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- NON andare a capo qui --><!-- Il secondo è una versione migliorata che richiede Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

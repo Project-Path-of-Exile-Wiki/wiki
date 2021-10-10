@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"embedvideo-description": "Esta versão bifurcada adiciona uma função de parser para incorporar vídeos de fontes populares.",
+	"embedvideo-consent-text": "Clique para carregar o conteúdo",
+	"embedvideo-error-missingparams": "O EmbedVideo está faltando um parâmetro requerido.",
+	"embedvideo-error-width": "O EmbedVideo recebeu o parâmetro de largura ruim \"$1\".",
+	"embedvideo-error-height": "EmbedVideo recebeu o parâmetro de altura ruim \"$1\".",
+	"embedvideo-error-unknown": "EmbedVideo encontrou um erro desconhecido ao tentar gerar este bloco de incorporação de vídeo.  ($1)",
+	"embedvideo-error-container": "O parâmetro fornecido para 'container' é inválido.",
+	"embedvideo-error-cantdecode_evu": "Não foi possível analisar vídeos de $1",
+	"apihelp-embedvideo-summary": "Get gerado código de vídeo incorporado para determinados parâmetros.",
+	"apihelp-embedvideo-param-service": "Nome do Serviço (YouTube, Twitch, ect)",
+	"apihelp-embedvideo-param-id": "O ID do vídeo para esse serviço",
+	"apihelp-embedvideo-param-dimensions": "Uma largura numérica (100) ou largura por altura (100x100)",
+	"apihelp-embedvideo-param-alignment": "Alinhamento de vídeo",
+	"apihelp-embedvideo-param-description": "Descrição do vídeo",
+	"apihelp-embedvideo-param-urlargs": "Argumentos adicionais para passar no URL de vídeo (por alguns serviços)"
+}

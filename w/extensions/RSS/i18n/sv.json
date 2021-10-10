@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ainali",
+			"Jopparn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"rss-desc": "Visar en RSS-feed på en wiki-sida",
+	"rss-tracking-category": "Sidor med RSS-flöden",
+	"rss-tracking-category-desc": "Denna sida har ett RSS-flöde.",
+	"rss-error": "Det gick inte att läsa in RSS-feed från $1: $2",
+	"rss-empty": "Det gick inte att läsa in RSS-feed från $1!",
+	"rss-fetch-nourl": "Hämtningsförök utan en URL!",
+	"rss-invalid-url": "Inte en giltig URL: $1",
+	"rss-parse-error": "Fel vid parsning av XML för RSS",
+	"rss-ns-permission": "RSS är inte tillåtet i denna namnrymden",
+	"rss-url-is-not-whitelisted": "\"$1\" finns inte i vitlistan för tillåtna flöden. {{PLURAL:$3|$2 är det enda tillåtna flödet|De tillåtna flödena är följande: $2}}.",
+	"rss-empty-whitelist": "\"$1\" finns inte i vitlistan med tillåtna flöden. Det finns inga tillåtna webbadresser för flöden i vitlistan.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Den föråldrade variabeln <var>$wgRSSAllowedFeeds</var> har upptäckts. Sedan RSS-versionen 2.0 måste denna variabel ersättas med <var>$wgRSSUrlWhitelist</var> som beskrivs på manualsidan [https://www.mediawiki.org/wiki/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  Nedan finns två alternativa mallar. Den första är den grundläggande standardmallen för flöden -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- Använd ingen radbrytning här --><!-- Den andra mallen är en förbättrad version som kräver tillägget Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

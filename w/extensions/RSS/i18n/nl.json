@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mitchel Corstjens",
+			"PonkoSasuke",
+			"SPQRobin",
+			"Siebrand",
+			"Southparkfan"
+		]
+	},
+	"rss-desc": "Biedt een RSS-feed voor een wikipagina",
+	"rss-tracking-category": "Pagina's met RSS-feeds",
+	"rss-tracking-category-desc": "De pagina heeft een RSS-feed.",
+	"rss-error": "Kon RSS-feed van $1 niet laden, fout: $2",
+	"rss-empty": "Kon RSS-feed van $1 niet laden!",
+	"rss-fetch-nourl": "Fetch is aangeroepen zonder een URL!",
+	"rss-invalid-url": "Geen geldige URL: $1",
+	"rss-parse-error": "Fout bij het verwerken van de XML voor RSS",
+	"rss-ns-permission": "RSS is niet toegestaan in deze naamruimte",
+	"rss-url-is-not-whitelisted": "\"$1\" staat niet in de witte lijst met toegestane feeds. {{PLURAL:$3|$2 is de enige toegestane feed|De toegestane feeds zijn: $2}}.",
+	"rss-empty-whitelist": "\"$1\" staat niet in de witte lijst met toegestane feeds. Er staan op het moment geen toegestane feed-URL's in de witte lijst.",
+	"rss-deprecated-wgrssallowedfeeds-found": "De afgekeurde variabel <var>$wgRSSAllowedFeeds</var> is aangetroffen. Sinds RSS versie 2.0 is deze variabel vervangen door <var>$wgRSSUrlWhitelist</var> zoals beschreven in de handleiding pagina [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  Hieronder staan twee alternatieve sjablonen. Het eerste is het standaardsjabloon voor feeds. -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- Hier geen nieuwe regel starten. --><!-- Het tweede sjabloon is een verbeterde versie waarvoor de uitbreiding ParserFunctions nodig is. --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

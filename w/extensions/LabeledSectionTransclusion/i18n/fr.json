@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Grondin"
+		]
+	},
+	"lst-desc": "Ajoute les fonctions <code>#lst</code> et <code>#lstx</code> ainsi que la balise <code>&lt;section&gt;</code>, active les sections marquées du texte devant être transclus"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencemac",
+			"TK-999"
+		]
+	},
+	"rss-desc": "RSS.hírcsatornákat jelenít meg MediaWiki oldalakon szabványos vagy felhasználó által meghatározott formátumban sablonok használatával",
+	"rss-tracking-category": "RSS-hírfolyammal rendelkező lapok",
+	"rss-tracking-category-desc": "Az oldal rendelkezik RSS-hírfolyammal",
+	"rss-error": "Nem sikerült betölteni az RSS-hírcsatornát innen: $1 ($2)",
+	"rss-empty": "Nem sikerült betölteni az RSS-hírcsatornát innen: $1!",
+	"rss-fetch-nourl": "Nincs megadva URL!",
+	"rss-invalid-url": "\"$1\" nem egy érvényes URL",
+	"rss-parse-error": "Hiba történt az RSS XML-kódjának feldolgozása közben",
+	"rss-ns-permission": "Az RSS használata nem megengedett ebben a névtérben",
+	"rss-feed": "<!-- Az alábbi kód két alternatív sablont határoz meg. Az első a hírcsatronákhoz használt alapértelmezett -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- ne szúrj be üres sort itt --><!-- A második a ParserFunctions kiegészítést igénylő fejlettebb változat  --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

@@ -1,0 +1,40 @@
+/**
+ * CSS for the Dagre JS library, used in Special:CargoTableDiagram.
+ * Based on the CSS found at https://jsfiddle.net/sfkdscg7/
+ */
+
+div.cargo-table-diagram {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: small;
+}
+
+.node {
+	text-anchor: middle;
+}
+
+.node rect,
+.node circle,
+.node ellipse {
+	stroke: #333;
+	opacity: 0.8;
+	fill-opacity: 0;
+}
+
+.edgePath path {
+	stroke: #333;
+	fill: #333;
+	fill-opacity: 1;
+	stroke-opacity: 1;
+}
+
+.cluster {
+	stroke: #999;
+	/* fill: #222; */
+	fill-opacity: 0;
+	stroke-opacity: 0.6;
+}
+
+.entity-name rect {
+	fill: #222;
+	fill-opacity: 0.3;
+}

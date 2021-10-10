@@ -1,0 +1,23 @@
+.client-js .mw-dismissable-notice {
+	display: none;
+}
+
+.mw-dismissable-notice-close {
+	visibility: hidden;
+}
+
+/* @noflip */ .sitedir-ltr .mw-dismissable-notice-close {
+	float: right;
+}
+
+/* @noflip */ .sitedir-rtl .mw-dismissable-notice-close {
+	float: left;
+}
+
+/* @noflip */ .sitedir-ltr .mw-dismissable-notice-body {
+	margin: 0.5em 20% 0.5em 5em;
+}
+
+/* @noflip */ .sitedir-rtl .mw-dismissable-notice-body {
+	margin: 0.5em 5em 0.5em 20%;
+}

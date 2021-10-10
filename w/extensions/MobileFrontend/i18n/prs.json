@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjbmr"
+		]
+	},
+	"mobile-frontend-copyright": "محتوا تحت $1 در دسترس است، مگر اینکه خلافش ذکر شده باشد.",
+	"mobile-frontend-last-modified-date": "آخرین ویرایش در روز $1، در ساعت $2",
+	"mobile-frontend-privacy-link-text": "حریم خصوصی",
+	"mobile-frontend-terms-text": "شرایط استفاده",
+	"mobile-frontend-view": "نسخه موبایل",
+	"mobile-frontend-view-desktop": "کامپیوتر",
+	"tag-mobile_edit": "ویرایش موبایل"
+}

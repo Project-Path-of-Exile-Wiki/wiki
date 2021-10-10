@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"ZxxZxxZ"
+		]
+	},
+	"widgets-desc": "اجازه سرپرستان ویکی برای افزودن ویدجت‌های رایگان به ویکی توسط ویرایش صفحات درون {{ns:widget}} فضای نام.\nویدجت‌های کمک به جامعه می‌توانند در [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] پیدا شوند",
+	"widgets-error": "خطا در [[{{ns:widget}}:$1|ابزار $1]]",
+	"group-widgeteditor": "ویرایشگران ابزار",
+	"group-widgeteditor-member": "{{GENDER:$1|ویرایشگر ابزار}}",
+	"grouppage-widgeteditor": "{{ns:project}}:ویرایشگران ابزار",
+	"right-editwidgets": "ایجاد و ویرایش [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ابزارها] در فضای‌نام <tt>{{ns:widget}}</tt>"
+}

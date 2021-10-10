@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"ОйЛ"
+		]
+	},
+	"mobile-frontend-changeslist-nocomment": "мѣнꙑ опьсаниꙗ нѣстъ",
+	"mobile-frontend-copyright": "подъ прощєниѥмь $1 пьсано ѥстъ · ащє ино нє каꙁано ѥстъ",
+	"mobile-frontend-diffview-anonymous": "анѡнѷмьнъ польꙃєватєл҄ь",
+	"mobile-frontend-diffview-editcount": "<div>$1</div> {{PLURAL:$1|мѣна|мѣнꙑ|мѣнъ}}",
+	"mobile-frontend-diffview-title": "мѣнꙑ",
+	"mobile-frontend-editor-save": "съхранѥниѥ",
+	"mobile-frontend-last-modified-date": "послѣдьнꙗ мѣна $1 въ $2 бѣ",
+	"mobile-frontend-main-menu-settings-heading": "строи",
+	"mobile-frontend-missing-image": "видъ",
+	"mobile-frontend-nearby-distance": "{{PLURAL:$1|$1 х҃м}}",
+	"mobile-frontend-nearby-distance-meters": "{{PLURAL:$1|$1 м҃}}",
+	"mobile-frontend-nearby-title": "блиꙁъ",
+	"mobile-frontend-news-items": "вѣсти",
+	"mobile-frontend-privacy-link-text": "личьнꙑ вѣсти",
+	"mobile-frontend-save-settings": "съхранѥниѥ",
+	"mobile-frontend-settings-beta": "{{SITENAME}} вита",
+	"mobile-frontend-talk-reply": "отъвѣтъ",
+	"mobile-frontend-terms-text": "польꙃєваниꙗ оуставъ",
+	"mobile-frontend-view": "носимъ видъ",
+	"mobile-frontend-view-desktop": "настольнъ обраꙁъ",
+	"mobile-frontend-watchlist-a-z": "каталогъ",
+	"mobile-frontend-watchlist-cta-button-login": "въниди",
+	"mobile-frontend-watchlist-cta-button-signup": "съꙁижди си мѣсто",
+	"mobile-frontend-watchlist-filter-all": "вьсꙗ",
+	"mobile-frontend-watchlist-filter-articles": "страницѧ",
+	"mobile-frontend-watchlist-filter-other": "инꙑ",
+	"mobile-frontend-watchlist-filter-talk": "бєсѣда",
+	"mobile-frontend-watchlist-more": "вѧщє",
+	"nearby": "страницѧ ѳємоѭ ижє блиꙁъ тєбѣ сѫтъ",
+	"tag-mobile_edit": "мѣна чрѣꙁъ носимъ оустрои",
+	"tag-mobile_edit-description": "мѣна ижє съ помощиѭ носима оустроꙗ сътворѥна ѥстъ",
+	"tag-mobile_web_edit": "мѣна чрѣꙁъ носимъ сѣтьнъ обраꙁъ"
+}

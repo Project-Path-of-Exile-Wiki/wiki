@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Joao Xavier",
+			"Robin van der Vliet"
+		]
+	},
+	"mobile-frontend-editor-edit": "Redaktar",
+	"minerva-download": "Deskargar PDF",
+	"mobile-frontend-editor-redlink-create": "Krear pagino",
+	"mobile-frontend-history": "Videz redakto-historio di ca pagino",
+	"mobile-frontend-home-button": "Frontispico",
+	"mobile-frontend-language-article-heading": "Linguo",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Bonveno}}, $1!",
+	"mobile-frontend-main-menu-button-tooltip": "Apertar la precipua menuo",
+	"mobile-frontend-main-menu-login": "Enirar",
+	"mobile-frontend-main-menu-logout": "Ekirar",
+	"mobile-frontend-main-menu-nearby": "Vicina",
+	"mobile-frontend-main-menu-settings": "Parametri",
+	"mobile-frontend-main-menu-watchlist": "Surveyo-listo",
+	"mobile-frontend-pageaction-edit-tooltip": "Redaktar la precipua segmento de ica pagino.",
+	"mobile-frontend-placeholder": "Serchez en {{SITENAME}}",
+	"mobile-frontend-random-button": "Hazarde",
+	"mobile-frontend-user-button-tooltip": "Montrez mea avizi",
+	"minerva-page-actions-info": "Informo pri pagino",
+	"minerva-page-actions-user-groups": "Uzero-grupi"
+}

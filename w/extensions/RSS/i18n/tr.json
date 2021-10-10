@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"rss-desc": "RSS beslemelerini MediaWiki sayfalarındaki standart veya kullanıcı tanımlı biçimlerde şablon sayfalarını kullanarak görüntüler",
+	"rss-tracking-category": "RSS besleme olan sayfalar",
+	"rss-tracking-category-desc": "Sayfada bir RSS beslemesi var.",
+	"rss-error": "RSS beslemesi $1 bağlantısına yüklenemedi: $2",
+	"rss-empty": "$1 RSS beslemesi yüklenemedi!",
+	"rss-fetch-nourl": "URL olmadan getirilen getir!",
+	"rss-invalid-url": "Geçerli bir URL değil: $1",
+	"rss-parse-error": "RSS için XML ayrıştırma hatası",
+	"rss-ns-permission": "Bu ad alanına RSS giremez.",
+	"rss-url-is-not-whitelisted": "\"$1\", izin verilen yayınların beyaz listesinde değil. {{PLURAL:$3|$2 izin verilen tek besleme|İzin verilen beslemeler aşağıdaki gibidir: $2}}.",
+	"rss-empty-whitelist": "\"$1\", izin verilen beslemeler beyaz listesinde değil. Beyaz listede izin verilen besleme URL'si yok.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Kaldırılan değişken <var>$wgRSSAllowedFeeds</var> algılandı. RSS sürüm 2.0'dan bu yana bu değişken, kılavuz sayfasında [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS] açıklandığı gibi <var>$wgRSSUrlWhitelist</var> ile değiştirilmelidir.",
+	"rss-feed": "<!-- aşağıdaki iki alternatif şablonlardır. İlki, yayınlar için temel varsayılan şablondur -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- Burada yeni satır kullanmayın --><!-- İkincisi, Extension:ParserFunctions gerektiren gelişmiş bir sürümüdür. --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{yazar|}}} | {{#if: {{{tarih|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

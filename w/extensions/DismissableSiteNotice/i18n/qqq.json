@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"SPQRobin",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"sitenotice_id": "{{notranslate}}",
+	"sitenotice_close": "Part of the DismissableSiteNotice extension. You can see this on the right side of the [[MediaWiki:Sitenotice|sitenotice]].\n\nThe word \"dismiss\" (or \"close\") should be in the infinitive mood.\n{{Identical|Dismiss}}",
+	"sitenotice_close-brackets": "{{Optional}}\nParameters:\n* $1 - {{msg-mw|Sitenotice close}}, rendered as a link",
+	"sitenotice-desc": "{{desc|name=Dismissable SiteNotice|url=https://www.mediawiki.org/wiki/Extension:DismissableSiteNotice}}"
+}

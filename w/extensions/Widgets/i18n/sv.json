@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Martinwiss",
+			"Ozp",
+			"Per",
+			"WikiPhoenix"
+		]
+	},
+	"widgets-desc": "Gör så att administratörer kan lägga till egna manicker (widgets) till wikin genom att skapa sidor i namnrymden {{ns:widget}}. Manicker som andra har skapat finn på [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org].",
+	"widgets-error": "Fel i [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Widget-redigerare",
+	"group-widgeteditor-member": "{{GENDER:$1|widget-redigerare}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget-redigerare",
+	"action-editwidgets": "skapa och redigera widgets",
+	"right-editwidgets": "Skapa och redigera [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] i namnrymden<tt>{{ns:widget}}</tt>",
+	"widgets-config-useflaggedrevs": "Ändra detta till \"true\" för att använda den stabila versionen av tillägget FlaggedRevs för finessäkerhet",
+	"widgets-config-compiledir": "Ange en standardkatalog för lagring av kompilerade mallar"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"rss-desc": "Zeisch ene RSS-Kannaal op en Sigg em Wiki.",
+	"rss-tracking-category": "Sigge met RSS Kannähl",
+	"rss-tracking-category-desc": "Heh di Sigge han <i lang=\"en\" xml:lang=\"en\" title=\"Rich Site Summary &rarr; Really Simple Syndication\">RSS</i>-Kannähl.",
+	"rss-error": "Mer kunnte dä <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Rich Site Summary → Really Simple Syndication\">RSS</i>-Kannahl vun $1 nit lahde: $2",
+	"rss-empty": "Mer kunnte dä <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Rich Site Summary → Really Simple Syndication\">RSS</i>-Kannahl vun $1 nit lahde.",
+	"rss-fetch-nourl": "Et Affroofe (<code lang=\"en\">fetch</code>) der ohne ene URL jeiht nit!",
+	"rss-invalid-url": "„$1“ es keine jöltijje URL.",
+	"rss-parse-error": "Ene Fähler es opjetrodde beim Ongersöhke vun dämm XML för dat RSS.",
+	"rss-ns-permission": "RSS es nit zohjelohße en dämm Appachtemang heh",
+	"rss-url-is-not-whitelisted": "„$1“ es nit en dä Leß met de zohjelohße Kannähl.\n{{PLURAL:$3|$2 es der eijnzejje.|Zohjelohße sin heh di Kannähl: $2|Et sinn_er och kein zohjelohße.}}.",
+	"rss-empty-whitelist": "„$1“ es nit en dä Leß met de zohjelohße Kannähl. Et sinn_er och kein zohjelohße.",
+	"rss-deprecated-wgrssallowedfeeds-found": "De Varejahble <var lang=\"en\" xml:lang=\"en\" dir=\"ltr\">$wgRSSAllowedFeeds</var> wood jefonge, es ävver övverhollt.\nZigg <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Rich Site Summary → Really Simple Syndication\">RSS</i> Väsjohn 2.0 sullt mer <var lang=\"en\" xml:lang=\"en\" dir=\"ltr\">$wgRSSUrlWhitelist</var> nämme, wi em[https://www.mediawiki.org/wiki/Extension:RSS Handbohch] jesaat.",
+	"rss-feed": "<!-- Heh kumme zwei Schabloone, wohvun Er nur ein bruche künnt.\n  De eetsde es de Schtandatt-Schabloon för de RSS-Kanääl. -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- Heh sull kein neue Reih aanfange --><!-- De zweite Schabloon es en bäßere Väsjohn, di dat Zohsazprojramm Extension:ParserFunctions nüüdesch hät --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

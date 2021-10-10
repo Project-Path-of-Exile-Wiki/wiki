@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Swapnil.Karambelkar"
+		]
+	},
+	"variables-config-disabledfunctions": "फ़ंक्शन के एक सारणी को परिभाषित करने की अनुमति देता है जो विकी के भीतर उपलब्ध नहीं होना चाहिए। जोड़ते समय # को न जोड़े।"
+}

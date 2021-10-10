@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahonc"
+		]
+	},
+	"lst-desc": "Додає функції <code>#lst</code> та <code>#lstx</code> і тег <code>&lt;section&gt;</code>, дозволяє включати позначені ділянки тексту на інші сторінки"
+}

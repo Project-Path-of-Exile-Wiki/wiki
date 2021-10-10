@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"LNDDYL"
+		]
+	},
+	"mobile-frontend-editor-unavailable": "流動編輯器尚不支援您的瀏覽器。請嘗試使用其他瀏覽器。",
+	"mobile-frontend-editor-undo-unsupported": "流動裝置目前尚未支援還原。"
+}

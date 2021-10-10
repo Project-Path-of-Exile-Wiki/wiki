@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amqui",
+			"Benoit Rochon",
+			"Jean-paul echaquan",
+			"Ninmeka"
+		]
+	},
+	"mobile-frontend-editor-edit": "Meckotcita",
+	"mobile-frontend-home-button": "Otitikowin",
+	"mobile-frontend-language-article-heading": "Tapwatcike arotc kotak arimowewinik",
+	"mobile-frontend-main-menu-button-tooltip": "Nta cena nihe nictam ka masinatek",
+	"mobile-frontend-main-menu-contributions": "Witcihewin",
+	"mobile-frontend-main-menu-login": "Posi",
+	"mobile-frontend-main-menu-nearby": "Nepemictew",
+	"mobile-frontend-main-menu-settings": "Ke actain",
+	"mobile-frontend-main-menu-watchlist": "Ka masinateki",
+	"mobile-frontend-pageaction-edit-tooltip": "Meckotcika anihe ka kitcitik.",
+	"mobile-frontend-placeholder": "Nantokiskeritcikatek {{SITENAME}}",
+	"mobile-frontend-random-button": "Arotc",
+	"mobile-frontend-user-page-contributions": "Witcihewin",
+	"mobile-frontend-user-page-talk": "Ka ici arimowaniok"
+}

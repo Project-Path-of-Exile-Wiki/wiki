@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"recreatedata": "Ccreje arrete le date",
+	"cargo-createtableaction": "ccrejate 'a tabbelle Cargo $2",
+	"cargo-viewdata-format": "Formate:",
+	"cargo-viewdata-defaultformat": "Predefinite",
+	"cargo-viewdata-heightparam": "Altezze:",
+	"cargo-viewdata-widthparam": "Larghezze:",
+	"cargo-viewdata-modifyquery": "Cange l'inderrogazione",
+	"cargo-drilldown-allpages": "Tutte le pàggene",
+	"cargo-drilldown-allfiles": "Tutte le file",
+	"cargo-drilldown-filterbyvalue": "Filtre pe stu valore",
+	"cargo-drilldown-or": "o",
+	"cargo-drilldown-mapformat": "Mappe",
+	"cargo-drilldown-timelineformat": "Linèe d'u tiembe",
+	"cargo-drilldown-galleryformat": "Gallerie",
+	"cargo-drilldown-calendarformat": "Calendarije",
+	"cargo-viewcsv": "'Ndruche 'u CSV",
+	"cargo-viewxls": "'Ndruche l'XLS",
+	"cargo-viewjson": "'Ndruche 'u JSON",
+	"cargo-viewbibtex": "'Ndruche BibTeX",
+	"cargo-dynamictables-togglecolumns": "Live e mitte le culonne:",
+	"cargo-dynamictables-searchcolumn": "Cirche $1",
+	"cargo-purgecache": "Sdevache 'a cache",
+	"cargo-purgecache-failed": "Sdevacamende d'a cache fallite",
+	"specialpages-group-cargo": "Cargo",
+	"cargo-pageschemas-cargofield": "Cambe Cargo",
+	"cargo-pageschemas-tablename": "Nome d'a tabbelle:"
+}

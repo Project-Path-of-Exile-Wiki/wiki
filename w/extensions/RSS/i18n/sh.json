@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"rss-desc": "Prikazuje RSS dovode na stranicama MediaWikija u stadanrdnom ili korisnički opredjeljenom formatu koristeći šablonske stranice",
+	"rss-error": "Nije uspjelo učitavanje RSS dovoda iz $1: $2",
+	"rss-empty": "Nije uspjelo učitavanje RSS dovoda iz $1!",
+	"rss-fetch-nourl": "Akcija dohvaćanja nema URL!",
+	"rss-invalid-url": "Nije predstavlja valjanu URL: $1",
+	"rss-parse-error": "Greška pri parsiranju XML za RSS",
+	"rss-ns-permission": "RSS nije dopušten u ovom imenskom prostoru"
+}

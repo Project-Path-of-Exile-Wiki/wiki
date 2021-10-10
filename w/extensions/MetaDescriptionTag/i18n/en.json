@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"David M. Sledge",
+			"Purodha"
+		]
+	},
+	"metadescriptiontag-desc": "Tag to inject meta description into page header.",
+	"metadescriptiontag-missing-content": "Error: <metadesc> tag must have content."
+}

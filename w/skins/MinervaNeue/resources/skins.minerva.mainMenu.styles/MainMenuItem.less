@@ -1,0 +1,71 @@
+@import '../../minerva.less/minerva.variables.less';
+
+// stylelint-disable no-descending-specificity, selector-max-id
+
+@menuLinkLineHeight: 24px;
+
+// .menu
+#mw-mf-page-left {
+	.secondary-action {
+		border: 0;
+		// T170362 - reset font size
+		font-size: 16px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		border-left: 1px solid @grayMediumLight;
+		color: transparent;
+	}
+
+	.primary-action {
+		// 1px for the logout icon border-left
+		margin-right: @iconSize + @iconGutterWidth * 2;
+	}
+
+	ul {
+		&:first-child {
+			li:first-child {
+				border-top: 0;
+			}
+		}
+
+		li {
+			background-color: @background-color-base;
+			position: relative; // ensure the logout link in beta can be position absolute
+			border-top: 1px solid @colorGray14;
+			// offset the border for the icon by 1px
+			margin-top: -1px;
+
+			&:first-child {
+				border-top: 0;
+			}
+
+			a {
+				color: @colorGray5;
+				display: block;
+				max-width: 100%;
+				padding: @menuLinkLineHeight / 2 10px @menuLinkLineHeight / 2 15px;
+				// Overflow text is ellipsized in one line.
+				.text-overflow( @visible: false );
+
+				// T233166
+				&.secondary-action {
+					padding-left: 10px;
+				}
+
+				&:hover {
+					box-shadow: inset 4px 0 0 0 @colorProgressive;
+					text-decoration: none;
+				}
+
+				span {
+					font-size: @font-size-minerva-small;
+					font-weight: bold;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}
+// stylelint-enable no-descending-specificity, selector-max-id

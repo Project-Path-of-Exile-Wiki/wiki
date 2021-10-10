@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"apihelp-cargoquery-param-limit": "Eng Limitt fir d'Zuel vun de Resultater déi zréckgi gëtt",
+	"apihelp-cargorecreatedata-param-template": "D'Schabloun där hir Donnéeë benotzt ginn",
+	"apihelp-cargoautocomplete-param-limit": "Eng Limite vun der Zuel vu Resultater déi geliwwert ginn"
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"lst-desc": "Dodaje <code>#lst</code> i <code>#lstx</code> funkcije i oznaku <code>&lt;section&gt;</code>, omogućava označenim sekcijama teksta da budu uključeni"
+}

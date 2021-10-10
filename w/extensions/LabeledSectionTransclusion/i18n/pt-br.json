@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps",
+			555
+		]
+	},
+	"lst-desc": "Adiciona as funções <code>#lst</code> e <code>#lstx</code> e a tag <code>&lt;section&gt;</code>. Ativa seções de texto marcadas para serem transcluídas"
+}

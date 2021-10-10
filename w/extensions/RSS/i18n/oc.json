@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"rss-desc": "Aficha un flux RSS sus una pagina del wiki",
+	"rss-tracking-category": "Paginas amb de fluxes RSS",
+	"rss-tracking-category-desc": "La pagina a un flux RSS.",
+	"rss-error": "Impossible de cargar lo flux RSS de $1 : $2",
+	"rss-empty": "Impossible de cargar lo flux RSS de $1 !",
+	"rss-fetch-nourl": "Apèl passat sens provesir cap d’URL !",
+	"rss-invalid-url": "URL invalida : $1",
+	"rss-parse-error": "Error al moment de l’analisi XML del RSS",
+	"rss-ns-permission": "Los fluxes RSS son pas autorizats dins aqueste espaci de noms",
+	"rss-url-is-not-whitelisted": "\" $1 \" es pas dins la lista dels fluxes autorizats.  {{PLURAL:$3|  $2  es lo sol flux autorizat|Los fluxes autorizats son :  $2}}.",
+	"rss-empty-whitelist": "\"$1\" es pas dins la lista dels fluxes autorizats. I a pas cap d'URL de flux autorizat dins la lista."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Garas",
+			"Tomasdd"
+		]
+	},
+	"sitenotice_close": "paslėpti",
+	"sitenotice_close-brackets": "[$1]",
+	"sitenotice-desc": "Leisti naudotojams paslėpti pranešimą"
+}

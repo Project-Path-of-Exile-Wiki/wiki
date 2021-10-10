@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseba",
+			"Subi"
+		]
+	},
+	"cargo-viewdata-tables": "Taula(k):",
+	"cargo-viewdata-fields": "Eremua(k):",
+	"cargo-viewdata-where": "Non:",
+	"cargo-cargotables-header-table": "Taula",
+	"cargo-cargotables-action-delete": "Ezabatu",
+	"cargo-cargotables-viewtablelink": "Ikusi taula",
+	"cargo-drilldown-or": "edo",
+	"cargo-viewcsv": "Ikusi CSV",
+	"cargo-viewjson": "Ikusi JSON"
+}

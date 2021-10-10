@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"skinname-vector": "Vector",
+	"vector-skin-desc": "Modern Versioun vu Monobook mat frëschem Look a ville Verbesserunge vun der Benotzerfrëndlechkeet",
+	"prefs-vector-enable-vector-1-label": "Déi al-Versioun vu Vector benotzen",
+	"prefs-vector-enable-vector-1-help": "An den nächste Jore gëtt de Layout 'Vector' Schrëtt fir Schrëtt aktualiséiert. Den traditionelle Layout Vector erlaabt Iech et fir déi al Versioun vu Vector (esou wéi am Dezember 2019) ze benotzen. Fir méi iwwer d'Aktualiséierunge gewuer ze ginn, gitt wgl. op eis  [[mw:Reading/Web/Desktop_Improvements|Projetssäit]].",
+	"vector-opt-out": "An den ale Layout wiesselen",
+	"vector-opt-out-tooltip": "Ännert Är Astellunge fir op den ale Look vum Layout Vector (legacy Vector = Vector vum Dezember 2019) zréckzegoen",
+	"vector.css": "/* All CSS deen hei steet gëtt vun alle Benotzer vum Ausgesinn Vector gelueden */",
+	"vector.js": "/* All JavaScript hei gëtt geluede fir Benotzer vum Layout Vector */",
+	"vector-action-toggle-sidebar": "Säitleche Menü weisen/verstoppen",
+	"vector-action-addsection": "Sujet dobäisetzen",
+	"vector-action-delete": "Läschen",
+	"vector-action-move": "Réckelen",
+	"vector-action-protect": "Spären",
+	"vector-action-undelete": "Restauréieren",
+	"vector-action-unprotect": "Spär änneren",
+	"vector-view-create": "Uleeën",
+	"vector-view-edit": "Änneren",
+	"vector-view-history": "Versioune weisen",
+	"vector-view-view": "Liesen",
+	"vector-view-viewsource": "Quellcode weisen",
+	"vector-jumptonavigation": "Op d'Navigatioun wiesselen",
+	"vector-jumptosearch": "Op d'Siche wiesselen",
+	"vector-more-actions": "Méi"
+}

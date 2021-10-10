@@ -1,0 +1,55 @@
+{
+	"name": "mediawiki/variables",
+	"type": "mediawiki-extension",
+	"description": "The Variables extension allows you to define a variable on a page, use it later in that same page or included templates, change its value, possibly to a value given by an expression in terms of the old value, etc.",
+	"homepage": "https://www.mediawiki.org/wiki/Extension:Variables",
+	"license": "ISC",
+	"authors": [
+		{
+			"name": "Rob Adams"
+		},
+		{
+			"name": "Tom Hempel"
+		},
+		{
+			"name": "Xiloynaha"
+		},
+		{
+			"name": "Daniel Werner"
+		},
+		{
+			"name": "MGChecker",
+			"email": "hgasuser@gmail.com"
+		}
+	],
+	"support": {
+		"wiki": "https://www.mediawiki.org/wiki/Extension:Variables",
+		"issues": "https://phabricator.wikimedia.org/project/view/3326/",
+		"forum": "https://www.mediawiki.org/wiki/Extension_talk:Variables",
+		"source": "https://phabricator.wikimedia.org/diffusion/EVAR/",
+		"irc": "irc://irc.freenode.org/mediawiki"
+	},
+	"require": {
+		"php": ">=5.5.9",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "35.0.0",
+		"mediawiki/mediawiki-phan-config": "0.10.6",
+		"mediawiki/minus-x": "1.1.1",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check .",
+			"phpcs -p -s"
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		],
+		"phan": "phan -d . --long-progress-bar"
+	}
+}

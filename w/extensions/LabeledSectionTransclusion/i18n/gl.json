@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"lst-desc": "Engade as funcións <code>#lst</code> e <code>#lstx</code> funcións, e a etiqueta <code>&lt;section&gt;</code>, permite que as seccións maradas dun texto sexan transcluídas"
+}

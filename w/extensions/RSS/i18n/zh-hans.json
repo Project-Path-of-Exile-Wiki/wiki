@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Chenxiaoqino",
+			"Hydra",
+			"Liuxinyu970226",
+			"PhiLiP",
+			"Yfdyh000",
+			"Zhuyifei1999"
+		]
+	},
+	"rss-desc": "在MediaWiki页面上使用模板页面，以标准或使用者自订格式显示RSS源",
+	"rss-tracking-category": "有RSS源的页面",
+	"rss-tracking-category-desc": "页面有RSS订阅。",
+	"rss-error": "自$1: $2加载RSS失败",
+	"rss-empty": "自$1加载RSS失败",
+	"rss-fetch-nourl": "无网址情况中进行读取！",
+	"rss-invalid-url": "不是有效的网址：$1",
+	"rss-parse-error": "为RSS解析XML时出错",
+	"rss-ns-permission": "此名字空间不允许RSS。",
+	"rss-url-is-not-whitelisted": "\"$1\"不在允许订阅的源的白名单中。 {{PLURAL:$3|$2是唯一允许的源|允许订阅的源如下所示：$2}}。",
+	"rss-empty-whitelist": "\"$1\"不在允许订阅的源的白名单中。没有任何允许订阅的源的地址在白名单中。",
+	"rss-deprecated-wgrssallowedfeeds-found": "检测到已弃用的变量<var>$wgRSSAllowedFeeds</var>。自RSS 2.0版本开始，此变量已替换为<var>$wgRSSUrlWhitelist</var>，见[https://www.mediawiki.org/wiki/Extension:RSS Extension:RSS]手册页面中的描述。",
+	"rss-feed": "<!-- 以下是两种可供选择的模板，第一种是默认的进料模板 -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- 不要在此插入换行符 --><!-- 第二种是需要Extension:ParserFunctions的改进版本 --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

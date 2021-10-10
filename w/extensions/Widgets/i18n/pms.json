@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"widgets-desc": "A përmët a j'aministrator dla wiki ëd gionté ëd widget a forma lìbera a la wiki an modificand dle pàgine ant lë spassi nominal {{ns:widget}}.\nDij widget creà da la comunità a peulo esse trovà su [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Eror an [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Editor ëd widget",
+	"group-widgeteditor-member": "{{GENDER:$1|Editor ëd widget}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Editor ëd widget",
+	"right-editwidgets": "Creé e modifiché ij [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets] ant lë spassi nominal <tt>{{ns:widget}}</tt>"
+}

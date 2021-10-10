@@ -1,0 +1,184 @@
+{
+	"name": "OATHAuth",
+	"version": "0.5.0",
+	"author": [
+		"Ryan Lane",
+		"Robert Vogel <vogel@hallowelt.com>",
+		"Dejan Savuljesku <savuljesku@hallowelt.com>"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OATHAuth",
+	"descriptionmsg": "oathauth-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"license-name": "GPL-2.0-or-later AND GPL-3.0-or-later",
+	"attributes": {
+		"OATHAuth": {
+			"Modules": {
+				"totp": "\\MediaWiki\\Extension\\OATHAuth\\Module\\TOTP::factory"
+			}
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\OATHAuth\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\OATHAuth\\Tests\\": "tests/phpunit/"
+	},
+	"AuthManagerAutoConfig": {
+		"secondaryauth": {
+			"OATHSecondaryAuthenticationProvider": {
+				"class": "\\MediaWiki\\Extension\\OATHAuth\\Auth\\SecondaryAuthenticationProvider",
+				"sort": 50
+			}
+		}
+	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"ExtensionMessagesFiles": {
+		"OATHAuthAlias": "OATHAuth.alias.php"
+	},
+	"Hooks": {
+		"AuthChangeFormFields": "main",
+		"LoadExtensionSchemaUpdates": "\\MediaWiki\\Extension\\OATHAuth\\Hook\\LoadExtensionSchemaUpdates\\UpdateTables::callback",
+		"GetPreferences": "main",
+		"getUserPermissionsErrors": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Hook\\HookHandler",
+			"services": [
+				"OATHUserRepository",
+				"PermissionManager",
+				"MainConfig"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"OATHAuth": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"config": {
+		"OATHAuthWindowRadius": {
+			"value": 4
+		},
+		"OATHAuthDatabase": {
+			"value": false
+		},
+		"OATHAuthSecret": {
+			"value": false
+		},
+		"OATHAuthAccountPrefix": {
+			"value": false
+		},
+		"OATHExclusiveRights": {
+			"value": []
+		}
+	},
+	"ResourceModules": {
+		"ext.oath.totp.showqrcode": {
+			"scripts": [
+				"totp/jquery.qrcode.js",
+				"totp/qrcode.js",
+				"totp/ext.oath.showqrcode.js"
+			]
+		},
+		"ext.oath.totp.showqrcode.styles": {
+			"styles": [
+				"totp/ext.oath.showqrcode.styles.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "OATHAuth/modules"
+	},
+	"SpecialPages": {
+		"DisableOATHForUser": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Special\\DisableOATHForUser",
+			"services": [
+				"OATHUserRepository",
+				"UserFactory"
+			]
+		},
+		"OATHManage": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Special\\OATHManage",
+			"services": [
+				"OATHUserRepository",
+				"OATHAuth"
+			]
+		},
+		"VerifyOATHForUser": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Special\\VerifyOATHForUser",
+			"services": [
+				"OATHUserRepository",
+				"UserFactory"
+			]
+		}
+	},
+	"AvailableRights": [
+		"oathauth-enable",
+		"oathauth-api-all",
+		"oathauth-disable-for-user",
+		"oathauth-verify-user",
+		"oathauth-view-log"
+	],
+	"GroupPermissions": {
+		"*": {
+			"oathauth-disable-for-user": false,
+			"oathauth-view-log": false
+		},
+		"user": {
+			"oathauth-enable": true
+		},
+		"sysop": {
+			"oathauth-disable-for-user": true,
+			"oathauth-verify-user": true,
+			"oathauth-view-log": true
+		}
+	},
+	"GrantPermissions": {
+		"oath": {
+			"oathauth-api-all": true,
+			"oathauth-verify-user": true
+		}
+	},
+	"GrantPermissionGroups": {
+		"oath": "authentication"
+	},
+	"APIModules": {
+		"oathvalidate": "\\MediaWiki\\Extension\\OATHAuth\\Api\\Module\\ApiOATHValidate"
+	},
+	"APIMetaModules": {
+		"oath": "\\MediaWiki\\Extension\\OATHAuth\\Api\\Module\\ApiQueryOATH"
+	},
+	"RateLimits": {
+		"badoath": {
+			"&can-bypass": false,
+			"user": [ 10, 60 ],
+			"user-global": [ 10, 60 ]
+		}
+	},
+	"ReauthenticateTime": {
+		"oathauth-enable": 60
+	},
+	"load_composer_autoloader": true,
+	"LogTypes": [ "oath" ],
+	"LogNames": {
+		"oath": "oath-log-name"
+	},
+	"LogHeaders": {
+		"oath": "oath-log-header"
+	},
+	"LogActionsHandlers": {
+		"oath/*": "LogFormatter"
+	},
+	"LogRestrictions": {
+		"oath": "oathauth-view-log"
+	},
+	"manifest_version": 2
+}

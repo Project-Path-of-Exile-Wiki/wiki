@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hangmanwa7id"
+		]
+	},
+	"mobile-frontend-editor-edit": "Changer",
+	"mobile-frontend-home-button": "Accueil",
+	"mobile-frontend-main-menu-login": "Connecter",
+	"mobile-frontend-main-menu-settings": "Configuration",
+	"mobile-frontend-main-menu-watchlist": "Mes pages guettées",
+	"mobile-frontend-placeholder": "Charcher sur {{SITENAME}}",
+	"mobile-frontend-random-button": "Au hasard"
+}

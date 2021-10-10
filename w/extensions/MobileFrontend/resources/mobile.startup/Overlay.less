@@ -1,0 +1,311 @@
+@import '../../mobile.less/mobile.variables.less';
+@import '../../mobile.less/mobile.mixins.less';
+
+/* stylelint-disable no-descending-specificity */
+
+.overlay-enabled {
+	// stylelint-disable-next-line selector-max-id
+	#mw-mf-page-center {
+		overflow: hidden;
+		// FIXME: override old overlay styles, remove when old overlays gone
+		display: block;
+	}
+
+	// stylelint-disable-next-line selector-max-id
+	.overlay,
+	#mw-mf-page-center {
+		// use height instead of bottom 0 so that overlay expands when there's
+		// more content, don't use min-height because of
+		// http://stackoverflow.com/questions/3808512/the-inherited-height-of-a-child-div-from-a-parent-with-a-min-height-attribute
+		height: 100%;
+	}
+}
+
+.hidden {
+	display: none !important;
+}
+
+// Overlays
+
+// Overlays (read only)
+//
+// Read-only overlays should be used when no user interaction is required.
+// They should only be used to convey information to the user, such as
+// warning him or her when an event occurs.
+//
+// Markup:
+// <html class="overlay-enabled">
+//   <div class="overlay visible">
+//     <div class="overlay-header-container visible">
+//       <div class="overlay-header">
+//         <ul>
+//           <li><button class="cancel icon">Close</button></li>
+//         </ul>
+//         <div class="overlay-title"><h2>Overlay</h2></div>
+//       </div>
+//     </div>
+//     <div class="content">Overlay with no icon.</div>
+//   </div>
+// </html>
+
+// Overlays (primary)
+//
+// Primary overlays should be used when user interaction is required in a chain
+// of actions. For example, when editing a page in MobileFrontend, the user will
+// edit the page, and then enter an edit message on the next overlay, displayed
+// after pressing the "Next" button.
+//
+// Markup:
+// <html class="overlay-enabled">
+//   <div class="overlay visible">
+//     <div class="overlay-header-container visible">
+//       <div class="overlay-header">
+//         <ul>
+//           <li><button class="cancel icon">Close</button></li>
+//         </ul>
+//         <div class="overlay-title"><h2>Overlay</h2></div>
+//         <ul>
+//           <li><button class="continue icon">Continue</button></li>
+//         </ul>
+//       </div>
+//     </div>
+//     <div class="content">Overlay with progressive action.</div>
+//   </div>
+// </html>
+
+// Overlays
+//
+// Overlays should be used when user interaction is required in the
+// form of, well, a form. These overlays should NOT be set up as a chain (see
+// above for those), but rather as a single action that is completed once the user
+// presses the "Submit" button.
+//
+// Markup:
+// <html class="overlay-enabled">
+//   <div class="overlay visible">
+//     <div class="overlay-header-container visible">
+//       <div class="overlay-header">
+//         <ul>
+//          <li><button class="cancel icon">Close</button></li>
+//         </ul>
+//         <div class="overlay-title"><h2>Overlay</h2></div>
+//         <div class="header-action"><button class="submit">Submit</button></div>
+//       </div>
+//     </div>
+//     <div class="content">Overlay with completion action.</div>
+//   </div>
+// </html>
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	z-index: @z-indexOverlay;
+	display: none;
+
+	&.visible {
+		display: block;
+	}
+
+	input, textarea {
+		// Without declaring a minimum font-size of 16px, iOS will autozoom in on textareas when clicked (T215619)
+		// https://blog.osmosys.asia/2017/01/05/prevent-ios-from-zooming-in-on-input-fields/
+		font-size: 16px;
+	}
+
+	// FIXME: Use generic class for these input fields - can't use .panel currently due to languageOverlay
+	.captcha-word,
+	.summary {
+		margin: 0 0 0.7em;
+		width: 100%;
+	}
+
+	.wikitext-editor {
+		min-height: 50%;
+		line-height: 1.5;
+		border: 0;
+	}
+
+	.panel {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		border-bottom: 1px solid @grayLightest;
+	}
+
+	// Appears before the content providing an explanation of what follows
+	// Only used on overlays in beta (nearby pages)- may not want to push to stable
+	.content-header {
+		background-color: @colorGray15;
+		border-bottom: 1px solid @colorGray14;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		line-height: inherit;
+	}
+}
+
+.overlay-header {
+	.overlay-title {
+		// Expand the title as wide as possible to limit the size of the
+		// header-action. (Both are displayed as table-cells.)
+		width: 100%;
+	}
+
+	.header-action {
+		a,
+		button {
+			&[ disabled ] {
+				opacity: 0.5;
+			}
+
+			&:focus {
+				outline: 0;
+			}
+		}
+
+		// FIXME: Overlay buttons should be given the mw-ui-button class instead
+		// of re-implementing it's properties here.
+		.continue,
+		.submit,
+		.progressive {
+			// FIXME: Use WikimediaUI `@background-color*` variable when available.
+			background-color: @color-primary;
+			color: @color-base--inverted;
+			width: auto;
+			display: table-cell;
+			vertical-align: middle;
+
+			&:not( .mw-ui-icon-element ) {
+				padding: 0 1.2em;
+			}
+
+			&[ disabled ] {
+				background-color: @colorGray12;
+				opacity: 1;
+			}
+		}
+
+		// Some overlays e.g. NotificationOverlay use an OOUI icon as the header action.
+		.oo-ui-widget {
+			margin-right: @iconGutterWidth;
+		}
+	}
+
+	button {
+		cursor: pointer;
+	}
+
+	.submit {
+		// FIXME: Use WikimediaUI `@background-color*` variable when available.
+		background-color: @color-primary;
+		color: @color-base--inverted;
+	}
+
+	h2 {
+		display: table;
+		width: 100%;
+		// reset default headings. Overide default font size.
+		font-size: 1em;
+
+		> * {
+			width: 1em;
+			display: table-cell;
+			// padding instead of spaces between words
+			padding-right: 0.4em;
+		}
+
+		span {
+			width: auto;
+			// required for text-overflow to work
+			max-width: 1em;
+		}
+	}
+
+	> ul, > div {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	> ul {
+		li {
+			display: block;
+		}
+	}
+}
+
+.overlay-header-container,
+.overlay-footer-container {
+	width: 100%;
+	background: @background-color-base;
+	// prevent .page-list or VE surface overlaping the header when scrolling
+	z-index: @z-indexOverOverlay;
+
+	&.position-fixed {
+		position: fixed;
+		// both top and left required for Android 2 for the element to be visible
+		left: 0;
+		// the following right: 0 is converted to left: 0 for RTL languages
+		// (for unknown reasons left: 0 is mandatory in Android 2 for the
+		// element to be visible, right: 0 doesn't work)
+		right: 0;
+	}
+}
+
+.overlay-header-container {
+	top: 0;
+}
+
+.overlay-footer-container {
+	background-color: @background-color-base;
+	bottom: 0;
+	border-top: 1px solid @grayLight;
+
+	a {
+		display: block;
+		// The 1em bottom whitespace is applied as padding since Chrome and Safari ignore
+		// it otherwise. The 10px padding corresponds with the icon margin.
+		padding: 1em 1em 1em 10px;
+		line-height: 1em;
+		text-align: center;
+	}
+}
+
+// Bottom Overlays
+//
+// A overlay that is docked to the bottom of the screen.
+//
+// Markup:
+// <div class="overlay overlay-bottom position-fixed visible">
+//   <div class="overlay-header-container visible">
+//     <div class="overlay-header">
+//       <ul>
+//        <li><button class="cancel icon">Close</button></li>
+//       </ul>
+//       <div class="overlay-title"><h2>Overlay</h2></div>
+//       <ul>
+//        <li><button class="submit icon">Submit</button></li>
+//       </ul>
+//     </div>
+//   </div>
+//   <div class="content"></div>
+// </div>
+.overlay-bottom {
+	border-top: 1px solid @grayLight;
+	top: auto;
+	bottom: 0;
+	height: auto !important;
+	background: @colorGray15;
+
+	.overlay-header-container {
+		background: @colorGray15;
+	}
+}
+
+@media all and ( min-width: @width-breakpoint-tablet ) {
+	.overlay {
+		.panel {
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+	}
+}

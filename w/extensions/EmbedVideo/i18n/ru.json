@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac",
+			"P@S@f"
+		]
+	},
+	"embedvideo-description": "Добавляет функцию синтаксического анализатора для встраивания видео с популярных видеохостингов.",
+	"embedvideo-error-missingparams": "В теге EmbedVideo отуствует обязательный параметр.",
+	"embedvideo-error-service": "Тег EmbedVideo не может распознать сервис \"$1\".",
+	"embedvideo-error-id": "В тег EmbedVideo введен неверный id \"$2\" видео для сервиса \"$1\".",
+	"embedvideo-error-width": "В тег EmbedVideo введен неверный параметр ширины \"$1\".",
+	"embedvideo-error-height": "В тег EmbedVideo введен неверный параметр высота \"$1\".",
+	"embedvideo-error-alignment": "EmbedVideo was given an illegal value for the alignment parameter \"$1\".  Valid values are \"left\", \"center\", or \"right\".",
+	"embedvideo-error-valignment": "EmbedVideo was given an illegal value for the valignment parameter \"$1\".  Valid values are \"top\", \"middle\", \"bottom\", or \"baseline\".",
+	"embedvideo-error-urlargs": "EmbedVideo received a list of URL arguments that contained malformed data or blank arguments.",
+	"embedvideo-error-unknown": "EmbedVideo encountered an unknown error while trying to generate this video embed block.  ($1)",
+	"embedvideo-error-evp_deprecated": "The #evp parser function was deprecated in EmbedVideo 2.0.  Please convert your parser function tag to #ev.",
+	"embedvideo-error-container": "The parameter provided for 'container' is invalid.",
+	"apihelp-embedvideo-param-alignment": "Выравнивание видео",
+	"apihelp-embedvideo-param-description": "Описание видео"
+}

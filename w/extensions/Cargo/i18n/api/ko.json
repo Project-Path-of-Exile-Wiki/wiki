@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"In2acous",
+			"Ykhwong"
+		]
+	},
+	"apihelp-cargoquery-param-offset": "쿼리 오프셋",
+	"apihelp-cargorecreatetables-param-createReplacement": "데이터를 대체 테이블로 넣을지의 여부",
+	"apihelp-cargoautocomplete-param-where": "지정된 다른 필터에 기반한 쿼리의 \"where\" 절"
+}

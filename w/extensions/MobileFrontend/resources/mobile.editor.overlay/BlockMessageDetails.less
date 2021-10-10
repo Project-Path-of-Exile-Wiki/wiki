@@ -1,0 +1,77 @@
+@import 'mediawiki.ui/variables.less';
+
+.block-message {
+	h5 {
+		font-weight: bold;
+		margin: 0;
+		// This should match the height of an icon in px.
+		// FIXME: Use @icon-glyph-size-md when Minerva's mw-ui-icon skinStyles are in core.
+		line-height: 20px;
+	}
+
+	h6 {
+		margin-bottom: 0.187em;
+	}
+}
+
+.block-message-icon {
+	float: left;
+}
+
+.block-message-info {
+	float: left;
+	width: 80%;
+	text-align: left;
+}
+
+.block-message-item {
+	margin-bottom: 1em;
+}
+
+.block-message-data {
+	margin-bottom: 1.875em;
+}
+
+.block-message-buttons {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 1em;
+	text-align: right;
+	background-color: @colorGray15;
+	box-shadow: 0 -4px 5px -4px @colorGray15;
+
+	a.mw-ui-button,
+	button.cancel {
+		margin: 0 0.5em 0 0;
+		display: inline-block;
+	}
+}
+
+.block-message-creator {
+	a {
+		color: inherit;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.block-message-reason {
+	clear: both;
+	padding: 1em;
+	text-align: left;
+	background-color: @colorGray14;
+	margin-bottom: 3em;
+}
+
+.block-message-title {
+	color: @color-destructive;
+}
+
+.drawer {
+	padding-left: 0;
+	padding-right: 0;
+}

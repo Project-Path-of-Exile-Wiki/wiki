@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Михајло Анђелковић"
+		]
+	},
+	"localisationupdate-extensionname": "Ажурирање локализације",
+	"localisationupdate-desc": "Ажурира локализоване поруке колико је год могуће"
+}

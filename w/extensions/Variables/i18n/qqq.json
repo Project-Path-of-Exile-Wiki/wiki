@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"MGChecker",
+			"Purodha",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"variables-desc": "{{desc|name=Variables|url=https://www.mediawiki.org/wiki/Extension:Variables}}",
+	"variables-config-disabledfunctions": "configuration setting description of $egVariablesDisabledFunctions",
+	"variables-config-arevolatile": "configuration setting description of $egVariablesAreVolatile"
+}

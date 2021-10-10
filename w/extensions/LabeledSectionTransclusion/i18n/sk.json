@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"lst-desc": "Pridáva funkcie <code>#lst</code> and <code>#lstx</code> a značku <code>&lt;section&gt;</code>, umožňuje transklúziu označených častí textu"
+}

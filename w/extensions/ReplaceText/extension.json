@@ -1,0 +1,84 @@
+{
+	"name": "Replace Text",
+	"version": "1.4.1",
+	"author": [
+		"Yaron Koren",
+		"Niklas Laxström",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Replace_Text",
+	"descriptionmsg": "replacetext-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"type": "specialpage",
+	"GroupPermissions": {
+		"sysop": {
+			"replacetext": true
+		}
+	},
+	"AvailableRights": [
+		"replacetext"
+	],
+	"SpecialPages": {
+		"ReplaceText": "SpecialReplaceText"
+	},
+	"JobClasses": {
+		"replaceText": "ReplaceTextJob"
+	},
+	"MessagesDirs": {
+		"ReplaceText": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.ReplaceText": {
+			"scripts": [
+				"ext.ReplaceText.js"
+			],
+			"styles": [
+				"ext.ReplaceText.css"
+			],
+			"messages": [
+				"powersearch-togglelabel",
+				"powersearch-toggleall",
+				"powersearch-togglenone"
+			]
+		},
+		"ext.ReplaceTextStyles": {
+			"styles": [
+				"ext.ReplaceTextStyles.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ReplaceText/resources"
+	},
+	"ExtensionMessagesFiles": {
+		"ReplaceTextAlias": "ReplaceText.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"ReplaceTextHooks": "src/ReplaceTextHooks.php",
+		"SpecialReplaceText": "src/SpecialReplaceText.php",
+		"ReplaceTextJob": "src/ReplaceTextJob.php",
+		"ReplaceTextSearch": "src/ReplaceTextSearch.php"
+	},
+	"Hooks": {
+		"AdminLinks": [
+			"ReplaceTextHooks::addToAdminLinks"
+		],
+		"SpecialMovepageAfterMove": [
+			"ReplaceTextHooks::replaceTextReminder"
+		],
+		"UserGetReservedNames": [
+			"ReplaceTextHooks::getReservedNames"
+		]
+	},
+	"config": {
+		"ReplaceTextResultsLimit": 250,
+		"ReplaceTextUser": null
+	},
+	"manifest_version": 1
+}

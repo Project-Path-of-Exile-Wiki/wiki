@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido",
+			"KATRINE1992",
+			"Lmorillas",
+			"Macofe"
+		]
+	},
+	"apihelp-cargoquery-description": "Ejecuta una consulta en los datos de Cargo.",
+	"apihelp-cargoquery-summary": "Ejecuta una consulta en los datos de Cargo.",
+	"apihelp-cargoquery-param-tables": "La o las tablas de la base de datos de Cargo en las que se ha de buscar",
+	"apihelp-cargoquery-param-fields": "Campo(s) de la tabla que recuperar",
+	"apihelp-cargoquery-param-where": "Condiciones de la consulta, correspondientes a una cláusula WHERE de SQL",
+	"apihelp-cargoquery-param-join_on": "Condiciones para unir varias tablas, correspondientes a una cláusula JOIN ON de SQL",
+	"apihelp-cargoquery-param-order_by": "Orden de los resultados, correspondiente a una cláusula ORDER BY de SQL",
+	"apihelp-cargoquery-param-group_by": "Campo o campos en los que agrupar los resultados, correspondientes a una cláusula GROUP BY de SQL",
+	"apihelp-cargoquery-param-having": "Condiciones para valores agrupados, correspondientes a una cláusula HAVING de SQL",
+	"apihelp-cargoquery-param-limit": "Un límite en el número de resultados devueltos",
+	"apihelp-cargorecreatetables-description": "Recrea una o más tablas de Cargo.",
+	"apihelp-cargorecreatetables-summary": "Recrea una o más tablas de Cargo.",
+	"apihelp-cargorecreatetables-param-createReplacement": "Si debemos reemplazar los dados a una otra lista",
+	"apihelp-cargorecreatedata-param-template": "La plantilla cuyos datos se usarán",
+	"apihelp-cargoautocomplete-param-limit": "Límite en el número de resultados que devolver",
+	"apihelp-cargoautocomplete-param-substr": "Buscar subcadena",
+	"apihelp-cargoautocomplete-param-table": "Tabla de Cargo en la que buscar valores",
+	"apihelp-cargoautocomplete-param-where": "La cláusula \"where\" para la consulta, basada en los demás filtros especificados"
+}

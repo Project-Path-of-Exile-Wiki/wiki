@@ -1,0 +1,17 @@
+.client-js {
+	.collapsible-heading {
+		cursor: pointer;
+	}
+}
+
+@media print {
+	.collapsible-heading .indicator,
+	.collapsible-heading .edit-page {
+		display: none;
+	}
+
+	// need to be this specific in order to override the default style
+	.client-js .collapsible-block {
+		display: block;
+	}
+}

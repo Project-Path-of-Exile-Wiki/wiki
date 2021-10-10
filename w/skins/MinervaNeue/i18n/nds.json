@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joachim Mos",
+			"Servien"
+		]
+	},
+	"mobile-frontend-editor-edit": "Ännern",
+	"mobile-frontend-home-button": "Startsied",
+	"mobile-frontend-main-menu-login": "Anmellen",
+	"mobile-frontend-main-menu-logout": "Afmellen",
+	"mobile-frontend-main-menu-settings": "Instellungen",
+	"mobile-frontend-main-menu-watchlist": "Oppasslist",
+	"mobile-frontend-placeholder": "{{SITENAME}} dörsöken"
+}

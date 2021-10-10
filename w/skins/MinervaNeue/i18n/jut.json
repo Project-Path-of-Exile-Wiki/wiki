@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jyllanj"
+		]
+	},
+	"mobile-frontend-editor-edit": "Redigiir",
+	"mobile-frontend-home-button": "Hjem",
+	"mobile-frontend-language-article-heading": "Läs på e ånj spraw",
+	"mobile-frontend-main-menu-button-tooltip": "Åbn hwoetmenui",
+	"mobile-frontend-main-menu-login": "Logg på",
+	"mobile-frontend-main-menu-nearby": "I närheden",
+	"mobile-frontend-main-menu-settings": "Instellenge",
+	"mobile-frontend-main-menu-watchlist": "Öwewågnengslist",
+	"mobile-frontend-pageaction-edit-tooltip": "Redigiir inliednengen for siden.",
+	"mobile-frontend-placeholder": "Syeg på {{SITENAME}}",
+	"mobile-frontend-random-button": "Tilfælli"
+}

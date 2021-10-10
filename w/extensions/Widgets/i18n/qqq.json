@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Khaledelmansoury",
+			"Purodha",
+			"Shirayuki",
+			"Siebrand",
+			"Umherirrender",
+			"아라"
+		]
+	},
+	"widgets-desc": "{{desc|name=Widgets|url=https://www.mediawiki.org/wiki/Extension:Widgets}}",
+	"widgets-error": "{{doc-important|Do not translate <code><nowiki>{{ns:widget}}</nowiki></code>.}}\nUsed as error message. Parameters:\n* $1 - widget name",
+	"group-widgeteditor": "{{doc-group|widgeteditor}}",
+	"group-widgeteditor-member": "{{doc-group|widgeteditor|member}}",
+	"grouppage-widgeteditor": "{{doc-group|widgeteditor|page}}",
+	"action-editwidgets": "{{doc-action|editwidgets}}",
+	"right-editwidgets": "{{doc-right|editwidgets}}",
+	"group-widgeteditor.css": "{{doc-group|widgeteditor|css}}",
+	"group-widgeteditor.js": "{{doc-group|widgeteditor|js}}",
+	"widgets-config-useflaggedrevs": "configuration setting description of $wgWidgetsUseFlaggedRevs",
+	"widgets-config-compiledir": "configuration setting description of $wgWidgetsCompileDir"
+}

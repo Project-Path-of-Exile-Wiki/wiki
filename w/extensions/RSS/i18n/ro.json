@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco",
+			"Minisarm"
+		]
+	},
+	"rss-desc": "Afișează un flux RSS pe o pagină wiki",
+	"rss-error": "Eroare la încărcarea fluxului RSS de la $1: $2",
+	"rss-empty": "Eroare la încărcarea fluxului RSS de la $1!",
+	"rss-fetch-nourl": "Apel trimis fără un URL!",
+	"rss-invalid-url": "Nu este un URL valid: $1",
+	"rss-parse-error": "Eroare de analiză XML pentru RSS",
+	"rss-ns-permission": "RSS nu este permis în acest spațiu de nume"
+}

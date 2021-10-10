@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ukabia",
+			"Uzoma Ozurumba"
+		]
+	},
+	"mobile-frontend-categories-heading": "<strong>Ụdàkọ</strong>",
+	"mobile-frontend-diffview-editcount": "{{PLURAL:$1|ḿmezi}} <div>$1</div>",
+	"mobile-frontend-editor-cancel": "Hapụ̀",
+	"mobile-frontend-editor-save": "Dònye",
+	"mobile-frontend-save-settings": "Dònye",
+	"mobile-frontend-watchlist-filter-talk": "Nkàta",
+	"tag-mobile_edit": "ḿmezi m̀pàn'aka",
+	"tag-mobile_web_edit": "Ndezi web nke mbugharị"
+}

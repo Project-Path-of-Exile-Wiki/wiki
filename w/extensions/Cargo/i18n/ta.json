@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"ElangoRamanujam",
+			"கலைவாணன்"
+		]
+	},
+	"cargo-viewdata-tables": "அட்டவணை(கள்):",
+	"cargo-viewdata-fields": "களம்(ங்கள்):",
+	"cargo-viewdata-where": "எங்கு:",
+	"cargo-viewdata-joinon": "இதன்மேல் சேர்க்கவும்:",
+	"cargo-viewdata-groupby": "இதன்படி தொகுக்கவும்:",
+	"cargo-viewdata-orderby": "இதன்படி வரிசைபடுத்து:",
+	"cargo-viewdata-limit": "வரம்பு::",
+	"cargo-viewdata-format": "வடிவமைப்பு:",
+	"cargo-drilldown-hierarchy-only": "\"$1\" மட்டும்"
+}

@@ -1,0 +1,13 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"max-len": "off",
+		"mediawiki/class-doc": "off",
+		"vars-on-top": "off"
+	}
+}

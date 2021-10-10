@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"SemanticPioneer"
+		]
+	},
+	"variables-desc": "Funkcje parsera umożliwiają pracę ze zmiennymi dynamicznymi w kontekście ograniczonym do artykułu",
+	"variables-config-disabledfunctions": "Pozwala zdefiniować szereg funkcji, które nie powinny być dostępne na wiki. Pomiń wszystkie # podczas dodawania funkcji.\nNa przykład: $egVariablesDisabledFunctions=['var_final', 'vardefineecho']; //aby wyłączyć funkcje „#var_final” i „#vardefineecho”.",
+	"variables-config-arevolatile": "Traktuje funkcje parsera #var i #varexists jako zmienne, aby zapobiec nieoczekiwanemu zachowaniu z powodu buforowania szablonów. Wyłączenie tej opcji przywraca starsze zachowanie."
+}

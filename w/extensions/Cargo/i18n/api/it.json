@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apihelp-cargoquery-param-fields": "I campi della tabella da recuperare",
+	"apihelp-cargorecreatedata-param-template": "Il modello con i dati da utilizzare"
+}

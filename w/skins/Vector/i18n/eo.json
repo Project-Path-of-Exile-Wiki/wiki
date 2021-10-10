@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Mirin",
+			"Objectivesea",
+			"Yekrats"
+		]
+	},
+	"skinname-vector": "Vektoro",
+	"vector-skin-desc": "Moderna versio de MonoBook kun freŝa aspekto kaj plibonigo de uzebleco",
+	"vector.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Vektora temo. */",
+	"vector.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Vektora temo. */",
+	"vector-action-addsection": "Aldoni temon",
+	"vector-action-delete": "Forigi",
+	"vector-action-move": "Alinomi",
+	"vector-action-protect": "Protekti",
+	"vector-action-undelete": "Malforigi",
+	"vector-action-unprotect": "Ŝanĝi protektadon",
+	"vector-view-create": "Krei",
+	"vector-view-edit": "Redakti",
+	"vector-view-history": "Vidi historion",
+	"vector-view-view": "Legi",
+	"vector-view-viewsource": "Vidi fonton",
+	"vector-jumptonavigation": "Salti al navigilo",
+	"vector-jumptosearch": "Salti al serĉilo",
+	"vector-more-actions": "Pli"
+}

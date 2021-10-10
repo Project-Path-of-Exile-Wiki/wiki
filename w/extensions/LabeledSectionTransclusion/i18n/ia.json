@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"lst-desc": "Adde le functiones <code>#lst</code> e <code>#lstx</code> e le etiquetta <code>&lt;section&gt;</code>, permittente le transclusion de sectiones marcate de texto"
+}

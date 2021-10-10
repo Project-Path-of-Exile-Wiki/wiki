@@ -1,0 +1,323 @@
+/**
+ * The main CSS file for the Cargo extension's drill-down functionality.
+ *
+ * Based heavily on the Semantic Drilldown extension's SD_main.css file.
+ */
+
+/* Normal (sidebar) display of tables list */
+div#drilldown-tables-wrapper {
+	float: right;
+	background: white;
+	padding: 0px 25px 25px 25px;
+}
+
+ul#drilldown-tables {
+	border: 2px #888888 solid;
+	list-style: none;
+}
+
+ul#drilldown-tables li {
+	padding: 3px 8px 3px 8px;
+	margin: 0px;
+	list-style-image: none;
+}
+
+p#tables-header {
+	font-weight: bold;
+}
+
+p {
+	font-size: initial;
+}
+
+ul#drilldown-tables li.tableName {
+	border-top: 1px #aaaaaa solid;
+	background: #e9e9e9;
+}
+
+ul#drilldown-tables li.selected {
+	background: white;
+}
+
+ul#drilldown-tables li.selected a {
+	color: #222;
+}
+
+div#drilldown-header {
+	font-size: large;
+	font-weight: bold;
+}
+
+span.drilldown-header-value {
+	font-weight: normal;
+}
+
+div.drilldown-filters-wrapper {
+	border: 1px solid #a2a9b1;
+	border-radius: 2px;
+	background-color: #f8f9fa;
+	color: #54595d;
+	padding: 0.6em;
+	margin-top: 1em;
+}
+
+.drilldown-parent-filters-wrapper {
+	border: 1px solid #a2a9b1;
+	border-radius: 2px;
+	margin: 0.5em 0 0;
+	padding: 0.6em;
+}
+
+span.drilldown-parent-tables-value {
+	border: 1px solid #a2a9b1;
+	border-radius: 2px;
+	padding: 0.1em 0.3em;
+}
+
+span.drilldown-or {
+	color: gray;
+	font-weight: normal;
+}
+
+div.drilldown-filter {
+	margin-top: 12px;
+}
+
+div.drilldown-filter-label {
+	font-weight: bold;
+}
+
+legend {
+	border: 1px solid #a2a9b1;
+	border-radius: 2px;
+	padding: 0 0.5em;
+	background: white;
+	font-size: large;
+	font-weight: bold;
+}
+
+span.drilldown-filter-notes {
+	font-weight: normal;
+}
+
+div.drilldown-filter-values {
+}
+
+.ui-button {
+	margin-left: -1px;
+}
+
+.ui-button-icon-only .ui-button-text {
+	padding: 0.35em;
+}
+
+button.ui-button-icon-only {
+	width: 1.7em;
+	height: 1.5em;
+	vertical-align: bottom;
+	margin-top: 0.2em;
+}
+
+/* Tabs */
+@media screen and ( min-width: 550px ) {
+	.drilldown-tabs {
+		width: 100%;
+		float: left;
+		clear: both;
+		margin: 0;
+		padding: 0;
+		background: url( break.png ) no-repeat bottom left;
+	}
+
+	.drilldown-tabs li {
+		float: left;
+		margin: 0;
+		padding: 0 1px 0 0;
+		height: 2.25em;
+		white-space: nowrap;
+		list-style: none none;
+		background: url( break.png ) no-repeat bottom right, url( fade.png ) repeat-x bottom;
+	}
+
+	.drilldown-tabs li:first-child {
+		margin-left: 1px;
+	}
+
+	.drilldown-tabs li.selected a {
+		background-color: white;
+		color: #222;
+	}
+
+	.drilldown-tabs a,
+	.drilldown-tabs a:active {
+		display: inline-block;
+		position: relative;
+		color: #0645ad;
+		text-decoration: none;
+		font-size: 0.9em;
+		padding: 0.5em;
+	}
+
+	.drilldown-tabs a:hover,
+	.drilldown-tabs a:focus {
+		text-decoration: underline;
+	}
+
+	div#drilldown-format-tabs-wrapper,
+	#drilldown-tables-tabs-wrapper {
+		border-bottom: 1px solid #c8ccd1;
+		margin-bottom: 1em;
+	}
+}
+
+/* override gallery css(resources/src/mediawiki.page.gallery.styles/gallery.css) */
+.gallerybox {
+	box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.2 );
+	transition: 0.3s;
+}
+
+.gallerybox:hover {
+	box-shadow: 0 8px 16px 0 rgba( 0, 0, 0, 0.2 );
+}
+
+li.gallerybox div.thumb {
+	margin: 0 0 2px;
+	width: 100% !important;
+}
+
+li.gallerybox div.thumb img {
+	width: 100%;
+}
+
+@media screen and ( max-width: 549px ) {
+	html,
+	body {
+		height: 100%;
+	}
+
+	#mw-panel {
+		position: relative;
+	}
+
+	#right-navigation,
+	#left-navigation {
+		margin-top: 0;
+	}
+
+	#left-navigation {
+		margin-left: 0;
+		margin-top: 1.8px;
+	}
+
+	.mw-body .firstHeading {
+		border-bottom: none;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+
+	#left-navigation span {
+		border-bottom: 1px solid #ffffff;
+	}
+
+	#mw-page-base,
+	#mw-head-base {
+		height: 2.55em;
+		margin-top: -2.55em;
+	}
+
+	a.menu_header {
+		float: right;
+	}
+
+	a.menu_header svg {
+		width: 35px;
+		fill: gray;
+	}
+
+	#header {
+		position: -webkit-sticky; /* Safari */
+		position: sticky;
+		top: -1px;
+		z-index: 1;
+		background: white;
+		padding-top: 0.5em;
+		border: 1px solid #FFFFFF;
+		border-bottom: 1px solid #a2a9b1;
+		margin-bottom: 0.5em;
+	}
+
+	div.drilldown-filters-wrapper {
+		margin-top: 0.5em;
+	}
+
+	#drilldown-tables-tabs-wrapper {
+		z-index: 2;
+		background-color: #f4f5f7;
+		width: 275px;
+		top: 0;
+		position: fixed;
+		height: 100%;
+		overflow-y: auto;
+		-webkit-transform: translate( -275px, 0 );
+		transform: translate( -275px, 0 );
+		transition: transform 0.3s ease;
+	}
+
+	#drilldown-tables-tabs-wrapper.open {
+		-webkit-transform: translate( 0, 0 );
+		transform: translate( 0, 0 );
+	}
+
+	#drilldown-tables-tabs-wrapper ul {
+		list-style: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	#tableTabsHeader,
+	#formatTabsHeader {
+		padding: 0.5em 0.5em 0.5em 1em;
+	}
+
+	#drilldown-tables-tabs-wrapper li {
+		display: list-item;
+		border-top: 1px solid #E0E0E0;
+		width: 100%;
+		margin: 0;
+		text-align: left;
+		padding: 1em 1em 1em 2.5em;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		line-height: 18px;
+	}
+
+	#drilldown-tables-tabs-wrapper li:last-child {
+		border-bottom: 1px solid #E0E0E0;
+	}
+
+	#drilldown-tables-tabs-wrapper li.selected {
+		background-color: #fff;
+	}
+
+	.mw-body {
+		margin-left: 0;
+		margin-top: 2.55em;
+		padding-top: 0;
+	}
+
+	div.mapCanvas {
+		width: 100% !important;
+		/* width: 100%;
+		zoom: calc(1- calc(360/700)); */
+	}
+
+	#p-logo,
+	#p-personal,
+	#contentSub,
+	br,
+	.hide {
+		display: none;
+	}
+}

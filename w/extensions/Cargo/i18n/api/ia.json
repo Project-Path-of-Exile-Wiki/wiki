@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-cargorecreatetables-summary": "Recrea un o plure tabellas Cargo.",
+	"apihelp-cargoautocomplete-summary": "Appello de autocompletion usate per le extension Cargo."
+}

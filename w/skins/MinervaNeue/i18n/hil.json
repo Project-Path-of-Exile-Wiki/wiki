@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Redhotchili23"
+		]
+	},
+	"mobile-frontend-editor-edit": "Liwaton",
+	"mobile-frontend-home-button": "Balay",
+	"mobile-frontend-language-article-heading": "Basahon sa lain nga pamulong",
+	"mobile-frontend-main-menu-button-tooltip": "Buksan ang labihanong pililian",
+	"mobile-frontend-main-menu-login": "Magsulod",
+	"mobile-frontend-main-menu-nearby": "Malapit",
+	"mobile-frontend-main-menu-watchlist": "Balantayan",
+	"mobile-frontend-placeholder": "Pangitaa ang {{SITENAME}}",
+	"mobile-frontend-random-button": "Lagpat"
+}

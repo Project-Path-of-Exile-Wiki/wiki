@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"rss-desc": "Montre los flux RSS sur les pâges MediaWiki dens un format estandârd ou ben dens un format dèfeni per l’usanciér avouéc les pâges du modèlo.",
+	"rss-error": "Empossiblo de chargiér lo flux RSS de $1 : $2",
+	"rss-empty": "Empossiblo de chargiér lo flux RSS de $1 !",
+	"rss-fetch-nourl": "Apèl passâ sen balyér d’URL !",
+	"rss-invalid-url": "URL envalida : $1",
+	"rss-parse-error": "Èrror pendent l’analise XML du RSS",
+	"rss-ns-permission": "Los flux RSS sont pas ôtorisâs dens cél èspâço de noms",
+	"rss-feed": "<!--  cen que siut est una altèrnativa entre doux modèlos. Lo premiér est lo modèlo de bâsa per dèfôt por los flux -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- pas betar de retôrn a la legne ique --><!-- Lo second est una vèrsion mèlyorâ qu’at fôta de l’Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

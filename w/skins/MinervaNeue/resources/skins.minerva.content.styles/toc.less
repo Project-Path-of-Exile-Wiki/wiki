@@ -1,0 +1,91 @@
+@import '../../minerva.less/minerva.variables.less';
+
+.toc {
+	display: none;
+	position: relative;
+	margin: 1em 0;
+	padding: 0.2em 0.5em;
+	background-color: @colorGray15;
+	border: solid 1px @grayLightest;
+	box-sizing: border-box;
+}
+
+.toctogglecheckbox ~ ul {
+	visibility: hidden;
+	height: 0;
+}
+
+.toctogglecheckbox:checked ~ ul {
+	visibility: visible;
+	padding-bottom: 20px;
+	height: auto;
+}
+
+.toctitle {
+	padding: 0 25px 0 32px;
+
+	.mw-ui-icon {
+		position: absolute;
+		left: 0;
+	}
+
+	.toctogglespan + .mw-ui-icon {
+		top: 8px;
+		right: 0;
+		left: auto;
+	}
+}
+
+.toctogglelabel {
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 50px;
+	z-index: @z-indexAboveContent;
+}
+
+.client-js .toc {
+	.toctitle {
+		@toctitle-vertical-padding: 1.4em / 2;
+		visibility: hidden;
+		background-position: right center;
+		font-weight: bold;
+		border-bottom: 0;
+
+		h2 {
+			display: inline-block;
+			font-family: @font-family-base;
+			font-size: unit( 18/16, em );
+			vertical-align: middle;
+		}
+	}
+
+	.tocnumber {
+		display: none;
+	}
+
+	> ul {
+		// Account for the icon spaces left and right.
+		margin: 0 unit( @icon-glyph-size-md / @font-size-minerva-small, em ) 0 32px;
+		// Reset `.client-js .toc > ul`.
+		padding-left: 0;
+		font-size: @font-size-minerva-small;
+	}
+
+	ul {
+		list-style: none;
+	}
+}
+
+@media screen and ( min-width: @width-breakpoint-tablet ) {
+	.client-js .toc {
+		// Reset the rule for mobile mode (but not for .client-nojs)
+		display: table;
+
+		.toctitle {
+			visibility: visible;
+		}
+	}
+}

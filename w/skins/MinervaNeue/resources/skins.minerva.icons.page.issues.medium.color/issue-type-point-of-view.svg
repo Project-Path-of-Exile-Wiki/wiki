@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+	<title>
+		point of view
+	</title>
+	<path d="M6 8l2-3 2-3H2l2 3zM14 12l-2 3-2 3h8l-2-3z"/>
+	<path d="M1.5 9h17v2h-17z" transform="rotate(-22.5 10 10)"/>
+</svg>

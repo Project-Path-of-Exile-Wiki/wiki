@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega"
+		]
+	},
+	"cargo-viewdata-tables": "Táblázat(ok):",
+	"cargo-viewdata-fields": "Mező(k):",
+	"cargo-viewdata-limit": "Limit:",
+	"cargo-viewicalendar": "iCalendar megtekintése"
+}

@@ -1,0 +1,49 @@
+@import '../../minerva.less/minerva.variables.less';
+@import '../../minerva.less/minerva.mixins.less';
+
+.last-modified-bar {
+	border-bottom: solid 1px @footerBorderColor;
+	background-color: @lastModifiedBarBgColor;
+	color: @lastModifiedBarTextColor;
+	padding-top: @icon-padding-md;
+	padding-bottom: @icon-padding-md;
+	font-size: @font-size-minerva-small;
+	.transition( background-color @transition-duration-medium, color @transition-duration-medium; );
+
+	a,
+	a:visited {
+		color: @colorGray5;
+		// If browser supports
+		&:nth-child( 1 ) {
+			font-weight: bold;
+		}
+	}
+
+	// Unset `a.external` link icon, see T267464.
+	// FIXME: Can likely be removed when T259628 is resolved.
+	a.external {
+		background-image: none;
+		padding-right: 0;
+	}
+}
+
+.last-modified-bar__content {
+	align-items: center;
+	.flex-display();
+}
+
+.last-modified-bar__text {
+	@end-padding: @iconGutterWidth + @iconGutterWidth + @iconSize;
+	padding-right: @end-padding;
+	padding-left: @icon-padding-md;
+	line-height: @line-height-content;
+	vertical-align: middle;
+	flex-grow: 1;
+	.text-overflow( @visible: false );
+}
+
+@media ( max-width: @width-breakpoint-tablet ) {
+	.last-modified-bar__text {
+		padding-right: 1em;
+	}
+}

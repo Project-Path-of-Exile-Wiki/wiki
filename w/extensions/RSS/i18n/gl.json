@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"rss-desc": "Amosa fluxos RSS en páxinas de MediaWiki, ben nun formato estándar ou ben en formatos personalizables mediante modelos",
+	"rss-tracking-category": "Páxinas con fontes de novas RSS",
+	"rss-tracking-category-desc": "A páxina ten unha fonte de novas RSS.",
+	"rss-error": "Erro ao cargar a fonte de novas RSS de \"$1\": $2",
+	"rss-empty": "Erro ao cargar a fonte de novas RSS de \"$1\"!",
+	"rss-fetch-nourl": "Non deu ningún enderezo URL!",
+	"rss-invalid-url": "O enderezo URL non é válido: $1",
+	"rss-parse-error": "Erro analítico de XML para o RSS",
+	"rss-ns-permission": "O RSS non está permitido neste espazo de nomes",
+	"rss-url-is-not-whitelisted": "\"$1\" non se atopa na lista branca das fontes de novas permitidas. {{PLURAL:$3|$2 é a única fonte de novas permitida|As fontes de novas permitidas son as seguintes: $2}}.",
+	"rss-empty-whitelist": "\"$1\" non se atopa na lista branca das fontes de novas permitidas. Non hai enderezos URL de fontes de novas permitidos na lista branca.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Detectouse a variable anticuada <var>$wgRSSAllowedFeeds</var>. Desde a versión 2.0 de RSS, cómpre substituír esta variable por <var>$wgRSSUrlWhitelist</var> segundo está descrito no manual [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  os seguintes son dous modelos alternativos. O primeiro é o modelo por defecto básico para as fontes de novas -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- non empregar unha liña nova aquí --><!-- O segundo é unha versión mellora que necesita Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

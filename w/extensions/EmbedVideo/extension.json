@@ -1,0 +1,132 @@
+{
+	"name": "EmbedVideo",
+	"version": "3.0.4",
+	"author": [
+		"Jim R. Wilson",
+		"Andrew Whitworth",
+		"Alexia E. Smith",
+		"Cameron M. Chunn",
+		"Octfx",
+		"Alistair3149"
+	],
+	"url": "https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo",
+	"descriptionmsg": "embedvideo-description",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"platform": {
+			"php": ">=7.3.0",
+			"ext-curl": "*"
+		}
+	},
+	"MessagesDirs": {
+		"EmbedVideo": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"EmbedVideoMagic": "EmbedVideo.i18n.magic.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\EmbedVideo\\": "includes/"
+	},
+	"APIModules": {
+		"embedvideo": "MediaWiki\\Extension\\EmbedVideo\\ApiEmbedVideo"
+	},
+	"ResourceModules": {
+		"ext.embedVideo": {
+			"scripts": [
+				"resources/ext.embedVideo.js"
+			],
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.embedVideo.consent": {
+			"scripts": [
+				"resources/ext.embedVideo.consent.js"
+			],
+			"styles": [
+				"resources/ext.embedVideo.consent.less"
+			],
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.embedVideo.styles": {
+			"styles": [
+				"resources/ext.embedVideo.styles.less"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "EmbedVideo"
+	},
+	"config": {
+		"EmbedVideoAddFileExtensions": {
+			"description": "Adds 'flac', 'mkv', 'mov', 'mp3', 'mp4', 'oga', 'ogg', 'ogv', 'wav', 'webm' to $wgFileExtensions.",
+			"value": true
+		},
+		"EmbedVideoEnableVideoHandler": {
+			"description": "Enables the video handler which displays local videos using the html5 <video> tag.",
+			"value": true
+		},
+		"EmbedVideoEnableAudioHandler": {
+			"description": "Enables the audio handler which displays local videos using the html5 <audio> tag.",
+			"value": true
+		},
+		"EmbedVideoMinWidth": {
+			"description": "Minimum width of the embedded iframe.",
+			"value": null
+		},
+		"EmbedVideoMaxWidth": {
+			"description": "Maximum width of the embedded iframe.",
+			"value": null
+		},
+		"EmbedVideoDefaultWidth": {
+			"description": "Default fallback width",
+			"value": 320
+		},
+		"FFProbeLocation": {
+			"description": "Location to ffprobe",
+			"value": "/usr/bin/ffprobe"
+		},
+		"EmbedVideoEnabledServices": {
+			"description": "List of services to enable, if empty, enable all",
+			"value": []
+		},
+		"EmbedVideoRequireConsent": {
+			"description": "Explicitly require consent by only loading the iframe if the user clicks it",
+			"value": true
+		},
+		"EmbedVideoFetchExternalThumbnails": {
+			"description": "Don't try to fetch thumbnails when consent is required.",
+			"value": true
+		}
+	},
+	"ConfigRegistry": {
+		"EmbedVideo": "GlobalVarConfig::newInstance"
+	},
+	"ExtensionFunctions": [
+		"MediaWiki\\Extension\\EmbedVideo\\EmbedVideoHooks::setup"
+	],
+	"HookHandlers": {
+		"EmbedVideoHooks": {
+			"class": "MediaWiki\\Extension\\EmbedVideo\\EmbedVideoHooks"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "EmbedVideoHooks"
+	},
+	"manifest_version": 2
+}

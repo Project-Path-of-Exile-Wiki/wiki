@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"variables-desc": "Funciones analítiques que permiten trabayar con variables dinámiques nun contestu d'artículu",
+	"variables-config-disabledfunctions": "Permite definir un rangu de funciones que nun tendríen de tar disponibles na wiki. Nun escribas nengún # al añadir funciones.",
+	"variables-config-arevolatile": "Trata les funciones #var y #varexists del analizador como volátiles pa evitar comportamientos inesperaos debíos al almacenamientu en caché de les plantíes. Desactivar esta opción restaura'l comportamientu heredáu."
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"cargo-viewdata-defaultformat": "پہلے کنوں طے تھیا ہویا",
+	"cargo-viewdata-colorsparam": "رنگ:",
+	"cargo-cargotables-header-table": "ٹیبل",
+	"cargo-cargotables-header-rowcount": "قطاراں",
+	"cargo-cargotables-header-templates": "سانچے",
+	"cargo-cargotables-action-deletereplacement": "مٹاؤ",
+	"cargo-cargotables-action-delete": "مٹاؤ",
+	"cargo-cargotables-action-recreate": "ولدا خلقو",
+	"cargo-drilldown-mapformat": "نقشہ",
+	"cargo-drilldown-timelineformat": "ٹائم لائن",
+	"cargo-drilldown-galleryformat": "گیلری",
+	"cargo-drilldown-calendarformat": "کیلنڈر",
+	"cargo-dynamictables-searchcolumn": "$1 ڳولو"
+}

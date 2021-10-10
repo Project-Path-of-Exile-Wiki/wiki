@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evropi",
+			"Protnet"
+		]
+	},
+	"rss-desc": "Εμφανίζει μια τροφοδοσία RSS σε μια σελίδα wiki",
+	"rss-error": "Απέτυχε η φόρτωση της τροφοδοσίας RSS από το $1: $2",
+	"rss-empty": "Απέτυχε η φόρτωση της τροφοδοσίας RSS από το $1!",
+	"rss-fetch-nourl": "Έγινε κλήση της συνάρτησης λήψης χωρίς διεύθυνση URL!",
+	"rss-invalid-url": "Άκυρη διεύθυνση URL: $1",
+	"rss-parse-error": "Σφάλμα κατά την ανάλυση XML για RSS",
+	"rss-ns-permission": "Η ροή RSS δεν επιτρέπεται σε αυτόν το χώρο ονομάτων",
+	"rss-feed": "<!--  τα ακόλουθα είναι δύο διαφορετικά πρότυπα. Το πρώτο είναι το βασικό προεπιλεγμένο πρότυπο για ροές -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- μην αλλάζετε γραμμή εδώ --><!-- Το δεύτερο είναι μια βελτιωμένη έκδοση που απαιτεί την επέκταση ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

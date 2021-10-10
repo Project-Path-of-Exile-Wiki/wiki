@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leeheonjin"
+		]
+	},
+	"cargo-viewdata-where": "Nokarin:",
+	"cargo-viewdata-groupby": "Grupu ning/nang:",
+	"cargo-viewdata-limit": "Limita:",
+	"cargo-viewdata-format": "Pormat:",
+	"cargo-pageschemas-cargofield": "Pamaglulan espasyu"
+}

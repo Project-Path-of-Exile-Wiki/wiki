@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sanbec"
+		]
+	},
+	"lst-desc": "Añade las funciones <code>#lst</code> y <code>#lstx</code> y la etiqueta <code>&lt;section&gt;</code>, que permite transcluir secciones de texto marcadas"
+}

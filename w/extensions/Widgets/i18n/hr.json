@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
+	"group-widgeteditor": "Uređivači dodataka",
+	"group-widgeteditor-member": "{{GENDER:$1|uređivač dodataka|uređivačica dodataka}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Uređivači dodataka"
+}

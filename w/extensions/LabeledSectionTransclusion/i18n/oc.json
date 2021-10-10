@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"lst-desc": "Apond las foncions <code>#lst</code> e <code>#lstx</code> e mai la balisa <code>&lt;section&gt;</code>, activa las seccions marcadas del tèxte que devon èsser transclusas"
+}

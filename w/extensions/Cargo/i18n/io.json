@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"cargo-viewdata-tables": "Tabelo/Tabeli:",
+	"cargo-cargotables-header-table": "Tabelo",
+	"cargo-cargotables-header-templates": "Shabloni",
+	"cargo-cargotables-action-deletereplacement": "Efacar",
+	"cargo-cargotables-action-delete": "Efacar",
+	"cargo-cargotables-action-recreate": "Rikrear"
+}

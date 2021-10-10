@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"widgets-error": "Èrror dens lo [[{{ns:widget}}:$1|vouidgèt $1]]",
+	"group-widgeteditor": "Changiors de vouidgèts",
+	"group-widgeteditor-member": "changio{{GENDER:$1|r|sa}} de vouidgèts",
+	"grouppage-widgeteditor": "{{ns:project}}:Changiors de vouidgèts",
+	"right-editwidgets": "Fâre et changiér los [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets vouidgèts] dens l’èspâço de noms « {{ns:widget}} »"
+}

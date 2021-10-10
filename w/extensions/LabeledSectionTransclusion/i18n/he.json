@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotem Liss"
+		]
+	},
+	"lst-desc": "הוספת פונקציות <code>#lst</code> ו־<code>#lstx</code> ותג <code>&lt;section&gt;</code>, המאפשרים הכללה של קטעים מסומנים של טקסט"
+}

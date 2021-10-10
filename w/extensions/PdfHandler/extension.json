@@ -1,0 +1,63 @@
+{
+	"name": "PDF Handler",
+	"author": [
+		"Martin Seidel",
+		"Mike Połtyn"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PdfHandler",
+	"descriptionmsg": "pdf-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "media",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"config": {
+		"PdfOutputExtension": {
+			"value": "jpg"
+		},
+		"PdfHandlerDpi": {
+			"value": 150
+		},
+		"PdfCreateThumbnailsInJobQueue": {
+			"value": false
+		},
+		"PdfPostProcessor": {
+			"value": "/usr/bin/convert"
+		},
+		"PdfHandlerJpegQuality": {
+			"value": 95
+		},
+		"PdftoText": {
+			"value": "/usr/bin/pdftotext"
+		},
+		"PdfProcessor": {
+			"value": "/usr/bin/gs"
+		},
+		"PdfInfo": {
+			"value": "/usr/bin/pdfinfo"
+		}
+	},
+	"MessagesDirs": {
+		"PdfHandler": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"UploadVerifyFile": [
+			"MediaWiki\\Extension\\PdfHandler\\CreatePdfThumbnailsJob::insertJobs"
+		],
+		"ResourceLoaderRegisterModules": [
+			"MediaWiki\\Extension\\PdfHandler\\PdfHandler::registerWarningModule"
+		]
+	},
+	"JobClasses": {
+		"createPdfThumbnailsJob": "MediaWiki\\Extension\\PdfHandler\\CreatePdfThumbnailsJob"
+	},
+	"MediaHandlers": {
+		"application/pdf": "MediaWiki\\Extension\\PdfHandler\\PdfHandler"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\PdfHandler\\": "includes/"
+	},
+	"manifest_version": 2
+}

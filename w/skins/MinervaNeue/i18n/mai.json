@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bijay chaurasia",
+			"Tulsi Bhagat",
+			"बिप्लब आनन्द"
+		]
+	},
+	"mobile-frontend-editor-edit": "सम्पादन",
+	"mobile-frontend-home-button": "घर",
+	"mobile-frontend-language-article-heading": "कुनो दोसर भाषामे पढी",
+	"mobile-frontend-main-menu-button-tooltip": "मुख्य मेनु खोली",
+	"mobile-frontend-main-menu-login": "सम्प्रवेश करी",
+	"mobile-frontend-main-menu-nearby": "नजदिकसँ",
+	"mobile-frontend-main-menu-settings": "सेटिङ्गस",
+	"mobile-frontend-main-menu-watchlist": "साकांक्ष सूची",
+	"mobile-frontend-pageaction-edit-tooltip": "ई पन्नाके नेतृत्व अनुभागक सम्पादित करी।",
+	"mobile-frontend-placeholder": "{{SITENAME}}मे खोजी",
+	"mobile-frontend-random-button": "बेतरतीब"
+}

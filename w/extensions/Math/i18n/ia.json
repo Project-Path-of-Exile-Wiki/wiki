@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"McDutchie"
+		]
+	},
+	"math-desc": "Visualisar formulas mathematic inter etiquettas <code>&lt;math&gt;</code> ... <code>&lt;/math&gt;</code>",
+	"math_failure": "Error durante le analyse del syntaxe",
+	"math_syntax_error": "error de syntaxe",
+	"math-tracking-category-mhchem-deprecation": "Paginas que usa un formato obsolescente del etiquettas chimic",
+	"math-tracking-category-mhchem-deprecation-desc": "Le paginas in iste categoria usa un formato obsolescente del etiquettas chimic",
+	"math_unknown_error": "error incognite",
+	"math_unknown_function": "function '$1' incognite",
+	"mw_math_mathml": "MathML con recurso a SVG o PNG (recommendate pro navigatores moderne e instrumentos de accessibilitate)",
+	"mw_math_png": "Imagines PNG",
+	"mw_math_source": "Codice-fonte LaTeX (pro navigatores in modo texto)",
+	"prefs-math": "Mathematica"
+}

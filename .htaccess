@@ -1,0 +1,18 @@
+## https://www.mediawiki.org/wiki/Manual:Short_URL/Apache
+
+
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+
+
+# Enable the rewrite engine
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Short URL for wiki pages
+RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/w/index.php [L]
+
+# Redirect / to Main Page
+RewriteRule ^/*$ %{DOCUMENT_ROOT}/w/index.php [L]
+

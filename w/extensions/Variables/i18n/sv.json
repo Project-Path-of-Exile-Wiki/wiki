@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"variables-desc": "Parserfunktioner som gör det möjligt att arbeta med dynamiska variabler en artikelkontext"
+}

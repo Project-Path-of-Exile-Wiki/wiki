@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"widgets-desc": "Omogućava administratorima da dodaju vidžete na vikiju uređivanjem stranica unutar {{ns:widget}} imenskog prostora.\nVidžeti napravljeni od strane zajednice mogu se naći na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Greška u [[{{ns:widget}}:$1|$1 vidžetu]]",
+	"group-widgeteditor": "Urednici elemenata",
+	"group-widgeteditor-member": "{{GENDER:$1|Urednik elemenata|Urednica elemenata|Urednik elemenata}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Urednici elemenata",
+	"right-editwidgets": "pravljenje i uređivanje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets vidžeta] u <tt>{{ns:widget}}</tt> imenskom prostoru"
+}

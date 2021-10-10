@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akapochtli",
+			"Taresi"
+		]
+	},
+	"mobile-frontend-editor-edit": "Xicpatla",
+	"mobile-frontend-home-button": "Pehualiztli",
+	"mobile-frontend-language-article-heading": "Tamapohuaz ica occe pinotlahtolli",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Ximopanolti}}, $1!",
+	"mobile-frontend-main-menu-login": "Xicalaqui",
+	"mobile-frontend-main-menu-settings": "Tlatlaliliztli",
+	"mobile-frontend-pageaction-edit-tooltip": "Xicpatla inīn tlaīxtli ītlahtōlpēhualiz.",
+	"mobile-frontend-placeholder": "Tictemoz ipan {{SITENAME}}"
+}

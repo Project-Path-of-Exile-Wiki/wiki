@@ -1,0 +1,73 @@
+@import '../../mobile.less/mobile.variables.less';
+@import 'mediawiki.mixins.less';
+
+// Drawers
+//
+// Drawers appear at the bottom of the page and contain CTAs
+// Drawers are hidden when overlays are opened.
+
+// Basic drawer styling
+//
+// The close button should appear at the top of the drawer.
+// The visible class needs to be present for the drawer to show.
+//
+// Markup:
+// <div class="drawer visible">
+//   <a class="cancel icon">close</a>
+//   <p>hello</p>
+// </div>
+.drawer {
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 1em;
+	max-width: 500px;
+	margin: 0 auto;
+
+	&.text {
+		font-size: 0.9em;
+		text-align: left;
+		padding-top: 0.5em;
+	}
+
+	p {
+		margin-top: 0.5em;
+	}
+
+	p,
+	a:not( :last-child ),
+	.mw-ui-button {
+		margin-bottom: 1em;
+	}
+}
+
+// prevent body from scrolling
+// won't work on firefox for android because of this bug: https://bugzilla.mozilla.org/show_bug.cgi?id=886969
+.has-drawer--with-scroll-locked {
+	overflow: hidden;
+}
+
+// When overlays are opened drawers do not look good
+.overlay-enabled {
+	.drawer {
+		// !important to override rules set by animations
+		display: none !important;
+	}
+}
+
+.drawer-container__mask {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba( 0, 0, 0, 0.8 );
+	transition: opacity 100ms ease-in-out;
+	opacity: 0;
+
+	&--visible {
+		// Cover the entire screen only when the screen is visible.
+		// Drawers are hidden asychronously and we don't want to intercept clicks to article elements
+		// during that time.
+		top: 0;
+		opacity: 0.2;
+	}
+}

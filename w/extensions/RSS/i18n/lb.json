@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"rss-desc": "Weist en RSS-Feed op enger Wiki-Säit",
+	"rss-error": "Den RSS-Feed vun $1 konnt net geluede ginn: $2",
+	"rss-empty": "Den RSS-Feed vun $1 konnt net geluede ginn!",
+	"rss-fetch-nourl": "Ufro ouni URL!",
+	"rss-invalid-url": "Keng valabel URL: $1",
+	"rss-parse-error": "Feeler beim Parse vum XML fir RSS",
+	"rss-ns-permission": "RSS ass an dësem Nummraum net erlaabt"
+}

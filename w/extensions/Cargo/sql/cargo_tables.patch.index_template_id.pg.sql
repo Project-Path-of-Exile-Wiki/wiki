@@ -1,0 +1,1 @@
+DROP INDEX cargo_tables_template_id;

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dror S. [FFS]"
+		]
+	},
+	"metadescriptiontag-desc": "תגית המאפשרת לקבוע את תיאור העמוד עבור מנועי חיפוש (Meta description)",
+	"metadescriptiontag-missing-content": "שגיאה: תגית <metadesc> חייבת לכלול תוכן."
+}

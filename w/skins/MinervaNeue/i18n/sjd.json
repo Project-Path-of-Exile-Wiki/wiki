@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meerrahtar"
+		]
+	},
+	"mobile-frontend-language-article-heading": "Кӣлл",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Пуэдтӭ тӣррвэнҍ}}, $1!",
+	"mobile-frontend-placeholder": "О̄дзэ {{SITENAME}}-сьт"
+}

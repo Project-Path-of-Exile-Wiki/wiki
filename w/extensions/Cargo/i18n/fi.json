@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Silvonen",
+			"Valtlait"
+		]
+	},
+	"cargo-logname": "Cargo-loki",
+	"cargo-drilldown-allpages": "Kaikki sivut",
+	"cargo-drilldown-allfiles": "Kaikki tiedostot",
+	"cargo-drilldown-or": "tai",
+	"cargo-drilldown-filename": "Tiedostonimi",
+	"cargo-drilldown-galleryformat": "Galleria"
+}

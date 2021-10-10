@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"Sp5uhe",
+			"Woytecr"
+		]
+	},
+	"rss-desc": "Wyświetla kanał RSS na stronie wiki",
+	"rss-tracking-category": "Strony z kanałami informacyjnymi RSS",
+	"rss-tracking-category-desc": "Ta strona zawiera kanał RSS.",
+	"rss-error": "Nie udało się odczytać kanału $1: $2",
+	"rss-empty": "Nie udało się odczytać kanału $1!",
+	"rss-fetch-nourl": "Wywołano pobieranie bez adresu URL!",
+	"rss-invalid-url": "Nieprawidłowy adres URL – $1",
+	"rss-parse-error": "Błąd analizowania XML dla RSS",
+	"rss-ns-permission": "RSS nie jest dostępne w tej przestrzeni nazw",
+	"rss-url-is-not-whitelisted": "\"$1\" nie występuje na białej liście dozwolonych kanałów.  {{PLURAL:$3|$2  jest jedynym dozwolonym kanałem|Dozwolone są następujące kanały: $2|Dozwolone są następujące kanały: $2}}.",
+	"rss-empty-whitelist": "\" $1 \" nie jest na białej liście dozwolonych kanałów. Nie ma żadnych dozwolonych adresów URL kanałów na białej liście.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Wykryto przestarzałą zmienną <var>$wgRSSAllowedFeeds</var>. Od RSS w wersji 2.0 ta zmienna musi zostać zastąpiona przez <var>$wgRSSUrlWhitelist</var>, zgodnie z opisem na stronie podręcznika [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  Poniżej znajdują się dwa alternatywne szablony. Pierwszy jest podstawowym domyślnym szablonem dla kanałów. -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- nie łam tutaj wiersza --><!-- Drugi to ulepszona wersja, która wymaga Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

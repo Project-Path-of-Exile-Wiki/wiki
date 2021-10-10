@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Zhang8569"
+		]
+	},
+	"embedvideo-description": "此分叉版本添加了一个解析器功能用于嵌入来自流行来源的视频。",
+	"embedvideo-consent-text": "点击加载内容",
+	"embedvideo-error-missingparams": "EmbedVideo缺少一个必须的参数。",
+	"embedvideo-error-service": "嵌入视频无法识别视频服务“$1”。",
+	"embedvideo-error-id": "视频嵌入收到了一个对服务“$1”不可用的id “$2“",
+	"embedvideo-error-width": "EmbedVideo收到了一个错误的高度参数“$1”",
+	"embedvideo-error-height": "EmbedVideo收到了一个错误的高度参数“$1”",
+	"embedvideo-error-alignment": "嵌入的视频被给予了对校准参数一个不可用的数值“$1”。可用的数值为“左”，“中心”，“右”，或“行内”。",
+	"embedvideo-error-valignment": "嵌入的视频被给予了对校准参数一个不可用的数值“$1”。可用的数值为“上”，“中间”，“下”，或“基线”。",
+	"embedvideo-error-urlargs": "嵌入视频接收到了一个涵盖出错方程和空白争论的URL争论列表。",
+	"embedvideo-error-unknown": "EmbedVideo在尝试生成该视频嵌入块时遇到了一个未知的错误。（$1）",
+	"embedvideo-error-evp_deprecated": "#evp解析器函数在EmbedVideo 2.0中已弃用。请将您的解析器函数标记转换为#ev。",
+	"embedvideo-error-container": "为‘集装箱’ 提供的参数为不可用的。",
+	"embedvideo-video-long-desc": "$1, $2 解码编辑器, 长度 $3, $4x$5 像素, 总体 $6",
+	"embedvideo-audio-long-desc": "$1，$2 解码编辑器，总体长度$3，$4",
+	"embedvideo-error-cantdecode_evu": "无法使视频通过$1",
+	"apihelp-embedvideo-summary": "得到所给参数生成的视频嵌入代码。",
+	"apihelp-embedvideo-param-service": "服务的名称（YouTube，推特等等）",
+	"apihelp-embedvideo-param-id": "对该服务所需的视频ID",
+	"apihelp-embedvideo-param-dimensions": "一个数字宽度（100）或宽比高（100 x 100）",
+	"apihelp-embedvideo-param-alignment": "视频校准",
+	"apihelp-embedvideo-param-description": "视频描述",
+	"apihelp-embedvideo-param-container": "接受该框架，或留下空白",
+	"apihelp-embedvideo-param-urlargs": "视频URL中额外需要通过的争论（对于部分服务）",
+	"apihelp-embedvideo-param-autoresize": "自动调整视频大小？（是或否）"
+}

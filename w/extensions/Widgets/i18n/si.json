@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"group-widgeteditor": "ගැජට්ටු සංස්කාරකවරු",
+	"group-widgeteditor-member": "{{GENDER:$1|ගැජට්ටු සංස්කාරක}}",
+	"grouppage-widgeteditor": "{{ns:project}}:ගැජට්ටු සංස්කාරකවරු"
+}

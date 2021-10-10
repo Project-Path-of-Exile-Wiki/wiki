@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Simartampua"
+		]
+	},
+	"skin-minerva-blocked-drawer-title": "Akun mu madung iblokir tuna mangedit {{SITENAME}}",
+	"skin-minerva-blocked-drawer-reason-header": "Alasanna iblokir",
+	"skin-minerva-blocked-drawer-creator-header": "Iblokir ni",
+	"skin-minerva-blocked-drawer-expiry-header": "Blokir kadaluarsa i"
+}

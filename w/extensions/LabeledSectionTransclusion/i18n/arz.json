@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Ramsis II"
+		]
+	},
+	"lst-desc": "يضيف الدالتين <code>#lst</code> و <code>#lstx</code> والوسم <code>&lt;section&gt;</code>، يفعل تضمين الأقسام المعلمة من النص"
+}

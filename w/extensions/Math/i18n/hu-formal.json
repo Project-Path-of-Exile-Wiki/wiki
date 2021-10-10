@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani"
+		]
+	},
+	"math_image_error": "PNG-vé alakítás sikertelen; ellenőrizze, hogy a latex és dvipng (vagy dvips + gs + convert) helyesen van-e telepítve"
+}

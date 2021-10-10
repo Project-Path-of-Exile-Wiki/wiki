@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yueman"
+		]
+	},
+	"widgets-desc": "容許wiki管理員響{{ns:widget}}空間名度加入自由形式嘅widget響個wiki度。\n社群設計嘅widget可以響[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]搵到。",
+	"widgets-error": "響[[{{ns:widget}}:$1|widget $1]]出錯",
+	"group-widgeteditor": "Widget編輯器",
+	"group-widgeteditor-member": "{{GENDER:$1|Widget編輯器}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget編輯器",
+	"right-editwidgets": "響<code>{{ns:widget}}</code>空間名度編輯頁建立同編輯[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets]"
+}

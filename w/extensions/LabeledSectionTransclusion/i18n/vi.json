@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vinhtantran"
+		]
+	},
+	"lst-desc": "Thêm các hàm <code>#lst</code> và <code>#lstx</code> cùng thẻ <code>&lt;section&gt;</code> để cho phép nhúng những đoạn văn bản được đánh dấu."
+}

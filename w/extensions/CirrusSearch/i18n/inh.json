@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adam-Yourist"
+		]
+	},
+	"prefs-completion": "Лахара кхыдола оттамаш",
+	"cirrussearch-pref-completion-profile-help": "Лехаш дар ши-шегIа Iоязъю (лаха аьнна хьо Iочуязъе волавелча).",
+	"cirrussearch-completion-profile-fuzzy-pref-name": "Юххьанцара хиннача тайпара (дикагIа да)",
+	"cirrussearch-completion-profile-fuzzy-pref-desc": "Ши гӀалат нийсду. Мегаш дола юхаластараш хьабелгалду.",
+	"cirrussearch-completion-profile-strict-pref-name": "Хила ма дезара Iояздара режим (халагIа да)",
+	"cirrussearch-completion-profile-strict-pref-desc": "ГӀалаташ нийсдиц. Юхаластараш белгалдиц. Iояздар нийсса хила деза кораде чам болчунца.",
+	"cirrussearch-completion-profile-normal-pref-name": "Юхаластарий режим (халагIа да)",
+	"cirrussearch-completion-profile-normal-pref-desc": "ГӀалаташ нийсдиц. Мегаш дола юхаластараш белгалду.",
+	"cirrussearch-completion-profile-classic-pref-name": "Классикай йола дешхьалхенах лахар",
+	"cirrussearch-completion-profile-classic-pref-desc": "ГӀалаташ нийсдец. Iочуязъешше хьагойт цӀераш.",
+	"cirrussearch-explore-similar-languages": "Метташ",
+	"cirrussearch-article-words": "Ерригача статьяшка долча деший дукхал"
+}

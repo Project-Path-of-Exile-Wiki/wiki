@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Civvì",
+			"Darth Kule",
+			"Nemo bis"
+		]
+	},
+	"widgets-desc": "Permette agli amministratori del sito di aggiungere widget liberi al sito modificando pagine nel namespace {{ns:widget}}.\nWidget creati dalla comunità possono essere trovati su [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Errore nel [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Autori di widget",
+	"group-widgeteditor-member": "{{GENDER:$1|Autore di widget|Autrice di widget|Autore/trice di widget}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Autori di widget",
+	"right-editwidgets": "Crea e modifica [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] nel namespace <tt>{{ns:widget}}</tt>"
+}

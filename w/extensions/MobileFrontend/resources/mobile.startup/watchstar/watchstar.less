@@ -1,0 +1,11 @@
+@import 'mediawiki.mixins.less';
+
+.watch-this-article {
+	&:before {
+		.transition-transform( 0.5s );
+	}
+
+	&.watched:before {
+		.transform( rotate( 72deg ) );
+	}
+}

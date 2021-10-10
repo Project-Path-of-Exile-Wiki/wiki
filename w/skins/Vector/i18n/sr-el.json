@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Michaello",
+			"Milicevic01",
+			"Obsuser",
+			"Rancher",
+			"Zoranzoki21",
+			"Жељко Тодоровић"
+		]
+	},
+	"skinname-vector": "Vektorsko",
+	"vector-skin-desc": "Moderna verzija Monobuka sa svežim izgledom i mnogo korisnih poboljšanja",
+	"vector.css": "/* CSS postavljen ovde će uticati na sve korisnike vektorske teme */",
+	"vector.js": "/* JavaScript postavljen ovde će se učitati za sve one koji koriste vektorsku temu */",
+	"vector-action-addsection": "Dodaj temu",
+	"vector-action-delete": "Izbriši",
+	"vector-action-move": "Premesti",
+	"vector-action-protect": "Zaštiti",
+	"vector-action-undelete": "Vrati",
+	"vector-action-unprotect": "Promeni zaštitu",
+	"vector-view-create": "Napravi",
+	"vector-view-edit": "Uredi",
+	"vector-view-history": "Istorija",
+	"vector-view-view": "Čitaj",
+	"vector-view-viewsource": "Izvor",
+	"vector-jumptonavigation": "Idi na navigaciju",
+	"vector-jumptosearch": "Idi na pretragu",
+	"vector-more-actions": "Više"
+}

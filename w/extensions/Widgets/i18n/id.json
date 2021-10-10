@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Irwangatot"
+		]
+	},
+	"widgets-desc": "Mengizinkan pengurus wiki untuk menambahkan ''free-form widget'' ke wiki dengan menyunting halaman di ruang nama {{ns:widget}}.\nWidget (gawai) kontribusi komunitas dapat ditemukan di [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Kesalahan pada [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Penyunting widget",
+	"group-widgeteditor-member": "Penyunting widget",
+	"grouppage-widgeteditor": "{{ns:project}}:Penyunting widget",
+	"right-editwidgets": "Buat dan Sunting halaman [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widgets]  di <tt>{{ns:widget}}</tt> ruang nama"
+}

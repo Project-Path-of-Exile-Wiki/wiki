@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Usingha"
+		]
+	},
+	"mobile-frontend-language-article-heading": "ঠার",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|সাম্ভাষা}}, $1!",
+	"mobile-frontend-placeholder": "বিসারা {{SITENAME}}ত"
+}

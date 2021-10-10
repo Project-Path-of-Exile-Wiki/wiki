@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01"
+		]
+	},
+	"right-runcargoqueries": "покретање произвољних Cargo упита",
+	"cargo-logname": "Cargo дневник",
+	"cargo-logdesc": "Ово је дневник радњи у вези с додатком Cargo.",
+	"cargo-createtableaction": "је направио/ла Cargo табелу $2",
+	"cargo-recreatetableaction": "је поново направио/ла Cargo табелу $2",
+	"cargo-replacetableaction": "је заменио/ла Cargo табелу $2 новом верзијом",
+	"cargo-deletetableaction": "је избрисао/ла Cargo табелу $2",
+	"cargo-drilldown-allpages": "Све странице",
+	"cargo-drilldown-allfiles": "Све датотеке",
+	"cargo-dynamictables-searchcolumn": "Претражите $1",
+	"cargo-purgecache-failed": "Чишћење кеша није успело"
+}

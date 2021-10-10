@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Teslaton",
+			"TomášPolonec"
+		]
+	},
+	"rss-desc": "Zobrazí kanál RSS na wiki stránke",
+	"rss-tracking-category": "Stránky s RSS kanálmi",
+	"rss-error": "Nepodarilo sa načítať RSS kanál z $1: $2",
+	"rss-empty": "Nepodarilo sa načítať RSS kanál z $1!",
+	"rss-fetch-nourl": "Stiahnutie stránky zavolané bez URL!",
+	"rss-invalid-url": "Nie je platný URL: $1",
+	"rss-parse-error": "Chyba pri spracovaní XML pre RSS",
+	"rss-ns-permission": "V tomto mennom priestore nie je RSS povolené",
+	"rss-url-is-not-whitelisted": "\"$1\" nie je na zozname povolených kanálov. {{PLURAL:$3|$2 je jediný povolený kanál|Povolené kanály: $2}}.",
+	"rss-empty-whitelist": "\"$1\" nie je na zozname povolených kanálov. Zoznam povolených kanálov je prázdny.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Nastavená premenná <var>$wgRSSAllowedFeeds</var> je zastaraná. Od RSS verzie 2.0 treba túto premennú nahradiť s <var>$wgRSSUrlWhitelist</var>, ako je vysvetlené v návode, v časti [https://www.mediawiki.org/wiki/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  Nižšie sú uvedené dve alternatívne šablóny. Prvá je základná implicitná šablóna pre kanály -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- sem nevkladať nový riadok --><!-- Druhá je vylepšná verzia, ktorá vyžaduje rozšírenie Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

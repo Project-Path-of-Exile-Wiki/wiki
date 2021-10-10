@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boivie",
+			"Lejonel",
+			"Lokal Profil"
+		]
+	},
+	"sitenotice_close": "dölj",
+	"sitenotice-desc": "Låter användare stänga meddelanden i sitenotice"
+}

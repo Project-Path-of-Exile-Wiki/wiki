@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jyllanj",
+			"Ælsån"
+		]
+	},
+	"lst-desc": "Tilfye funksjonen <code>#lst</code> å <code>#lstx</code> å taggi <code>&lt;section&gt;</code>, som djör dä muli å transkludiir utvalgtje åsnit"
+}

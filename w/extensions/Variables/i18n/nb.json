@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"variables-desc": "Parserfunksjoner som gjør det mulig å jobbe med dynamiske variabler i en artikkelkontekst",
+	"variables-config-disabledfunctions": "Gjør det mulig å definere en tabell over funksjoner som ikke skal være tilgjengelig i wikien. Unngå # når du legger til funksjoner.\nFor eksempel: $egVariablesDisableFunctions = [ 'var_final', 'vardefineecho' ]; // for å slå av funksjonene «#var_final» og «#vardefineecho»",
+	"variables-config-arevolatile": "Behandler parserfunksjonene #var og #varexists som flyktige for å unngå uventet oppførsel på grunn av malmellomlagring. Å slå av dette får tilbake den gamle oppførselen."
+}

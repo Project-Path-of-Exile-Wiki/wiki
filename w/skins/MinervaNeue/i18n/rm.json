@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Terfili"
+		]
+	},
+	"mobile-frontend-editor-edit": "Modifitgar",
+	"mobile-frontend-home-button": "Chasa",
+	"mobile-frontend-language-article-heading": "Leger en ina autra lingua",
+	"mobile-frontend-main-menu-login": "T'annunziar",
+	"mobile-frontend-main-menu-nearby": "Sper",
+	"mobile-frontend-main-menu-settings": "Configuraziun",
+	"mobile-frontend-main-menu-watchlist": "Glista d'observaziun",
+	"mobile-frontend-placeholder": "Tschertgar {{SITENAME}}",
+	"mobile-frontend-random-button": "Casual"
+}

@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac",
+			"Renessaince",
+			"W"
+		]
+	},
+	"recreatedata": "Перастварыць зьвесткі",
+	"cargo-createdatatable": "Стварыць табліцу зьвестак",
+	"cargo-viewdata-tables": "Табліца(-ы):",
+	"cargo-viewdata-format": "Выгляд:",
+	"cargo-viewdata-defaultformat": "Дапомна",
+	"cargo-viewdata-heightparam": "Вышыня:",
+	"cargo-viewdata-widthparam": "Шырыня:",
+	"cargo-viewdata-columnsparam": "Лік слупкоў:",
+	"cargo-viewdata-colorsparam": "Колеры:",
+	"cargo-cargotables-header-table": "Табліца",
+	"cargo-cargotables-header-templates": "Шаблёны",
+	"cargo-cargotables-action-deletereplacement": "Выдаліць",
+	"cargo-cargotables-action-delete": "Выдаліць",
+	"cargo-cargotables-action-recreate": "Перастварыць",
+	"cargo-cargotables-replacementlink": "Табліца замены",
+	"cargo-cargotables-tablestructure": "Будова табліцы:",
+	"cargo-drilldown-choosetable": "Выбраць табліцу",
+	"cargo-drilldown-allpages": "Усе старонкі",
+	"cargo-drilldown-allfiles": "Усе файлы",
+	"cargo-drilldown-hierarchy-only": "«$1» толькі",
+	"cargo-drilldown-fulltext": "Увесь тэкст",
+	"cargo-drilldown-pagetext": "Тэкст старонкі",
+	"cargo-drilldown-filename": "Назва файла",
+	"cargo-drilldown-filetext": "Тэкст файла",
+	"cargo-drilldown-mapformat": "Мапа",
+	"cargo-drilldown-galleryformat": "Галерэя",
+	"cargo-drilldown-calendarformat": "Каляндар",
+	"cargo-purgecache": "Ачысьціць запасьнік",
+	"cargo-pageschemas-tablename": "Назва табліцы:"
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl"
+		]
+	},
+	"lst-desc": "Adibe as funcions <code>#lst</code> y <code>#lstx</code> y a etiqueta <code>&lt;section&gt;</code>, premite que as seccions de testo sinyalatas sían transcluyitas"
+}

@@ -1,0 +1,71 @@
+@import '../../mobile.less/mobile.variables.less';
+
+.language-searcher {
+	.panel {
+		background-color: #fff;
+		padding: 0.5em;
+	}
+
+	.search-box {
+		// Always show the language search input
+		display: block;
+	}
+
+	.search {
+		box-shadow: none;
+	}
+
+	.list-header {
+		font-family: sans-serif;
+		font-weight: normal;
+		letter-spacing: 1px;
+		padding: 2em 1em 0.5em;
+		text-transform: uppercase;
+	}
+
+	.site-link-list {
+		li {
+			background-color: #fff;
+			padding: 0;
+		}
+
+		[ dir='rtl' ] {
+			text-align: right;
+		}
+
+		a {
+			border-top: solid 1px @colorGray14;
+			cursor: pointer;
+			display: block;
+			padding: 0.75em 1em;
+
+			span {
+				font-size: 0.9em;
+			}
+
+			.autonym,
+			.title {
+				display: block;
+			}
+
+			.autonym {
+				color: #000;
+				font-weight: bold;
+			}
+
+			.title {
+				color: @colorGray7;
+				padding-top: 0.5em;
+			}
+		}
+	}
+}
+
+@media all and ( min-width: @width-breakpoint-tablet ) {
+	.language-searcher {
+		.site-link-list {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}

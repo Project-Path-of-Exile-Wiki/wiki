@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Steeve815"
+		]
+	},
+	"apihelp-cargoquery-description": "הרצת שאילתה על נתוני Cargo.",
+	"apihelp-cargoquery-summary": "הרצת שאילתה על נתוני Cargo.",
+	"apihelp-cargoquery-param-tables": "באילו טבלאות מסד נתונים של Cargo לחפש",
+	"apihelp-cargoquery-param-fields": "אילו שדות טבלה לאחזר",
+	"apihelp-cargoquery-param-where": "התנאים לשאילתה, מתאים לפסוקית WHERE של SQL",
+	"apihelp-cargoquery-param-join_on": "תנאים לצירוף מספר טבלאות, מתאים לפסוקית JOIN ON של SQL",
+	"apihelp-cargoquery-param-order_by": "סדר התוצאות, מתאים לפסוקית ORDER BY של SQL",
+	"apihelp-cargoquery-param-group_by": "שדות לקיבוץ תוצרות, מתאים לפסוקית GROUP BY של SQL",
+	"apihelp-cargoquery-param-having": "תנאים לערכים המקובצים, מתאים לפסוקית HAVING של SQL",
+	"apihelp-cargoquery-param-limit": "מגבלה על מספר התוצאות להחזיר",
+	"apihelp-cargorecreatetables-description": "יצירה מחדש של טבלת Cargo אחת או יותר",
+	"apihelp-cargorecreatetables-summary": "יצירה מחדש של טבלת Cargo אחת או יותר",
+	"apihelp-cargorecreatetables-param-template": "התבנית שעבורה צריך ליצור מחדש טבלאות Cargo",
+	"apihelp-cargorecreatedata-description": "מילוי מחדש של נתונים בטבלת Cargo.",
+	"apihelp-cargorecreatedata-summary": "מילוי מחדש של נתונים בטבלת Cargo.",
+	"apihelp-cargorecreatedata-param-template": "התבנית שבנתונים שלה צריך להשתמש",
+	"apihelp-cargorecreatedata-param-table": "איזו טבלה של מסד נתונים של Cargo למלא מחדש",
+	"apihelp-cargorecreatedata-param-offset": "מתוך הדפים שקוראים לתבנית הזאת, באיזה מספר להתחיל להריץ שאילתה",
+	"apihelp-cargorecreatedata-param-replaceOldRows": "האם להחליף שורות ישנות לכל דף בזמן מילוי מחדש של הטבלה",
+	"apihelp-cargoautocomplete-param-limit": "הגבלה על מספר התוצאות שתוחזרנה",
+	"apihelp-cargoqueryautocomplete-param-limit": "מגבלה על מספר התוצאות שתוחזרנה."
+}

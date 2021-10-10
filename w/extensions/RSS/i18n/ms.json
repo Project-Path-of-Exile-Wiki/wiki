@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"rss-desc": "Memaparkan suapan RSS pada laman wiki",
+	"rss-tracking-category": "Laman-laman dengan suapan RSS",
+	"rss-error": "Suapan RSS gagal dimuatkan dari $1: $2",
+	"rss-empty": "Suapan RSS gagal dimuatkan dari $1!",
+	"rss-fetch-nourl": "Ambilan dipanggil tanpa URL!",
+	"rss-invalid-url": "URL tidak sah: $1",
+	"rss-parse-error": "Ralat ketika menghurai XML untuk RSS",
+	"rss-ns-permission": "RSS tidak dibenarkan di ruang nama ini",
+	"rss-url-is-not-whitelisted": "\"$1\" tiada dalam senarai putih suapan yang dibenarkan. {{PLURAL:$3|$2 sahaja suapan yang dibenarkan|Suapan-suapan yang dibenarkan adalah seperti berikut: $2}}.",
+	"rss-empty-whitelist": "\"$1\" tiada dalam senarai putih suapan yang dibenarkan. Tiadanya URL suapan yang dibenarkan dalam senarai putih.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Pembolehubah lapuk <var>$wgRSSAllowedFeeds</var> telah dikesan. Semenjak RSS versi 2.0, pembolehubah ini perlu digantikan oleh wgRSSUrlWhitelist seperti yang diterangkan dalam laman manual [https://www.mediawiki.org/wiki/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!--  Berikut ialah dua templat alternatif. Yang pertama ialah templat asas untuk suapan -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- jangan letak baris baru di sini --><!-- Yang kedua ialah versi diperkemas yang memerlukan Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

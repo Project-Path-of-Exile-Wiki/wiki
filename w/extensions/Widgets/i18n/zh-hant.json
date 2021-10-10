@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Kly",
+			"Mark85296341",
+			"Yfdyh000"
+		]
+	},
+	"widgets-desc": "容許 wiki 管理員通過編輯 {{ns:widget}} 命名空間中加入自由形式的小工具至 wiki 中。\n[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] 提供社群貢獻的小工具",
+	"widgets-error": "在 [[{{ns:widget}}:$1|widget $1]] 發生錯誤",
+	"group-widgeteditor": "Widget 編輯者",
+	"group-widgeteditor-member": "{{GENDER:$1|Widget 編輯者}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget 編輯者",
+	"action-editwidgets": "創建和編輯小工具",
+	"right-editwidgets": "建立並編輯 <tt>{{ns:widget}}</tt> 名子空間中的 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets]",
+	"widgets-config-useflaggedrevs": "設定此為 true 來使用用於小工具安全的 FlaggedRevs 擴充功能穩定版本",
+	"widgets-config-compiledir": "設定用於編譯模板儲存的預設目錄"
+}

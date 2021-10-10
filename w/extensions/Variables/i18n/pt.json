@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"variables-desc": "Funções do analisador sintático que permitem trabalhar com variáveis dinâmicas num contexto limitado ao âmbito de uma página",
+	"variables-config-disabledfunctions": "Permite definir uma matriz de funções que não devem estar disponíveis na wiki. Omita qualquer # quando adicionar funções.",
+	"variables-config-arevolatile": "Trata como voláteis as funções do analisador sintático #var e #varexists, para impedir comportamentos inesperados devido ao armazenamento de predefinições na cache. Desativar esta funcionalidade repõe o comportamento antigo."
+}

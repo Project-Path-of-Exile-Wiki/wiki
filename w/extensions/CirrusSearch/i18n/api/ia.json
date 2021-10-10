@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-cirrus-config-dump-summary": "Copia del configuration CirrusSearch.",
+	"apihelp-query+cirrusdoc-description": "Instantaneo del documento de un articulo CirrusSearch",
+	"apihelp-query+cirrusdoc-summary": "Instantaneo del documento de un articulo CirrusSearch ab le servitores de recerca",
+	"apihelp-query+cirrusdoc-example": "Obtener un instantaneo de un articulo CirrusSearch individual como actualmente indexate in le motor de recerca."
+}

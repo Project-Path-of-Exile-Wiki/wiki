@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"KATRINE1992",
+			"Protnet",
+			"Xaris333"
+		]
+	},
+	"apihelp-cargoquery-description": "Εκτελεί ένα ερώτημα πάνω στα δεδομένα Cargo.",
+	"apihelp-cargoquery-param-tables": "Ο πίνακας ή οι πίνακες της βάσης δεδομένων Cargo όπου να γίνει αναζήτηση",
+	"apihelp-cargoquery-param-fields": "Το/α προς ανάκτηση πεδίο/α",
+	"apihelp-cargoquery-param-where": "Οι συνθήκες για το ερώτημα, που αντιστοιχούν σε έναν όρο WHERE της SQL",
+	"apihelp-cargoquery-param-join_on": "Συνθήκες για ένωση πολλαπλών πινάκων, που αντιστοιχούν σε έναν όρο JOIN ON της SQL",
+	"apihelp-cargoquery-param-order_by": "Η σειρά των αποτελεσμάτων, που αντιστοιχεί σε έναν όρο ORDER BY της SQL",
+	"apihelp-cargoquery-param-limit": "Όριο στον αριθμό των αποτελεσμάτων που να επιστρέφονται",
+	"apihelp-cargorecreatetables-description": "Αναδημιουργεί έναν ή περισσότερους πίνακες Cargo.",
+	"apihelp-cargorecreatetables-param-createReplacement": "Si va poner datos en una tabla sostituida",
+	"apihelp-cargorecreatedata-param-template": "Το πρότυπο του οποίου τα δεδομένα να χρησιμοποιηθούν",
+	"apihelp-cargorecreatedata-param-table": "Ο πίνακας της βάσης δεδομένων Cargo που να ανασυσταθεί"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Pizza1016"
+		]
+	},
+	"widgets-desc": "Membolehkan penyelia wiki untuk menambahkan widget berbentuk bebas pada wiki dengan menyunting lelaman di dalam ruang nama {{ns:widget}}.\nWidget sumbangan komuniti boleh didapati di [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Ralat pada [[{{ns:widget}}:$1|widget $1]]",
+	"group-widgeteditor": "Penyunting widget",
+	"group-widgeteditor-member": "{{GENDER:$1|Penyunting widget}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Penyunting widget",
+	"right-editwidgets": "Mencipta dan menyunting [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widget] dalam ruang nama <tt>{{ns:widget}}</tt>"
+}

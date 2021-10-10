@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irus",
+			"ObaTango"
+		]
+	},
+	"mobile-frontend-editor-edit": "Editá",
+	"mobile-frontend-home-button": "Página Prinsipal",
+	"mobile-frontend-language-article-heading": "Idioma",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Bon biní}}, $1!",
+	"mobile-frontend-main-menu-login": "Registro na",
+	"mobile-frontend-placeholder": "Búskeda di {{SITENAME}}",
+	"mobile-frontend-random-button": "Kualkier"
+}

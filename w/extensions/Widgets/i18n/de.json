@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jan Luca",
+			"Kghbln",
+			"Metalhead64",
+			"Pill",
+			"Sebastian Wallroth",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"widgets-desc": "Ermöglicht das Hinzufügen von Widgets, wobei vorhandene Widgets auf der Website [https://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] veröffentlicht werden",
+	"widgets-error": "Fehler beim [[{{ns:widget}}:$1|Widget $1]]",
+	"group-widgeteditor": "Widget-Bearbeiter",
+	"group-widgeteditor-member": "{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiterin}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget-Bearbeiter",
+	"action-editwidgets": "Widgets im Namensraum „Widget“ zu bearbeiten und zu erstellen",
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Extension:Widgets Widgets] im Namensraum „{{ns:widget}}“ bearbeiten und erstellen",
+	"widgets-config-useflaggedrevs": "Dies auf true festlegen, um die stabile Version der Erweiterung „FlaggedRevs“ für die Widget-Sicherheit zu verwenden.",
+	"widgets-config-compiledir": "Legt ein Standardverzeichnis zur Speicherung von kompilierten Vorlagen fest"
+}

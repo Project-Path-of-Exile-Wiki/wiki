@@ -1,0 +1,17 @@
+.overlay {
+	&.overlay-loading {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba( 255, 255, 255, 0.5 );
+
+		// editor overlay needed to hide header
+		.header {
+			display: none;
+		}
+		// Avoid display of scroll bar
+		.overlay-content {
+			overflow: hidden;
+		}
+	}
+}

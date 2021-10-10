@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia",
+			"Gitartha.bordoloi",
+			"IKHazarika",
+			"Nilamdyuti",
+			"Sagsag",
+			"Simbu123"
+		]
+	},
+	"mobile-frontend-editor-edit": "সম্পাদনা কৰক",
+	"mobile-frontend-home-button": "বেটুপাত",
+	"mobile-frontend-language-article-heading": "ভাষা",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|আদৰিছোঁ}}, $1!",
+	"mobile-frontend-main-menu-button-tooltip": "মূল মেনু খোলক",
+	"mobile-frontend-main-menu-login": "প্ৰৱেশ",
+	"mobile-frontend-main-menu-logout": "প্ৰস্থান",
+	"mobile-frontend-main-menu-nearby": "কাষৰীয়া",
+	"mobile-frontend-main-menu-settings": "ছেটিং",
+	"mobile-frontend-main-menu-watchlist": "লক্ষ্য তালিকা",
+	"mobile-frontend-meta-data-issues": "এই পৃষ্ঠাত কিছুমান অমিমাংসিত বিষয় আছে",
+	"mobile-frontend-meta-data-issues-header": "বিষয়সমূহ",
+	"mobile-frontend-pageaction-edit-tooltip": "এই পৃষ্ঠাৰ শীৰ্ষ অনুচ্ছেদ সম্পাদনা কৰক।",
+	"mobile-frontend-placeholder": "{{SITENAME}}ত সন্ধান কৰক",
+	"mobile-frontend-random-button": "যিকোনো",
+	"minerva-talk-explained-empty": "এই পৃষ্ঠাত কোনো আলোচনা নাই।",
+	"skin-minerva-issue-learn-more": "আৰু শিকক",
+	"skin-minerva-recentchanges-warning-enhanced-not-supported": "দুৰ্ভাগ্যবশত, পৃষ্ঠা অনুসৰি ফলাফল দলবদ্ধ কৰা বিকল্পটো মোবাইলত উপলব্ধ নহয়। আপুনি যদি পৃষ্ঠা অনুসৰি দলবদ্ধ কৰা বিকল্পটো ব্যৱহাৰ কৰিব বিচাৰে, তেন্তে অনুগ্ৰহ কৰি ডেস্কটপ সংস্কৰণটো চাওক।"
+}

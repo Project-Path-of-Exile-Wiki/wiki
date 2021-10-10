@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj",
+			"Glanthor Reviol",
+			"Tacsipacsi"
+		]
+	},
+	"widgets-desc": "Lehetővé teszi a wiki adminisztrátorainak, hogy kötetlen alakú minialkalmazásokat adjanak a wikihez lapok szerkesztésével a(z) {{ns:widget}} névtérben. Közösség által fejlesztett minialkalmazások a [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] oldalon találhatók.",
+	"widgets-error": "Hiba a(z) [[{{ns:widget}}:$1|$1 minialkalmazásban]]",
+	"group-widgeteditor": "minialkalmazás-szerkesztők",
+	"group-widgeteditor-member": "{{GENDER:$1|minialkalmazás-szerkesztő}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Minialkalmazás-szerkesztők",
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets minialkalmazások] létrehozása és szerkesztése a(z) <tt>{{ns:widget}}</tt> névtérben"
+}

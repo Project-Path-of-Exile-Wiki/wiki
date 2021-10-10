@@ -1,0 +1,81 @@
+{
+    "path": "myfixturewiki_myidxsuffix\/page\/_bulk",
+    "method": "POST",
+    "data": [
+        [
+            {
+                "update": {
+                    "_id": "1"
+                }
+            },
+            {
+                "script": {
+                    "source": "super_detect_noop",
+                    "params": {
+                        "source": {
+                            "my_weighted_tags": [
+                                "my_custom_prefix\/my_tag_1|750",
+                                "my_custom_prefix\/my_tag_2|800"
+                            ]
+                        },
+                        "handlers": {
+                            "my_weighted_tags": "multilist"
+                        },
+                        "_id": "1"
+                    },
+                    "lang": "super_detect_noop"
+                }
+            },
+            {
+                "update": {
+                    "_id": "2"
+                }
+            },
+            {
+                "script": {
+                    "source": "super_detect_noop",
+                    "params": {
+                        "source": {
+                            "my_weighted_tags": [
+                                "my_custom_prefix\/my_tag_1|850",
+                                "my_custom_prefix\/my_tag_2|900"
+                            ]
+                        },
+                        "handlers": {
+                            "my_weighted_tags": "multilist"
+                        },
+                        "_id": "2"
+                    },
+                    "lang": "super_detect_noop"
+                }
+            }
+        ],
+        [
+            {
+                "update": {
+                    "_id": "3"
+                }
+            },
+            {
+                "script": {
+                    "source": "super_detect_noop",
+                    "params": {
+                        "source": {
+                            "my_weighted_tags": [
+                                "my_custom_prefix\/my_tag_1|950",
+                                "my_custom_prefix\/my_tag_2|1000"
+                            ]
+                        },
+                        "handlers": {
+                            "my_weighted_tags": "multilist"
+                        },
+                        "_id": "3"
+                    },
+                    "lang": "super_detect_noop"
+                }
+            }
+        ]
+    ],
+    "params": [],
+    "contentType": "application\/x-ndjson"
+}

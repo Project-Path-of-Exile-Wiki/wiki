@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-cargoquery-param-offset": "Förfrågans offset",
+	"apihelp-cargoautocomplete-param-substr": "Söksträng"
+}

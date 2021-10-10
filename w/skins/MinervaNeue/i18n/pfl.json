@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Manuae"
+		]
+	},
+	"mobile-frontend-editor-edit": "Schaffe",
+	"mobile-frontend-home-button": "D'hääm",
+	"mobile-frontend-language-article-heading": "Inna oannare Schbroch lese",
+	"mobile-frontend-main-menu-button-tooltip": "Haubdmenie effne",
+	"mobile-frontend-main-menu-login": "Oilogge",
+	"mobile-frontend-main-menu-nearby": "Noh",
+	"mobile-frontend-main-menu-settings": "Oischdellunge",
+	"mobile-frontend-main-menu-watchlist": "Beowachdungslischd",
+	"mobile-frontend-pageaction-edit-tooltip": "Schaff oande Oifiahrung vunde Said.",
+	"mobile-frontend-placeholder": "Gugg uff {{SITENAME}}",
+	"mobile-frontend-random-button": "Zufellisch"
+}

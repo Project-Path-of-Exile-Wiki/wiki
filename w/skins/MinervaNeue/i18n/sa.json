@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND",
+			"Shubha"
+		]
+	},
+	"mobile-frontend-editor-edit": "सम्पाद्यताम्",
+	"mobile-frontend-home-button": "मुखपृष्ठम्‌",
+	"mobile-frontend-language-article-heading": "अन्यभाषया पठ्यताम्",
+	"mobile-frontend-logged-in-homepage-notification": "स्वागतम्, $1 !",
+	"mobile-frontend-main-menu-button-tooltip": "प्रमुखा विकल्पसूचिः उद्घाट्यताम्",
+	"mobile-frontend-main-menu-login": "प्रविश्यताम्",
+	"mobile-frontend-main-menu-logout": "निर्गम्यताम्",
+	"mobile-frontend-main-menu-nearby": "निकटे ।",
+	"mobile-frontend-main-menu-settings": "अभिविन्यासाः",
+	"mobile-frontend-main-menu-watchlist": "निरीक्षासूचिः",
+	"mobile-frontend-meta-data-issues-categories": "एतस्य वर्गस्य विषये",
+	"mobile-frontend-meta-data-issues-header": "समस्याः",
+	"mobile-frontend-meta-data-issues-header-talk": "अस्य पृष्ठस्य विषये",
+	"mobile-frontend-meta-data-issues-talk": "अस्य सम्भाषणपृष्ठस्य विषये",
+	"mobile-frontend-pageaction-edit-tooltip": "अस्य पृष्ठस्य प्रमुखः विभागः सम्पाद्यताम् ।",
+	"mobile-frontend-placeholder": "{{SITENAME}} अत्र अन्विष्यताम्",
+	"mobile-frontend-random-button": "यादृच्छिकम्"
+}

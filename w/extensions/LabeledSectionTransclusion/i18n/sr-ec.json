@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Rancher",
+			"Михајло Анђелковић"
+		]
+	},
+	"lst-desc": "Додаје функције <code>#lst</code> и <code>#lstx</code> и ознаку <code>&lt;section&gt;</code>, која омогућава укључивање означених одељака текста"
+}

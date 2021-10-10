@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"rss-desc": "מציגה הזנות RSS על דפים מדיה־ויקי בתסדיר תקני או מוגדר על־ידי משתמש באמצעות דפי תבנית",
+	"rss-tracking-category": "דפים עם הזנות RSS",
+	"rss-tracking-category-desc": "לדף הזה יש הזנת RSS.",
+	"rss-error": "נכשלה טעינת הזנת RSS מ־$1: $2",
+	"rss-empty": "נכשלה טעינת הזנת RSS מ־$1!",
+	"rss-fetch-nourl": "קריאה לאחזור ללא כתובת URL!",
+	"rss-invalid-url": "כתובת URL לא תקינה: $1",
+	"rss-parse-error": "שגיאה בניתוח XML עבור RSS",
+	"rss-ns-permission": "שימוש ב־RSS אסור במרחב השם הזה",
+	"rss-url-is-not-whitelisted": "הכתובת \"$1\" אינה מופיע ברשימה הלבנה של הזנות מותרות. {{PLURAL:$3|$2 היא ההזנה המותרת היחידה|ההזנות המותרות הן: $2}}.",
+	"rss-empty-whitelist": "הכתובת \"$1\" אינה מופיע ברשימה הלבנה של הזנות מותרות. אין כתובות הזנה מותרות ברשימה הלבנה.",
+	"rss-deprecated-wgrssallowedfeeds-found": "נמצא המשתנה המיושן ‎<var>$wgRSSAllowedFeeds</var>. מגרסת 2 של RSS יש להחליף משתנה זה ב־‎<var>$wgRSSUrlWhitelist</var> כפי שמתואר בדף תיאור ההרחבה [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS]."
+}

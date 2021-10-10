@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bentong Isles"
+		]
+	},
+	"mobile-frontend-editor-edit": "Usba",
+	"mobile-frontend-home-button": "Unang Panid",
+	"mobile-frontend-language-article-heading": "Basaha sa laing pinulongan",
+	"mobile-frontend-main-menu-button-tooltip": "Ablihi ang meyn nga menu",
+	"mobile-frontend-main-menu-login": "Sulod",
+	"mobile-frontend-main-menu-nearby": "Duol",
+	"mobile-frontend-main-menu-settings": "Mga kahimtang",
+	"mobile-frontend-main-menu-watchlist": "Gibantayan",
+	"mobile-frontend-pageaction-edit-tooltip": "Usba ang nag-unang seksyon ning maong panid.",
+	"mobile-frontend-placeholder": "Pangitaa {{SITENAME}}",
+	"mobile-frontend-random-button": "Bisan Unsa"
+}

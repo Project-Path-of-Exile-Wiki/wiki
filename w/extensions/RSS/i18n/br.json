@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"rss-desc": "Diskouez ur gwazh RSS war ur bajenn eus ar wiki",
+	"rss-tracking-category": "Pajennoù gant gwazhioù RSS",
+	"rss-tracking-category-desc": "Ar bajenn he deus ur wazh RSS.",
+	"rss-error": "Dibosupl eo kargañ ar gwazh RSS eus $1 : $2",
+	"rss-empty": "Dibosupl eo kargañ gwazh RSS eus $1 !",
+	"rss-fetch-nourl": "Galvadenn klask hep URL !",
+	"rss-invalid-url": "URL direizh : $1",
+	"rss-parse-error": "Fazi en dielfennañ XML evit RSS",
+	"rss-ns-permission": "N'haller ket ober gant lanvadoù RSS en esaouenn anv-mañ",
+	"rss-deprecated-wgrssallowedfeeds-found": "Detektet eo bet an argemenn dispredet <var>$wgRSSAllowedFeeds</var>. Abaoe stumm 2.0 RSS emañ an argemenn-se da vezañ erlec'hiet gant <var>$wgRSSUrlWhitelist</var> evel deskrivet e pajenn an dornlevr [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS]."
+}

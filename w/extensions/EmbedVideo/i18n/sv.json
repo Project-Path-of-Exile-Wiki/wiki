@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andreas Jonsson",
+			"Sabelöga"
+		]
+	},
+	"embedvideo-description": "Lägger till en parser-funktion för att bädda in videor från populära källor.",
+	"embedvideo-consent-text": "Klicka för att ladda innehåll",
+	"embedvideo-error-missingparams": "EmbedVideo - En obligatorisk parameter har utelämnats.",
+	"embedvideo-error-service": "EmbedVideo - Känner inte till videotjänsten \"$1\".",
+	"embedvideo-error-id": "EmbedVideo - Felaktig id \"$2\" för tjänsten \"$1\" har angivits.",
+	"embedvideo-error-width": "EmbedVideo - Felaktigt värde \"$1\" har angivits som bredd.",
+	"embedvideo-error-height": "EmbedVideo - Felaktigt värde \"$1\" har angivits som höjd.",
+	"embedvideo-error-alignment": "EmbedVideo - Felaktigt värde har angivits som placering: \"$1\".  Korrekta värden är \"right\" för högerställd, \"left\" för vänsterställd, \"center\" för centrerad eller \"inline\".",
+	"embedvideo-error-valignment": "EmbedVideo gavs ett ogiltigt värde för valignment-parametern \"$1\". Giltiga värden är \"top\", \"middle\", \"bottom\" eller \"baseline\".",
+	"embedvideo-error-urlargs": "EmbedVideo mottog en lista URL-argument som innehöll felformaterad eller tomma argument.",
+	"embedvideo-error-unknown": "EmbedVideo påträffade ett okänt fel när den försökte generera denna inbädda videoklump.  ($1)",
+	"embedvideo-error-evp_deprecated": "Parser-funktionen #evp avvecklades i EmbedVideo 2.0. Konvertera dina parser-funktionstaggar till #ev.",
+	"embedvideo-error-container": "Parametern angiven för \"container\" är ogiltig.",
+	"embedvideo-video-long-desc": "$1, $2 codec, längd $3, $4x$5 pixlar, $6 överlag",
+	"embedvideo-audio-long-desc": "$1, $2 codec, längd $3, $4 överlag",
+	"embedvideo-error-cantdecode_evu": "Kunde inte parsa videon från $1",
+	"apihelp-embedvideo-summary": "Hämta genererade videoinbäddad kod för angivna parametrar.",
+	"apihelp-embedvideo-param-service": "Tjänstens namn (youtube, twitch, osv)",
+	"apihelp-embedvideo-param-id": "Videons ID på den tjänsten",
+	"apihelp-embedvideo-param-dimensions": "Antingen en numerisk bredd (100) eller bredd med höjd (100x100)",
+	"apihelp-embedvideo-param-alignment": "Videons justering",
+	"apihelp-embedvideo-param-description": "Videons beskrivning",
+	"apihelp-embedvideo-param-container": "Acceptera bilden, eller lämna tom",
+	"apihelp-embedvideo-param-urlargs": "Ytterliga argument att passera i videons url (för vissa tjänster)",
+	"apihelp-embedvideo-param-autoresize": "Automatiskt justera videons storlek? (sant eller falskt)"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibou"
+		]
+	},
+	"mobile-frontend-editor-edit": "Soppi",
+	"mobile-frontend-home-button": "Xët wu njëkk",
+	"mobile-frontend-language-article-heading": "Jàng ci weneen làkk",
+	"mobile-frontend-main-menu-button-tooltip": "Ubbi njël lu njëkk li",
+	"mobile-frontend-main-menu-login": "Dugg",
+	"mobile-frontend-main-menu-nearby": "Ci wetu",
+	"mobile-frontend-main-menu-settings": "Jekkal",
+	"mobile-frontend-main-menu-watchlist": "Limu toppte",
+	"mobile-frontend-pageaction-edit-tooltip": "Soppi pàcc bi jiitu bu xët wi",
+	"mobile-frontend-placeholder": "Seet ci {{SITENAME}}",
+	"mobile-frontend-random-button": "Ci mbetteel"
+}

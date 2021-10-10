@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gmelfi",
+			"Pippinu",
+			"Sarvaturi"
+		]
+	},
+	"mobile-frontend-editor-edit": "Cancia",
+	"mobile-frontend-home-button": "Pàggina principali",
+	"mobile-frontend-language-article-heading": "Leggi nti n'àutra lingua",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Bimminutu|Bimminuta|Bimminutu/a}}, $1!",
+	"mobile-frontend-main-menu-button-tooltip": "Rapi lu menu principali",
+	"mobile-frontend-main-menu-login": "Trasi",
+	"mobile-frontend-main-menu-logout": "Nesci",
+	"mobile-frontend-main-menu-nearby": "Ntê vicinanzi",
+	"mobile-frontend-main-menu-settings": "Mpustazzioni",
+	"mobile-frontend-main-menu-watchlist": "Lista taliata",
+	"mobile-frontend-pageaction-edit-tooltip": "Cancia la sizzioni inizziali di sta pàggina.",
+	"mobile-frontend-placeholder": "Arricerca nta {{SITENAME}}",
+	"mobile-frontend-random-button": "Na pàggina a muzzu"
+}

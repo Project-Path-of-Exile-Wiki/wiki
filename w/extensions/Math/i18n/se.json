@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby (WMNO)",
+			"Skuolfi"
+		]
+	},
+	"math-visualeditor-mwchemdialog-title": "Kemihkalaš formel",
+	"math-visualeditor-mwmathdialog-title": "Matemahtihkka",
+	"math_unknown_error": "Dovdameahtun feaila",
+	"math_unknown_function": "Dovdameahtun funkšuvdna",
+	"mw_math_png": "Čájet álo PNG:n",
+	"prefs-math": "Matematihkká"
+}

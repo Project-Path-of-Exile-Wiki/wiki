@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darshan kandolkar",
+			"The Discoverer",
+			"Vaishali Parab"
+		]
+	},
+	"mobile-frontend-editor-edit": "बदल",
+	"mobile-frontend-home-button": "घर",
+	"mobile-frontend-language-article-heading": "हेर भाशेन वाचात",
+	"mobile-frontend-main-menu-button-tooltip": "मुखेल सूची उगडात",
+	"mobile-frontend-main-menu-login": "सत्रारंभ करात",
+	"mobile-frontend-main-menu-nearby": "लागींच",
+	"mobile-frontend-main-menu-settings": "मांडावळ",
+	"mobile-frontend-main-menu-watchlist": "सादुरवळेरी",
+	"mobile-frontend-pageaction-edit-tooltip": "ह्या पानाच्या मुखेल भागाचें संपादन करात.",
+	"mobile-frontend-placeholder": "{{SITENAME}}आन सोदात",
+	"mobile-frontend-random-button": "खंयचेंय आदलें मदलें"
+}

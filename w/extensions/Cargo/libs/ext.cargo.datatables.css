@@ -1,0 +1,15 @@
+td.details-control {
+    width: 20px;
+    background: url('DataTables/images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('DataTables/images/details_close.png') no-repeat center center;
+}
+
+tfoot input {
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}

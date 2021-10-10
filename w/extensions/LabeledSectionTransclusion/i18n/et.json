@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"lst-desc": "Lisab funktsioonid <code>#lst</code> ja <code>#lstx</code> ning sildi <code>&lt;section&gt;</code>; lubab ära märgitud tekstiosi mallina kasutada."
+}

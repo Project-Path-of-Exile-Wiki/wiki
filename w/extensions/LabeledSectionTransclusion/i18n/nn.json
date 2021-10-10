@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan"
+		]
+	},
+	"lst-desc": "Legg til funksjonane <code>#lst</code> og <code>#lstx</code> for å inkludera avsnitt av ein tekst, i tillegg til merket <code>&lt;section&gt;</code> for å markera dei avsnitta som kan bli inkluderte"
+}

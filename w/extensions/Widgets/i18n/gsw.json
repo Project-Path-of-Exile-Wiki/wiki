@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Chlämens",
+			"Als-Holder"
+		]
+	},
+	"widgets-desc": "Erlaubt Wikiadministratore Frej-Form-Widgets zum Wiki zuezfiege dur d Bearbeitig vu Syte im {{ns:widget}}-Namensruum.\nVu dr Gmeinschaft aagleiti Widgets chenne unter [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org] gfunde wäre.",
+	"widgets-error": "Fähler im [[{{ns:widget}}:$1|Widget $1]]",
+	"group-widgeteditor": "Widget-Editore",
+	"group-widgeteditor-member": "{{GENDER:$1|Widget-Bearbeiter|Widget-Bearbeiteri}}",
+	"grouppage-widgeteditor": "{{ns:project}}:Widget-Editore",
+	"right-editwidgets": "[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets Widgets] im <tt>{{ns:widget}}</tt>-Namensruum aalege un bearbeite"
+}

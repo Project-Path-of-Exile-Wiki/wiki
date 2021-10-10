@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwisha",
+			"Stephenwanjau"
+		]
+	},
+	"mobile-frontend-home-button": "Mwanzo",
+	"mobile-frontend-main-menu-nearby": "Karibu",
+	"mobile-frontend-main-menu-settings": "Mpangilio",
+	"mobile-frontend-placeholder": "Tafuta {{SITENAME}}",
+	"mobile-frontend-random-button": "Bahatisha"
+}

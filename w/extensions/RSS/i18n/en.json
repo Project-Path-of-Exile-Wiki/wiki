@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Łukasz Garczewski (TOR) <tor@wikia-inc.com>"
+		]
+	},
+	"rss-desc": "Displays RSS feeds on MediaWiki pages in a standard or in user-definable formats using template pages",
+	"rss-tracking-category": "Pages with RSS feeds",
+	"rss-tracking-category-desc": "The page has an RSS feed.",
+	"rss-error": "Failed to load RSS feed from $1: $2",
+	"rss-empty": "Failed to load RSS feed from $1!",
+	"rss-fetch-nourl": "Fetch called without a URL!",
+	"rss-invalid-url": "Not a valid URL: $1",
+	"rss-parse-error": "Error parsing XML for RSS",
+	"rss-ns-permission": "RSS is not allowed in this namespace.",
+	"rss-url-is-not-whitelisted": "\"$1\" is not in the whitelist of allowed feeds. {{PLURAL:$3|$2 is the only allowed feed|The allowed feeds are as follows: $2}}.",
+	"rss-empty-whitelist": "\"$1\" is not in the whitelist of allowed feeds. There are no allowed feed URLs in the whitelist.",
+	"rss-deprecated-wgrssallowedfeeds-found": "The deprecated variable <var>$wgRSSAllowedFeeds</var> has been detected. Since RSS version 2.0 this variable has to be replaced by <var>$wgRSSUrlWhitelist</var> as described in the manual page [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS].",
+	"rss-item": "{{$1 | title = {{{title}}} | link = {{{link}}} | date = {{{date}}} | author = {{{author}}} | description = {{{description}}} }}",
+	"rss-feed": "<!-- the following are two alternative templates. The first is the basic default template for feeds -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- don't use newline here --><!-- The second is an improved version which requires Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

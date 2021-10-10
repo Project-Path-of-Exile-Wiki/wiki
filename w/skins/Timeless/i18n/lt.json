@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Tomasdd",
+			"Zygimantus"
+		]
+	},
+	"timeless-anonymous": "Anonimas",
+	"timeless-loggedinas": "Prisijungęs kaip '''$1'''",
+	"timeless-notloggedin": "Neprisijungta",
+	"timeless-more": "Daugiau",
+	"timeless-pageactions": "Puslapio įrankiai",
+	"timeless-userpagetools": "Naudotojo puslapio įrankiai",
+	"timeless-pagemisc": "Daugiau",
+	"timeless-namespaces": "Vardų sritys",
+	"timeless-pagetools": "Puslapio veiksmai",
+	"timeless-languages": "Kalbos",
+	"timeless-projects": "Kiti projektai"
+}

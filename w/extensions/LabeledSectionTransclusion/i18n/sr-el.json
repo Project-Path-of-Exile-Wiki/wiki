@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello"
+		]
+	},
+	"lst-desc": "Dodaje <code>#lst</code> i <code>#lstx</code> funkcije i <code>&lt;section&gt;</code> tag, omogućuje da označeni odeljci teksta budu uključeni"
+}

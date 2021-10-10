@@ -1,0 +1,116 @@
+Cargo extension
+
+        Version 2.8
+        Yaron Koren
+
+This is free software licensed under the GNU General Public License. Please
+see http://www.gnu.org/copyleft/gpl.html for further details, including the
+full text and terms of the license.
+
+== Overview ==
+
+Cargo is an extension to MediaWiki that provides a lightweight way
+to store and query the data contained within the calls to templates, such
+as infoboxes.
+
+The extension defines the following parser functions:
+
+* #cargo_declare - placed within the <noinclude> part of a template; it
+defines the schema for a table.
+
+* #cargo_attach - also placed within the <noinclude> part of a template;
+specifies that a template adds rows to a table declared elsewhere.
+
+* #cargo_store - stores one row to a Cargo table; usually placed within
+the <includeonly> part of a template.
+
+* #cargo_query - queries one or more Cargo data tables, using SQL
+components.
+
+* #cargo_compound_query - calls multiple queries, and displays the
+results together.
+
+* #cargo_display_map - displays a map showing a single point.
+
+* #recurring_event - outputs a string holding a list of dates for a
+recurring event, for use by #cargo_store.
+
+For more information, see the extension homepage at:
+https://www.mediawiki.org/wiki/Extension:Cargo
+
+== Requirements ==
+
+This version of the Cargo extension requires MediaWiki 1.30 or higher.
+
+== Installation ==
+
+To install the extension, place the entire 'Cargo' directory within
+your MediaWiki 'extensions' directory, then add the following line to
+your 'LocalSettings.php' file:
+
+     wfLoadExtension( 'Cargo' );
+
+Then, go to core MediaWiki's /maintenance directory, and call the
+following:
+
+     php update.php
+
+== Credits ==
+
+Cargo was created, and mostly written by, Yaron Koren.
+
+Query formats were also added by Cindy Cicalese, Luis Morillas, StasR
+and Kris Field.
+
+Support for hierarchy fields was added by Feroz Ahmed as a project for
+the 2017 Google Summer of Code.
+
+Substantial improvements to the Special:Drilldown page, including
+support for "parent tables", were done by Nikhil Kumar as part of the
+2018 Google Summer of Code.
+
+Substantial improvements to the Special:CargoQuery page were done by
+Ankita Mandal as part of the 2019 Google Summer of Code.
+
+Important code contributions were also made by Ad Strack van Schijndel,
+Cody3647, Derick Alangi, Duncan Crane, Ed Hoo, IijimaYun, Namit Ohri,
+Paladox, Priyanshu Varshney, Tomás Bolaño, Sahaj Khandelwal, Sam
+Wilson, Vivek Ghaisas and others.
+
+== Contact ==
+
+Comments, questions, suggestions and bug reports can be sent to the
+MediaWiki mailing list:
+
+ https://lists.wikimedia.org/mailman/listinfo/mediawiki-l
+
+If possible, please add "[Cargo]" at the beginning of the subject line, to
+clarify the subject matter.
+
+== Credits to other projects ==
+
+* Cargo includes the DataTables JavaScript library (http:/datatables.net),
+available under the MIT License.
+
+* Cargo includes the FullCalendar JavaScript library (http://fullcalendar.io),
+available under the MIT License.
+
+* Cargo includes the Slick JS library (http://kenwheeler.github.io/slick/),
+available under the MIT License.
+
+* Cargo includes the Dagre JS library (https://github.com/dagrejs/dagre),
+available under the MIT License.
+
+* Cargo includes the markerclusterer.js file, available under the Apache
+License.
+
+* A significant portion of the drill-down code was copied from the
+Semantic Drilldown extension, also written (for the most part) by Yaron
+Koren.
+
+* Much of the map display code was copied from the Miga JavaScript library
+(http://migadv.com), also written by Yaron Koren.
+
+* Various of the display formats include elements from the code of their
+corresponding formats in Semantic MediaWiki and other extensions, notably
+the 'outline' format.

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"SamGamgee"
+		]
+	},
+	"mobile-frontend-editor-edit": "ЕӀаз",
+	"mobile-frontend-home-button": "Унэм",
+	"mobile-frontend-language-article-heading": "ПэмыкӀ бзэкӀэ едж",
+	"mobile-frontend-main-menu-button-tooltip": "Меню шъхьаӀыр зэӀух",
+	"mobile-frontend-main-menu-login": "Системэм хахь",
+	"mobile-frontend-main-menu-nearby": "Благъэхэр",
+	"mobile-frontend-main-menu-settings": "Гъэпсыхэр",
+	"mobile-frontend-main-menu-watchlist": "Лъыплъэ куп",
+	"mobile-frontend-pageaction-edit-tooltip": "Мы нэкӀубгъом и секцие шъхьаӀэм еӀэзэн.",
+	"mobile-frontend-placeholder": "{{SITENAME}}-ым лъыхъу",
+	"mobile-frontend-random-button": "ОшӀэдэмышӀ"
+}

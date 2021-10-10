@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rance"
+		]
+	},
+	"right-recreatecargodata": "Rejesha tena taarifa zilizokuwamo katika majedwali yenye taarifa ya mzigo",
+	"right-deletecargodata": "Futa jedwali lenye taarifa ya mzigo",
+	"cargo-drilldown-calendarformat": "Kalenda"
+}

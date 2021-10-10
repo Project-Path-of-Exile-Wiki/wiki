@@ -1,0 +1,70 @@
+.embedvideo {
+	&.tcenter,
+	&.ev_center,
+	&.ev_center > .embedvideowrap {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&.ev {
+		&_center {
+			.thumbcaption {
+				text-align: center;
+			}
+		}
+
+		/* @noflip */
+		&_left {
+			clear: left;
+			float: left;
+		}
+
+		/* @noflip */
+		&_right {
+			clear: right;
+			float: right;
+		}
+
+		&_inline {
+			display: inline-block;
+		}
+
+		&_top {
+			vertical-align: top;
+		}
+
+		&_middle {
+			vertical-align: middle;
+		}
+
+		&_bottom {
+			vertical-align: bottom;
+		}
+
+		&_baseline {
+			vertical-align: baseline;
+		}
+	}
+
+	&wrap {
+		position: relative;
+	}
+}
+
+video,
+audio {
+	&.thumbborder {
+		border: 1pt solid #c8ccd1;
+	}
+}
+
+a.vplink {
+	padding-left: 18px;
+	background-image: url( img/play.png );
+	background-repeat: no-repeat;
+	background-position: left center;
+
+	&:hover {
+		background-image: url( img/play-hover.png );
+	}
+}

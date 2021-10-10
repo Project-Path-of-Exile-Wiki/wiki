@@ -1,0 +1,52 @@
+{
+	"name": "Variables",
+	"version": "2.5.1",
+	"author": [
+		"Rob Adams",
+		"Tom Hempel",
+		"Xiloynaha",
+		"[https://www.mediawiki.org/wiki/User:Danwe Daniel Werner]",
+		"[https://www.mediawiki.org/wiki/User:MGChecker MGChecker]",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Variables",
+	"descriptionmsg": "variables-desc",
+	"license-name": "ISC",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"config_prefix": "eg",
+	"config": {
+		"VariablesDisabledFunctions": {
+			"value": [],
+			"path": false,
+			"descriptionmsg": "variables-config-disabledfunctions",
+			"public": true
+		},
+		"VariablesAreVolatile": {
+			"value": true,
+			"path": false,
+			"descriptionmsg": "variables-config-arevolatile",
+			"public": true
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "VariablesHooks::onParserFirstCallInit",
+		"ParserClearState": "VariablesHooks::onParserClearState",
+		"InternalParseBeforeSanitize": "VariablesHooks::onInternalParseBeforeSanitize"
+	},
+	"MessagesDirs": {
+		"Variables": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"VariablesMagic": "Variables.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"ExtVariables": "includes/ExtVariables.php",
+		"VariablesHooks": "includes/VariablesHooks.php"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Werner",
+			"Kghbln",
+			"McDutchie",
+			"Metalhead64"
+		]
+	},
+	"variables-desc": "Ergänzt Parserfunktionen die dynamische Variablen ermöglichen",
+	"variables-config-disabledfunctions": "Erlaubt die Definition einer Anordnung von Funktionen, die nicht innerhalb des Wikis verfügbar sein sollen. Lasse beim Hinzufügen von Funktionen jedes # weg.\nZum Beispiel: $egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // um die Funktionen '#var_final' und '#vardefineecho' zu deaktivieren",
+	"variables-config-arevolatile": "Behandelt die Parserfunktionen #var und #varexists als flüchtig, um unerwartetes Verhalten während des Vorlagencaching zu verhindern. Eine Deaktivierung setzt das alte Verhalten wieder ein."
+}

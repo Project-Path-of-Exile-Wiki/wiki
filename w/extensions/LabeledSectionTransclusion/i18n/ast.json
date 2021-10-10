@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu"
+		]
+	},
+	"lst-desc": "Añade les funciones <code>#lst</code> y <code>#lstx</code> y la etiqueta <code>&lt;section&gt;</code>, habilita les seiciones de testu marcaes pa ser trescluyíes"
+}

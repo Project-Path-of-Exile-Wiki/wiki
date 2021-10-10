@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"widgets-desc": "מתן האפשרות למנהלי אתר הוויקי להוסיף וידג׳טים הבנויים בצורה חופשית לאתר הוויקי באמצעות עריכת הדפים שבמרחב השם {{ns:widget}}.\nניתן למצוא וידג׳טים שנתרמו על ידי הקהילה ב־[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "שגיאה ב[[{{ns:widget}}:$1|ווידג'ט $1]]",
+	"group-widgeteditor": "עורכי וידג'טים",
+	"group-widgeteditor-member": "{{GENDER:$1|עורך|עורכת}} וידג'טים",
+	"grouppage-widgeteditor": "{{ns:project}}:עורכי וידג'טים",
+	"right-editwidgets": "יצירה ועריכה של [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets וידג׳טים] במרחב השם <tt>{{ns:widget}}</tt>"
+}

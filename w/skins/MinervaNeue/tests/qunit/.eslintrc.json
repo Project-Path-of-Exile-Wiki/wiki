@@ -1,0 +1,11 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/qunit",
+		"../../.eslintrc.js"
+	],
+	"rules": {
+		"no-restricted-properties": "off",
+		"no-jquery/no-parse-html-literal": "off"
+	}
+}

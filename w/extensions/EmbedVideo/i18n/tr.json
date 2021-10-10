@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"embedvideo-description": "Bu çatallı sürüm, popüler kaynaklardan videoları gömmek için bir ayrıştırıcı işlevi ekler.",
+	"embedvideo-consent-text": "İçeriği yüklemek için tıklayın",
+	"embedvideo-error-missingparams": "EmbedVideo'da kullanılması zorunlu bir parametre eksik.",
+	"embedvideo-error-service": "EmbedVideo, \"$1\" video hizmetini tanımıyor.",
+	"embedvideo-error-id": "EmbedVideo, \"$1\" hizmeti için \"$2\" hatalı kimliğine sahip.",
+	"embedvideo-error-width": "EmbedVideo, \"$1\" hatalı genişlik parametresine sahip.",
+	"embedvideo-error-height": "EmbedVideo, \"$1\" hatalı yükseklik parametresine sahip.",
+	"embedvideo-error-alignment": "EmbedVideo'ya \"$1\" hizalama parametresi için geçersiz bir değer verildi. Geçerli değerler \"sol\", \"orta\", \"sağ\" veya \"satır içi\"dir.",
+	"embedvideo-error-valignment": "EmbedVideo'ya \"$1\" doğrulama parametresi için geçersiz bir değer verildi. Geçerli değerler \"üst\", \"orta\", \"alt\" veya \"taban çizgisi\" değerleridir.",
+	"embedvideo-error-urlargs": "EmbedVideo, hatalı biçimlendirilmiş veriler veya boş bağımsız değişkenler içeren bir URL parametre listesine sahip.",
+	"embedvideo-error-unknown": "EmbedVideo, bu video yerleştirme bloğunu oluşturmaya çalışırken bilinmeyen bir hatayla karşılaştı.  ($1)",
+	"embedvideo-error-evp_deprecated": "#evp ayrıştırıcı işlevi EmbedVideo 2.0'da kullanımdan kaldırıldı. Lütfen ayrıştırıcı işlev etiketinizi #ev olarak değiştirin.",
+	"embedvideo-error-container": "'Kapsayıcı' için sağlanan parametre geçersiz.",
+	"embedvideo-video-long-desc": "$1, $2 kodlayıcı, uzunluk $3, $4x$5 piksel, toplamda $6",
+	"embedvideo-audio-long-desc": "$1, $2 kodlayıcı, uzunluk $3, toplamda $4",
+	"embedvideo-error-cantdecode_evu": "$1 ile video ayrıştırılamadı",
+	"apihelp-embedvideo-summary": "Verilen parametreler için oluşturulan video yerleştirme kodunu alın.",
+	"apihelp-embedvideo-param-service": "Hizmetin adı (YouTube, Twitch, vb.)",
+	"apihelp-embedvideo-param-id": "Bu hizmet için videonun kimliği",
+	"apihelp-embedvideo-param-dimensions": "Sayısal genişlik (100) veya yüksekliğe göre genişlik (100x100)",
+	"apihelp-embedvideo-param-alignment": "Videonun hizası",
+	"apihelp-embedvideo-param-description": "Videonun açıklaması",
+	"apihelp-embedvideo-param-container": "Çerçeveyi kabul eder veya boş bırakır",
+	"apihelp-embedvideo-param-urlargs": "Video URL'sine iletilecek ek bağımsız değişkenler (bazı hizmetler için)",
+	"apihelp-embedvideo-param-autoresize": "Video otomatik olarak yeniden boyutlandırılsın mı? (doğru ya da yanlış)"
+}

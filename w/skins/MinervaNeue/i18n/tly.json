@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ganbarzada",
+			"Patriot Kur",
+			"Гусейн"
+		]
+	},
+	"mobile-frontend-home-button": "Əsos səhifə",
+	"mobile-frontend-language-article-heading": "Zıvon",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Xoş oməyş}}, $1!",
+	"mobile-frontend-main-menu-button-tooltip": "Əsas menü okə",
+	"mobile-frontend-main-menu-login": "Dəşi",
+	"mobile-frontend-main-menu-nearby": "Neziyədə",
+	"mobile-frontend-main-menu-settings": "Nizamon",
+	"mobile-frontend-main-menu-watchlist": "Çəşəvəno kardə siyohi",
+	"mobile-frontend-pageaction-edit-tooltip": "Çı səhifə sə sərost bıkə",
+	"mobile-frontend-placeholder": "Nəve {{SITENAME}}",
+	"mobile-frontend-random-button": "Рајрастә",
+	"mobile-frontend-user-page-talk": "Mızokirə"
+}

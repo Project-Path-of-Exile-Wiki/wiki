@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baloch Afghanistan",
+			"Ibrahim khashrowdi"
+		]
+	},
+	"mobile-frontend-editor-edit": "ایڈیٹ",
+	"mobile-frontend-home-button": "گیس",
+	"mobile-frontend-language-article-heading": "بِه دیگه زبانانئ تا بوانیت",
+	"mobile-frontend-main-menu-button-tooltip": "بُنیادین مینوی پاچ کورتین",
+	"mobile-frontend-main-menu-login": "داخل بوتین",
+	"mobile-frontend-main-menu-nearby": "بی نزینکی ئا",
+	"mobile-frontend-main-menu-settings": "تنظیمات",
+	"mobile-frontend-main-menu-watchlist": "دیدارلیست",
+	"mobile-frontend-pageaction-edit-tooltip": "ای دیمی شروئین بخشی دستکاری کورتین.",
+	"mobile-frontend-placeholder": "گشتین بی {{SITENAME}}",
+	"mobile-frontend-random-button": "تصادفی",
+	"mobile-frontend-user-page-talk": "حبر/گپ"
+}

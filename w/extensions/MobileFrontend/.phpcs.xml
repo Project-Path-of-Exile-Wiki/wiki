@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset>
+	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki"/>
+	<rule ref="Generic.Files.LineLength">
+		<exclude-pattern>MobileFrontend\.alias\.php</exclude-pattern>
+	</rule>
+	<rule ref="Generic.Files.OneObjectStructurePerFile.MultipleFound">
+		<exclude-pattern>tests/phpunit/*</exclude-pattern>
+	</rule>
+	<rule ref="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic">
+		<exclude-pattern>tests/phpunit/*</exclude-pattern>
+	</rule>
+	<rule ref="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected">
+		<exclude-pattern>tests/phpunit/*</exclude-pattern>
+	</rule>
+	<file>.</file>
+	<arg name="extensions" value="php"/>
+	<arg name="encoding" value="UTF-8"/>
+</ruleset>

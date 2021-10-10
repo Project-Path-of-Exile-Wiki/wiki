@@ -1,0 +1,46 @@
+// We want these transitions to only occur when entering the editor, but not when leaving it.
+// Leaving uses browser back navigation and we shouldn't "delay" it.
+.ve-loading {
+	// Intentionally slower than most UI animations to make the transition obvious to the user
+	// (and loading the editor is probably going to take >500ms anyway).
+	@timing: 400ms 100ms;
+
+	.content .section-heading .indicator {
+		transition: width @timing, min-width @timing, padding @timing, opacity @timing;
+		width: 0;
+		min-width: 0;
+		padding-right: 0;
+		opacity: 0;
+	}
+
+	.mw-editsection {
+		transition: opacity @timing;
+		opacity: 0;
+	}
+
+	.page-actions-menu {
+		transition: border-bottom-color @timing;
+		border-bottom-color: transparent;
+	}
+
+	.mw-body {
+		transition: padding-bottom @timing, margin-bottom @timing, transform @timing;
+		// Values set dynamically in JS code
+	}
+}
+
+// Note that these classes are also used by VisualEditor code for the real toolbar:
+.toolbar-hidden {
+	transform: translateY( -100% );
+}
+
+.toolbar-shown {
+	transition: transform 250ms ease;
+	transform: translateY( 0 );
+	opacity: 1;
+}
+
+.toolbar-shown-done {
+	/* Turn off transforms when done to avoid Safari rendering bugs (T202935) */
+	transform: none;
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjbmr"
+		]
+	},
+	"mobile-frontend-editor-edit": "ویرایش",
+	"mobile-frontend-home-button": "خانه",
+	"mobile-frontend-language-article-heading": "خواندن به زبان دیگر",
+	"mobile-frontend-main-menu-button-tooltip": "باز کردن منوی اصلی",
+	"mobile-frontend-main-menu-login": "ورود به سیستم",
+	"mobile-frontend-main-menu-nearby": "در نزدیکی",
+	"mobile-frontend-main-menu-settings": "تنظیمات",
+	"mobile-frontend-main-menu-watchlist": "فهرست پیگیری‌ها",
+	"mobile-frontend-pageaction-edit-tooltip": "ویرایش بخش اول این صفحه.",
+	"mobile-frontend-placeholder": "جستجوی {{SITENAME}}",
+	"mobile-frontend-random-button": "تصادفی"
+}

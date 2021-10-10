@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Luckas",
+			"Malafaya"
+		]
+	},
+	"lst-desc": "Adiciona as funções <code>#lst</code> e <code>#lstx</code>, e o elemento <code>&lt;section&gt;</code>; permite a transclusão das secções de texto marcadas"
+}

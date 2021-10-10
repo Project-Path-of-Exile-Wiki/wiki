@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dalibor Bosits"
+		]
+	},
+	"lst-desc": "Dodaje <code>#lst</code> i <code>#lstx</code> funkcije i <code>&lt;section&gt;</code> oznake, omogućava transkluziju označenog odlomka u tekstu"
+}

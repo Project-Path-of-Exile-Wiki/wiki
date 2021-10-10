@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dror S. [FFS]"
+		]
+	},
+	"metadescriptiontag-desc": "{{desc}}",
+	"metadescriptiontag-missing-content": "Error message for wrong usage of tag - missing content"
+}

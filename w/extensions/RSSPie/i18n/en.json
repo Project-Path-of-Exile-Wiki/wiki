@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"rsspie": "RSS Pie",
+	"rsspie_description": "RSS extension based on the SimplePie library.",
+	"bad_url_whitelist": "That RSS feed does not exist in the whitelist or the whitelist is not configured.  Please visit [[MediaWiki:Rss_Whitelist]] to edit the whitelist.",
+	"rss_item_template_tag": "{{$1 | title = {{{title}}} | link = {{{link}}} | date = {{{date}}} | author = {{{author}}} | description = {{{description}}} }}",
+	"rss_item_template": "<div class='rss_item'>\n'''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span> - {{{author}}} - <span class='date_epoch'>{{{date}}}</span>'''\n: {{{description}}}\n</div>"
+}

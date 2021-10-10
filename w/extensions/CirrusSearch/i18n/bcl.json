@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geopoet",
+			"Kunokuno"
+		]
+	},
+	"cirrussearch-desc": "Elastikongpaghanap-makusugon na panhanap para sa MediaWiki",
+	"cirrussearch-backend-error": "Dae nyamo makukumpleto an saimong paghahanap nin huli sa sarong temporaryong problema.\nTabi man paki-otroha giraray oro-atyan.",
+	"cirrussearch-parse-error": "Dai naintindihan an query. Gibuhon ining mas simple pa. Piglog an query tangani na pakarayon pa an sistema kan paghanap.",
+	"cirrussearch-too-busy-error": "Sa presente, sibot an paghanap. Pulbaran utro sa atyan.",
+	"cirrussearch-ignored-headings": " #<!-- walaton ining linya eksaktong siring sana kaini --> <pre> \n# Mga Kapamayuhanan na pinagpapabayaan sa paghahanap. \n# Mga Kaliwatan kaini magkaka-epekto matapos na an pahina na igwang kapamayuhanan maipaghukdo. \n# Ika makakapagpuwersa sa pahina na maihuhukdo otro sa paagi nin paghimo nin sarong blangko na pagliwat. # An Sintaks iyo ining minasunod: \n# * An gabos magpoon sa sarong karakter na \"#\" sagkod sa tapos kan linya iyo an sarong komento \n# * An lambang linya na bakong blangko iyo an eksaktong titulo na pababayaan, kaso asin gabos na bagay \nMga Panultulan\nPanluwas na mga sugpon\nHilingon man \n#</pre> <!-- walaton ining linya eksaktong siring sana kaini -->",
+	"cirrussearch-pref-label": "Bagong paghanap",
+	"cirrussearch-pref-desc": "Pulbaran an samuyang bagong paghanap na nagsusuporta nin mas gulpi pang mga lenggwahe, nagtatau nin mga mas up-to-date na mga resulta, asin pwede man makahanap pa nin mga teksto sa laog kan mga template.",
+	"cirrussearch-give-feedback": "Itau samuya an saimong mga reaksyon.",
+	"cirrussearch-query-too-long": "An search request mas halawig pa sa maximum na ipigtutugot na laba ($1 > $2)",
+	"cirrussearch-completion-profile-strict": "Istriktong profile na may mga diit na punctuation na mga karakter an pighali alagad an mga diakritiko sagkud panandang duon, pigtener."
+}

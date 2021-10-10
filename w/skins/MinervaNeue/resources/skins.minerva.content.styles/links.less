@@ -1,0 +1,67 @@
+@import 'mediawiki.mixins.less';
+@import '../../minerva.less/minerva.variables.less';
+@import '../../minerva.less/minerva.mixins.less';
+
+/**
+ * Note that certain links may not have an href selector.
+ * It is particularly important on wikis for example inside navbox's that these
+ * links can be differentiated from other links. Thus we only apply the linkColor to links with href
+ * attributes.
+*/
+a:not( [ href ] ) {
+	color: @colorGray2;
+
+	/* The anchor is functionally a link so show a hand cursor. */
+	cursor: pointer;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+a {
+	color: @color-link;
+	text-decoration: none;
+
+	&:visited {
+		color: #6b4ba1;
+	}
+
+	&:active {
+		color: #faa700;
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&.new,
+	&.new:visited,
+	&.new:hover {
+		color: @color-link--new;
+		// Take care of headings in page lists.
+		> * {
+			color: @color-link--new;
+		}
+	}
+
+	&.external {
+		// background-image is specified by ResourceLoader.
+		// Force the image size to be 10px.
+		background-size: 10px;
+		background-repeat: no-repeat;
+		background-position: center right;
+		padding-right: 13px;
+	}
+}
+
+// Generic class name needed
+.return-link {
+	display: block;
+	font-size: @font-size-minerva-small;
+	margin-top: 1.5em;
+}
+
+/* Plainlinks - this can be used to switch
+ * off special external link styling */
+.plainlinks a {
+	background: none !important;
+	padding: 0 !important;
+}

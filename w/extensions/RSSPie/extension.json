@@ -1,0 +1,30 @@
+{
+	"name": "RSS Pie",
+	"version": "2.1.0",
+	"author": [
+		"Alexia E. Smith",
+		"Hydra Wiki Platform Team"
+	],
+	"descriptionmsg": "rsspie_description",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"RSSPie": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"RSSPieHooks": "RSSPieHooks.php",
+		"SimplePie": "classes/SimplePie.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "RSSPieHooks::onParserFirstCallInit"
+	},
+	"config": {
+		"RSSPieCacheTime": 3600
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jim-by",
+			"Red Winged Duck",
+			"Renessaince",
+			"Wizardist"
+		]
+	},
+	"variables-desc": "Функцыі парсэра для працы з дынамічнымі зьменнымі ў кантэксьце артыкулаў",
+	"variables-config-disabledfunctions": "Дазваляе вызначыць масіў функцыяў, якія ня будуць даступныя ў вікі. Прапускайце ўсе сымбалі # пры дадаваньні функцыяў.\nНапрыклад: $egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // каб адключыць функцыі '#var_final' і '#vardefineecho'",
+	"variables-config-arevolatile": "Лічыць функцыі парсэру #var і #varexists зьменнымі, каб прадухіліць нечаканыя паводзіны праз кэшаваньне шаблёнаў. Адключэньне гэтага вяртае звычайныя паводзіны."
+}

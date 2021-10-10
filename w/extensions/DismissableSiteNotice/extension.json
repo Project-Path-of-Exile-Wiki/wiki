@@ -1,0 +1,60 @@
+{
+	"name": "DismissableSiteNotice",
+	"version": "1.0.1",
+	"author": [
+		"Brion Vibber",
+		"Kevin Israel",
+		"Dror S."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:DismissableSiteNotice",
+	"descriptionmsg": "sitenotice-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"config": {
+		"MajorSiteNoticeID": {
+			"value": 1
+		},
+		"DismissableSiteNoticeForAnons": {
+			"value": false
+		}
+	},
+	"Hooks": {
+		"SiteNoticeAfter": "DismissableSiteNoticeHooks::onSiteNoticeAfter"
+	},
+	"MessagesDirs": {
+		"DismissableSiteNotice": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.dismissableSiteNotice": {
+			"scripts": "ext.dismissableSiteNotice.js",
+			"dependencies": [
+				"jquery.cookie",
+				"mediawiki.util"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.dismissableSiteNotice.styles": {
+			"styles": "ext.dismissableSiteNotice.css",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "DismissableSiteNotice/modules"
+	},
+	"AutoloadClasses": {
+		"DismissableSiteNoticeHooks": "includes/DismissableSiteNoticeHooks.php"
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	}
+}

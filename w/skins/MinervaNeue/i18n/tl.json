@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"Brazal.dang",
+			"GinawaSaHapon",
+			"Jojit fb",
+			"Sky Harbor"
+		]
+	},
+	"mobile-frontend-editor-edit": "Baguhin",
+	"mobile-frontend-home-button": "Tahanan",
+	"mobile-frontend-language-article-heading": "Wika",
+	"mobile-frontend-logged-in-homepage-notification": "Kamusta, $1!",
+	"mobile-frontend-main-menu-button-tooltip": "Buksan ang pangunahing menu",
+	"mobile-frontend-main-menu-login": "Mag-login",
+	"mobile-frontend-main-menu-logout": "Umalis sa pagkaka-login",
+	"mobile-frontend-main-menu-nearby": "Kalapit",
+	"mobile-frontend-main-menu-settings": "Mga kagustuhan",
+	"mobile-frontend-main-menu-watchlist": "Talaan ng mga binabantayan",
+	"mobile-frontend-pageaction-edit-tooltip": "Baguhin ang unang seksiyon ng pahinang ito.",
+	"mobile-frontend-placeholder": "Maghanap sa {{SITENAME}}",
+	"mobile-frontend-random-button": "Alin man",
+	"mobile-frontend-user-button-tooltip": "Ipakita ang aking mga notipikasyon.",
+	"minerva-page-actions-language-switcher": "Mga wika"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Grabovský",
+			"Mormegil"
+		]
+	},
+	"lst-desc": "Přidává funkce <code>#lst:</code> a <code>#lstx:</code> a tag <code>&lt;section&gt;</code>, umožňuje transkluzi označených částí textu"
+}

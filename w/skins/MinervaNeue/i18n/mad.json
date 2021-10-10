@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boesenbergia"
+		]
+	},
+	"mobile-frontend-language-article-heading": "Bhâsa",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Ḍâ'remma kabhârrâ}}, $1?",
+	"mobile-frontend-placeholder": "Sarè è {{SITENAME}}"
+}

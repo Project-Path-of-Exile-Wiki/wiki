@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Rail",
+			"Railfail536",
+			"SemanticPioneer",
+			"Sp5uhe",
+			"ToSter",
+			"Woytecr"
+		]
+	},
+	"widgets-desc": "Pozwala administratorom wiki na dodawanie widżetów w dowolnej formie do wiki poprzez edycję stron w przestrzeni nazw {{ns:widget}}.\nWidżety stworzone przez społeczność można odnaleźć na stronie [https://mediawikiwidgets.org/ MediaWikiWidgets.org]",
+	"widgets-error": "Błąd w [[{{ns:widget}}:$1|widżecie $1]]",
+	"group-widgeteditor": "Redaktorzy widżetów",
+	"group-widgeteditor-member": "{{GENDER:$1|redaktor|redaktorka}} widżetów",
+	"grouppage-widgeteditor": "{{ns:project}}:Redaktorzy widżetów",
+	"action-editwidgets": "tworzenia i edytowania widżetów",
+	"right-editwidgets": "Tworzenie i edycja <span class=\"plainlinks\">[https://mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets widżetów]</span> w przestrzeni nazw <code>{{ns:widget}}</code>",
+	"widgets-config-useflaggedrevs": "Ustaw to na true, aby używać stabilnej wersji rozszerzenia FlaggedRevs do zabezpieczenia widgetów.",
+	"widgets-config-compiledir": "Ustaw domyślny katalog do przechowywania skompilowanych szablonów."
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"1917 Ekim Devrimi",
+			"Kumkumuk",
+			"Mirzali",
+			"Orbot707"
+		]
+	},
+	"recreatedata": "Datay reynavıraştışi",
+	"cargo-logname": "Rocekê Cargoy",
+	"cargo-viewdata-tables": "Tablo(y):",
+	"cargo-viewdata-where": "Koti:",
+	"cargo-viewdata-limit": "Limit:",
+	"cargo-viewdata-format": "Format:",
+	"cargotables": "Tabloyê kargoyi",
+	"cargo-cargotables-header-table": "Tablo",
+	"cargo-cargotables-header-rowcount": "Satıri",
+	"cargo-cargotables-header-templates": "Şabloni",
+	"cargo-cargotables-action-deletereplacement": "Esterıtış",
+	"cargo-cargotables-action-switchreplacement": "Bıvurnê",
+	"cargo-cargotables-action-drilldown": "Xoriyeya",
+	"cargo-cargotables-action-delete": "Esterıtış",
+	"cargo-cargotables-action-recreate": "Ravırazê",
+	"cargo-drilldown-choosetable": "Tablo weçine",
+	"cargo-drilldown-allpages": "Peli pêro",
+	"cargo-drilldown-or": "ya zi",
+	"cargo-drilldown-removefilter": "Enê parzûni wedare",
+	"cargo-drilldown-resetfilters": "Parzûnan cıra bere",
+	"cargo-viewcsv": "CSV bıvêne",
+	"cargo-viewxls": "XLS bıvêne",
+	"cargo-viewjson": "JSON bıvêne",
+	"cargo-purgecache": "Verviri veng ke",
+	"specialpages-group-cargo": "Kargo",
+	"cargo-pageschemas-tablename": "Nameyê tabloyi:"
+}

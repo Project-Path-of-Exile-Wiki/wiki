@@ -1,0 +1,43 @@
+// A MenuListItem is a ToggleList item for menus.
+
+@import '../../minerva.less/minerva.variables.less';
+@import '../../minerva.less/minerva.mixins.less';
+
+.toggle-list-item {
+	display: block;
+	padding: 0.75em 0.875em;
+
+	//
+	// Make the app feel like an app, not a JPEG. When hovering over a menu item, add a little
+	// interactivity.
+	&:hover {
+		background: @grayLightest;
+	}
+}
+
+.toggle-list-item__anchor {
+	display: block;
+	line-height: 1;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:visited, &:active {
+		color: @grayMediumDark;
+	}
+}
+
+.toggle-list-item__icon {
+	vertical-align: middle;
+}
+
+.toggle-list-item__label {
+	// Left-align text. Button elements are centered.
+	text-align: left;
+	color: @grayMediumDark;
+	font-weight: bold;
+	white-space: nowrap;
+	vertical-align: middle;
+	font-size: @font-size-minerva-small;
+}

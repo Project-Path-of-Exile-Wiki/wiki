@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katunchik",
+			"Shaleych"
+		]
+	},
+	"apihelp-cargoquery-description": "Запускает запрос по данным Cargo.",
+	"apihelp-cargoquery-summary": "Запускает запрос по данным Cargo.",
+	"apihelp-cargoquery-param-tables": "Таблица или таблицы базы данных Cargo, в которых проводить поиск",
+	"apihelp-cargoquery-param-fields": "Поле/поля таблицы для извлечения",
+	"apihelp-cargoquery-param-where": "Условия для запроса, соответствующие оператору SQL WHERE",
+	"apihelp-cargoquery-param-join_on": "Условия объединения нескольких таблиц, соответствующих оператору SQL JOIN ON",
+	"apihelp-cargoquery-param-order_by": "Порядок результатов, соответствует оператору SQL ORDER BY",
+	"apihelp-cargoquery-param-group_by": "Поле/поля для группировки результатов, соответствующие оператору SQL GROUP BY",
+	"apihelp-cargoquery-param-having": "Условия для сгруппированных значений, соответствующих оператору SQL HAVING",
+	"apihelp-cargoquery-param-limit": "Ограничения на количество выводимых результатов",
+	"apihelp-cargoquery-param-offset": "Смещение запроса",
+	"apihelp-cargorecreatetables-description": "Воссоздает одну или несколько таблиц Cargo.",
+	"apihelp-cargorecreatetables-summary": "Воссоздает одну или несколько таблиц Cargo.",
+	"apihelp-cargorecreatetables-param-template": "Шаблон, заявленные Cargo-таблицы которого надо воссоздать",
+	"apihelp-cargorecreatetables-param-createReplacement": "Следует ли помещать данные в таблицу замены",
+	"apihelp-cargorecreatedata-description": "Повторно заполняет данные в таблице Cargo.",
+	"apihelp-cargorecreatedata-summary": "Повторно заполняет данные в таблице Cargo.",
+	"apihelp-cargorecreatedata-param-template": "Шаблон, данные которого надо использовать",
+	"apihelp-cargorecreatedata-param-table": "Таблица базы данных Cargo, которую надо повторно заполнить",
+	"apihelp-cargorecreatedata-param-offset": "Среди страниц, вызывающих этот шаблон, число, с которого следует начинать запрос",
+	"apihelp-cargorecreatedata-param-replaceOldRows": "Включить ли замену старых строк для каждой страницы при повторном заполнении таблицы",
+	"apihelp-cargoautocomplete-description": "Вызов автозаполнения, используемое расширением Cargo.",
+	"apihelp-cargoautocomplete-summary": "Вызов автозаполнения, используемое расширением Cargo.",
+	"apihelp-cargoautocomplete-param-limit": "Ограничения на количество выводимых результатов",
+	"apihelp-cargoautocomplete-param-substr": "Поиск подстроки",
+	"apihelp-cargoautocomplete-param-table": "Таблица Cargo, для которой следует провести поиск значений",
+	"apihelp-cargoautocomplete-param-field": "Поле Cargo, для которого следует провести поиск значений",
+	"apihelp-cargoautocomplete-param-field_is_array": "Содержит ли поле список значений",
+	"apihelp-cargoautocomplete-param-where": "Утверждение «where» для этого запроса, на основе других заданных фильтров",
+	"apihelp-cargoqueryautocomplete-param-limit": "Ограничение на количество выводимых результатов",
+	"apihelp-cargoqueryautocomplete-param-search": "Поиск подстроки",
+	"apihelp-cargoformatparams-description": "Возвращает набор параметров отображения для каждого запроса в формате Cargo.",
+	"apihelp-cargoformatparams-summary": "Возвращает набор параметров отображения для каждого запроса в формате Cargo.",
+	"apihelp-cargoformatparams-param-queryformat": "Формат запроса Cargo"
+}

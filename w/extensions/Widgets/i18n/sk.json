@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Teslaton"
+		]
+	},
+	"widgets-desc": "Umožňuje správcom wiki pridávať ovládacie prvky na wiki úpravou stránky v mennom priestore {{ns:widget}}.\nPrvky vytvorené komunitou možno nájsť na [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Chyba v [[{{ns:widget}}:$1|ovládacom prvku $1]]",
+	"group-widgeteditor": "Editori ovládacích prvkov",
+	"group-widgeteditor-member": "{{GENDER:$1|Redaktor|Redaktorka}} ovládacích prvkov",
+	"grouppage-widgeteditor": "{{ns:project}}:Editori ovládacích prvkov",
+	"right-editwidgets": "Tvorba a úprava stránok [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets ovládacích prvkov] v mennom priestore <tt>{{ns:widget}}</tt>"
+}

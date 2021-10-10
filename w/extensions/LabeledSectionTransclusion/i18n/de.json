@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Raimond Spekking"
+		]
+	},
+	"lst-desc": "Ergänzt die Funktionen <code>#lst</code> und <code>#lstx</code> sowie das Tag <code>&lt;section&gt;</code>, um entsprechend markierte Abschnitte einbinden zu können"
+}

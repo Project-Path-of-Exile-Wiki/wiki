@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lejonel"
+		]
+	},
+	"lst-desc": "Lägger till funktionerna <code>#lst</code> och <code>#lstx</code> för att inkludera avsnitt av en text, samt taggen <code>&lt;section&gt;</code> för att markera de avsnitt som kan inkluderas"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anomie",
+			"Bjh21",
+			"Chase me ladies, I'm the Cavalry",
+			"Fitoschido",
+			"Jagwar"
+		]
+	},
+	"mobile-frontend-editor-edit": "Edit",
+	"mobile-frontend-home-button": "Home",
+	"mobile-frontend-language-article-heading": "Language",
+	"mobile-frontend-main-menu-button-tooltip": "Open main menu",
+	"mobile-frontend-main-menu-login": "Log in",
+	"mobile-frontend-main-menu-nearby": "Nearby",
+	"mobile-frontend-main-menu-settings": "Settings",
+	"mobile-frontend-main-menu-watchlist": "Watchlist",
+	"mobile-frontend-pageaction-edit-tooltip": "Edit the lead section of this page",
+	"mobile-frontend-placeholder": "Search {{SITENAME}}",
+	"mobile-frontend-random-button": "Random"
+}

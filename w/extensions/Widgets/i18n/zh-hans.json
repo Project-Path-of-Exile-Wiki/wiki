@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Anakmalaysia",
+			"Liuxinyu970226",
+			"PhiLiP",
+			"VulpesVulpes825",
+			"Xiaomingyan",
+			"Yfdyh000"
+		]
+	},
+	"widgets-desc": "允许wiki管理员编辑{{ns:widget}}名字空间页面以添加各种形式的小工具。您可以在[http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]中找到社区贡献的小工具",
+	"widgets-error": "[[{{ns:widget}}:$1|小工具$1]]出错",
+	"group-widgeteditor": "小工具编辑者",
+	"group-widgeteditor-member": "{{GENDER:$1|小工具编辑者}}",
+	"grouppage-widgeteditor": "{{ns:project}}:小工具编辑者",
+	"action-editwidgets": "创建与编辑小工具",
+	"right-editwidgets": "在<code>{{ns:widget}}</code>名字空间中创建和编辑[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets 小工具]",
+	"group-widgeteditor.css": "/* 这里放置的CSS将只影响小部件编辑者 */",
+	"group-widgeteditor.js": "/* 这里放置的CSS将只影响小部件编辑者 */",
+	"widgets-config-useflaggedrevs": "将此设置为true，使用FlaggedRevs扩展的稳定版本用于控件安全性",
+	"widgets-config-compiledir": "用于编译模板存储的默认目录"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Icvav",
+			"Muro de Aguas"
+		]
+	},
+	"sitenotice_close": "ocultar",
+	"sitenotice-desc": "Permite a los usuarios cerrar el mensaje central."
+}

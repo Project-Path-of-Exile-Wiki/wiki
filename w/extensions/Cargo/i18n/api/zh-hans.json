@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"apihelp-cargoquery-description": "在Cargo数据上运行一次查询。",
+	"apihelp-cargoquery-summary": "在Cargo数据上运行一次查询。",
+	"apihelp-cargoquery-param-tables": "要搜索的Cargo数据库表单或表格",
+	"apihelp-cargoquery-param-fields": "要检索的表格字段",
+	"apihelp-cargoquery-param-where": "用于查询的条件，与SQL WHERE子句相一致",
+	"apihelp-cargoquery-param-join_on": "加入多个表格的条件，与SQL JOIN ON子句相一致",
+	"apihelp-cargoquery-param-order_by": "结果顺序，与SQL ORDER BY子句相一致",
+	"apihelp-cargoquery-param-group_by": "要将结果分组的字段，与SQL GROUP BY子句相一致",
+	"apihelp-cargoquery-param-having": "用于分组值的条件，与SQL HAVING子句相一致",
+	"apihelp-cargoquery-param-limit": "返回结果数量的限制",
+	"apihelp-cargoquery-param-offset": "查询偏移",
+	"apihelp-cargorecreatetables-description": "重新创建一个或多个Cargo表格。",
+	"apihelp-cargorecreatetables-summary": "重新创建一个或多个Cargo表格。",
+	"apihelp-cargorecreatetables-param-template": "公开的Cargo表格应重建的模板",
+	"apihelp-cargorecreatetables-param-createReplacement": "是否放置数据至替换表格",
+	"apihelp-cargorecreatedata-description": "重新在Cargo表格中填充数据。",
+	"apihelp-cargorecreatedata-summary": "重新在Cargo表格中填充数据。",
+	"apihelp-cargorecreatedata-param-template": "数据使用的模板",
+	"apihelp-cargorecreatedata-param-table": "要重新填充的Cargo数据库表单",
+	"apihelp-cargorecreatedata-param-offset": "调用此模板的页面中，开始查询的数字",
+	"apihelp-cargorecreatedata-param-replaceOldRows": "当重新填充表格时，是否覆盖每个页面的旧行",
+	"apihelp-cargoautocomplete-description": "由Cargo扩展使用的自动完成调用。",
+	"apihelp-cargoautocomplete-summary": "由Cargo扩展使用的自动完成调用。",
+	"apihelp-cargoautocomplete-param-limit": "返回结果数量的限制",
+	"apihelp-cargoautocomplete-param-substr": "搜索子字符串",
+	"apihelp-cargoautocomplete-param-table": "要搜索值的Cargo表格",
+	"apihelp-cargoautocomplete-param-field": "要搜索值的Cargo字段",
+	"apihelp-cargoautocomplete-param-field_is_array": "字段是否保留值的列表",
+	"apihelp-cargoautocomplete-param-where": "用于查询的“where”条款，基于其他指定的过滤器"
+}

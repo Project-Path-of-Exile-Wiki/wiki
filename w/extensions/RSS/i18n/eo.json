@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"rss-desc": "Montras RSS-fluon en vikia paĝo",
+	"rss-tracking-category": "Paĝoj kun RSS-abonfluoj",
+	"rss-tracking-category-desc": "Ĉi tiu paĝo havas RSS-abonfluon.",
+	"rss-error": "Malsukcesis ŝarĝi RSS-fonton de $1: $2",
+	"rss-empty": "Malsukcesis ŝarĝi RSS-fonton de $1!",
+	"rss-fetch-nourl": "Akiro vokita sen URL-o!",
+	"rss-invalid-url": "Nevalida URL-o: $1",
+	"rss-parse-error": "Eraro interpretante XML-on de RSS-o",
+	"rss-ns-permission": "RSS-abonado ne estas permesita en ĉi tiu nomspaco",
+	"rss-url-is-not-whitelisted": "\"$1\" ne estas en la listo de permesataj abonfluoj. {{PLURAL:$3|$2 estas la ununura permesata abonfluo|Jen la permesataj abonfluoj: $2}}.",
+	"rss-empty-whitelist": "\"$1\" ne estas en la listo de permesataj abonfluoj. Estas neniu permesata abonfluo en la listo.",
+	"rss-deprecated-wgrssallowedfeeds-found": "La evitinda variablo <var>$wgRSSAllowedFeeds</var> troviĝis. Ekde versio 2.0 de RSS, oni anstataŭe uzu la variablon <var>$wgRSSUrlWhitelist</var>, laŭ la manlibra paĝo [https://www.mediawiki.org/wiki/Extension:RSS Extension:RSS].",
+	"rss-feed": "<!-- Jen du alternativaj ŝablonoj. La unua estas la baza defaŭlta ŝablono por abonfontoj. -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- ne uzu novlinio ĉi tie --><!-- La dua estas plibonigita versio kiu devigas ilon Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

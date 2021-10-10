@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmetlii",
+			"BaRaN6161 TURK"
+		]
+	},
+	"variables-desc": "Madde kapsamındaki bir bağlamda dinamik değişkenlerle çalışmayı sağlayan ayrıştırıcı işlevler",
+	"variables-config-disabledfunctions": "Viki içinde bulunmaması gereken bir fonksiyon dizisi tanımlamanıza izin verir. İşlev eklerken herhangi bir # işaretini kaldırın.\nÖrneğin: $egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // '#var_final' ve '#vardefineecho' fonksiyonlarını devre dışı bırakmak için",
+	"variables-config-arevolatile": "#var ve #varexists ayrıştırıcı işlevlerini, şablon önbelleğe alma nedeniyle beklenmeyen davranışları önlemek için geçici işlevi görür. Bunu devre dışı bırakmak, eski davranışı eski haline getirir."
+}

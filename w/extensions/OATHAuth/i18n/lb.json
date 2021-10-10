@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"oathauth-account": "Numm vum Kont:",
+	"oathauth-enable": "Authentifikatioun mat zwee Elementer aschalten",
+	"oathauth-token": "Token",
+	"oathauth-disable": "Authentifikatioun mat zwee Elementer ausschalten",
+	"oathauth-disabledoath": "Authentifikatioun mat zwee Elementer ausgeschalt",
+	"oathauth-prefs-label": "Authentifikatioun mat zwee Elementer:",
+	"oathauth-step1": "Schrëtt 1: Den Zwee-Facteur-Authentifikatiounsprogramm eroflueden",
+	"oathauth-step2": "Schrëtt 2: De QR-Code scannen",
+	"oathauth-step4": "Schrëtt 4: Verificatioun",
+	"oathauth-enteruser": "Benotzernumm:",
+	"oathauth-enterverifyreason": "Grond fir Nozekucken",
+	"grant-group-authentication": "Authentifikatiouns-Aktioune fir sech selwer a fir Anerer maachen",
+	"action-oathauth-api-all": "OATH-Status nokucken",
+	"oathauth-enable-generic": "Aschalten",
+	"oathauth-disable-generic": "Ausschalten",
+	"oathauth-invalidrequest": "Net-valabel Ufro"
+}

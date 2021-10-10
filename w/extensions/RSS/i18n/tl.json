@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"rss-desc": "Nagpapakita ng isang pakaing RSS sa isang pahina ng wiki",
+	"rss-error": "Nabigong ikarga ang pakaing RSS mula sa $1: $2",
+	"rss-empty": "Nabigong ikarga ang pakaing RSS mula sa $1!",
+	"rss-fetch-nourl": "Tinawag ang pagkuha na walang isang URL!",
+	"rss-invalid-url": "Hindi isang tanggap na URL: $1",
+	"rss-parse-error": "Mali ang pagbabanghay ng XML para sa RSS",
+	"rss-ns-permission": "Hindi pinapayagan ang RSS sa loob ng puwang na pampangalang ito",
+	"rss-feed": "<!--  ang sumusunod ay mga suleras na panghalili. Ang una ay ang saligang likas na nakatakdang suleras para sa mga pagpapakain -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- huwag gamitin dito ang bagong linya --><!-- Ang pangalawa ay ang pinainam na bersiyon na nangangailangan ng Extension:ParserFunctions --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}

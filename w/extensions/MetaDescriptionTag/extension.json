@@ -1,0 +1,25 @@
+{
+	"name": "MetaDescriptionTag",
+	"version": "0.4.0",
+	"author": [
+		"Joshua C. Lerner - joshua&lt;_at_&gt;busytonight.com",
+		"Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])"
+	],
+	"url": "http://www.mediawiki.org/wiki/Extension:MetaDescriptionTag",
+	"descriptionmsg": "metadescriptiontag-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"MetaDescriptionTag": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MetaDescriptionTagHooks": "MetaDescriptionTag.hooks.php"
+	},
+	"license-name": "MIT",
+	"Hooks": {
+		"ParserFirstCallInit": "MetaDescriptionTagHooks::onParserFirstCallInit",
+		"OutputPageParserOutput": "MetaDescriptionTagHooks::onOutputPageParserOutput"
+	},
+	"manifest_version": 1
+}

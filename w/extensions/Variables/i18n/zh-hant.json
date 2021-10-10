@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"variables-desc": "允許解析器函數在一個文章範圍內使用動態變數",
+	"variables-config-disabledfunctions": "允許定義不應用於 wiki 的函式陣列。當添加函式時請忽略任何 # 符號。\n例如：$egVariablesDisabledFunctions = [ 'var_final', 'vardefineecho' ]; // to disable '#var_final' and '#vardefineecho' functions",
+	"variables-config-arevolatile": "將 #var 與 #varexists 解析函式視為可變的，以防止模板在快取時產生的不可預測行為。停用此會恢復成舊有行為。"
+}

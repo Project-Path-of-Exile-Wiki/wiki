@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91",
+			"Macofe",
+			"Maksim L.",
+			"Mechanizatar",
+			"Mienski",
+			"Vlad5250",
+			"Yury Tarasievich"
+		]
+	},
+	"math-visualeditor-mwchemdialog-title": "Хімічную формулу",
+	"math-visualeditor-mwcheminspector-title": "Хімічную формулу",
+	"math-visualeditor-mwmathdialog-title": "Матэматычную формулу",
+	"math_failure": "Не ўдалося разабраць",
+	"math_syntax_error": "памылка сінтаксісу",
+	"math-tracking-category-error": "Старонкі з матэматычнымі памылкамі",
+	"math-tracking-category-error-desc": "Старонкі ў гэтай катэгорыі маюць памылкі пры выкарыстанні матэматычных тэгаў.",
+	"math-tracking-category-mhchem-deprecation": "Старонкі, якія выкарыстоўваюць хімічныя тэгі ў састарэлым фармаце",
+	"math-tracking-category-mhchem-deprecation-desc": "Старонкі ў гэтай катэгорыі выкарыстоўваюць хімічныя тэгі ў састарэлым фармаце",
+	"math-tracking-category-texvc-deprecation": "Старонкі, якія выкарыстоўваюць матэматычныя тэгі ў састарэлым фармаце",
+	"math-tracking-category-texvc-deprecation-desc": "Старонкі ў гэтай катэгорыі выкарыстоўваюць састарэлы фармат матэматычных тэгаў",
+	"math-tracking-category-render-error": "Старонкі з памылкамі ў матэматычных формулах",
+	"math_unknown_error": "невядомая памылка",
+	"math_unknown_function": "невядомая функцыя \"$1\"",
+	"mw_math_mathml": "MathML калі магчыма (эксперыментальнае)",
+	"mw_math_png": "PNG-выявы",
+	"mw_math_source": "Пакідаць у выглядзе LaTeX (для тэкставых браўзераў)",
+	"prefs-math": "Матэматыка",
+	"mathstatus": "Стан Math",
+	"datatypes-type-math": "Матэматычны выраз",
+	"wikibase-listdatatypes-math-head": "Матэматычны выраз",
+	"math-wikibase-formula-information": "Інфармацыя па матэматычных формулах"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slaia"
+		]
+	},
+	"mobile-frontend-language-article-heading": "Li",
+	"mobile-frontend-logged-in-homepage-notification": "{{GENDER:$1|Ya'ahowu}}, $1!",
+	"mobile-frontend-placeholder": "Alui {{SITENAME}}"
+}

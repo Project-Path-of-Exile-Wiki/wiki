@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck",
+			"Wizardist"
+		]
+	},
+	"widgets-desc": "Дазваляе адміністратарам {{GRAMMAR:родны|{{SITENAME}}}} дадаваць віджэты вольных формаў у {{GRAMMAR:вінавальны|{{SITENAME}}}} праз рэдагаваньне старонак у прасторы назваў {{ns:widget}}. \nВіджэты, якія падтрымліваюцца супольнасьцю, можна знайсьці на [http://www.mediawikiwidgets.org/Main_Page MediaWikiWidgets.org]",
+	"widgets-error": "Памылка ў [[{{ns:widget}}:$1|віджэце $1]]",
+	"group-widgeteditor": "Рэдактары віджэтаў",
+	"group-widgeteditor-member": "{{GENDER:$1|Рэдактар|Рэдактарка}} віджэтаў",
+	"grouppage-widgeteditor": "{{ns:project}}:Рэдактары віджэтаў",
+	"action-editwidgets": "стварэньне і рэдагаваньне віджэтаў",
+	"right-editwidgets": "стварэньне і рэдагаваньне [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Widgets дапаўненьняў] у прасторы назваў <tt>{{ns:widget}}</tt>",
+	"widgets-config-useflaggedrevs": "Пазначце гэта як «true», каб ужываць стабільную вэрсію пашырэньня FlaggedRevs для бясьпекі віджэту",
+	"widgets-config-compiledir": "Пазначце тэчку па змоўчаньні для захаваньня скампіляваных шаблёнаў"
+}

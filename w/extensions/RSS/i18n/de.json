@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"✓"
+		]
+	},
+	"rss-desc": "Ermöglicht die Anzeige eines oder mehrerer RSS/Atom-Newsfeeds auf Wikiseiten, entweder in einem Standardformat oder in benutzerdefinierten Formaten",
+	"rss-tracking-category": "Seiten mit RSS-Feeds",
+	"rss-tracking-category-desc": "Die Seite hat einen RSS-Feed.",
+	"rss-error": "Der RSS-Feed von $1 konnte nicht geladen werden: $2",
+	"rss-empty": "Der RSS-Feed von $1 konnte nicht geladen werden!",
+	"rss-fetch-nourl": "Der Abruf erfolgte ohne Angabe einer URL!",
+	"rss-invalid-url": "Ungültige Feed-URL: $1",
+	"rss-parse-error": "Fehler beim Parsen von XML für RSS",
+	"rss-ns-permission": "RSS ist in diesem Namensraum nicht zulässig",
+	"rss-url-is-not-whitelisted": "„$1“ befindet sich nicht in der Liste zulässiger Feeds. {{PLURAL:$3|$2 ist der einzig zulässige Feed|Die zulässigen Feeds lauten: $2}}.",
+	"rss-empty-whitelist": "„$1“ befindet sich nicht in der Liste zulässiger Feeds. Es befinden sich keine zulässigen Feed-URLs in dieser Liste.",
+	"rss-deprecated-wgrssallowedfeeds-found": "Die veraltete Variable <code><var>$wgRSSAllowedFeeds</var></code> wurde festgestellt. Seit Version 2.0 dieser Erweiterung muss sie durch die auf der Dokumentationsseite [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:RSS Extension:RSS] beschriebene Variable <code><var>$wgRSSUrlWhitelist</var></code> ersetzt werden.",
+	"rss-feed": "<!-- Die folgenden Vorlagen sind zwei alternativ zueinander einsetzbare Vorlagen. Die erste ist die Standardvorlage für Feeds. -->; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''\n: {{{description}}}\n: {{{author}}} {{{date}}}<!-- An dieser Stelle bitte keine neue Zeile einfügen. --><!-- Die zweite ist eine verbesserte Vorlage, für die die Programmerweiterung ParserFunctions benötigt wird. --><!-- ; '''<span class='plainlinks'>[{{{link}}} {{{title}}}]</span>'''{{#if: {{{description|}}}|: {{{description}}}}}{{#if: {{{author|}}} | {{#if: {{{date|}}} |: &mdash; {{{author}}} {{{date}}}}} | {{#if: {{{author|}}}|: &mdash; {{{author}}}}} {{#if: {{{date|}}}|:{{{date}}}}}|}} -->"
+}
