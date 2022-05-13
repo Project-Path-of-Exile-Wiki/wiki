@@ -2,6 +2,7 @@
 
 # Add this to your LocalSettings.php file before running the import
 
+```
 // Define constants for my additional namespaces.
 define("NS_BUFF", 10000); // This MUST be even.
 define("NS_BUFF_TALK", 10001); // This MUST be the following odd integer.
@@ -19,8 +20,6 @@ define("NS_AREA", 10012); // This MUST be even.
 define("NS_AREA_TALK", 10013);
 define("NS_GUIDE", 10014); // This MUST be even.
 define("NS_GUIDE_TALK", 10015);
-
-
 
 // Add namespaces.
 $wgExtraNamespaces[NS_BUFF] = "Buff";
@@ -40,8 +39,8 @@ $wgExtraNamespaces[NS_AREA_TALK] = "Area_talk";
 $wgExtraNamespaces[NS_GUIDE] = "Guide";
 $wgExtraNamespaces[NS_GUIDE_TALK] = "Guide_talk";
 
-
 $wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
 $wgRightsUrl = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
 $wgRightsText = "Creative Commons Attribution-NonCommercial 3.0 Unported";
-$wgRightsIcon = "$wgScriptPath/resources/assets/licenses/cc-by-nc-sa.png";
+$wgRightsIcon = "$wgScriptPath/resources/assets/licenses/cc-by-nc-sa.png";\
+```
