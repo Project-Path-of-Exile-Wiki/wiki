@@ -42,5 +42,5 @@ $wgExtraNamespaces[NS_GUIDE_TALK] = "Guide_talk";
 $wgRightsPage = ""; # Set to the title of a wiki page that describes your license/copyright
 $wgRightsUrl = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
 $wgRightsText = "Creative Commons Attribution-NonCommercial 3.0 Unported";
-$wgRightsIcon = "$wgScriptPath/resources/assets/licenses/cc-by-nc-sa.png";\
+$wgRightsIcon = "$wgScriptPath/resources/assets/licenses/cc-by-nc-sa.png";
 ```
